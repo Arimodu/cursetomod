@@ -163,7 +163,3 @@ dotnet build                    # Debug build
 dotnet publish -c Release       # Release build
 dotnet run -- MyModpack.zip     # Build and run in one step
 ```
-
-## License
-
-Do whatever you want with it. CurseForge can't stop you.
