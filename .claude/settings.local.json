@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(7z x:*)",
+      "WebFetch(domain:docs.curseforge.com)",
+      "WebFetch(domain:docs.modrinth.com)",
+      "WebFetch(domain:support.modrinth.com)",
+      "Bash(7z l:*)",
+      "WebSearch",
+      "Bash(powershell -Command:*)",
+      "Bash(dotnet build:*)"
+    ]
+  }
+}
