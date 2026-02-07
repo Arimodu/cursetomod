@@ -1,0 +1,11 @@
+{
+	id: "13DAFE9EB17934B6"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ item: "botania:mana_diamond" }
+		{ count: 2, item: "botania:mana_pearl" }
+		{ count: 8, item: "botania:manasteel_ingot" }
+	]
+	title: "{ftbquests.loot_table_1430735789179352246.title}"
+}

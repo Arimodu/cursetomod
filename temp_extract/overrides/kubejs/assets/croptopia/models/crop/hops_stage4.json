@@ -1,0 +1,6 @@
+{
+  "parent": "agricraft:crop/crop_hash",
+  "textures": {
+    "crop": "croptopia:block/hops_crop_stage1"
+  }
+}

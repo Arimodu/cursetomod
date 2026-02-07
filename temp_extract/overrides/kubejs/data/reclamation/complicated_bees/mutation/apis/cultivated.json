@@ -1,0 +1,6 @@
+{
+  "chance": 0.15,
+  "first": "complicated_bees:common",
+  "result": "complicated_bees:cultivated",
+  "second": "complicated_bees:resilient"
+}

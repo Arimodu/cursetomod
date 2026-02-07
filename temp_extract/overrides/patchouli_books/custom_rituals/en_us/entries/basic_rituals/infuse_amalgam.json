@@ -1,0 +1,16 @@
+{
+  "name": "Infuse Amalgam",
+  "icon": "kubejs:infused_amalgam",
+  "category": "patchouli:basic_rituals",
+  "pages": [
+    {
+      "type": "patchouli:rite_description",
+      "rite_name": "Infuse Amalgam",
+      "text": "Use this rite to infuse a pre-prepared amalgam with the energies of life."
+    },
+    {
+      "type": "patchouli:rite_requirements",
+      "rite": "reclamation:infuse_amalgam"
+    }
+  ]
+}

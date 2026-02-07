@@ -1,0 +1,239 @@
+{
+  "mysticalagriculture:coral": {
+    "enabled": false
+  },
+  "mysticalagriculture:bronze": {
+    "enabled": false
+  },
+  "mysticalagriculture:brass": {
+    "enabled": false
+  },
+  "mysticalagriculture:manasteel": {
+    "enabled": false
+  },
+  "mysticalagriculture:refined_glowstone": {
+    "enabled": false
+  },
+  "mysticalagriculture:fluix": {
+    "enabled": false
+  },
+  "mysticalagriculture:refined_obsidian": {
+    "enabled": false
+  },
+  "mysticalagriculture:elementium": {
+    "enabled": false
+  },
+  "mysticalagriculture:terrasteel": {
+    "enabled": false
+  },
+  "mysticalagriculture:honey": {
+    "enabled": false
+  },
+  "mysticalagriculture:rubber": {
+    "enabled": false
+  },
+  "mysticalagriculture:saltpeter": {
+    "enabled": false
+  },
+  "mysticalagriculture:aluminum": {
+    "enabled": false
+  },
+  "mysticalagriculture:apatite": {
+    "enabled": false
+  },
+  "mysticalagriculture:limestone": {
+    "enabled": false
+  },
+  "mysticalagriculture:terrasteel": {
+    "enabled": false
+  },
+  "mysticalagriculture:graphite": {
+    "enabled": false
+  },
+  "mysticalagriculture:nickel": {
+    "enabled": false
+  },
+  "mysticalagriculture:constantan": {
+    "enabled": false
+  },
+  "mysticalagriculture:electrum": {
+    "enabled": false
+  },
+  "mysticalagriculture:invar": {
+    "enabled": false
+  },
+  "mysticalagriculture:mithril": {
+    "enabled": false
+  },
+  "mysticalagriculture:tungsten": {
+    "enabled": false
+  },
+  "mysticalagriculture:chrome": {
+    "enabled": false
+  },
+  "mysticalagriculture:ruby": {
+    "enabled": false
+  },
+  "mysticalagriculture:sapphire": {
+    "enabled": false
+  },
+  "mysticalagriculture:peridot": {
+    "enabled": false
+  },
+  "mysticalagriculture:platinum": {
+    "enabled": false
+  },
+  "mysticalagriculture:iridium": {
+    "enabled": false
+  },
+  "mysticalagriculture:pig": {
+    "enabled": false
+  },
+  "mysticalagriculture:chicken": {
+    "enabled": false
+  },
+  "mysticalagriculture:cow": {
+    "enabled": false
+  },
+  "mysticalagriculture:sheep": {
+    "enabled": false
+  },
+  "mysticalagriculture:squid": {
+    "enabled": false
+  },
+  "mysticalagriculture:fish": {
+    "enabled": false
+  },
+  "mysticalagriculture:slime": {
+    "enabled": false
+  },
+  "mysticalagriculture:turtle": {
+    "enabled": false
+  },
+  "mysticalagriculture:zombie": {
+    "enabled": false
+  },
+  "mysticalagriculture:skeleton": {
+    "enabled": false
+  },
+  "mysticalagriculture:creeper": {
+    "enabled": false
+  },
+  "mysticalagriculture:spider": {
+    "enabled": false
+  },
+  "mysticalagriculture:rabbit": {
+    "enabled": false
+  },
+  "mysticalagriculture:end": {
+    "enabled": false
+  },
+  "mysticalagriculture:ghast": {
+    "enabled": false
+  },
+  "mysticalagriculture:obsidian": {
+    "enabled": false
+  },
+  "mysticalagriculture:sulfur": {
+    "enabled": false
+  },
+  "mysticalagriculture:silicon": {
+    "enabled": false
+  },
+  "mysticalagriculture:titanium": {
+    "enabled": false
+  },
+  "mysticalagriculture:stone":  {
+    "tier": "mysticalagriculture:2"
+  },
+  "mysticalagriculture:dirt": {
+    "tier": "mysticalagriculture:2"
+  },
+  "mysticalagriculture:deepslate":  {
+    "tier": "mysticalagriculture:2"
+  },
+  "mysticalagriculture:nether": {
+    "tier": "mysticalagriculture:2"
+  },
+  "mysticalagriculture:ice":  {
+    "tier": "mysticalagriculture:2"
+  },
+  "mysticalagriculture:wood": {
+    "tier": "mysticalagriculture:2"
+  },
+  "mysticalagriculture:sky_stone": {
+    "tier": "mysticalagriculture:3"
+  },
+  "mysticalagriculture:copper": {
+    "tier": "mysticalagriculture:3"
+  },
+  "mysticalagriculture:dye": {
+    "tier": "mysticalagriculture:3"
+  },
+  "mysticalagriculture:nature": {
+    "tier": "mysticalagriculture:3"
+  },
+  "mysticalagriculture:iron": {
+    "tier": "mysticalagriculture:3"
+  },
+  "mysticalagriculture:lead": {
+    "tier": "mysticalagriculture:3"
+  },
+  "mysticalagriculture:gold": {
+    "tier": "mysticalagriculture:3"
+  },
+  "mysticalagriculture:silver": {
+    "tier": "mysticalagriculture:3"
+  },
+  "mysticalagriculture:coal": {
+    "tier": "mysticalagriculture:3"
+  },
+  "mysticalagriculture:mystical_flower": {
+    "tier": "mysticalagriculture:3"
+  },
+  "mysticalagriculture:zinc": {
+    "tier": "mysticalagriculture:3"
+  },
+  "mysticalagriculture:tin": {
+    "tier": "mysticalagriculture:3"
+  },
+  "mysticalagriculture:soulium": {
+    "tier": "mysticalagriculture:3"
+  },
+  "mysticalagriculture:nether_quartz": {
+    "tier": "mysticalagriculture:4"
+  },
+  "mysticalagriculture:amethyst": {
+    "tier": "mysticalagriculture:4"
+  },
+  "mysticalagriculture:glowstone": {
+    "tier": "mysticalagriculture:4"
+  },
+  "mysticalagriculture:redstone": {
+    "tier": "mysticalagriculture:4"
+  },
+  "mysticalagriculture:lapis_lazuli": {
+    "tier": "mysticalagriculture:4"
+  },
+  "mysticalagriculture:certus_quartz": {
+    "tier": "mysticalagriculture:4"
+  },
+  "mysticalagriculture:steel": {
+    "tier": "mysticalagriculture:4"
+  },
+  "mysticalagriculture:uranium": {
+    "tier": "mysticalagriculture:4"
+  },
+  "mysticalagriculture:osmium": {
+    "tier": "mysticalagriculture:4"
+  },
+  "mysticalagriculture:fluorite": {
+    "tier": "mysticalagriculture:4"
+  },
+  "mysticalagriculture:prismarine": {
+    "tier": "mysticalagriculture:4"
+  },
+  "mysticalagriculture:experience": {
+    "tier": "mysticalagriculture:5"
+  }
+}

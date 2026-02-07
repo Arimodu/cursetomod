@@ -1,0 +1,11 @@
+{
+  "chance": 0.1,
+  "conditions": {
+    "complicated_bees:dimension": {
+      "dimension": "minecraft:the_end"
+    }
+  },
+  "first": "complicated_bees:surreal",
+  "result": "complicated_bees:enigmatic",
+  "second": "complicated_bees:noble"
+}

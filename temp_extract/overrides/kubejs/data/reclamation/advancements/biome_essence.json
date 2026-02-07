@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "reclamation_util:filled_biome_bottle"
+    },
+    "title": "Biome Essence",
+    "description": "Collect biome essence.",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "biome_essence": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "reclamation_util:filled_biome_bottle"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "biome_essence"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

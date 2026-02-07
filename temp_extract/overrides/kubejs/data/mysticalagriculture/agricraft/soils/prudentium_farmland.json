@@ -1,0 +1,12 @@
+{
+  "acidity": "highly_acidic",
+  "growth_modifier": 1.05,
+  "humidity": "arid",
+  "mods": [],
+  "nutrients": "very_high",
+  "variants": [
+    {
+      "block": "mysticalagriculture:prudentium_farmland"
+    }
+  ]
+}

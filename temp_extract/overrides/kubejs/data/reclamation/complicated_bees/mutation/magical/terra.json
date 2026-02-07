@@ -1,0 +1,11 @@
+{
+  "chance": 0.08,
+  "conditions": {
+    "complicated_bees:block_under": {
+      "block": "botania:terrasteel_block"
+    }
+  },
+  "first": "reclamation:willful",
+  "result": "reclamation:terra",
+  "second": "reclamation:botanic"
+}

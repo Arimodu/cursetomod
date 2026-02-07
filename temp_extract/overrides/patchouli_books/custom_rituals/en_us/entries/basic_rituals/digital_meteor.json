@@ -1,0 +1,16 @@
+{
+  "name": "Digital Meteor",
+  "icon": "ae2:mysterious_cube",
+  "category": "patchouli:basic_rituals",
+  "pages": [
+    {
+      "type": "patchouli:rite_description",
+      "rite_name": "Summon Digital Meteor",
+      "text": "Use this rite to summon a meteor from the skies containing a mysterious cube.$(br2)WARNING: this WILL delete blocks in a 5x5 cube around the circle's center."
+    },
+    {
+      "type": "patchouli:rite_requirements",
+      "rite": "reclamation:digital_meteor"
+    }
+  ]
+}

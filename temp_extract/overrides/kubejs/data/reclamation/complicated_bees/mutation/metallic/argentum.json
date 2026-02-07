@@ -1,0 +1,11 @@
+{
+  "chance": 0.08,
+  "conditions": {
+    "complicated_bees:block_under": {
+      "block": "embers:silver_block"
+    }
+  },
+  "first": "reclamation:plumbum",
+  "result": "reclamation:argentum",
+  "second": "complicated_bees:noble"
+}

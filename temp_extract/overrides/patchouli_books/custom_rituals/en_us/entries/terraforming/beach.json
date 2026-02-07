@@ -1,0 +1,17 @@
+{
+  "name": "Beach",
+  "icon": "minecraft:kelp",
+  "advancement": "reclamation:biome_essence",
+  "category": "patchouli:terraforming",
+  "pages": [
+    {
+      "type": "patchouli:rite_description",
+      "rite_name": "Rite of Beach",
+      "text": "This rite will convert the surrounding area into a beach. It has a range of 16 blocks."
+    },
+    {
+      "type": "patchouli:rite_requirements",
+      "rite": "reclamation:terraforming/beach"
+    }
+  ]
+}

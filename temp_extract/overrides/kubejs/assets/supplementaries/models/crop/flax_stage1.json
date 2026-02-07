@@ -1,0 +1,6 @@
+{
+  "parent": "agricraft:crop/crop_cross",
+  "textures": {
+    "crop": "supplementaries:block/flax_bottom_1"
+  }
+}

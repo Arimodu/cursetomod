@@ -1,0 +1,12 @@
+{
+  "acidity": "highly_acidic",
+  "growth_modifier": 0.75,
+  "humidity": "arid",
+  "mods": [],
+  "nutrients": "low",
+  "variants": [
+    {
+      "block": "minecraft:crimson_nylium"
+    }
+  ]
+}

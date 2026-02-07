@@ -1,0 +1,97 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:oak_sapling"
+    },
+    "title": "Change the World",
+    "description": "Obtain any of the items needed to change the world.",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "minecraft:story/root",
+  "criteria": {
+    "gaia_spirit": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "botania:life_essence"
+            ]
+          }
+        ]
+      }
+    },
+    "slate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "bloodmagic:etherealslate"
+            ]
+          }
+        ]
+      }
+    },
+    "destructive": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "bloodmagic:destructivecrystal"
+            ]
+          }
+        ]
+      }
+    },
+    "vengeful": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "bloodmagic:vengefulcrystal"
+            ]
+          }
+        ]
+      }
+    },
+    "corrosive": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "bloodmagic:corrosivecrystal"
+            ]
+          }
+        ]
+      }
+    },
+    "steadfast": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "bloodmagic:steadfastcrystal"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "gaia_spirit",
+      "slate",
+      "vengeful",
+      "steadfast",
+      "corrosive",
+      "destructive"
+    ]
+  ]
+}

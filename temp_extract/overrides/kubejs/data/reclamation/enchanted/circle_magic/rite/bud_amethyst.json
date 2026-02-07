@@ -1,0 +1,22 @@
+{
+  "items": [
+    { "id": "minecraft:amethyst_block", "Count": 1 },
+    { "id": "enchanted:mutandis", "Count": 1 },
+    { "id": "bloodmagic:activationcrystalweak", "Count": 1 },
+    { "id": "botania:rune_greed", "Count": 1 },
+    { "id": "botania:rune_gluttony", "Count": 1 }
+  ],
+  "shapes": {
+    "reclamation:clover": "enchanted:otherwhere_chalk"
+  },
+  "power": 4000,
+  "factory": {
+    "type": "enchanted:create_item",
+    "items": [
+      {
+        "id": "minecraft:budding_amethyst",
+        "Count": 1
+      }
+    ]
+  }
+}

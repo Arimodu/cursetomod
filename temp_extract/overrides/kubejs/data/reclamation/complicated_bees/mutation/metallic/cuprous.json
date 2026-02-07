@@ -1,0 +1,11 @@
+{
+  "chance": 0.1,
+  "conditions": {
+    "complicated_bees:block_under": {
+      "block": "minecraft:waxed_copper_block"
+    }
+  },
+  "first": "complicated_bees:resilient",
+  "result": "complicated_bees:cuprous",
+  "second": "complicated_bees:cursed"
+}

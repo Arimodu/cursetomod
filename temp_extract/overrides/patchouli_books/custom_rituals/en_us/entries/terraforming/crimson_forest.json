@@ -1,0 +1,17 @@
+{
+  "name": "Crimson Forest",
+  "icon": "minecraft:crimson_nylium",
+  "advancement": "reclamation:biome_essence",
+  "category": "patchouli:terraforming",
+  "pages": [
+    {
+      "type": "patchouli:rite_description",
+      "rite_name": "Rite of Crimson Forest",
+      "text": "This rite will convert the surrounding area into a crimson forest with appropriate vegetation. It has a range of 16 blocks."
+    },
+    {
+      "type": "patchouli:rite_requirements",
+      "rite": "reclamation:terraforming/crimson"
+    }
+  ]
+}

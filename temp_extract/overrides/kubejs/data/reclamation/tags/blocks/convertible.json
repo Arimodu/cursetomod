@@ -1,0 +1,19 @@
+{
+  "values": [
+    "naturesaura:nether_grass",
+    "minecraft:netherrack",
+    "minecraft:warped_nylium",
+    "minecraft:crimson_nylium",
+    "minecraft:soul_sand",
+    "minecraft:soul_soil",
+    "minecraft:blackstone",
+    "minecraft:basalt",
+    "minecraft:sand",
+    "minecraft:gravel",
+    "minecraft:dirt",
+    "minecraft:grass_block",
+    "kubejs:dried_earth",
+    "minecraft:mycelium",
+    "minecraft:podzol"
+  ]
+}

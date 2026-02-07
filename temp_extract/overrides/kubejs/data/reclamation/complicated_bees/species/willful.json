@@ -1,0 +1,65 @@
+{
+  "dominant": true,
+  "foil": false,
+  "color": "dbfdff",
+  "nest_color": "dbfdff",
+  "models": [
+    "reclamation:bee/magic_drone",
+    "reclamation:bee/magic_princess",
+    "reclamation:bee/magic_queen"
+  ],
+  "products": [
+    {
+      "chance": 0.46,
+      "item": "complicated_bees:comb",
+      "nbt": {
+        "comb_type": "reclamation:magical"
+      }
+    },
+    {
+      "chance": 0.2,
+      "item": "bloodmagic:defaultcrystal"
+    }
+  ],
+  "specialty_products": [],
+  "default_chromosome": {
+    "complicated_bees:lifespan": {
+      "data": "average",
+      "dominant": true
+    },
+    "complicated_bees:temperature": {
+      "data": "hot",
+      "tolerance": "both_1",
+      "dominant": true
+    },
+    "complicated_bees:humidity": {
+      "data": "normal",
+      "tolerance": "down_1",
+      "dominant": true
+    },
+    "complicated_bees:productivity": {
+      "data": "slow",
+      "dominant": true
+    },
+    "complicated_bees:fertility": {
+      "data": 2,
+      "dominant": true
+    },
+    "complicated_bees:flower": {
+      "data": "complicated_bees:flower",
+      "dominant": true
+    },
+    "complicated_bees:active_time": {
+      "data": "diurnal",
+      "dominant": true
+    },
+    "complicated_bees:cave_dwelling": {
+      "data": true,
+      "dominant": false
+    },
+    "complicated_bees:weatherproof": {
+      "data": false,
+      "dominant": true
+    }
+  }
+}

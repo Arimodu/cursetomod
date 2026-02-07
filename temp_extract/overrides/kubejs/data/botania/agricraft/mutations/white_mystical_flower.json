@@ -1,0 +1,6 @@
+{
+  "chance": 0.5,
+  "child": "botania:white_mystical_flower",
+  "parent1": "enchanted:belladonna",
+  "parent2": "minecraft:oxeye_daisy"
+}

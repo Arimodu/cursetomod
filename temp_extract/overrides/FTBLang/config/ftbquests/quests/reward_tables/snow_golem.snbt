@@ -1,0 +1,13 @@
+{
+	id: "6F89C6EAEA4B08B0"
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{ count: 4, item: "botania:fel_pumpkin" }
+		{ count: 32, item: "minecraft:snow_block" }
+		{ count: 16, item: "minecraft:ice" }
+		{ count: 12, item: "minecraft:packed_ice" }
+		{ count: 8, item: "minecraft:blue_ice" }
+	]
+	title: "{ftbquests.loot_table_8037173722274793648.title}"
+}

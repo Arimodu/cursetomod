@@ -1,0 +1,16 @@
+{
+  "name": "Create Bee Nest",
+  "icon": "minecraft:bee_nest",
+  "category": "patchouli:basic_rituals",
+  "pages": [
+    {
+      "type": "patchouli:rite_description",
+      "rite_name": "Create Bee Nest",
+      "text": "Use this rite to create a wasteland bee nest. If there is a bee dropped within three blocks of the ritual circle, the ritual will consume it and change the type of the summoned bee nest to be the dropped bee's primary species.$(br2)Warning: this will also void any additional items within 3 blocks."
+    },
+    {
+      "type": "patchouli:rite_requirements",
+      "rite": "reclamation:summon_nest"
+    }
+  ]
+}

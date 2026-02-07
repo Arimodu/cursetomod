@@ -1,0 +1,6 @@
+{
+  "parent": "agricraft:crop/crop_cross",
+  "textures": {
+    "crop": "agricraft:plant/botania/magenta_mystical_flower2"
+  }
+}

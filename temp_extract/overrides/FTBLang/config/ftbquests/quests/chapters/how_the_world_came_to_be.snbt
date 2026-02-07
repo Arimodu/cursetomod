@@ -1,0 +1,699 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 280
+	default_quest_shape: ""
+	filename: "how_the_world_came_to_be"
+	group: ""
+	hide_quest_details_until_startable: true
+	icon: "kubejs:dried_earth"
+	id: "2B630DD43CEBA9AC"
+	images: [
+		{
+			dependency: "6B5B443D2F7DD3D4"
+			height: 4.0d
+			image: "reclamation:textures/quests/theurgy_1.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			dependency: "01AB2D65C171F1F9"
+			height: 5.0d
+			image: "reclamation:textures/quests/theurgy_2.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: -3.2857142857142776d
+			y: -9.125d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{ftbquests.chapter.how_the_world_came_to_be.quest1.description1}"
+				""
+				""
+				"{ftbquests.chapter.how_the_world_came_to_be.quest1.description2}"
+			]
+			id: "73F3DDAFC46A9CD5"
+			rewards: [{
+				count: 4
+				id: "489A829843674F52"
+				item: "minecraft:bread"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5837682A2F4F2D20"
+				title: "{ftbquests.chapter.how_the_world_came_to_be.quest1.task_6356663929448377632.title}"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3BF5FDE3C81BEF26"]
+			description: ["{ftbquests.chapter.how_the_world_came_to_be.quest2.description1}"]
+			id: "655DCA5A5B6632E1"
+			rewards: [
+				{
+					count: 4
+					id: "708F75B55045F412"
+					item: "minecraft:charcoal"
+					type: "item"
+				}
+				{
+					id: "58872CC82834DE08"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "2BB40E8DED9ACE61"
+					item: "kubejs:dead_log"
+					type: "item"
+				}
+				{
+					id: "5B5631EC22B4DDC4"
+					item: "kubejs:flimsy_planks"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.how_the_world_came_to_be.quest2.title}"
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3BF5FDE3C81BEF26"]
+			description: [
+				"{ftbquests.chapter.how_the_world_came_to_be.quest3.description1}"
+				""
+				"{ftbquests.chapter.how_the_world_came_to_be.quest3.description2}"
+			]
+			id: "353FED2BF4FBD8EC"
+			rewards: [
+				{
+					count: 2
+					id: "40674CB0CE87E6FE"
+					item: "farmersdelight:cooked_cod_slice"
+					type: "item"
+				}
+				{
+					id: "27F410B6A92272C2"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "6870844EA8AA42B5"
+				item: "minecraft:oxidized_cut_copper"
+				title: "{ftbquests.chapter.how_the_world_came_to_be.quest3.task_7525660450708144821.title}"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["73F3DDAFC46A9CD5"]
+			description: [
+				"{ftbquests.chapter.how_the_world_came_to_be.quest4.description1}"
+				""
+				"{ftbquests.chapter.how_the_world_came_to_be.quest4.description2}"
+			]
+			icon: "minecraft:crafting_table"
+			id: "7051A7B9EF38B5D8"
+			rewards: [{
+				id: "7E395EC7B7AAC8EF"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7659D788975AE236"
+				title: "{ftbquests.chapter.how_the_world_came_to_be.quest4.task_8528084351057584694.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.how_the_world_came_to_be.quest4.title}"
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["73F3DDAFC46A9CD5"]
+			description: ["{ftbquests.chapter.how_the_world_came_to_be.quest5.description1}"]
+			icon: "minecraft:iron_ore"
+			id: "3BF5FDE3C81BEF26"
+			rewards: [{
+				id: "406F3BEC271BD4D1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0A321F50741A2841"
+				title: "{ftbquests.chapter.how_the_world_came_to_be.quest5.task_734684119620528193.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.how_the_world_came_to_be.quest5.title}"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"655DCA5A5B6632E1"
+				"353FED2BF4FBD8EC"
+			]
+			description: [
+				"{ftbquests.chapter.how_the_world_came_to_be.quest6.description1}"
+				""
+				"{ftbquests.chapter.how_the_world_came_to_be.quest6.description2}"
+				""
+				"{ftbquests.chapter.how_the_world_came_to_be.quest6.description3}"
+			]
+			hide_details_until_startable: true
+			icon: "minecraft:copper_ingot"
+			id: "6B5B443D2F7DD3D4"
+			rewards: [
+				{
+					id: "05887BA1C04CEB57"
+					item: {
+						Count: 1
+						id: "modonomicon:modonomicon"
+						tag: {
+							"modonomicon:book_id": "theurgy:the_hermetica"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "301F9B4D74B4FDB6"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "53D2A5C292D19EA6"
+					item: "farmersdelight:cutting_board"
+					type: "item"
+				}
+				{
+					id: "45703BBEF74B7454"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.how_the_world_came_to_be.quest6.title}"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6B5B443D2F7DD3D4"]
+			description: [
+				"{ftbquests.chapter.how_the_world_came_to_be.quest7.description1}"
+				""
+				"{ftbquests.chapter.how_the_world_came_to_be.quest7.description2}"
+				""
+				"{ftbquests.chapter.how_the_world_came_to_be.quest7.description3}"
+			]
+			icon: "theurgy:sal_ammoniac_accumulator"
+			id: "01AB2D65C171F1F9"
+			rewards: [
+				{
+					count: 2
+					id: "1707BE009DD21399"
+					item: "theurgy:sal_ammoniac_crystal"
+					type: "item"
+				}
+				{
+					id: "050D56A65378BDED"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "010F0A2184BB7F36"
+					item: "theurgy:sal_ammoniac_tank"
+					type: "item"
+				}
+				{
+					id: "341512DBA66D139B"
+					item: "theurgy:sal_ammoniac_accumulator"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6B5B443D2F7DD3D4"]
+			description: [
+				"{ftbquests.chapter.how_the_world_came_to_be.quest8.description1}"
+				""
+				"{ftbquests.chapter.how_the_world_came_to_be.quest8.description2}"
+				""
+				"{ftbquests.chapter.how_the_world_came_to_be.quest8.description3}"
+				""
+				"{ftbquests.chapter.how_the_world_came_to_be.quest8.description4}"
+			]
+			icon: "theurgy:distiller"
+			id: "238F26409930D47F"
+			rewards: [
+				{
+					count: 4
+					id: "1C9649B1FBAFE963"
+					item: "theurgy:mercury_shard"
+					type: "item"
+				}
+				{
+					id: "7E77D5260B9D9B67"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "784A3AAA14565F31"
+					item: "theurgy:pyromantic_brazier"
+					type: "item"
+				}
+				{
+					id: "1BDA15C3663694B9"
+					item: "theurgy:distiller"
+					type: "item"
+				}
+				{
+					id: "3F1DB1131AF26253"
+					item: "theurgy:mercury_shard"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.how_the_world_came_to_be.quest8.title}"
+			x: 1.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["6B5B443D2F7DD3D4"]
+			description: [
+				"{ftbquests.chapter.how_the_world_came_to_be.quest9.description1}"
+				""
+				"{ftbquests.chapter.how_the_world_came_to_be.quest9.description2}"
+				""
+				"{ftbquests.chapter.how_the_world_came_to_be.quest9.description3}"
+			]
+			icon: "theurgy:calcination_oven"
+			id: "21DA86D51EB7D88E"
+			rewards: [
+				{
+					count: 4
+					id: "64E04DAB7C0582A3"
+					item: "theurgy:alchemical_salt_strata"
+					type: "item"
+				}
+				{
+					id: "4F5B75F7869280C1"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "53EB0C300D28F531"
+					item: "theurgy:pyromantic_brazier"
+					type: "item"
+				}
+				{
+					id: "248723DDF99B8CC1"
+					item: "theurgy:calcination_oven"
+					type: "item"
+				}
+				{
+					id: "6AE5239CA0507C48"
+					item: "theurgy:alchemical_salt_strata"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.how_the_world_came_to_be.quest9.title}"
+			x: -1.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["01AB2D65C171F1F9"]
+			description: [
+				"{ftbquests.chapter.how_the_world_came_to_be.quest10.description1}"
+				""
+				"{ftbquests.chapter.how_the_world_came_to_be.quest10.description2}"
+				""
+				"{ftbquests.chapter.how_the_world_came_to_be.quest10.description3}"
+			]
+			icon: "theurgy:liquefaction_cauldron"
+			id: "3B57039627535552"
+			rewards: [
+				{
+					count: 4
+					id: "628CFF330629E4D8"
+					item: {
+						Count: 1
+						id: "kubejs:sulfur_dirt"
+						tag: {
+							"theurgy:sulfur.source.id": "kubejs:dried_earth"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "73E825AEA8A695C2"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "38FD38D7D8B5BFFB"
+					item: "theurgy:pyromantic_brazier"
+					type: "item"
+				}
+				{
+					id: "5A17E6E29CC2C53F"
+					item: "theurgy:liquefaction_cauldron"
+					type: "item"
+				}
+				{
+					id: "00B64A23A6E7BF57"
+					item: "kubejs:sulfur_dirt"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.how_the_world_came_to_be.quest10.title}"
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"3B57039627535552"
+				"238F26409930D47F"
+				"21DA86D51EB7D88E"
+			]
+			description: [
+				"{ftbquests.chapter.how_the_world_came_to_be.quest11.description1}"
+				""
+				"{ftbquests.chapter.how_the_world_came_to_be.quest11.description2}"
+			]
+			icon: "theurgy:incubator"
+			id: "1F466C810237B69A"
+			rewards: [{
+				id: "53F568DF45DF8F1D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "5CCE88CCD5B42265"
+					item: "theurgy:incubator"
+					type: "item"
+				}
+				{
+					id: "1B66609CCC88FB06"
+					item: "theurgy:incubator_salt_vessel"
+					type: "item"
+				}
+				{
+					id: "5FE1507BD0CF0825"
+					item: "theurgy:incubator_sulfur_vessel"
+					type: "item"
+				}
+				{
+					id: "709F3C77303CC14F"
+					item: "theurgy:incubator_mercury_vessel"
+					type: "item"
+				}
+				{
+					id: "5DF3B368E203FD44"
+					item: "theurgy:pyromantic_brazier"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.how_the_world_came_to_be.quest11.title}"
+			x: 0.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["1F466C810237B69A"]
+			description: [
+				"{ftbquests.chapter.how_the_world_came_to_be.quest12.description1}"
+				""
+				"{ftbquests.chapter.how_the_world_came_to_be.quest12.description2}"
+			]
+			id: "448ABF53EEACBFA7"
+			rewards: [{
+				id: "5AFDB05E13E248FB"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "{ftbquests.chapter.how_the_world_came_to_be.quest12.subtitle}"
+			tasks: [{
+				id: "1DB0C65400E5119F"
+				item: "minecraft:dirt"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["73F3DDAFC46A9CD5"]
+			description: ["{ftbquests.chapter.how_the_world_came_to_be.quest13.description1}"]
+			icon: {
+				Count: 1
+				id: "minecraft:fishing_rod"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "26C8365A4497F614"
+			rewards: [
+				{
+					id: "577673156D88751E"
+					item: {
+						Count: 1
+						id: "minecraft:fishing_rod"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4ACDE1B7FCA65BBA"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "3420C22AABFAEA34"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.how_the_world_came_to_be.quest13.title}"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["73F3DDAFC46A9CD5"]
+			description: [
+				"{ftbquests.chapter.how_the_world_came_to_be.quest14.description1}"
+				""
+				"{ftbquests.chapter.how_the_world_came_to_be.quest14.description2}"
+			]
+			icon: "minecraft:white_bed"
+			id: "49182F60BE2634DE"
+			rewards: [{
+				id: "27DD3FCBE266BAC7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "16FB0BB05454D6A2"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:beds"
+						}
+					}
+					title: "{ftbquests.chapter.how_the_world_came_to_be.quest14.task_1655930139945784994.title}"
+					type: "item"
+				}
+				{
+					id: "1EFF40BDEB95B421"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "comforts:sleeping_bags"
+						}
+					}
+					optional_task: true
+					title: "{ftbquests.chapter.how_the_world_came_to_be.quest14.task_2233575124644508705.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.how_the_world_came_to_be.quest14.title}"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["73F3DDAFC46A9CD5"]
+			description: [
+				"{ftbquests.chapter.how_the_world_came_to_be.quest15.description1}"
+				""
+				"{ftbquests.chapter.how_the_world_came_to_be.quest15.description2}"
+			]
+			icon: "supplementaries:globe"
+			id: "40200E30710D409D"
+			rewards: [{
+				id: "2FFB14B0877E9B48"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7CE871AB4BA6259E"
+				title: "{ftbquests.chapter.how_the_world_came_to_be.quest15.task_9000568835822462366.title}"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["73F3DDAFC46A9CD5"]
+			description: [
+				"{ftbquests.chapter.how_the_world_came_to_be.quest16.description1}"
+				""
+				"{ftbquests.chapter.how_the_world_came_to_be.quest16.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:stone_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "412275C7F800C343"
+			rewards: [{
+				id: "696B08484059A34C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "726093097AD50EDB"
+				title: "{ftbquests.chapter.how_the_world_came_to_be.quest16.task_8241748987012779739.title}"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["73F3DDAFC46A9CD5"]
+			description: [
+				"{ftbquests.chapter.how_the_world_came_to_be.quest17.description1}"
+				""
+				"{ftbquests.chapter.how_the_world_came_to_be.quest17.description2}"
+				""
+				"{ftbquests.chapter.how_the_world_came_to_be.quest17.description3}"
+			]
+			icon: "akashictome:tome"
+			id: "524541472CB8168A"
+			rewards: [{
+				id: "63F8E36BB78B3F0F"
+				item: "akashictome:tome"
+				type: "item"
+			}]
+			tasks: [{
+				id: "30591A81E9C85ED9"
+				title: "{ftbquests.chapter.how_the_world_came_to_be.quest17.task_3483844932023115481.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.how_the_world_came_to_be.quest17.title}"
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["73F3DDAFC46A9CD5"]
+			description: [
+				"{ftbquests.chapter.how_the_world_came_to_be.quest18.description1}"
+				""
+				"{ftbquests.chapter.how_the_world_came_to_be.quest18.description2}"
+				""
+				"{ftbquests.chapter.how_the_world_came_to_be.quest18.description3}"
+				""
+				"{ftbquests.chapter.how_the_world_came_to_be.quest18.description4}"
+				""
+				"{ftbquests.chapter.how_the_world_came_to_be.quest18.description5}"
+			]
+			icon: "naturesaura:pet_reviver"
+			id: "52B10FEB2951E939"
+			rewards: [{
+				id: "1551C09CD766D5DD"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2E3AF11BD22C15B4"
+				title: "{ftbquests.chapter.how_the_world_came_to_be.quest18.task_3331239976186418612.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.how_the_world_came_to_be.quest18.title}"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6B5B443D2F7DD3D4"]
+			description: [
+				"{ftbquests.chapter.how_the_world_came_to_be.quest19.description1}"
+				""
+				"{ftbquests.chapter.how_the_world_came_to_be.quest19.description2}"
+			]
+			id: "387F725179133950"
+			rewards: [{
+				id: "75AF918ADD9DB9E3"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0E461D7DE2E68577"
+				item: "reclamation_util:flimsy_door"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["655DCA5A5B6632E1"]
+			description: [
+				"{ftbquests.chapter.how_the_world_came_to_be.quest20.description1}"
+				""
+				"{ftbquests.chapter.how_the_world_came_to_be.quest20.description2}"
+				""
+				"{ftbquests.chapter.how_the_world_came_to_be.quest20.description3}"
+			]
+			icon: "complicated_bees:apiary"
+			id: "29CB5767DE978673"
+			rewards: [{
+				id: "0C2B92BF2EC44903"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "5B5E6B48E860F6E6"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.how_the_world_came_to_be.quest20.title}"
+			x: 0.0d
+			y: -3.0d
+		}
+	]
+	subtitle: ["{ftbquests.chapter.how_the_world_came_to_be.subtitle0}"]
+	title: "{ftbquests.chapter.how_the_world_came_to_be.title}"
+}

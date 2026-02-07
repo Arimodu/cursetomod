@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "kubejs:block/dried_earth"
+      },
+      {
+        "model": "kubejs:block/dried_earth",
+        "y": 90
+      },
+      {
+        "model": "kubejs:block/dried_earth",
+        "y": 180
+      },
+      {
+        "model": "kubejs:block/dried_earth",
+        "y": 270
+      }
+    ]
+  }
+}

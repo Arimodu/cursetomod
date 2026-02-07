@@ -1,0 +1,6 @@
+{
+  "chance": 0.5,
+  "child": "minecraft:nether_wart",
+  "parent1": "minecraft:brown_mushroom",
+  "parent2": "minecraft:red_mushroom"
+}

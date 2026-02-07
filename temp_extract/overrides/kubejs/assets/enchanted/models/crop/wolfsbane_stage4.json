@@ -1,0 +1,6 @@
+{
+  "parent": "agricraft:crop/crop_cross",
+  "textures": {
+    "crop": "enchanted:block/wolfsbane_stage_4"
+  }
+}

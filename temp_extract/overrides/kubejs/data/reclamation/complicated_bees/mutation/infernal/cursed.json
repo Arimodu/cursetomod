@@ -1,0 +1,11 @@
+{
+  "chance": 0.20,
+  "conditions": {
+    "complicated_bees:biome": {
+      "biome": "#minecraft:is_nether"
+    }
+  },
+  "first": "complicated_bees:crimson",
+  "result": "complicated_bees:cursed",
+  "second": "complicated_bees:warped"
+}

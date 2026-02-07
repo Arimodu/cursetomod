@@ -1,0 +1,6 @@
+{
+  "parent": "agricraft:crop/crop_hash",
+  "textures": {
+    "crop": "croptopia:block/chile_pepper_crop_stage1"
+  }
+}

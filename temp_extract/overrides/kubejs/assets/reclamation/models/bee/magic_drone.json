@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "reclamation:item/magic_bee_base",
+    "layer1": "complicated_bees:item/bee_outline"
+  }
+}

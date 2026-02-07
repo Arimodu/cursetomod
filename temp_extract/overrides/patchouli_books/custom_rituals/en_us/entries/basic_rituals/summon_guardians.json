@@ -1,0 +1,16 @@
+{
+  "name": "Summon Aquatic Guardians",
+  "icon": "minecraft:prismarine",
+  "category": "patchouli:basic_rituals",
+  "pages": [
+    {
+      "type": "patchouli:rite_description",
+      "rite_name": "Summon Aquatic Guardians",
+      "text": "Use this rite to summon an elder guardian and two smaller regular guardians."
+    },
+    {
+      "type": "patchouli:rite_requirements",
+      "rite": "reclamation:guardians"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+	id: "4BB7AF5A769AF7ED"
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{ count: 16, item: "minecraft:nether_wart" }
+		{ count: 32, item: "minecraft:glowstone_dust" }
+		{ count: 32, item: "minecraft:redstone" }
+	]
+	title: "{ftbquests.loot_table_5456022276654430189.title}"
+}

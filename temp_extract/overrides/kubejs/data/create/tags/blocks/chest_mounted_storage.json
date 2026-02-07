@@ -1,0 +1,2364 @@
+{
+  "values": [
+    {
+      "id": "quark:oak_chest",
+      "required": false
+    },
+    {
+      "id": "quark:oak_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "woodworks:oak_chest",
+      "required": false
+    },
+    {
+      "id": "woodworks:trapped_oak_chest",
+      "required": false
+    },
+    {
+      "id": "lolmcv:oak_chest",
+      "required": false
+    },
+    {
+      "id": "lolmcv:oak_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "quark:spruce_chest",
+      "required": false
+    },
+    {
+      "id": "quark:spruce_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "woodworks:spruce_chest",
+      "required": false
+    },
+    {
+      "id": "woodworks:trapped_spruce_chest",
+      "required": false
+    },
+    {
+      "id": "lolmcv:spruce_chest",
+      "required": false
+    },
+    {
+      "id": "lolmcv:spruce_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "quark:birch_chest",
+      "required": false
+    },
+    {
+      "id": "quark:birch_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "woodworks:birch_chest",
+      "required": false
+    },
+    {
+      "id": "woodworks:trapped_birch_chest",
+      "required": false
+    },
+    {
+      "id": "lolmcv:birch_chest",
+      "required": false
+    },
+    {
+      "id": "lolmcv:birch_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "quark:jungle_chest",
+      "required": false
+    },
+    {
+      "id": "quark:jungle_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "woodworks:jungle_chest",
+      "required": false
+    },
+    {
+      "id": "woodworks:trapped_jungle_chest",
+      "required": false
+    },
+    {
+      "id": "lolmcv:jungle_chest",
+      "required": false
+    },
+    {
+      "id": "lolmcv:jungle_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "quark:acacia_chest",
+      "required": false
+    },
+    {
+      "id": "quark:acacia_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "woodworks:acacia_chest",
+      "required": false
+    },
+    {
+      "id": "woodworks:trapped_acacia_chest",
+      "required": false
+    },
+    {
+      "id": "lolmcv:acacia_chest",
+      "required": false
+    },
+    {
+      "id": "lolmcv:acacia_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "quark:dark_oak_chest",
+      "required": false
+    },
+    {
+      "id": "quark:dark_oak_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "woodworks:dark_oak_chest",
+      "required": false
+    },
+    {
+      "id": "woodworks:trapped_dark_oak_chest",
+      "required": false
+    },
+    {
+      "id": "lolmcv:dark_oak_chest",
+      "required": false
+    },
+    {
+      "id": "lolmcv:dark_oak_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "quark:crimson_chest",
+      "required": false
+    },
+    {
+      "id": "quark:crimson_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "woodworks:crimson_chest",
+      "required": false
+    },
+    {
+      "id": "woodworks:trapped_crimson_chest",
+      "required": false
+    },
+    {
+      "id": "lolmcv:crimson_chest",
+      "required": false
+    },
+    {
+      "id": "lolmcv:crimson_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "quark:warped_chest",
+      "required": false
+    },
+    {
+      "id": "quark:warped_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "woodworks:warped_chest",
+      "required": false
+    },
+    {
+      "id": "woodworks:trapped_warped_chest",
+      "required": false
+    },
+    {
+      "id": "lolmcv:warped_chest",
+      "required": false
+    },
+    {
+      "id": "lolmcv:warped_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "quark:mangrove_chest",
+      "required": false
+    },
+    {
+      "id": "quark:mangrove_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "woodworks:mangrove_chest",
+      "required": false
+    },
+    {
+      "id": "woodworks:trapped_mangrove_chest",
+      "required": false
+    },
+    {
+      "id": "lolmcv:mangrove_chest",
+      "required": false
+    },
+    {
+      "id": "lolmcv:mangrove_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "quark:bamboo_chest",
+      "required": false
+    },
+    {
+      "id": "quark:bamboo_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "woodworks:bamboo_chest",
+      "required": false
+    },
+    {
+      "id": "woodworks:trapped_bamboo_chest",
+      "required": false
+    },
+    {
+      "id": "lolmcv:bamboo_chest",
+      "required": false
+    },
+    {
+      "id": "lolmcv:bamboo_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "quark:cherry_chest",
+      "required": false
+    },
+    {
+      "id": "quark:cherry_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "woodworks:cherry_chest",
+      "required": false
+    },
+    {
+      "id": "woodworks:trapped_cherry_chest",
+      "required": false
+    },
+    {
+      "id": "lolmcv:cherry_chest",
+      "required": false
+    },
+    {
+      "id": "lolmcv:cherry_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "quark:nether_brick_chest",
+      "required": false
+    },
+    {
+      "id": "quark:nether_brick_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "quark:purpur_chest",
+      "required": false
+    },
+    {
+      "id": "quark:purpur_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "quark:prismarine_chest",
+      "required": false
+    },
+    {
+      "id": "quark:prismarine_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "quark:ancient_chest",
+      "required": false
+    },
+    {
+      "id": "quark:ancient_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "quark:azalea_chest",
+      "required": false
+    },
+    {
+      "id": "quark:azalea_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "quark:blossom_chest",
+      "required": false
+    },
+    {
+      "id": "quark:blossom_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/mynethersdelight/powdery_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/mynethersdelight/powdery_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/mynethersdelight/powdery_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/mynethersdelight/powdery_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/mynethersdelight/powdery_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/mynethersdelight/trapped_powdery_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/quark/azalea_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/quark/azalea_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/quark/azalea_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/quark/azalea_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/quark/azalea_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/quark/trapped_azalea_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/regions_unexplored/baobab_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/regions_unexplored/baobab_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/regions_unexplored/baobab_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/regions_unexplored/baobab_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/regions_unexplored/baobab_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/regions_unexplored/trapped_baobab_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/regions_unexplored/blackwood_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/regions_unexplored/blackwood_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/regions_unexplored/blackwood_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/regions_unexplored/blackwood_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/regions_unexplored/blackwood_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/regions_unexplored/trapped_blackwood_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/regions_unexplored/blue_bioshroom_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/regions_unexplored/blue_bioshroom_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/regions_unexplored/blue_bioshroom_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/regions_unexplored/blue_bioshroom_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/regions_unexplored/blue_bioshroom_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/regions_unexplored/trapped_blue_bioshroom_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/regions_unexplored/brimwood_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/regions_unexplored/brimwood_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/regions_unexplored/brimwood_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/regions_unexplored/brimwood_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/regions_unexplored/brimwood_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/regions_unexplored/trapped_brimwood_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/regions_unexplored/cobalt_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/regions_unexplored/cobalt_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/regions_unexplored/cobalt_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/regions_unexplored/cobalt_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/regions_unexplored/cobalt_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/regions_unexplored/trapped_cobalt_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/regions_unexplored/cypress_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/regions_unexplored/cypress_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/regions_unexplored/cypress_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/regions_unexplored/cypress_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/regions_unexplored/cypress_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/regions_unexplored/trapped_cypress_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/regions_unexplored/dead_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/regions_unexplored/dead_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/regions_unexplored/dead_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/regions_unexplored/dead_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/regions_unexplored/dead_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/regions_unexplored/trapped_dead_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/regions_unexplored/eucalyptus_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/regions_unexplored/eucalyptus_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/regions_unexplored/eucalyptus_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/regions_unexplored/eucalyptus_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/regions_unexplored/eucalyptus_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/regions_unexplored/trapped_eucalyptus_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/regions_unexplored/green_bioshroom_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/regions_unexplored/green_bioshroom_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/regions_unexplored/green_bioshroom_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/regions_unexplored/green_bioshroom_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/regions_unexplored/green_bioshroom_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/regions_unexplored/trapped_green_bioshroom_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/regions_unexplored/joshua_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/regions_unexplored/joshua_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/regions_unexplored/joshua_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/regions_unexplored/joshua_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/regions_unexplored/joshua_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/regions_unexplored/trapped_joshua_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/regions_unexplored/kapok_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/regions_unexplored/kapok_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/regions_unexplored/kapok_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/regions_unexplored/kapok_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/regions_unexplored/kapok_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/regions_unexplored/trapped_kapok_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/regions_unexplored/larch_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/regions_unexplored/larch_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/regions_unexplored/larch_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/regions_unexplored/larch_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/regions_unexplored/larch_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/regions_unexplored/trapped_larch_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/regions_unexplored/magnolia_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/regions_unexplored/magnolia_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/regions_unexplored/magnolia_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/regions_unexplored/magnolia_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/regions_unexplored/magnolia_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/regions_unexplored/trapped_magnolia_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/regions_unexplored/maple_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/regions_unexplored/maple_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/regions_unexplored/maple_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/regions_unexplored/maple_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/regions_unexplored/maple_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/regions_unexplored/trapped_maple_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/regions_unexplored/mauve_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/regions_unexplored/mauve_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/regions_unexplored/mauve_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/regions_unexplored/mauve_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/regions_unexplored/mauve_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/regions_unexplored/trapped_mauve_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/regions_unexplored/palm_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/regions_unexplored/palm_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/regions_unexplored/palm_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/regions_unexplored/palm_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/regions_unexplored/palm_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/regions_unexplored/trapped_palm_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/regions_unexplored/pine_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/regions_unexplored/pine_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/regions_unexplored/pine_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/regions_unexplored/pine_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/regions_unexplored/pine_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/regions_unexplored/trapped_pine_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/regions_unexplored/pink_bioshroom_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/regions_unexplored/pink_bioshroom_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/regions_unexplored/pink_bioshroom_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/regions_unexplored/pink_bioshroom_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/regions_unexplored/pink_bioshroom_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/regions_unexplored/trapped_pink_bioshroom_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/regions_unexplored/redwood_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/regions_unexplored/redwood_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/regions_unexplored/redwood_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/regions_unexplored/redwood_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/regions_unexplored/redwood_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/regions_unexplored/trapped_redwood_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/regions_unexplored/socotra_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/regions_unexplored/socotra_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/regions_unexplored/socotra_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/regions_unexplored/socotra_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/regions_unexplored/socotra_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/regions_unexplored/trapped_socotra_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/regions_unexplored/willow_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/regions_unexplored/willow_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/regions_unexplored/willow_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/regions_unexplored/willow_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/regions_unexplored/willow_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/regions_unexplored/trapped_willow_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/regions_unexplored/yellow_bioshroom_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/regions_unexplored/yellow_bioshroom_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/regions_unexplored/yellow_bioshroom_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/regions_unexplored/yellow_bioshroom_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/regions_unexplored/yellow_bioshroom_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/regions_unexplored/trapped_yellow_bioshroom_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/biomeswevegone/aspen_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/biomeswevegone/aspen_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/biomeswevegone/aspen_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/biomeswevegone/aspen_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/biomeswevegone/aspen_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/biomeswevegone/trapped_aspen_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/biomeswevegone/baobab_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/biomeswevegone/baobab_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/biomeswevegone/baobab_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/biomeswevegone/baobab_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/biomeswevegone/baobab_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/biomeswevegone/trapped_baobab_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/biomeswevegone/blue_enchanted_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/biomeswevegone/blue_enchanted_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/biomeswevegone/blue_enchanted_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/biomeswevegone/blue_enchanted_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/biomeswevegone/blue_enchanted_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/biomeswevegone/trapped_blue_enchanted_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/biomeswevegone/cika_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/biomeswevegone/cika_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/biomeswevegone/cika_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/biomeswevegone/cika_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/biomeswevegone/cika_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/biomeswevegone/trapped_cika_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/biomeswevegone/cypress_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/biomeswevegone/cypress_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/biomeswevegone/cypress_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/biomeswevegone/cypress_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/biomeswevegone/cypress_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/biomeswevegone/trapped_cypress_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/biomeswevegone/ebony_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/biomeswevegone/ebony_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/biomeswevegone/ebony_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/biomeswevegone/ebony_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/biomeswevegone/ebony_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/biomeswevegone/trapped_ebony_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/biomeswevegone/fir_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/biomeswevegone/fir_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/biomeswevegone/fir_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/biomeswevegone/fir_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/biomeswevegone/fir_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/biomeswevegone/trapped_fir_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/biomeswevegone/florus_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/biomeswevegone/florus_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/biomeswevegone/florus_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/biomeswevegone/florus_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/biomeswevegone/florus_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/biomeswevegone/trapped_florus_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/biomeswevegone/green_enchanted_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/biomeswevegone/green_enchanted_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/biomeswevegone/green_enchanted_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/biomeswevegone/green_enchanted_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/biomeswevegone/green_enchanted_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/biomeswevegone/trapped_green_enchanted_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/biomeswevegone/holly_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/biomeswevegone/holly_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/biomeswevegone/holly_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/biomeswevegone/holly_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/biomeswevegone/holly_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/biomeswevegone/trapped_holly_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/biomeswevegone/ironwood_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/biomeswevegone/ironwood_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/biomeswevegone/ironwood_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/biomeswevegone/ironwood_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/biomeswevegone/ironwood_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/biomeswevegone/trapped_ironwood_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/biomeswevegone/jacaranda_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/biomeswevegone/jacaranda_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/biomeswevegone/jacaranda_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/biomeswevegone/jacaranda_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/biomeswevegone/jacaranda_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/biomeswevegone/trapped_jacaranda_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/biomeswevegone/mahogany_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/biomeswevegone/mahogany_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/biomeswevegone/mahogany_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/biomeswevegone/mahogany_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/biomeswevegone/mahogany_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/biomeswevegone/trapped_mahogany_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/biomeswevegone/maple_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/biomeswevegone/maple_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/biomeswevegone/maple_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/biomeswevegone/maple_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/biomeswevegone/maple_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/biomeswevegone/trapped_maple_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/biomeswevegone/palm_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/biomeswevegone/palm_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/biomeswevegone/palm_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/biomeswevegone/palm_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/biomeswevegone/palm_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/biomeswevegone/trapped_palm_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/biomeswevegone/pine_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/biomeswevegone/pine_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/biomeswevegone/pine_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/biomeswevegone/pine_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/biomeswevegone/pine_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/biomeswevegone/trapped_pine_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/biomeswevegone/rainbow_eucalyptus_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/biomeswevegone/rainbow_eucalyptus_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/biomeswevegone/rainbow_eucalyptus_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/biomeswevegone/rainbow_eucalyptus_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/biomeswevegone/rainbow_eucalyptus_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/biomeswevegone/trapped_rainbow_eucalyptus_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/biomeswevegone/redwood_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/biomeswevegone/redwood_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/biomeswevegone/redwood_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/biomeswevegone/redwood_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/biomeswevegone/redwood_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/biomeswevegone/trapped_redwood_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/biomeswevegone/sakura_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/biomeswevegone/sakura_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/biomeswevegone/sakura_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/biomeswevegone/sakura_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/biomeswevegone/sakura_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/biomeswevegone/trapped_sakura_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/biomeswevegone/skyris_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/biomeswevegone/skyris_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/biomeswevegone/skyris_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/biomeswevegone/skyris_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/biomeswevegone/skyris_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/biomeswevegone/trapped_skyris_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/biomeswevegone/white_mangrove_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/biomeswevegone/white_mangrove_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/biomeswevegone/white_mangrove_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/biomeswevegone/white_mangrove_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/biomeswevegone/white_mangrove_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/biomeswevegone/trapped_white_mangrove_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/biomeswevegone/willow_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/biomeswevegone/willow_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/biomeswevegone/willow_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/biomeswevegone/willow_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/biomeswevegone/willow_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/biomeswevegone/trapped_willow_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/biomeswevegone/witch_hazel_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/biomeswevegone/witch_hazel_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/biomeswevegone/witch_hazel_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/biomeswevegone/witch_hazel_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/biomeswevegone/witch_hazel_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/biomeswevegone/trapped_witch_hazel_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/biomeswevegone/zelkova_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/biomeswevegone/zelkova_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/biomeswevegone/zelkova_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/biomeswevegone/zelkova_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/biomeswevegone/zelkova_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/biomeswevegone/trapped_zelkova_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/biomesoplenty/fir_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/biomesoplenty/fir_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/biomesoplenty/fir_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/biomesoplenty/fir_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/biomesoplenty/fir_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/biomesoplenty/trapped_fir_chest",
+      "required": false
+    },
+    {
+      "id": "lolmcvbop:fir_chest",
+      "required": false
+    },
+    {
+      "id": "lolmcvbop:fir_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/biomesoplenty/pine_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/biomesoplenty/pine_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/biomesoplenty/pine_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/biomesoplenty/pine_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/biomesoplenty/pine_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/biomesoplenty/trapped_pine_chest",
+      "required": false
+    },
+    {
+      "id": "lolmcvbop:pine_chest",
+      "required": false
+    },
+    {
+      "id": "lolmcvbop:pine_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/biomesoplenty/maple_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/biomesoplenty/maple_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/biomesoplenty/maple_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/biomesoplenty/maple_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/biomesoplenty/maple_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/biomesoplenty/trapped_maple_chest",
+      "required": false
+    },
+    {
+      "id": "lolmcvbop:maple_chest",
+      "required": false
+    },
+    {
+      "id": "lolmcvbop:maple_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/biomesoplenty/redwood_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/biomesoplenty/redwood_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/biomesoplenty/redwood_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/biomesoplenty/redwood_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/biomesoplenty/redwood_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/biomesoplenty/trapped_redwood_chest",
+      "required": false
+    },
+    {
+      "id": "lolmcvbop:redwood_chest",
+      "required": false
+    },
+    {
+      "id": "lolmcvbop:redwood_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/biomesoplenty/mahogany_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/biomesoplenty/mahogany_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/biomesoplenty/mahogany_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/biomesoplenty/mahogany_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/biomesoplenty/mahogany_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/biomesoplenty/trapped_mahogany_chest",
+      "required": false
+    },
+    {
+      "id": "lolmcvbop:mahogany_chest",
+      "required": false
+    },
+    {
+      "id": "lolmcvbop:mahogany_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/biomesoplenty/jacaranda_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/biomesoplenty/jacaranda_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/biomesoplenty/jacaranda_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/biomesoplenty/jacaranda_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/biomesoplenty/jacaranda_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/biomesoplenty/trapped_jacaranda_chest",
+      "required": false
+    },
+    {
+      "id": "lolmcvbop:jacaranda_chest",
+      "required": false
+    },
+    {
+      "id": "lolmcvbop:jacaranda_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/biomesoplenty/palm_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/biomesoplenty/palm_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/biomesoplenty/palm_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/biomesoplenty/palm_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/biomesoplenty/palm_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/biomesoplenty/trapped_palm_chest",
+      "required": false
+    },
+    {
+      "id": "lolmcvbop:palm_chest",
+      "required": false
+    },
+    {
+      "id": "lolmcvbop:palm_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/biomesoplenty/willow_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/biomesoplenty/willow_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/biomesoplenty/willow_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/biomesoplenty/willow_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/biomesoplenty/willow_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/biomesoplenty/trapped_willow_chest",
+      "required": false
+    },
+    {
+      "id": "lolmcvbop:willow_chest",
+      "required": false
+    },
+    {
+      "id": "lolmcvbop:willow_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/biomesoplenty/dead_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/biomesoplenty/dead_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/biomesoplenty/dead_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/biomesoplenty/dead_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/biomesoplenty/dead_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/biomesoplenty/trapped_dead_chest",
+      "required": false
+    },
+    {
+      "id": "lolmcvbop:dead_chest",
+      "required": false
+    },
+    {
+      "id": "lolmcvbop:dead_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/biomesoplenty/magic_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/biomesoplenty/magic_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/biomesoplenty/magic_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/biomesoplenty/magic_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/biomesoplenty/magic_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/biomesoplenty/trapped_magic_chest",
+      "required": false
+    },
+    {
+      "id": "lolmcvbop:magic_chest",
+      "required": false
+    },
+    {
+      "id": "lolmcvbop:magic_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/biomesoplenty/umbran_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/biomesoplenty/umbran_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/biomesoplenty/umbran_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/biomesoplenty/umbran_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/biomesoplenty/umbran_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/biomesoplenty/trapped_umbran_chest",
+      "required": false
+    },
+    {
+      "id": "lolmcvbop:umbran_chest",
+      "required": false
+    },
+    {
+      "id": "lolmcvbop:umbran_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/biomesoplenty/hellbark_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/biomesoplenty/hellbark_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/biomesoplenty/hellbark_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/biomesoplenty/hellbark_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/biomesoplenty/hellbark_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/biomesoplenty/trapped_hellbark_chest",
+      "required": false
+    },
+    {
+      "id": "lolmcvbop:hellbark_chest",
+      "required": false
+    },
+    {
+      "id": "lolmcvbop:hellbark_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/biomesoplenty/empyreal_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/biomesoplenty/empyreal_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/biomesoplenty/empyreal_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/biomesoplenty/empyreal_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/biomesoplenty/empyreal_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/biomesoplenty/trapped_empyreal_chest",
+      "required": false
+    },
+    {
+      "id": "lolmcvbop:empyreal_chest",
+      "required": false
+    },
+    {
+      "id": "lolmcvbop:empyreal_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/sullysmod/petrified_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/sullysmod/petrified_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/sullysmod/petrified_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/sullysmod/petrified_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/sullysmod/petrified_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/sullysmod/trapped_petrified_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/quark/ancient_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/quark/ancient_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/quark/ancient_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/quark/ancient_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/quark/ancient_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/quark/trapped_ancient_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/quark/blossom_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/quark/blossom_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/quark/blossom_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/quark/blossom_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/quark/blossom_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/quark/trapped_blossom_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/natures_spirit/redwood_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/natures_spirit/redwood_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/natures_spirit/redwood_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/natures_spirit/redwood_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/natures_spirit/redwood_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/natures_spirit/trapped_redwood_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/natures_spirit/sugi_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/natures_spirit/sugi_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/natures_spirit/sugi_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/natures_spirit/sugi_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/natures_spirit/sugi_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/natures_spirit/trapped_sugi_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/natures_spirit/wisteria_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/natures_spirit/wisteria_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/natures_spirit/wisteria_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/natures_spirit/wisteria_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/natures_spirit/wisteria_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/natures_spirit/trapped_wisteria_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/natures_spirit/fir_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/natures_spirit/fir_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/natures_spirit/fir_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/natures_spirit/fir_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/natures_spirit/fir_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/natures_spirit/trapped_fir_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/natures_spirit/willow_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/natures_spirit/willow_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/natures_spirit/willow_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/natures_spirit/willow_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/natures_spirit/willow_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/natures_spirit/trapped_willow_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/natures_spirit/aspen_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/natures_spirit/aspen_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/natures_spirit/aspen_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/natures_spirit/aspen_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/natures_spirit/aspen_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/natures_spirit/trapped_aspen_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/natures_spirit/maple_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/natures_spirit/maple_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/natures_spirit/maple_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/natures_spirit/maple_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/natures_spirit/maple_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/natures_spirit/trapped_maple_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/natures_spirit/cypress_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/natures_spirit/cypress_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/natures_spirit/cypress_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/natures_spirit/cypress_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/natures_spirit/cypress_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/natures_spirit/trapped_cypress_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/natures_spirit/olive_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/natures_spirit/olive_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/natures_spirit/olive_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/natures_spirit/olive_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/natures_spirit/olive_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/natures_spirit/trapped_olive_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/natures_spirit/joshua_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/natures_spirit/joshua_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/natures_spirit/joshua_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/natures_spirit/joshua_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/natures_spirit/joshua_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/natures_spirit/trapped_joshua_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/natures_spirit/ghaf_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/natures_spirit/ghaf_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/natures_spirit/ghaf_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/natures_spirit/ghaf_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/natures_spirit/ghaf_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/natures_spirit/trapped_ghaf_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/natures_spirit/palo_verde_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/natures_spirit/palo_verde_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/natures_spirit/palo_verde_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/natures_spirit/palo_verde_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/natures_spirit/palo_verde_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/natures_spirit/trapped_palo_verde_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/natures_spirit/coconut_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/natures_spirit/coconut_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/natures_spirit/coconut_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/natures_spirit/coconut_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/natures_spirit/coconut_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/natures_spirit/trapped_coconut_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/natures_spirit/cedar_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/natures_spirit/cedar_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/natures_spirit/cedar_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/natures_spirit/cedar_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/natures_spirit/cedar_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/natures_spirit/trapped_cedar_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/natures_spirit/larch_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/natures_spirit/larch_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/natures_spirit/larch_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/natures_spirit/larch_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/natures_spirit/larch_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/natures_spirit/trapped_larch_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/natures_spirit/mahogany_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/natures_spirit/mahogany_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/natures_spirit/mahogany_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/natures_spirit/mahogany_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/natures_spirit/mahogany_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/natures_spirit/trapped_mahogany_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/natures_spirit/saxual_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:q/natures_spirit/saxual_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/natures_spirit/saxual_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:mcv/natures_spirit/saxual_trapped_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/natures_spirit/saxual_chest",
+      "required": false
+    },
+    {
+      "id": "everycomp:abnww/natures_spirit/trapped_saxual_chest",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+	id: "744F7006F1FA455C"
+	loot_size: 1
+	order_index: 11
+	rewards: [
+		{ count: 16, item: "minecraft:honeycomb" }
+		{ count: 8, item: "minecraft:honey_bottle" }
+		{ count: 32, item: "complicated_bees:honey_droplet" }
+		{ count: 64, item: "complicated_bees:beeswax" }
+		{ count: 8, item: "complicated_bees:propolis" }
+	]
+	title: "{ftbquests.loot_table_8381040606691607900.title}"
+}

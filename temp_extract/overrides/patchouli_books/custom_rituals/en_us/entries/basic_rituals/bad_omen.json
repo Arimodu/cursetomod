@@ -1,0 +1,16 @@
+{
+  "name": "Ritual of Bad Omens",
+  "icon": "minecraft:crossbow",
+  "category": "patchouli:basic_rituals",
+  "pages": [
+    {
+      "type": "patchouli:rite_description",
+      "rite_name": "Ritual of Bad Omens",
+      "text": "Use this rite to apply the bad omen effect to players within the nether chalk circle."
+    },
+    {
+      "type": "patchouli:rite_requirements",
+      "rite": "reclamation:bad_omen"
+    }
+  ]
+}

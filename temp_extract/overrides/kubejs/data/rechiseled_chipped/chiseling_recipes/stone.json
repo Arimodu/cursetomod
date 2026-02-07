@@ -1,0 +1,263 @@
+{
+  "type": "rechiseled:chiseling",
+  "entries": [
+    {
+      "item": "minecraft:stone"
+    },
+    {
+      "item": "minecraft:stone_bricks"
+    },
+    {
+      "item": "minecraft:cracked_stone_bricks"
+    },
+    {
+      "connecting_item": "rechiseled:stone_chiseled_bricks_connecting",
+      "item": "minecraft:chiseled_stone_bricks"
+    },
+    {
+      "connecting_item": "rechiseled:stone_big_tiles_connecting",
+      "item": "rechiseled:stone_big_tiles"
+    },
+    {
+      "connecting_item": "rechiseled:stone_bordered_connecting",
+      "item": "rechiseled:stone_bordered"
+    },
+    {
+      "connecting_item": "rechiseled:stone_brick_pattern_connecting",
+      "item": "rechiseled:stone_brick_pattern"
+    },
+    {
+      "connecting_item": "rechiseled:stone_brick_paving_connecting",
+      "item": "rechiseled:stone_brick_paving"
+    },
+    {
+      "item": "rechiseled:stone_cobbled"
+    },
+    {
+      "connecting_item": "rechiseled:stone_crushed_connecting",
+      "item": "rechiseled:stone_crushed"
+    },
+    {
+      "connecting_item": "rechiseled:stone_diagonal_bricks_connecting",
+      "item": "rechiseled:stone_diagonal_bricks"
+    },
+    {
+      "connecting_item": "rechiseled:stone_path_connecting",
+      "item": "rechiseled:stone_path"
+    },
+    {
+      "connecting_item": "rechiseled:stone_rotated_bricks_connecting",
+      "item": "rechiseled:stone_rotated_bricks"
+    },
+    {
+      "item": "rechiseled:stone_slated"
+    },
+    {
+      "connecting_item": "rechiseled:stone_small_bricks_connecting",
+      "item": "rechiseled:stone_small_bricks"
+    },
+    {
+      "connecting_item": "rechiseled:stone_small_tiles_connecting",
+      "item": "rechiseled:stone_small_tiles"
+    },
+    {
+      "connecting_item": "rechiseled:stone_squares_connecting",
+      "item": "rechiseled:stone_squares"
+    },
+    {
+      "connecting_item": "rechiseled:stone_tiles_connecting",
+      "item": "rechiseled:stone_tiles"
+    },
+    {
+      "connecting_item": "rechiseled:stone_waves_connecting",
+      "item": "rechiseled:stone_waves"
+    },
+    {
+      "item": "chipped:stone_mini_tiles"
+    },
+    {
+      "item": "chipped:stone_pillar"
+    },
+    {
+      "item": "chipped:stone_pillar_top"
+    },
+    {
+      "item": "chipped:stone_scales"
+    },
+    {
+      "item": "chipped:angry_stone"
+    },
+    {
+      "item": "chipped:blank_stone_carving"
+    },
+    {
+      "item": "chipped:carved_stone"
+    },
+    {
+      "item": "chipped:checkered_stone_tiles"
+    },
+    {
+      "item": "chipped:cobbled_stone"
+    },
+    {
+      "item": "chipped:cracked_disordered_stone_bricks"
+    },
+    {
+      "item": "chipped:cracked_flat_stone_tiles"
+    },
+    {
+      "item": "chipped:creeper_stone_carving"
+    },
+    {
+      "item": "chipped:crying_stone"
+    },
+    {
+      "item": "chipped:cut_blank_stone"
+    },
+    {
+      "item": "chipped:glad_stone"
+    },
+    {
+      "item": "chipped:duh_stone"
+    },
+    {
+      "item": "chipped:engraved_stone"
+    },
+    {
+      "item": "chipped:etched_stone_bricks"
+    },
+    {
+      "item": "chipped:flat_stone_tiles"
+    },
+    {
+      "item": "chipped:inlayed_stone"
+    },
+    {
+      "item": "chipped:inscribed_stone"
+    },
+    {
+      "item": "chipped:layed_stone_bricks"
+    },
+    {
+      "item": "chipped:loded_stone"
+    },
+    {
+      "item": "chipped:offset_stone_bricks"
+    },
+    {
+      "item": "chipped:pillar_stone_bricks"
+    },
+    {
+      "item": "chipped:prismal_stone_remnants"
+    },
+    {
+      "item": "chipped:rough_stone"
+    },
+    {
+      "item": "chipped:rounded_stone_bricks"
+    },
+    {
+      "item": "chipped:runic_carved_stone"
+    },
+    {
+      "item": "chipped:sad_stone"
+    },
+    {
+      "item": "chipped:sanded_stone"
+    },
+    {
+      "item": "chipped:small_stone_bricks"
+    },
+    {
+      "item": "chipped:smooth_inlayed_stone"
+    },
+    {
+      "item": "chipped:smoothed_double_inlayed_stone"
+    },
+    {
+      "item": "chipped:spider_stone_carving"
+    },
+    {
+      "item": "chipped:spiraled_stone"
+    },
+    {
+      "item": "chipped:stacked_stone_bricks"
+    },
+    {
+      "item": "chipped:tiled_stone"
+    },
+    {
+      "item": "chipped:tiny_stone_bricks"
+    },
+    {
+      "item": "chipped:tiny_layered_stone_bricks"
+    },
+    {
+      "item": "chipped:tiny_layered_stone_slabs"
+    },
+    {
+      "item": "chipped:trodden_stone"
+    },
+    {
+      "item": "chipped:unamused_stone"
+    },
+    {
+      "item": "chipped:vertical_cut_stone"
+    },
+    {
+      "item": "chipped:vertical_disordered_stone_bricks"
+    },
+    {
+      "item": "chipped:weathered_stone"
+    },
+    {
+      "item": "chipped:bordered_stone"
+    },
+    {
+      "item": "chipped:brick_bordered_stone"
+    },
+    {
+      "item": "chipped:cut_stone_column"
+    },
+    {
+      "item": "chipped:edged_stone_bricks"
+    },
+    {
+      "item": "chipped:overlapping_stone_tiles"
+    },
+    {
+      "item": "chipped:polished_stone"
+    },
+    {
+      "item": "chipped:smooth_stone_column"
+    },
+    {
+      "item": "chipped:thick_inlayed_stone"
+    },
+    {
+      "item": "chipped:tiled_stone_column"
+    },
+    {
+      "item": "chipped:tiled_bordered_stone"
+    },
+    {
+      "item": "chipped:tiny_brick_bordered_stone"
+    },
+    {
+      "item": "chipped:curly_stone_pillar"
+    },
+    {
+      "item": "chipped:fine_stone_pillar"
+    },
+    {
+      "item": "chipped:ornate_stone_pillar"
+    },
+    {
+      "item": "chipped:simple_stone_pillar"
+    },
+    {
+      "item": "chipped:massive_stone_bricks"
+    }
+  ],
+  "overwrite": true
+}

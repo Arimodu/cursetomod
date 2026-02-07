@@ -1,0 +1,6 @@
+{
+  "parent": "agricraft:crop/crop_hash",
+  "textures": {
+    "crop": "croptopia:block/basil_crop_stage3"
+  }
+}

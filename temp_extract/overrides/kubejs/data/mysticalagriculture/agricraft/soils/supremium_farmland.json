@@ -1,0 +1,12 @@
+{
+  "acidity": "highly_acidic",
+  "growth_modifier": 1.5,
+  "humidity": "arid",
+  "mods": [],
+  "nutrients": "very_high",
+  "variants": [
+    {
+      "block": "mysticalagriculture:supremium_farmland"
+    }
+  ]
+}

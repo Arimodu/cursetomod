@@ -1,0 +1,2943 @@
+{
+	default_hide_dependency_lines: true
+	default_min_width: 280
+	default_quest_shape: ""
+	filename: "ffood_plants"
+	group: "2BFAC9C95DAED88B"
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_visible: true
+	icon: "farmersdelight:vegetable_soup"
+	id: "50D63635ACA38A6D"
+	images: [
+		{
+			dependency: "2E15C8681F5D2ACF"
+			height: 5.0d
+			image: "reclamation:textures/quests/vanilla.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: -4.499999999999979d
+			y: -2.5833333333333357d
+		}
+		{
+			dependency: "2E15C8681F5D2ACF"
+			height: 5.0d
+			image: "reclamation:textures/quests/flowers.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependency: "600A7F0DFD880119"
+			height: 5.0d
+			image: "reclamation:textures/quests/automation.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: -11.0d
+			y: -2.0d
+		}
+		{
+			dependency: "2E15C8681F5D2ACF"
+			height: 10.0d
+			image: "reclamation:textures/quests/even_more_plants.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			dependency: "2E15C8681F5D2ACF"
+			height: 5.0d
+			image: "reclamation:textures/quests/cooking_for_blockheads.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: -3.5d
+			y: -8.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"6BE467B7626E5085"
+				"1B02944C57BF74FB"
+			]
+			description: ["{ftbquests.chapter.ffood_plants.quest1.description1}"]
+			id: "32195AB6E6F75FF1"
+			rewards: [{
+				id: "4B3BFBEE92C3AC8F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0BE83A27534A9CAF"
+				item: "minecraft:sugar_cane"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"33BAEE563814DCDB"
+				"1B02944C57BF74FB"
+			]
+			dependency_requirement: "one_completed"
+			description: ["{ftbquests.chapter.ffood_plants.quest2.description1}"]
+			id: "36EF6C1E1C861A4A"
+			rewards: [{
+				id: "5047F6164CCF2F60"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "474FA99911610CC3"
+				item: "minecraft:carrot"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"63353784E3C39D83"
+				"1281E40889F822FE"
+			]
+			description: ["{ftbquests.chapter.ffood_plants.quest3.description1}"]
+			id: "08415BCE11C57437"
+			rewards: [{
+				id: "4AF453F9ACBFD15A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3E0563C1BF0FB284"
+				item: "minecraft:beetroot"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"33BAEE563814DCDB"
+				"1281E40889F822FE"
+			]
+			description: ["{ftbquests.chapter.ffood_plants.quest4.description1}"]
+			id: "303D96CD71A877FA"
+			rewards: [{
+				id: "4ABA8893BECF54EC"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3D5788DD6CEE57CF"
+				item: "minecraft:potato"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"303D96CD71A877FA"
+				"36EF6C1E1C861A4A"
+			]
+			description: ["{ftbquests.chapter.ffood_plants.quest5.description1}"]
+			id: "269466269FFFC1BC"
+			rewards: [{
+				id: "399C0EA065270B90"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2DEB960CC4FA0F6B"
+				item: "minecraft:pumpkin"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"32195AB6E6F75FF1"
+				"36EF6C1E1C861A4A"
+			]
+			description: ["{ftbquests.chapter.ffood_plants.quest6.description1}"]
+			id: "1AD960F38D986F1A"
+			rewards: [{
+				id: "55173762F418E546"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "14647E43D0C398DC"
+				item: "minecraft:melon_slice"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"1AD960F38D986F1A"
+				"08415BCE11C57437"
+			]
+			description: ["{ftbquests.chapter.ffood_plants.quest7.description1}"]
+			id: "1DA6A370C87C0775"
+			rewards: [{
+				id: "6CF2B95F597FBE75"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5718908A397ED9B2"
+				item: "minecraft:sweet_berries"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2E15C8681F5D2ACF"]
+			description: ["{ftbquests.chapter.ffood_plants.quest8.description1}"]
+			hide_until_deps_complete: true
+			id: "33BAEE563814DCDB"
+			rewards: [{
+				id: "28497B6B69E8F722"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1626C66C1D2AF663"
+				item: "minecraft:wheat"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2E15C8681F5D2ACF"]
+			description: [
+				"{ftbquests.chapter.ffood_plants.quest9.description1}"
+				""
+				"{ftbquests.chapter.ffood_plants.quest9.description2}"
+			]
+			hide_until_deps_complete: true
+			id: "63353784E3C39D83"
+			rewards: [{
+				id: "38617424A6803F65"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0017369D021A57BA"
+				item: "enchanted:mandrake_root"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2E15C8681F5D2ACF"]
+			description: ["{ftbquests.chapter.ffood_plants.quest10.description1}"]
+			hide_until_deps_complete: true
+			id: "1281E40889F822FE"
+			rewards: [{
+				id: "67157A0947DD110C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "08ED9FCE9C9E0988"
+				item: "enchanted:wolfsbane_flower"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2E15C8681F5D2ACF"]
+			description: ["{ftbquests.chapter.ffood_plants.quest11.description1}"]
+			hide_until_deps_complete: true
+			id: "1B02944C57BF74FB"
+			rewards: [{
+				id: "41AA176CD1FDEB6A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6E9D57F34DFBA187"
+				item: "enchanted:icy_needle"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2E15C8681F5D2ACF"]
+			description: ["{ftbquests.chapter.ffood_plants.quest12.description1}"]
+			hide_until_deps_complete: true
+			id: "6BE467B7626E5085"
+			rewards: [{
+				id: "3C1CF50E65D62199"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6E7B2A4228C9079C"
+				item: "enchanted:water_artichoke"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"63353784E3C39D83"
+				"303D96CD71A877FA"
+			]
+			description: ["{ftbquests.chapter.ffood_plants.quest13.description1}"]
+			id: "15CFF693EFE382C7"
+			rewards: [{
+				id: "22E400BAA0C2911F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "209C1678B96BF007"
+				item: "minecraft:brown_mushroom"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"63353784E3C39D83"
+				"36EF6C1E1C861A4A"
+			]
+			description: ["{ftbquests.chapter.ffood_plants.quest14.description1}"]
+			id: "3F94D588E94A0F3C"
+			rewards: [{
+				id: "73902B3EEE2AB35E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "02A4B67966399B9B"
+				item: "minecraft:red_mushroom"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"6BE467B7626E5085"
+				"32195AB6E6F75FF1"
+			]
+			description: ["{ftbquests.chapter.ffood_plants.quest15.description1}"]
+			id: "1CE48B2F73EDB8FC"
+			rewards: [{
+				id: "3D4AC543E590FCC2"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1A4C1D1B6BECE9D7"
+				item: "minecraft:bamboo"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"6BE467B7626E5085"
+				"1CE48B2F73EDB8FC"
+			]
+			description: ["{ftbquests.chapter.ffood_plants.quest16.description1}"]
+			id: "3E746C60CE874EC2"
+			rewards: [{
+				id: "70CFF79AEF57E449"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "63227A8101809052"
+				item: "minecraft:kelp"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"33BAEE563814DCDB"
+				"1CE48B2F73EDB8FC"
+			]
+			description: ["{ftbquests.chapter.ffood_plants.quest17.description1}"]
+			id: "52641FDAD803360E"
+			rewards: [{
+				id: "252B1EF4C6F3B937"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1332B5429430DC3C"
+				item: "minecraft:seagrass"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"3E746C60CE874EC2"
+				"52641FDAD803360E"
+			]
+			description: ["{ftbquests.chapter.ffood_plants.quest18.description1}"]
+			id: "5867D599B1DA6E6F"
+			rewards: [{
+				id: "79D82037AAC758D4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "627607BF4CBB9958"
+				item: "minecraft:sea_pickle"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"3F94D588E94A0F3C"
+				"15CFF693EFE382C7"
+			]
+			description: ["{ftbquests.chapter.ffood_plants.quest19.description1}"]
+			id: "3EDF39CD6F94943F"
+			rewards: [{
+				id: "24D006E8A4FF8B5B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1B0681E60C9C525A"
+				item: "minecraft:nether_wart"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"3EDF39CD6F94943F"
+				"15CFF693EFE382C7"
+			]
+			description: ["{ftbquests.chapter.ffood_plants.quest20.description1}"]
+			id: "54401A0090BF5109"
+			rewards: [{
+				id: "575E76D1DCA1E202"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "50385F5338B3A7C7"
+				item: "minecraft:warped_fungus"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"3EDF39CD6F94943F"
+				"3F94D588E94A0F3C"
+			]
+			description: ["{ftbquests.chapter.ffood_plants.quest21.description1}"]
+			id: "77F0AB56297C08EC"
+			rewards: [{
+				id: "38BCEAD37F142EC9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "010E32148E3954E0"
+				item: "minecraft:crimson_fungus"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2E15C8681F5D2ACF"]
+			description: ["{ftbquests.chapter.ffood_plants.quest22.description1}"]
+			hide_until_deps_complete: true
+			id: "0BD99D6E0D93E05F"
+			rewards: [{
+				id: "15D1D07D4B03CF62"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "032D7F5C7D26D03C"
+				item: "enchanted:belladonna_flower"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"33BAEE563814DCDB"
+				"0BD99D6E0D93E05F"
+			]
+			description: ["{ftbquests.chapter.ffood_plants.quest23.description1}"]
+			id: "7CC83C324E6A01E9"
+			rewards: [{
+				id: "25B2D9EABE2F040A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7889C84E2D3A006D"
+				item: "supplementaries:flax"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0B5C8BA575972913"]
+			description: [
+				"{ftbquests.chapter.ffood_plants.quest24.description1}"
+				""
+				"{ftbquests.chapter.ffood_plants.quest24.description2}"
+			]
+			id: "799A3678C691BBA3"
+			rewards: [{
+				id: "2F9EF194B22F3A06"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "274C58582A5C79DD"
+				item: "minecraft:poppy"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"799A3678C691BBA3"
+				"79CC4BBB699E26EA"
+			]
+			description: ["{ftbquests.chapter.ffood_plants.quest25.description1}"]
+			id: "68536E0D3B5694E7"
+			rewards: [{
+				id: "235FBB25F25C36E2"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7A6C888FBAC3C6A7"
+				item: "minecraft:allium"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"5FA8835DAD8496B6"
+				"22B750248FB3F5A8"
+			]
+			description: ["{ftbquests.chapter.ffood_plants.quest26.description1}"]
+			id: "5A5FCEAA140010D4"
+			rewards: [{
+				id: "150A73BF4822D6F0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4A721DBC832F15D6"
+				item: "minecraft:azure_bluet"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"799A3678C691BBA3"
+				"5FA8835DAD8496B6"
+			]
+			description: ["{ftbquests.chapter.ffood_plants.quest27.description1}"]
+			id: "79CC4BBB699E26EA"
+			rewards: [{
+				id: "1FF9E81882F605D8"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3E75A87A7C0C4701"
+				item: "minecraft:blue_orchid"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"79CC4BBB699E26EA"
+				"22B750248FB3F5A8"
+			]
+			description: ["{ftbquests.chapter.ffood_plants.quest28.description1}"]
+			id: "5C3BED68010EC635"
+			rewards: [{
+				id: "0EBD893B09F35FE2"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "35D85334148E1D8A"
+				item: "minecraft:cornflower"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0B5C8BA575972913"]
+			description: [
+				"{ftbquests.chapter.ffood_plants.quest29.description1}"
+				""
+				"{ftbquests.chapter.ffood_plants.quest29.description2}"
+			]
+			id: "5FA8835DAD8496B6"
+			rewards: [{
+				id: "2C413451DDF01007"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "54BA1F933C39BE68"
+				item: "minecraft:dandelion"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"049EFFDACB56ECD5"
+				"53D1E7880BE9CBF3"
+			]
+			description: ["{ftbquests.chapter.ffood_plants.quest30.description1}"]
+			id: "22B750248FB3F5A8"
+			rewards: [{
+				id: "08F4821ACBCDF9AD"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0B029770FD768F5B"
+				item: "minecraft:lily_of_the_valley"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"79CC4BBB699E26EA"
+				"5FA8835DAD8496B6"
+			]
+			description: ["{ftbquests.chapter.ffood_plants.quest31.description1}"]
+			id: "53D1E7880BE9CBF3"
+			rewards: [{
+				id: "3A76AAC44131E63D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5EAE4D059A9A04FC"
+				item: "minecraft:oxeye_daisy"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"5C3BED68010EC635"
+				"4917C2EEA848997D"
+			]
+			description: ["{ftbquests.chapter.ffood_plants.quest32.description1}"]
+			id: "76DC49A825A01D60"
+			rewards: [{
+				id: "744CF9EB8C00FDB5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "71B53D76D691A8E1"
+				item: "minecraft:torchflower"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"53D1E7880BE9CBF3"
+				"79CC4BBB699E26EA"
+			]
+			description: ["{ftbquests.chapter.ffood_plants.quest33.description1}"]
+			id: "1AE9313131C60B20"
+			rewards: [{
+				id: "71FBFAF5A0EBE371"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4C5CEF70E70401FB"
+				item: "minecraft:orange_tulip"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"799A3678C691BBA3"
+				"68536E0D3B5694E7"
+			]
+			description: ["{ftbquests.chapter.ffood_plants.quest34.description1}"]
+			id: "4917C2EEA848997D"
+			rewards: [{
+				id: "042ED2B584C618F1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "013CE9D82F11A9BC"
+				item: "minecraft:red_tulip"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"53D1E7880BE9CBF3"
+				"5FA8835DAD8496B6"
+			]
+			description: ["{ftbquests.chapter.ffood_plants.quest35.description1}"]
+			id: "049EFFDACB56ECD5"
+			rewards: [{
+				id: "093BFC43D4CB78C5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "18D80EB780A71777"
+				item: "minecraft:white_tulip"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"5FA8835DAD8496B6"
+				"68536E0D3B5694E7"
+			]
+			description: ["{ftbquests.chapter.ffood_plants.quest36.description1}"]
+			id: "25E0B4ED41C1D3E9"
+			rewards: [{
+				id: "6FE2BBC433C30DAD"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "12872996722309A5"
+				item: "minecraft:pink_tulip"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"799A3678C691BBA3"
+				"5C3BED68010EC635"
+			]
+			description: ["{ftbquests.chapter.ffood_plants.quest37.description1}"]
+			id: "1AA12EC1B3202E65"
+			rewards: [{
+				id: "2D26B1BE88D7F780"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "133F809A32F2DA8E"
+				item: "minecraft:wither_rose"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2E15C8681F5D2ACF"]
+			description: [
+				"{ftbquests.chapter.ffood_plants.quest38.description1}"
+				""
+				"{ftbquests.chapter.ffood_plants.quest38.description2}"
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:podzol"
+			id: "0B5C8BA575972913"
+			rewards: [{
+				id: "51BDB90015A6DB8B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "39B842A52117843D"
+					item: "minecraft:spruce_sapling"
+					type: "item"
+				}
+				{
+					icon: "minecraft:podzol"
+					id: "698820444A9BB27A"
+					observe_type: 0
+					timer: 0L
+					title: "{ftbquests.chapter.ffood_plants.quest38.task_7604363448496665210.title}"
+					to_observe: "minecraft:podzol"
+					type: "observation"
+				}
+			]
+			title: "{ftbquests.chapter.ffood_plants.quest38.title}"
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["303D96CD71A877FA"]
+			description: ["{ftbquests.chapter.ffood_plants.quest39.description1}"]
+			hide_dependency_lines: true
+			id: "539A68C71D4CCBE9"
+			rewards: [{
+				id: "40D200ECBA327744"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "676458C8E40DFE15"
+				item: "croptopia:onion"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"303D96CD71A877FA"
+				"32195AB6E6F75FF1"
+			]
+			description: [
+				"{ftbquests.chapter.ffood_plants.quest40.description1}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.ffood_plants.quest40.description2}"
+			]
+			hide_dependency_lines: true
+			id: "137AC3CF85666619"
+			rewards: [{
+				id: "56011151E8E584EC"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0A1850D7CA822C36"
+				item: "croptopia:sweetpotato"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"33BAEE563814DCDB"
+				"32195AB6E6F75FF1"
+			]
+			description: ["{ftbquests.chapter.ffood_plants.quest41.description1}"]
+			hide_dependency_lines: true
+			id: "6773A50CB01DADDF"
+			rewards: [{
+				id: "72FBB299E4D59120"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "346F8AD751BE2017"
+				item: "croptopia:barley"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"303D96CD71A877FA"
+				"7CC83C324E6A01E9"
+			]
+			description: ["{ftbquests.chapter.ffood_plants.quest42.description1}"]
+			hide_dependency_lines: true
+			id: "7C65E374FF6718D6"
+			rewards: [{
+				id: "106748BDD1EA2BB5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "68760923F61592E5"
+				item: "croptopia:basil"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"08415BCE11C57437"
+				"36EF6C1E1C861A4A"
+			]
+			description: ["{ftbquests.chapter.ffood_plants.quest43.description1}"]
+			hide_dependency_lines: true
+			id: "3E4A7F5E033DE19E"
+			rewards: [{
+				id: "701015BC9C24C13E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "572F2DEFDD7F9649"
+				item: "croptopia:radish"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"269466269FFFC1BC"
+				"303D96CD71A877FA"
+			]
+			description: ["{ftbquests.chapter.ffood_plants.quest44.description1}"]
+			hide_dependency_lines: true
+			id: "633DFD123996C0AE"
+			rewards: [{
+				id: "200320640F305F9A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "268DF1F6067E266B"
+				item: "croptopia:blackbean"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"269466269FFFC1BC"
+				"7CC83C324E6A01E9"
+			]
+			description: ["{ftbquests.chapter.ffood_plants.quest45.description1}"]
+			hide_dependency_lines: true
+			id: "708E081EFB5553CB"
+			rewards: [{
+				id: "2ABEA98916C08005"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6742AE17061E7175"
+				item: "croptopia:greenbean"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["137AC3CF85666619"]
+			description: ["{ftbquests.chapter.ffood_plants.quest46.description1}"]
+			id: "6D92EF0CCD30AEDF"
+			rewards: [{
+				id: "72ABF023D9ED27AD"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "348A713290BDAC3F"
+				item: "croptopia:yam"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["137AC3CF85666619"]
+			description: ["{ftbquests.chapter.ffood_plants.quest47.description1}"]
+			id: "5907D1A652A58C02"
+			rewards: [{
+				id: "1340CC4AB25D339B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "77F2F46FAAEAFA96"
+				item: "croptopia:tomato"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"32195AB6E6F75FF1"
+				"1CE48B2F73EDB8FC"
+			]
+			description: ["{ftbquests.chapter.ffood_plants.quest48.description1}"]
+			id: "761691BED4E01678"
+			rewards: [{
+				id: "09359B9E296D9369"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0E260F861D5B72E1"
+				item: "minecraft:cactus"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"761691BED4E01678"
+				"32195AB6E6F75FF1"
+			]
+			description: ["{ftbquests.chapter.ffood_plants.quest49.description1}"]
+			hide_dependency_lines: true
+			id: "2403D7E46BBE79E8"
+			rewards: [{
+				id: "31F71931BE479EE7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2947DE2CA61F0C3A"
+				item: "croptopia:saguaro"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["539A68C71D4CCBE9"]
+			description: ["{ftbquests.chapter.ffood_plants.quest50.description1}"]
+			id: "53AF55E4B044F5FD"
+			rewards: [{
+				id: "177FE7BD956C9665"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "08449C0C516FC7EF"
+				item: "croptopia:cabbage"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"539A68C71D4CCBE9"
+				"708E081EFB5553CB"
+			]
+			description: ["{ftbquests.chapter.ffood_plants.quest51.description1}"]
+			id: "6BC3D688CE214B07"
+			rewards: [{
+				id: "0B645F730F169484"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "574AE7D844136B76"
+				item: "croptopia:greenonion"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["708E081EFB5553CB"]
+			description: ["{ftbquests.chapter.ffood_plants.quest52.description1}"]
+			id: "4D314EC44E052CBF"
+			rewards: [{
+				id: "31CCCDD41A6613C4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "286352D477FD43F4"
+				item: "croptopia:coffee_beans"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6773A50CB01DADDF"]
+			description: ["{ftbquests.chapter.ffood_plants.quest53.description1}"]
+			id: "39502B2D84E40320"
+			rewards: [{
+				id: "61052FDA0C24E08A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6FC26E9B04988015"
+				item: "croptopia:rice"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3E4A7F5E033DE19E"]
+			description: ["{ftbquests.chapter.ffood_plants.quest54.description1}"]
+			id: "5B5641FA7A0DD8E0"
+			rewards: [{
+				id: "6486D733773C2845"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "31FA4C26823FEF81"
+				item: "croptopia:turnip"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5B5641FA7A0DD8E0"]
+			description: ["{ftbquests.chapter.ffood_plants.quest55.description1}"]
+			id: "77F7CE7CCE05B577"
+			rewards: [{
+				id: "5641216299CDB763"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "21FEADF6B1FFADD9"
+				item: "croptopia:rutabaga"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"5907D1A652A58C02"
+				"539A68C71D4CCBE9"
+			]
+			description: ["{ftbquests.chapter.ffood_plants.quest56.description1}"]
+			id: "25ADE2521FE623C3"
+			rewards: [{
+				id: "0F8D857E5955FBA7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7EF00B6625FFA437"
+				item: "croptopia:chile_pepper"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"39502B2D84E40320"
+				"708E081EFB5553CB"
+			]
+			description: ["{ftbquests.chapter.ffood_plants.quest57.description1}"]
+			id: "5F89CB1EB71D3A1F"
+			rewards: [{
+				id: "625372CE2150112E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "707576D3E6D74E22"
+				item: "croptopia:soybean"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"39502B2D84E40320"
+				"6773A50CB01DADDF"
+			]
+			description: ["{ftbquests.chapter.ffood_plants.quest58.description1}"]
+			id: "65C7540C8DC0BF5F"
+			rewards: [{
+				id: "02512EBAA878BDC5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2B980400F933CD07"
+				item: "croptopia:corn"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"25ADE2521FE623C3"
+				"708E081EFB5553CB"
+			]
+			description: ["{ftbquests.chapter.ffood_plants.quest59.description1}"]
+			id: "767FBB61FCFCF24F"
+			rewards: [{
+				id: "728F6FDB1E45078C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2C04123C55711A03"
+				item: "croptopia:mustard"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"7C65E374FF6718D6"
+				"25ADE2521FE623C3"
+			]
+			description: ["{ftbquests.chapter.ffood_plants.quest60.description1}"]
+			id: "2E16EB869081D97A"
+			rewards: [{
+				id: "151C6A633C6A6321"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6464992F90700B8C"
+				item: "croptopia:bellpepper"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["5F89CB1EB71D3A1F"]
+			description: ["{ftbquests.chapter.ffood_plants.quest61.description1}"]
+			id: "33FEFD3C13804031"
+			rewards: [{
+				id: "19E8F6D336DCD3D3"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "574CCC865F6E78C0"
+				item: "croptopia:cucumber"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["5F89CB1EB71D3A1F"]
+			description: ["{ftbquests.chapter.ffood_plants.quest62.description1}"]
+			id: "3FE30435F595931C"
+			rewards: [{
+				id: "3317D7CE42C02DC7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7B441C25B6544AAC"
+				item: "croptopia:strawberry"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["5F89CB1EB71D3A1F"]
+			description: ["{ftbquests.chapter.ffood_plants.quest63.description1}"]
+			id: "5017DC066FE3B51D"
+			rewards: [{
+				id: "511E6F9804F12D7B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7F5966299F746109"
+				item: "croptopia:asparagus"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["5F89CB1EB71D3A1F"]
+			description: ["{ftbquests.chapter.ffood_plants.quest64.description1}"]
+			id: "5ED74322B9011AA1"
+			rewards: [{
+				id: "60C9A5E8DCF522FB"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "051EE40CCEEAC787"
+				item: "croptopia:celery"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"65C7540C8DC0BF5F"
+				"39502B2D84E40320"
+			]
+			description: ["{ftbquests.chapter.ffood_plants.quest65.description1}"]
+			id: "5FD2AF761DFCFCDB"
+			rewards: [{
+				id: "5F1CFF43548C05E5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "570913A53DDA538A"
+				item: "croptopia:oat"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"65C7540C8DC0BF5F"
+				"708E081EFB5553CB"
+			]
+			description: ["{ftbquests.chapter.ffood_plants.quest66.description1}"]
+			id: "068AA2EB4FEE62ED"
+			rewards: [{
+				id: "73EDADD364B6F0CB"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2D5899B22F62D7FA"
+				item: "croptopia:peanut"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"33FEFD3C13804031"
+				"5907D1A652A58C02"
+			]
+			description: ["{ftbquests.chapter.ffood_plants.quest67.description1}"]
+			id: "5AC9411A91E56A6E"
+			rewards: [{
+				id: "40A75AB264E43C5D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "71968C4CBC570D88"
+				item: "croptopia:tomatillo"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["33FEFD3C13804031"]
+			description: ["{ftbquests.chapter.ffood_plants.quest68.description1}"]
+			id: "2ECD80D48B96EDCE"
+			rewards: [{
+				id: "55B11485FD9232A0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6D8C5BF0C7A30152"
+				item: "croptopia:zucchini"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"5F89CB1EB71D3A1F"
+				"3FE30435F595931C"
+			]
+			description: ["{ftbquests.chapter.ffood_plants.quest69.description1}"]
+			id: "18A39F522DFC0F12"
+			rewards: [{
+				id: "5A6924CFAEB133C4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7D0FCE5FEC77535E"
+				item: "croptopia:raspberry"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"3FE30435F595931C"
+				"5F89CB1EB71D3A1F"
+			]
+			description: ["{ftbquests.chapter.ffood_plants.quest70.description1}"]
+			id: "321737F90DED1F6D"
+			rewards: [{
+				id: "5DF47BF9A90DF300"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6EF4514779DB6F4E"
+				item: "croptopia:blueberry"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"5F89CB1EB71D3A1F"
+				"3FE30435F595931C"
+			]
+			description: ["{ftbquests.chapter.ffood_plants.quest71.description1}"]
+			id: "6FC8F37704C8FC65"
+			rewards: [{
+				id: "1103C3E76D3212B2"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4F456882B557C108"
+				item: "croptopia:blackberry"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["5ED74322B9011AA1"]
+			description: ["{ftbquests.chapter.ffood_plants.quest72.description1}"]
+			id: "11A9C568031B9FE8"
+			rewards: [{
+				id: "5912AC2853A3CDC1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "308AE22996373D4D"
+				item: "croptopia:leek"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"5ED74322B9011AA1"
+				"5F89CB1EB71D3A1F"
+			]
+			description: ["{ftbquests.chapter.ffood_plants.quest73.description1}"]
+			id: "5C958E5EFDC1238C"
+			rewards: [{
+				id: "5468C20E5E01C0DF"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "595F6D27F9CCDE58"
+				item: "croptopia:lettuce"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["068AA2EB4FEE62ED"]
+			description: ["{ftbquests.chapter.ffood_plants.quest74.description1}"]
+			id: "24683B06C12BC4B9"
+			rewards: [{
+				id: "1D898A400CA28A6A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7383A4176B36F061"
+				item: "croptopia:ginger"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["3FE30435F595931C"]
+			description: ["{ftbquests.chapter.ffood_plants.quest75.description1}"]
+			id: "516F5336FA6CBDD8"
+			rewards: [{
+				id: "785361CD54B97647"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "43BD354A87792215"
+				item: "croptopia:cantaloupe"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["5FD2AF761DFCFCDB"]
+			description: ["{ftbquests.chapter.ffood_plants.quest76.description1}"]
+			id: "7280C49FFD91F7C0"
+			rewards: [{
+				id: "15E01D6AAECF7C48"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "205BFBC069F3F80A"
+				item: "croptopia:honeydew"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"516F5336FA6CBDD8"
+				"3FE30435F595931C"
+			]
+			description: ["{ftbquests.chapter.ffood_plants.quest77.description1}"]
+			id: "6A7D86B8481B0F69"
+			rewards: [{
+				id: "17CAC3FC4ED19B5F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3458A15035D3E429"
+				item: "croptopia:kiwi"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"2ECD80D48B96EDCE"
+				"5907D1A652A58C02"
+			]
+			description: ["{ftbquests.chapter.ffood_plants.quest78.description1}"]
+			id: "4DD65B7AF1F78BAA"
+			rewards: [{
+				id: "20C2BEEEDF78A00C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "071F769CC285C4F8"
+				item: "croptopia:eggplant"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"53AF55E4B044F5FD"
+				"5C958E5EFDC1238C"
+			]
+			description: ["{ftbquests.chapter.ffood_plants.quest79.description1}"]
+			id: "38C3364E47A88D9A"
+			rewards: [{
+				id: "35D4F7422404695F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1B6F6677C3DC7324"
+				item: "croptopia:cauliflower"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"6FC8F37704C8FC65"
+				"3FE30435F595931C"
+			]
+			description: ["{ftbquests.chapter.ffood_plants.quest80.description1}"]
+			id: "27F5765B374BA472"
+			rewards: [{
+				id: "1296BB0AAAE760F0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3BEC3DED210285E5"
+				item: "croptopia:currant"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"6FC8F37704C8FC65"
+				"708E081EFB5553CB"
+			]
+			description: ["{ftbquests.chapter.ffood_plants.quest81.description1}"]
+			id: "33A9BA581FD7FF42"
+			rewards: [{
+				id: "083E100656FC63DE"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "797BE018D15D3B8A"
+				item: "croptopia:olive"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"5F89CB1EB71D3A1F"
+				"5C958E5EFDC1238C"
+			]
+			description: ["{ftbquests.chapter.ffood_plants.quest82.description1}"]
+			id: "00F0F07CB99999DD"
+			rewards: [{
+				id: "5EBE9BB653EC91F5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7022B9D6BEC2362C"
+				item: "croptopia:broccoli"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"5C958E5EFDC1238C"
+				"5017DC066FE3B51D"
+			]
+			description: ["{ftbquests.chapter.ffood_plants.quest83.description1}"]
+			id: "7DA273378C766E97"
+			rewards: [{
+				id: "557BAA2FD66B1FAC"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "773071BAED393175"
+				item: "croptopia:artichoke"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["5C958E5EFDC1238C"]
+			description: ["{ftbquests.chapter.ffood_plants.quest84.description1}"]
+			id: "5E4AEB5E06E4927B"
+			rewards: [{
+				id: "59CF2BBBCE5B4AD8"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4009D5C4550379C9"
+				item: "croptopia:rhubarb"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"539A68C71D4CCBE9"
+				"24683B06C12BC4B9"
+			]
+			description: ["{ftbquests.chapter.ffood_plants.quest85.description1}"]
+			id: "5AA79349A18E2B21"
+			rewards: [{
+				id: "5BFB8F811583A46A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "19DF4BFDDE41F214"
+				item: "croptopia:garlic"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"39502B2D84E40320"
+				"24683B06C12BC4B9"
+			]
+			description: ["{ftbquests.chapter.ffood_plants.quest86.description1}"]
+			id: "707768F4402BB1AB"
+			rewards: [{
+				id: "74B478B3F6B44C65"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7A0CA2D837361DE7"
+				item: "croptopia:turmeric"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"516F5336FA6CBDD8"
+				"321737F90DED1F6D"
+			]
+			description: ["{ftbquests.chapter.ffood_plants.quest87.description1}"]
+			id: "467AF39CDB5CB3C3"
+			rewards: [{
+				id: "7BEF442BD2ADE40C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4DF07C2CBC678062"
+				item: "croptopia:grape"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["5C958E5EFDC1238C"]
+			description: ["{ftbquests.chapter.ffood_plants.quest88.description1}"]
+			id: "21715F3238686516"
+			rewards: [{
+				id: "0B264346111C158C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "580CC3B4E7BF8A4C"
+				item: "croptopia:spinach"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["4DD65B7AF1F78BAA"]
+			description: ["{ftbquests.chapter.ffood_plants.quest89.description1}"]
+			id: "15C3EE5343C7979E"
+			rewards: [{
+				id: "4DB0633FBAFBE1B0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6A8C5398F1471034"
+				item: "croptopia:squash"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"53AF55E4B044F5FD"
+				"38C3364E47A88D9A"
+			]
+			description: ["{ftbquests.chapter.ffood_plants.quest90.description1}"]
+			id: "21714478E7071DCF"
+			rewards: [{
+				id: "2FFA5CB7CDB9DE53"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "588E7EDED29EC3EB"
+				item: "croptopia:kale"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"6FC8F37704C8FC65"
+				"27F5765B374BA472"
+			]
+			description: ["{ftbquests.chapter.ffood_plants.quest91.description1}"]
+			id: "719C5D676C205752"
+			rewards: [{
+				id: "26F1676D952E6C70"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "49295F3C87F6AE2E"
+				item: "croptopia:elderberry"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"6773A50CB01DADDF"
+				"38C3364E47A88D9A"
+			]
+			description: ["{ftbquests.chapter.ffood_plants.quest92.description1}"]
+			id: "4C81565D5ACCD3BE"
+			rewards: [{
+				id: "2EFE048FF5A380A5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "64BF1579EEE163CE"
+				item: "croptopia:hops"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"467AF39CDB5CB3C3"
+				"321737F90DED1F6D"
+			]
+			description: ["{ftbquests.chapter.ffood_plants.quest93.description1}"]
+			id: "6CFE4E9395EFE71C"
+			rewards: [{
+				id: "117D9DD621510515"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "147548D2A94409FC"
+				item: "croptopia:cranberry"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["707768F4402BB1AB"]
+			description: ["{ftbquests.chapter.ffood_plants.quest94.description1}"]
+			id: "3BCD2963C795C8B7"
+			rewards: [{
+				id: "25E32F08A050A6DD"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "50F3798E2668DA1B"
+				item: "croptopia:vanilla"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"65C7540C8DC0BF5F"
+				"21715F3238686516"
+			]
+			description: ["{ftbquests.chapter.ffood_plants.quest95.description1}"]
+			id: "61E05D40CE42B545"
+			rewards: [{
+				id: "2D952CC46B1851DF"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7535D1E700BDE025"
+				item: "croptopia:pineapple"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["2E15C8681F5D2ACF"]
+			description: ["{ftbquests.chapter.ffood_plants.quest96.description1}"]
+			hide_until_deps_complete: true
+			id: "1916E46BEB1F2537"
+			rewards: [{
+				id: "42873ADF4FDFC74B"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "41E7B5CAB6A25478"
+				item: "croptopia:almond_sapling"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["2E15C8681F5D2ACF"]
+			description: ["{ftbquests.chapter.ffood_plants.quest97.description1}"]
+			hide_until_deps_complete: true
+			id: "6FEC2402791EC0A4"
+			rewards: [{
+				id: "062F49FF589329AE"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "286CAA1CA20EF61B"
+				item: "croptopia:apple_sapling"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["2E15C8681F5D2ACF"]
+			description: ["{ftbquests.chapter.ffood_plants.quest98.description1}"]
+			hide_until_deps_complete: true
+			id: "3E0ED15B75A185CA"
+			rewards: [{
+				id: "16DBD937B0A9AB19"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "2D28FBBD6FDC2758"
+				item: "croptopia:apricot_sapling"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["2E15C8681F5D2ACF"]
+			description: ["{ftbquests.chapter.ffood_plants.quest99.description1}"]
+			hide_until_deps_complete: true
+			id: "1CDCD52F9FA69B34"
+			rewards: [{
+				id: "7C060709AF2F0BEA"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "666D92F23E3FD131"
+				item: "croptopia:avocado_sapling"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["2E15C8681F5D2ACF"]
+			description: ["{ftbquests.chapter.ffood_plants.quest100.description1}"]
+			hide_until_deps_complete: true
+			id: "19014BBBD41BCF0B"
+			rewards: [{
+				id: "0D04389694999477"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "3652CEAD8CE31DB7"
+				item: "croptopia:banana_sapling"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["2E15C8681F5D2ACF"]
+			description: ["{ftbquests.chapter.ffood_plants.quest101.description1}"]
+			hide_until_deps_complete: true
+			id: "030F46DE570F297E"
+			rewards: [{
+				id: "20E14C30257236FB"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "071DFB6DA5BEA7C9"
+				item: "croptopia:cashew_sapling"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2E15C8681F5D2ACF"]
+			description: ["{ftbquests.chapter.ffood_plants.quest102.description1}"]
+			hide_until_deps_complete: true
+			id: "335CBABD76A3BA31"
+			rewards: [{
+				id: "233ED588C2667077"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "50D8B96E983DCEF3"
+				item: "croptopia:cherry_sapling"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2E15C8681F5D2ACF"]
+			description: ["{ftbquests.chapter.ffood_plants.quest103.description1}"]
+			hide_until_deps_complete: true
+			id: "2D7C1F8BC048CFCD"
+			rewards: [{
+				id: "21D171640CF71434"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "4C30645AFA25BDE8"
+				item: "croptopia:coconut_sapling"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2E15C8681F5D2ACF"]
+			description: ["{ftbquests.chapter.ffood_plants.quest104.description1}"]
+			hide_until_deps_complete: true
+			id: "682C64F6A2B0291A"
+			rewards: [{
+				id: "50617DEDD656EAB9"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "0A347B4BF3CEFB84"
+				item: "croptopia:date_sapling"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2E15C8681F5D2ACF"]
+			description: ["{ftbquests.chapter.ffood_plants.quest105.description1}"]
+			hide_until_deps_complete: true
+			id: "28A459B956D547DD"
+			rewards: [{
+				id: "0331F66047ED0BD3"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "71EB383F97A76AD0"
+				item: "croptopia:dragonfruit_sapling"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["2E15C8681F5D2ACF"]
+			description: ["{ftbquests.chapter.ffood_plants.quest106.description1}"]
+			hide_until_deps_complete: true
+			id: "39EE227C5F58CAAA"
+			rewards: [{
+				id: "2F952E90A84FA72C"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "0EE58F9514846859"
+				item: "croptopia:fig_sapling"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["2E15C8681F5D2ACF"]
+			description: ["{ftbquests.chapter.ffood_plants.quest107.description1}"]
+			hide_until_deps_complete: true
+			id: "2FD4033DA28F9D21"
+			rewards: [{
+				id: "60032A7E90755C5E"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "07C244BAE9783FAE"
+				item: "croptopia:grapefruit_sapling"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["2E15C8681F5D2ACF"]
+			description: ["{ftbquests.chapter.ffood_plants.quest108.description1}"]
+			hide_until_deps_complete: true
+			id: "404DB15C6D49B646"
+			rewards: [{
+				id: "3E0735677D07D3EB"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "3899B80F69BE83A2"
+				item: "croptopia:kumquat_sapling"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["2E15C8681F5D2ACF"]
+			description: ["{ftbquests.chapter.ffood_plants.quest109.description1}"]
+			hide_until_deps_complete: true
+			id: "1636367444D293D4"
+			rewards: [{
+				id: "62053A898D3638E5"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "3413A89688D0A66B"
+				item: "croptopia:lemon_sapling"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["2E15C8681F5D2ACF"]
+			description: ["{ftbquests.chapter.ffood_plants.quest110.description1}"]
+			hide_until_deps_complete: true
+			id: "6BC76C8A74C25796"
+			rewards: [{
+				id: "7179DC00A11F6DEA"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "5D192C7EE08DF2F9"
+				item: "croptopia:lime_sapling"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["2E15C8681F5D2ACF"]
+			description: ["{ftbquests.chapter.ffood_plants.quest111.description1}"]
+			hide_until_deps_complete: true
+			id: "629C52541A4D897E"
+			rewards: [{
+				id: "3A62869B5698E7A9"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "3AE9C78DFA8CC86D"
+				item: "croptopia:mango_sapling"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["2E15C8681F5D2ACF"]
+			description: ["{ftbquests.chapter.ffood_plants.quest112.description1}"]
+			hide_until_deps_complete: true
+			id: "767A247376C17981"
+			rewards: [{
+				id: "25045DA6108A3357"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "4EF1B72F18768747"
+				item: "croptopia:nectarine_sapling"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["2E15C8681F5D2ACF"]
+			description: ["{ftbquests.chapter.ffood_plants.quest113.description1}"]
+			hide_until_deps_complete: true
+			id: "031FB94A1D6CEC81"
+			rewards: [{
+				id: "4A8C4B92E0B947A8"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "3A19797127F26A8E"
+				item: "croptopia:nutmeg_sapling"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["2E15C8681F5D2ACF"]
+			description: ["{ftbquests.chapter.ffood_plants.quest114.description1}"]
+			hide_until_deps_complete: true
+			id: "6FD2642EB3540BD6"
+			rewards: [{
+				id: "381D2EA8F3E89E70"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "65A7D0C295262FBA"
+				item: "croptopia:orange_sapling"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["2E15C8681F5D2ACF"]
+			description: ["{ftbquests.chapter.ffood_plants.quest115.description1}"]
+			hide_until_deps_complete: true
+			id: "308A89A2E4901594"
+			rewards: [{
+				id: "1E2127A866E30F04"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "5FE23F8AF575E64D"
+				item: "croptopia:peach_sapling"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["2E15C8681F5D2ACF"]
+			description: ["{ftbquests.chapter.ffood_plants.quest116.description1}"]
+			hide_until_deps_complete: true
+			id: "750822BC779DC440"
+			rewards: [{
+				id: "2C1C127AAB066688"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "1613B1390704C338"
+				item: "croptopia:pear_sapling"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["2E15C8681F5D2ACF"]
+			description: ["{ftbquests.chapter.ffood_plants.quest117.description1}"]
+			hide_until_deps_complete: true
+			id: "0B17ABE850EC89B7"
+			rewards: [{
+				id: "0F93FC1DB5515191"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "341EF38F25275B6C"
+				item: "croptopia:pecan_sapling"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["2E15C8681F5D2ACF"]
+			description: ["{ftbquests.chapter.ffood_plants.quest118.description1}"]
+			hide_until_deps_complete: true
+			id: "7B403F791AF06ADC"
+			rewards: [{
+				id: "49CCBD939D791DA7"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "1711D92C76266C70"
+				item: "croptopia:persimmon_sapling"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["2E15C8681F5D2ACF"]
+			description: ["{ftbquests.chapter.ffood_plants.quest119.description1}"]
+			hide_until_deps_complete: true
+			id: "4FC4A49972031C19"
+			rewards: [{
+				id: "6C29597EDBAE4D98"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "3DDAD2ADDE518DB4"
+				item: "croptopia:plum_sapling"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["2E15C8681F5D2ACF"]
+			description: ["{ftbquests.chapter.ffood_plants.quest120.description1}"]
+			hide_until_deps_complete: true
+			id: "63DDF088215038F0"
+			rewards: [{
+				id: "6BE455758CE3EE85"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "52A2D9C4C6F8E2C2"
+				item: "croptopia:starfruit_sapling"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2E15C8681F5D2ACF"]
+			description: ["{ftbquests.chapter.ffood_plants.quest121.description1}"]
+			hide_until_deps_complete: true
+			id: "467750D10318D9E8"
+			rewards: [{
+				id: "2678A1A9F69BB235"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "36499DF060C70D98"
+				item: "croptopia:walnut_sapling"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2E15C8681F5D2ACF"]
+			description: ["{ftbquests.chapter.ffood_plants.quest122.description1}"]
+			hide_until_deps_complete: true
+			id: "794AFD13A349F2A0"
+			rewards: [{
+				id: "550C1B3474880DA8"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				id: "4945AB3281C4A79B"
+				item: "croptopia:cinnamon_sapling"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 8.0d
+		}
+		{
+			can_repeat: false
+			dependencies: ["08415BCE11C57437"]
+			description: [
+				"{ftbquests.chapter.ffood_plants.quest123.description1}"
+				""
+				"{ftbquests.chapter.ffood_plants.quest123.description2}"
+			]
+			hide_dependency_lines: true
+			icon: "cookingforblockheads:cooking_table"
+			id: "4D73550447732EA7"
+			rewards: [{
+				id: "6D09FB870BF5871E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "68694769196AB56D"
+				item: "cookingforblockheads:cooking_table"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.ffood_plants.quest123.title}"
+			x: -3.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"4D73550447732EA7"
+				"52D07AB4E6B88EA1"
+			]
+			description: ["{ftbquests.chapter.ffood_plants.quest124.description1}"]
+			id: "7BAD63BC0715B64B"
+			rewards: [
+				{
+					id: "3A5DA2A94F737E87"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "sebastrnlib:sebastrn_mods_guide_book"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "53804A5D4F3F49E3"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "0D5F5E260FB18663"
+				item: "appliedcooking:kitchen_station"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4D73550447732EA7"]
+			description: ["{ftbquests.chapter.ffood_plants.quest125.description1}"]
+			id: "125C325C7C2A5F96"
+			rewards: [
+				{
+					count: 16
+					id: "1050B037549D4C1E"
+					item: "minecraft:snowball"
+					type: "item"
+				}
+				{
+					id: "698DDA3D7FA57F83"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "1FE2FB207B02A2A9"
+				item: "cookingforblockheads:fridge"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4D73550447732EA7"]
+			description: [
+				"{ftbquests.chapter.ffood_plants.quest126.description1}"
+				""
+				"{ftbquests.chapter.ffood_plants.quest126.description2}"
+			]
+			id: "099EFA6218C75305"
+			rewards: [{
+				id: "794FA35704620008"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4F39577A9F222030"
+				item: "cookingforblockheads:sink"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4D73550447732EA7"]
+			description: ["{ftbquests.chapter.ffood_plants.quest127.description1}"]
+			id: "77F39CFBE045ED20"
+			rewards: [{
+				id: "1751761C7767AA29"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "609B40D630E5903D"
+				item: "cookingforblockheads:oven"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4D73550447732EA7"]
+			description: [
+				"{ftbquests.chapter.ffood_plants.quest128.description1}"
+				""
+				"{ftbquests.chapter.ffood_plants.quest128.description2}"
+				""
+				""
+				"{ftbquests.chapter.ffood_plants.quest128.description3}"
+			]
+			id: "1401EC6A82EAB753"
+			rewards: [
+				{
+					count: 16
+					id: "145B76F30E19840C"
+					item: "croptopia:raisin_oatmeal_cookie"
+					type: "item"
+				}
+				{
+					id: "0CA2F0919A564D66"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "5D2A98BA2DFB9EC5"
+				item: "cookingforblockheads:cow_jar"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["125C325C7C2A5F96"]
+			description: ["{ftbquests.chapter.ffood_plants.quest129.description1}"]
+			id: "53AEEB6C2501B3EC"
+			rewards: [
+				{
+					count: 4
+					id: "579414EE8D8EFFCB"
+					item: "minecraft:blue_ice"
+					type: "item"
+				}
+				{
+					id: "19B115D0B7C325FB"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "4163E0AB167C93FC"
+				item: "cookingforblockheads:ice_unit"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["77F39CFBE045ED20"]
+			description: ["{ftbquests.chapter.ffood_plants.quest130.description1}"]
+			id: "148FE15927A8D3D7"
+			rewards: [{
+				id: "15755214091B0175"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7FDBF51991F2AE34"
+				item: "cookingforblockheads:heating_unit"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["4D73550447732EA7"]
+			description: ["{ftbquests.chapter.ffood_plants.quest131.description1}"]
+			id: "5182E7BBC5921B90"
+			rewards: [
+				{
+					id: "017EF895E75AF8A2"
+					item: "croptopia:knife"
+					type: "item"
+				}
+				{
+					id: "6CE7BA4934193EF7"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "6525DE7190BD2B2A"
+				item: "cookingforblockheads:tool_rack"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["4D73550447732EA7"]
+			description: ["{ftbquests.chapter.ffood_plants.quest132.description1}"]
+			icon: "cookingforblockheads:counter"
+			id: "1DF2160AD495F3F4"
+			rewards: [
+				{
+					count: 2
+					id: "76EA5491DEA2437C"
+					item: "cookingforblockheads:corner"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4CCDD4AAB135F43F"
+					item: "cookingforblockheads:hanging_corner"
+					type: "item"
+				}
+				{
+					id: "4A282591DBF0B6FB"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "0505402EC8EFD91E"
+					item: "cookingforblockheads:counter"
+					type: "item"
+				}
+				{
+					id: "6BCB9CC6B0896385"
+					item: "cookingforblockheads:cabinet"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.ffood_plants.quest132.title}"
+			x: -3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["226F9F21A941389C"]
+			description: [
+				"{ftbquests.chapter.ffood_plants.quest133.description1}"
+				""
+				"{ftbquests.chapter.ffood_plants.quest133.description2}"
+			]
+			id: "19C29BAAD5DD7FC9"
+			rewards: [
+				{
+					count: 2
+					id: "6F6540D364BC0D01"
+					item: "botania:black_lotus"
+					type: "item"
+				}
+				{
+					id: "6CDDB66742A5ADC6"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "7DD35B7FE457E8E6"
+				item: "botania:horn_grass"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["19C29BAAD5DD7FC9"]
+			description: [
+				"{ftbquests.chapter.ffood_plants.quest134.description1}"
+				""
+				"{ftbquests.chapter.ffood_plants.quest134.description2}"
+			]
+			id: "7F50D792CA810945"
+			rewards: [
+				{
+					count: 2
+					id: "7A71763B1D69CB72"
+					item: "botania:black_lotus"
+					type: "item"
+				}
+				{
+					id: "175BE015E4A98ABB"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "2F27C82883801B53"
+				item: "botania:drum_wild"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["226F9F21A941389C"]
+			description: [
+				"{ftbquests.chapter.ffood_plants.quest135.description1}"
+				""
+				"{ftbquests.chapter.ffood_plants.quest135.description2}"
+			]
+			id: "12E97DCBD82FBF36"
+			rewards: [
+				{
+					id: "410B45E029B23B60"
+					item: "mysticalagriculture:inferium_upgrade"
+					type: "item"
+				}
+				{
+					id: "2CBEDBAC3C3194B3"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "4CAF0B59B1DA3FDC"
+				item: "mysticalagriculture:harvester"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["226F9F21A941389C"]
+			description: [
+				"{ftbquests.chapter.ffood_plants.quest136.description1}"
+				""
+				"{ftbquests.chapter.ffood_plants.quest136.description2}"
+			]
+			id: "25E18523F7B68AEE"
+			rewards: [
+				{
+					count: 16
+					id: "3FE24E4C19A34887"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+				{
+					id: "1DFFDBA23A7405AD"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "13B2A676D43F186B"
+				item: "create:mechanical_harvester"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"21714478E7071DCF"
+				"61E05D40CE42B545"
+				"15C3EE5343C7979E"
+				"719C5D676C205752"
+				"3BCD2963C795C8B7"
+				"4C81565D5ACCD3BE"
+				"6CFE4E9395EFE71C"
+				"5FD2AF761DFCFCDB"
+				"707768F4402BB1AB"
+				"5907D1A652A58C02"
+				"5C958E5EFDC1238C"
+				"5E4AEB5E06E4927B"
+				"708E081EFB5553CB"
+				"6FC8F37704C8FC65"
+				"5F89CB1EB71D3A1F"
+				"633DFD123996C0AE"
+				"27F5765B374BA472"
+				"18A39F522DFC0F12"
+				"7C65E374FF6718D6"
+				"767FBB61FCFCF24F"
+				"2403D7E46BBE79E8"
+				"11A9C568031B9FE8"
+				"3E4A7F5E033DE19E"
+				"6A7D86B8481B0F69"
+				"39502B2D84E40320"
+				"6773A50CB01DADDF"
+				"21715F3238686516"
+				"38C3364E47A88D9A"
+				"5B5641FA7A0DD8E0"
+				"2ECD80D48B96EDCE"
+				"5AA79349A18E2B21"
+				"00F0F07CB99999DD"
+				"137AC3CF85666619"
+				"7280C49FFD91F7C0"
+				"4D314EC44E052CBF"
+				"65C7540C8DC0BF5F"
+				"5ED74322B9011AA1"
+				"5AC9411A91E56A6E"
+				"25ADE2521FE623C3"
+				"3FE30435F595931C"
+				"068AA2EB4FEE62ED"
+				"33A9BA581FD7FF42"
+				"2E16EB869081D97A"
+				"6BC3D688CE214B07"
+				"516F5336FA6CBDD8"
+				"321737F90DED1F6D"
+				"5017DC066FE3B51D"
+				"6D92EF0CCD30AEDF"
+				"4DD65B7AF1F78BAA"
+				"53AF55E4B044F5FD"
+				"33FEFD3C13804031"
+				"7DA273378C766E97"
+				"539A68C71D4CCBE9"
+				"77F7CE7CCE05B577"
+				"467AF39CDB5CB3C3"
+				"24683B06C12BC4B9"
+			]
+			description: ["{ftbquests.chapter.ffood_plants.quest137.description1}"]
+			hide_until_deps_complete: true
+			id: "7F43F59F49A11EB0"
+			rewards: [
+				{
+					count: 64
+					id: "66951D345BDB38DF"
+					item: "mysticalagriculture:tertium_growth_accelerator"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "0C3963F70AEAB618"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+			]
+			shape: "heart"
+			size: 3.0d
+			subtitle: "{ftbquests.chapter.ffood_plants.quest137.subtitle}"
+			tasks: [{
+				id: "4CA1C5F8DB76A40E"
+				title: "{ftbquests.chapter.ffood_plants.quest137.task_5521912290757485582.title}"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"1636367444D293D4"
+				"2FD4033DA28F9D21"
+				"4FC4A49972031C19"
+				"767A247376C17981"
+				"6FEC2402791EC0A4"
+				"1916E46BEB1F2537"
+				"28A459B956D547DD"
+				"7B403F791AF06ADC"
+				"467750D10318D9E8"
+				"6BC76C8A74C25796"
+				"404DB15C6D49B646"
+				"030F46DE570F297E"
+				"39EE227C5F58CAAA"
+				"1CDCD52F9FA69B34"
+				"0B17ABE850EC89B7"
+				"750822BC779DC440"
+				"19014BBBD41BCF0B"
+				"308A89A2E4901594"
+				"682C64F6A2B0291A"
+				"794AFD13A349F2A0"
+				"2D7C1F8BC048CFCD"
+				"335CBABD76A3BA31"
+				"63DDF088215038F0"
+				"031FB94A1D6CEC81"
+				"629C52541A4D897E"
+				"3E0ED15B75A185CA"
+				"6FD2642EB3540BD6"
+				"7F43F59F49A11EB0"
+			]
+			description: ["{ftbquests.chapter.ffood_plants.quest138.description1}"]
+			hide_until_deps_complete: true
+			id: "21DD7217374E1D06"
+			rewards: [
+				{
+					count: 128
+					id: "3A7A8F0DD9B334E3"
+					item: "mysticalagriculture:supremium_growth_accelerator"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "09FE957213D8E53C"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+			]
+			shape: "heart"
+			size: 3.0d
+			subtitle: "{ftbquests.chapter.ffood_plants.quest138.subtitle}"
+			tasks: [{
+				id: "7D4D9081E1149077"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.ffood_plants.quest138.title}"
+			x: 2.5d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"2E16EB869081D97A"
+				"767FBB61FCFCF24F"
+			]
+			id: "10434FBFCF57E54E"
+			tasks: [{
+				id: "4FC4C9A09CAC2F76"
+				item: "croptopia:pepper"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 11.0d
+		}
+	]
+	title: "{ftbquests.chapter.ffood_plants.title}"
+}

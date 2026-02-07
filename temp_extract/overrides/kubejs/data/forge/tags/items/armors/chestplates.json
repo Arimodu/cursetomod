@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "complicated_bees:apiarist_chestplate",
+    "naturesaura:depth_chest",
+    "naturesaura:sky_chest",
+    "naturesaura:infused_iron_chest",
+    "bloodmagic:livingplate",
+    "ars_elemental:fire_robes",
+    "ars_elemental:aqua_robes",
+    "ars_elemental:earth_robes",
+    "ars_elemental:air_robes"
+  ]
+}

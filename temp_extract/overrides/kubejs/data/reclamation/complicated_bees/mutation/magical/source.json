@@ -1,0 +1,11 @@
+{
+  "chance": 0.10,
+  "conditions": {
+    "complicated_bees:block_under": {
+      "block": "ars_nouveau:source_gem_block"
+    }
+  },
+  "first": "reclamation:botanic",
+  "result": "reclamation:source",
+  "second": "complicated_bees:lapic"
+}

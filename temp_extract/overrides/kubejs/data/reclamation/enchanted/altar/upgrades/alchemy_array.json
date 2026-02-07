@@ -1,0 +1,7 @@
+{
+  "type": "reclamation:pentacle",
+  "block": "bloodmagic:alchemyarray",
+  "power": 1.5,
+  "recharge": 0.0,
+  "priority": 1
+}

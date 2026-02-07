@@ -1,0 +1,65 @@
+{
+  "dominant": true,
+  "foil": false,
+  "color": "c2bf80",
+  "nest_color": "c2bf80",
+  "models": [
+    "reclamation:bee/wasteland_drone",
+    "reclamation:bee/wasteland_princess",
+    "reclamation:bee/wasteland_queen"
+  ],
+  "products": [
+    {
+      "chance": 0.5,
+      "item": "complicated_bees:comb",
+      "nbt": {
+        "comb_type": "reclamation:barren"
+      }
+    },
+    {
+      "chance": 0.35,
+      "item": "kubejs:dead_log"
+    }
+  ],
+  "specialty_products": [],
+  "default_chromosome": {
+    "complicated_bees:lifespan": {
+      "data": "shorter",
+      "dominant": true
+    },
+    "complicated_bees:temperature": {
+      "data": "hot",
+      "tolerance": "none",
+      "dominant": true
+    },
+    "complicated_bees:humidity": {
+      "data": "dry",
+      "tolerance": "none",
+      "dominant": true
+    },
+    "complicated_bees:productivity": {
+      "data": "slow",
+      "dominant": true
+    },
+    "complicated_bees:fertility": {
+      "data": 2,
+      "dominant": true
+    },
+    "complicated_bees:flower": {
+      "data": "reclamation:dead_bush",
+      "dominant": true
+    },
+    "complicated_bees:active_time": {
+      "data": "diurnal",
+      "dominant": true
+    },
+    "complicated_bees:cave_dwelling": {
+      "data": false,
+      "dominant": true
+    },
+    "complicated_bees:weatherproof": {
+      "data": false,
+      "dominant": true
+    }
+  }
+}

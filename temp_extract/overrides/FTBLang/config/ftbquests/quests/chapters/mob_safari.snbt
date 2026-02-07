@@ -1,0 +1,2985 @@
+{
+	autofocus_id: "5FEE65C669654E40"
+	default_hide_dependency_lines: true
+	default_min_width: 280
+	default_quest_shape: ""
+	filename: "mob_safari"
+	group: "2BFAC9C95DAED88B"
+	icon: "exposure:camera"
+	id: "7F55650372975893"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5FEE65C669654E40"]
+			icon: "minecraft:creeper_head"
+			id: "517413E5CD697BAA"
+			rewards: [
+				{
+					id: "5F40864CE58526BB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 32
+					id: "6C1D3E5A3DA0A1AD"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "08F30DACFE9796AA"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:creeper": 1b
+						}
+					}
+				}
+				title: "{ftbquests.chapter.mob_safari.quest1.task_644874208300996266.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mob_safari.quest1.title}"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["389C82D9424B4099"]
+			description: [
+				"{ftbquests.chapter.mob_safari.quest2.description1}"
+				""
+				"{ftbquests.chapter.mob_safari.quest2.description2}"
+			]
+			hide_until_deps_complete: true
+			icon: "exposure:camera"
+			id: "5FEE65C669654E40"
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.mob_safari.quest2.subtitle}"
+			tasks: [
+				{
+					id: "19AEDBE8BCA2D0DE"
+					item: "exposure:camera"
+					type: "item"
+				}
+				{
+					id: "57CF020E7D4F508E"
+					item: "exposure:black_and_white_film"
+					type: "item"
+				}
+				{
+					id: "0701BE1D6DDBBE9D"
+					item: "exposure:lightroom"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.mob_safari.quest2.title}"
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5FEE65C669654E40"]
+			icon: "minecraft:zombie_head"
+			id: "1E8E404A5B898ED5"
+			rewards: [
+				{
+					id: "7DD27D0932965C64"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "59F1F2B58779ABE8"
+					table_id: 7131061971573085034L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "5F527BFC85D0DBB2"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:zombie": 1b
+						}
+					}
+				}
+				title: "{ftbquests.chapter.mob_safari.quest3.task_6868688706200460210.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mob_safari.quest3.title}"
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5FEE65C669654E40"]
+			icon: "heads:husk_head"
+			id: "7E23259C854E6B53"
+			rewards: [
+				{
+					id: "291D60466B7C1B40"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "058413DB3211CEEB"
+					table_id: 7131061971573085034L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "4C3DB9989977E157"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:husk": 1b
+						}
+					}
+				}
+				title: "{ftbquests.chapter.mob_safari.quest4.task_5493751185522811223.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mob_safari.quest4.title}"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5FEE65C669654E40"]
+			icon: "heads:drowned_head"
+			id: "03A7E34F277C3E99"
+			rewards: [
+				{
+					id: "0C7F30F5ADB6C3DF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7A834BDBA25BC0F8"
+					table_id: 7131061971573085034L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "2162D92514F6E9EB"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:drowned": 1b
+						}
+					}
+				}
+				title: "{ftbquests.chapter.mob_safari.quest5.task_2405723904258009579.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mob_safari.quest5.title}"
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5FEE65C669654E40"]
+			icon: "heads:spider_head"
+			id: "779FA19A3239A378"
+			rewards: [
+				{
+					id: "7E5869806E0D2924"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6BF5BFC7685187EB"
+					table_id: 8024488712964205957L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "0C244F68E03720C7"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:spider": 1b
+						}
+					}
+				}
+				title: "{ftbquests.chapter.mob_safari.quest6.task_874911539473621191.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mob_safari.quest6.title}"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5FEE65C669654E40"]
+			icon: "heads:cave_spider_head"
+			id: "32E71A804BD0B705"
+			rewards: [
+				{
+					id: "70FDCE766E9CB84F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6E7B629A498ADDF7"
+					table_id: 8024488712964205957L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "6CA4403B044EFB85"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:cave_spider": 1b
+						}
+					}
+				}
+				title: "{ftbquests.chapter.mob_safari.quest7.task_7828452674496297861.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mob_safari.quest7.title}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5FEE65C669654E40"]
+			icon: "heads:enderman_head"
+			id: "32805191DFE77A0B"
+			rewards: [
+				{
+					id: "0967EBB7E65B14F6"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 8
+					id: "08304068735FEB61"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "449C78D38D17D509"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:enderman": 1b
+						}
+					}
+				}
+				title: "{ftbquests.chapter.mob_safari.quest8.task_4943959340946543881.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mob_safari.quest8.title}"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5FEE65C669654E40"]
+			icon: "heads:endermite_head"
+			id: "64032D23DECB2605"
+			rewards: [
+				{
+					id: "56BC23E9376DEF45"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 16
+					id: "4D99CCAC163FB24C"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "41B02DE49843530F"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:endermite": 1b
+						}
+					}
+				}
+				title: "{ftbquests.chapter.mob_safari.quest9.task_4733333668196733711.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mob_safari.quest9.title}"
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5FEE65C669654E40"]
+			icon: "heads:silverfish_head"
+			id: "702C9B9584FAC44B"
+			rewards: [
+				{
+					id: "66FE439A94F31D37"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 16
+					id: "20FFE775DC048458"
+					item: "embers:lead_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "6685AB48AF424D80"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:silverfish": 1b
+						}
+					}
+				}
+				title: "{ftbquests.chapter.mob_safari.quest10.task_7387499092437519744.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mob_safari.quest10.title}"
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5FEE65C669654E40"]
+			icon: "heads:evoker_head"
+			id: "4ABAF8F1D6D1C7CA"
+			rewards: [
+				{
+					id: "6274D12CE51F0FA0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0122E993C9668CB4"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "07C5EA9444F80506"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:evoker": 1b
+						}
+					}
+				}
+				title: "{ftbquests.chapter.mob_safari.quest11.task_560111651210659078.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mob_safari.quest11.title}"
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5FEE65C669654E40"]
+			icon: "heads:ghast_head"
+			id: "61EDF16012C8383B"
+			rewards: [
+				{
+					id: "42BF92ABD81C2AF1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 16
+					id: "4A49ED8331631906"
+					item: "minecraft:ghast_tear"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "53F8CE65102033E2"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:ghast": 1b
+						}
+					}
+				}
+				title: "{ftbquests.chapter.mob_safari.quest12.task_6050813032829826018.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mob_safari.quest12.title}"
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5FEE65C669654E40"]
+			icon: "minecraft:guardian_spawn_egg"
+			id: "6C993C0581C3E53C"
+			rewards: [
+				{
+					id: "1F63E79AAE3CB44C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 16
+					id: "6D238808AAAB8761"
+					item: "minecraft:prismarine_crystals"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "7820109C6855DBFC"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:guardian": 1b
+						}
+					}
+				}
+				title: "{ftbquests.chapter.mob_safari.quest13.task_8655936747757493244.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mob_safari.quest13.title}"
+			x: 15.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5FEE65C669654E40"]
+			icon: "heads:hoglin_head"
+			id: "0E1371CB614ECA67"
+			rewards: [
+				{
+					id: "1FB0DC70A1BA58F7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "3D1AB46396756330"
+					item: "nethersdelight:stuffed_hoglin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "7E6922AD32B7A8C5"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:hoglin": 1b
+						}
+					}
+				}
+				title: "{ftbquests.chapter.mob_safari.quest14.task_9108849848609122501.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mob_safari.quest14.title}"
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5FEE65C669654E40"]
+			icon: "minecraft:phantom_spawn_egg"
+			id: "1B838E76CB6E8813"
+			rewards: [
+				{
+					id: "7D35A4401D603F31"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 16
+					id: "4CB9AD49561DEF8E"
+					item: "minecraft:phantom_membrane"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "672F64B56C9B8717"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:phantom": 1b
+						}
+					}
+				}
+				title: "{ftbquests.chapter.mob_safari.quest15.task_7435272240185968407.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mob_safari.quest15.title}"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5FEE65C669654E40"]
+			icon: "heads:piglin_brute_head"
+			id: "054B1BAE47E9827D"
+			rewards: [
+				{
+					id: "2317561F68B31C87"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 8
+					id: "7D97DF0A499B2EC7"
+					item: "minecraft:ancient_debris"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "22A89A63AEC9CB95"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:piglin_brute": 1b
+						}
+					}
+				}
+				title: "{ftbquests.chapter.mob_safari.quest16.task_2497415746301840277.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mob_safari.quest16.title}"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5FEE65C669654E40"]
+			description: ["{ftbquests.chapter.mob_safari.quest17.description1}"]
+			icon: "heads:pillager_head"
+			id: "7B689257A882A7B2"
+			rewards: [
+				{
+					id: "0CD8AD959DB63F17"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7E228219B9F3D193"
+					item: {
+						Count: 1
+						id: "minecraft:crossbow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "0C283E7BA176188F"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:pillager": 1b
+						}
+					}
+				}
+				title: "{ftbquests.chapter.mob_safari.quest17.task_876018828234332303.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mob_safari.quest17.title}"
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5FEE65C669654E40"]
+			icon: "minecraft:ravager_spawn_egg"
+			id: "13065DEC26C02737"
+			rewards: [
+				{
+					id: "7F1BEFAFD8A4C695"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "57AD1FE6266EF550"
+					item: "minecraft:ravager_spawn_egg"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "7FECA87DEB72E3A6"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:ravager": 1b
+						}
+					}
+				}
+				title: "{ftbquests.chapter.mob_safari.quest18.task_9217927796095116198.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mob_safari.quest18.title}"
+			x: -6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5FEE65C669654E40"]
+			icon: "sophisticatedstorage:shulker_box"
+			id: "3642889B8CF6CA79"
+			rewards: [
+				{
+					id: "7833977D2E03B643"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 16
+					id: "46F57A17254578C2"
+					item: "minecraft:shulker_shell"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "575B7F10C8C52BCD"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:shulker": 1b
+						}
+					}
+				}
+				title: "{ftbquests.chapter.mob_safari.quest19.task_6294764614244969421.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mob_safari.quest19.title}"
+			x: 2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5FEE65C669654E40"]
+			icon: "minecraft:skeleton_skull"
+			id: "357FC24C8410EFEC"
+			rewards: [
+				{
+					id: "7E8D534F799B29B4"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0F788675D33BCBFA"
+					table_id: 8839952752635034356L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "52B144DA9288B3F2"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:skeleton": 1b
+						}
+					}
+				}
+				title: "{ftbquests.chapter.mob_safari.quest20.task_5958619487539868658.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mob_safari.quest20.title}"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5FEE65C669654E40"]
+			icon: "heads:slime_head"
+			id: "25D1C2664FD1180E"
+			rewards: [
+				{
+					id: "3968DE6CFDE58AAE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 32
+					id: "07E50C412CC9D893"
+					item: "minecraft:slime_ball"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "285C22F4E11C4DE5"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:slime": 1b
+						}
+					}
+				}
+				title: "{ftbquests.chapter.mob_safari.quest21.task_2908237894518590949.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mob_safari.quest21.title}"
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5FEE65C669654E40"]
+			icon: "heads:stray_head"
+			id: "78041B5DC298A02A"
+			rewards: [
+				{
+					id: "501825B4E5C11E87"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "32FB7BE6C04F6885"
+					table_id: 8839952752635034356L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "1B90C7B91DDBB1AC"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:stray": 1b
+						}
+					}
+				}
+				title: "{ftbquests.chapter.mob_safari.quest22.task_1986307033554203052.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mob_safari.quest22.title}"
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5FEE65C669654E40"]
+			icon: "minecraft:vex_spawn_egg"
+			id: "3EA5F9BCAF5464C7"
+			rewards: [
+				{
+					id: "1BF882FB30C69E09"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "732CC85527F3D6F2"
+					table_id: 5456022276654430189L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "70C9B82C5B8B27E7"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:vex": 1b
+						}
+					}
+				}
+				title: "{ftbquests.chapter.mob_safari.quest23.task_8127229503220688871.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mob_safari.quest23.title}"
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5FEE65C669654E40"]
+			icon: "heads:vindicator_head"
+			id: "77C07B16F8E30C78"
+			rewards: [
+				{
+					id: "67B3A740BCE1B8BD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "76B173EAC712F7FF"
+					item: {
+						Count: 1
+						id: "minecraft:iron_axe"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "minecraft:sharpness"
+									lvl: 3s
+								}
+								{
+									id: "minecraft:unbreaking"
+									lvl: 3s
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "25BE333CD96382FD"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:vindicator": 1b
+						}
+					}
+				}
+				title: "{ftbquests.chapter.mob_safari.quest24.task_2719667561416590077.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mob_safari.quest24.title}"
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5FEE65C669654E40"]
+			description: ["{ftbquests.chapter.mob_safari.quest25.description1}"]
+			icon: "minecraft:warden_spawn_egg"
+			id: "0694D62C45F6C430"
+			rewards: [
+				{
+					id: "32091E657990EE85"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "4055DC1D2B404F05"
+					item: "minecraft:echo_shard"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "2DCB1846BB7FBDA6"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:warden": 1b
+						}
+					}
+				}
+				title: "{ftbquests.chapter.mob_safari.quest25.task_3299757844051508646.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mob_safari.quest25.title}"
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5FEE65C669654E40"]
+			icon: "heads:witch_head"
+			id: "5C410251B4C4761F"
+			rewards: [
+				{
+					id: "707D6FC687282560"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "18578B898B2BD65C"
+					table_id: 5456022276654430189L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "1973AEC55ACF707C"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:witch": 1b
+						}
+					}
+				}
+				title: "{ftbquests.chapter.mob_safari.quest26.task_1834001635925258364.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mob_safari.quest26.title}"
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5FEE65C669654E40"]
+			description: ["{ftbquests.chapter.mob_safari.quest27.description1}"]
+			icon: "minecraft:wither_skeleton_skull"
+			id: "3E3DE65526844EB7"
+			rewards: [
+				{
+					id: "392F49DFFBC47C0E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4EA24728FA2B1093"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "05FD08338B1EE7C6"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:wither_skeleton": 1b
+						}
+					}
+				}
+				title: "{ftbquests.chapter.mob_safari.quest27.task_431510156767848390.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mob_safari.quest27.title}"
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5FEE65C669654E40"]
+			icon: "heads:zoglin_head"
+			id: "20F56F091F24EA9B"
+			rewards: [
+				{
+					id: "573BB0855EE9715D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3190EF56F96855F0"
+					item: "nethersdelight:hoglin_trophy"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "372E37CD4D5DE894"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:zoglin": 1b
+						}
+					}
+				}
+				title: "{ftbquests.chapter.mob_safari.quest28.task_3976176875920550036.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mob_safari.quest28.title}"
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5FEE65C669654E40"]
+			icon: "heads:blaze_head"
+			id: "0A4876B63C9EB256"
+			rewards: [
+				{
+					id: "055B72CD436D1C9F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 64
+					id: "2196F638506CF6ED"
+					item: "minecraft:blaze_powder"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "1BC638FAF983406D"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:blaze": 1b
+						}
+					}
+				}
+				title: "{ftbquests.chapter.mob_safari.quest29.task_2001349734991872109.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mob_safari.quest29.title}"
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5FEE65C669654E40"]
+			icon: "minecraft:nether_star"
+			id: "46CF370B11CF4AC6"
+			rewards: [
+				{
+					id: "5AB3FC31741BA345"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3387CD2741F208A7"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "3CFB876C9DE983B1"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:wither": 1b
+						}
+					}
+				}
+				title: "{ftbquests.chapter.mob_safari.quest30.task_4394254762005595057.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mob_safari.quest30.title}"
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5FEE65C669654E40"]
+			icon: "minecraft:dragon_head"
+			id: "24D8747868DA8135"
+			rewards: [
+				{
+					id: "4E2F3A05DF87E64D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 32
+					id: "21E00CFC1036FDA3"
+					item: "minecraft:dragon_breath"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "5BAF2C99E837B193"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:ender_dragon": 1b
+						}
+					}
+				}
+				title: "{ftbquests.chapter.mob_safari.quest31.task_6606548217913389459.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mob_safari.quest31.title}"
+			x: 2.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5FEE65C669654E40"]
+			icon: "heads:piglin_head"
+			id: "462883AD2132D0FB"
+			rewards: [
+				{
+					id: "16B203E0E74A92D0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "62DE93F08191B717"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "73DD0C7A4BDB54B7"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:piglin": 1b
+						}
+					}
+				}
+				title: "{ftbquests.chapter.mob_safari.quest32.task_8348843003612976311.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mob_safari.quest32.title}"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5FEE65C669654E40"]
+			icon: "minecraft:allay_spawn_egg"
+			id: "0B665D225E9F7EFB"
+			rewards: [
+				{
+					id: "03A8F368321C0C54"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "72935B3BB3407ADA"
+					item: "minecraft:allay_spawn_egg"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "7F02E182C5EA8168"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:allay": 1b
+						}
+					}
+				}
+				title: "{ftbquests.chapter.mob_safari.quest33.task_9152125344552747368.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mob_safari.quest33.title}"
+			x: -6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5FEE65C669654E40"]
+			icon: "heads:axolotl_lucy_head"
+			id: "548BAFC1F30732D5"
+			rewards: [
+				{
+					id: "1364FCB28C978EAB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7658BB315BD29BC5"
+					item: "heads:axolotl_gold_head"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "0CFB62E9EECC7605"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:axolotl": 1b
+						}
+					}
+				}
+				title: "{ftbquests.chapter.mob_safari.quest34.task_935450104482788869.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mob_safari.quest34.title}"
+			x: 14.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5FEE65C669654E40"]
+			icon: "heads:bat_head"
+			id: "495EBE7C9A59CFF4"
+			rewards: [
+				{
+					id: "4695185B97D7EE02"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 16
+					id: "17057DD9E766A2D6"
+					item: "enchanted:wool_of_bat"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "33CB78A21820D61A"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:bat": 1b
+						}
+					}
+				}
+				title: "{ftbquests.chapter.mob_safari.quest35.task_3732209353791428122.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mob_safari.quest35.title}"
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5FEE65C669654E40"]
+			icon: "minecraft:camel_spawn_egg"
+			id: "0A65ACA8A26E8615"
+			rewards: [
+				{
+					id: "579D05F1CF4053F0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "06DAD353A8E352C8"
+					item: "ars_nouveau:ritual_conjure_island_desert"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "3DC7B7493446D3B4"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:camel": 1b
+						}
+					}
+				}
+				title: "{ftbquests.chapter.mob_safari.quest36.task_4451728281716577204.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mob_safari.quest36.title}"
+			x: 9.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5FEE65C669654E40"]
+			icon: "heads:cat_black_head"
+			id: "475D26474BD6C8DA"
+			rewards: [
+				{
+					id: "035CFB1A53837890"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "285C8D008317B4B4"
+					item: "farmersdelight:fish_stew"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "3045940190A33D2D"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:cat": 1b
+						}
+					}
+				}
+				title: "{ftbquests.chapter.mob_safari.quest37.task_3478349021656071469.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mob_safari.quest37.title}"
+			x: -7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5FEE65C669654E40"]
+			icon: "heads:chicken_head"
+			id: "04E89E0140A571ED"
+			rewards: [
+				{
+					id: "2ED043EE4909766E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "26118603C2B1B08A"
+					table_id: 3514670301200914514L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "05D978F4308B2229"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:chicken": 1b
+						}
+					}
+				}
+				title: "{ftbquests.chapter.mob_safari.quest38.task_421501030317629993.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mob_safari.quest38.title}"
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5FEE65C669654E40"]
+			icon: "heads:cod_head"
+			id: "540EFA54873D7817"
+			rewards: [
+				{
+					id: "52C72D61F32F9EA2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 32
+					id: "228CECABC7C0254C"
+					item: "farmersdelight:cod_roll"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "2D916280FD632508"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:cod": 1b
+						}
+					}
+				}
+				title: "{ftbquests.chapter.mob_safari.quest39.task_3283513909476271368.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mob_safari.quest39.title}"
+			x: 15.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5FEE65C669654E40"]
+			icon: "heads:cow_head"
+			id: "7FC2BADD39C85339"
+			rewards: [
+				{
+					id: "6AA422568B7C9D74"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4EE5E12D18FAE5FE"
+					table_id: 8615485860944689786L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "314C6F131B299D5D"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:cow": 1b
+						}
+					}
+				}
+				title: "{ftbquests.chapter.mob_safari.quest40.task_3552336333939252573.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mob_safari.quest40.title}"
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5FEE65C669654E40"]
+			icon: "heads:donkey_head"
+			id: "6152DA47D7793A3A"
+			rewards: [
+				{
+					id: "43B2099FB98E7A62"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 32
+					id: "53456BCFDCCCF036"
+					item: "minecraft:leather"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "7BCEE17CC7DAD886"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:donkey": 1b
+						}
+					}
+				}
+				title: "{ftbquests.chapter.mob_safari.quest41.task_8921315837912733830.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mob_safari.quest41.title}"
+			x: 8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5FEE65C669654E40"]
+			icon: "minecraft:frog_spawn_egg"
+			id: "175F712801D32FAF"
+			rewards: [{
+				id: "3CA793BD0DCC2315"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "7B6A0454BBFF20DD"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:frog": 1b
+						}
+					}
+				}
+				title: "{ftbquests.chapter.mob_safari.quest42.task_8892925176174289117.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mob_safari.quest42.title}"
+			x: 10.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5FEE65C669654E40"]
+			icon: "heads:glow_squid_head"
+			id: "71FE47F9771AC590"
+			rewards: [
+				{
+					id: "0E700286070017C1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 32
+					id: "0FE44A11BADC72B6"
+					item: "minecraft:glow_ink_sac"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "6DCF70D9ED9C259E"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:glow_squid": 1b
+						}
+					}
+				}
+				title: "{ftbquests.chapter.mob_safari.quest43.task_7912667151609898398.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mob_safari.quest43.title}"
+			x: 16.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5FEE65C669654E40"]
+			icon: "heads:horse_creamy_head"
+			id: "57F7FA9EC58C17D2"
+			rewards: [
+				{
+					id: "3A486C14D21876C7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "00B1D7B9C416761A"
+					item: "minecraft:saddle"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "3CE93C38A9D0A58A"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:horse": 1b
+						}
+					}
+				}
+				title: "{ftbquests.chapter.mob_safari.quest44.task_4389105525914117514.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mob_safari.quest44.title}"
+			x: 9.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5FEE65C669654E40"]
+			icon: "heads:red_mooshroom_head"
+			id: "6AEC834765E31B9C"
+			rewards: [
+				{
+					id: "4F56D55764F2FFD2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 16
+					id: "0630AE6CA33413C0"
+					item: "minecraft:mushroom_stew"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "3C806310FC672975"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:mooshroom": 1b
+						}
+					}
+				}
+				title: "{ftbquests.chapter.mob_safari.quest45.task_4359593363899885941.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mob_safari.quest45.title}"
+			x: 9.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5FEE65C669654E40"]
+			icon: "heads:mule_head"
+			id: "0C071F354268E2F3"
+			rewards: [
+				{
+					id: "63751C784088C773"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "13E26FBCE2727742"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "0CD5FC838D260188"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:mule": 1b
+						}
+					}
+				}
+				title: "{ftbquests.chapter.mob_safari.quest46.task_924922940433498504.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mob_safari.quest46.title}"
+			x: 10.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5FEE65C669654E40"]
+			icon: "heads:ocelot_head"
+			id: "38F12122B25EDC4B"
+			rewards: [
+				{
+					id: "46116DCD78B202BD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 16
+					id: "08FD80163C994B84"
+					item: "minecraft:cocoa_beans"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "42706BFA59FB1D5A"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:ocelot": 1b
+						}
+					}
+				}
+				title: "{ftbquests.chapter.mob_safari.quest47.task_4787445126890462554.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mob_safari.quest47.title}"
+			x: 10.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5FEE65C669654E40"]
+			icon: "minecraft:parrot_spawn_egg"
+			id: "71EFE5EE55ED2892"
+			rewards: [
+				{
+					id: "7129ABEEB8801467"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 64
+					id: "1D7644B067BC1349"
+					item: "minecraft:cookie"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "08436D38DF98D127"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:parrot": 1b
+						}
+					}
+				}
+				title: "{ftbquests.chapter.mob_safari.quest48.task_595439666779967783.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mob_safari.quest48.title}"
+			x: 8.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5FEE65C669654E40"]
+			icon: "heads:pig_head"
+			id: "7F49E1C160460A4C"
+			rewards: [
+				{
+					id: "7ACF7114FDF0CDDD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 16
+					id: "1C54B3DA18BF86F6"
+					item: "minecraft:porkchop"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "5E400FBAE32ACFB6"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:pig": 1b
+						}
+					}
+				}
+				title: "{ftbquests.chapter.mob_safari.quest49.task_6791445533424275382.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mob_safari.quest49.title}"
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5FEE65C669654E40"]
+			icon: "minecraft:pufferfish"
+			id: "0A80D513D423E97B"
+			rewards: [
+				{
+					id: "6EC4961D9FAEF82C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 16
+					id: "28EFA582D34EC4E8"
+					item: "minecraft:pufferfish"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "47FA5C682A68CE03"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:pufferfish": 1b
+						}
+					}
+				}
+				title: "{ftbquests.chapter.mob_safari.quest50.task_5186559523328413187.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mob_safari.quest50.title}"
+			x: 16.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5FEE65C669654E40"]
+			icon: "minecraft:rabbit_spawn_egg"
+			id: "60FE60BAC866A44A"
+			rewards: [
+				{
+					id: "00FF2283EC34ECE8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2AD9DD7B5741BC69"
+					table_id: 7900474475776381538L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "19043AFE8A9EEF92"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:rabbit": 1b
+						}
+					}
+				}
+				title: "{ftbquests.chapter.mob_safari.quest51.task_1802630615776817042.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mob_safari.quest51.title}"
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5FEE65C669654E40"]
+			icon: "heads:salmon_head"
+			id: "0F1E3F328B60A287"
+			rewards: [
+				{
+					id: "00DFA1C0E56647F2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 32
+					id: "36B7DDAA8F7B0EA4"
+					item: "farmersdelight:salmon_roll"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "7DF201FA92C21430"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:salmon": 1b
+						}
+					}
+				}
+				title: "{ftbquests.chapter.mob_safari.quest52.task_9075318374820615216.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mob_safari.quest52.title}"
+			x: 14.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5FEE65C669654E40"]
+			icon: "heads:sheep_head"
+			id: "0824814C85D4EC70"
+			rewards: [
+				{
+					id: "34D0A0E697244940"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "2B4CE90AC28C422E"
+					item: "farmersdelight:roasted_mutton_chops"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "11C05F16C2212499"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:sheep": 1b
+						}
+					}
+				}
+				title: "{ftbquests.chapter.mob_safari.quest53.task_1279126845524092057.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mob_safari.quest53.title}"
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5FEE65C669654E40"]
+			description: ["{ftbquests.chapter.mob_safari.quest54.description1}"]
+			icon: "minecraft:sniffer_egg"
+			id: "17DE6D948744F44F"
+			rewards: [
+				{
+					id: "09342E62EB4460A9"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "46652CC75A88E59A"
+					item: "minecraft:sniffer_egg"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "3E654468782606D2"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:sniffer": 1b
+						}
+					}
+				}
+				title: "{ftbquests.chapter.mob_safari.quest54.task_4496075018482353874.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mob_safari.quest54.title}"
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5FEE65C669654E40"]
+			icon: "minecraft:carved_pumpkin"
+			id: "1FF5B073DC12ABAC"
+			rewards: [
+				{
+					id: "62F5E84D1A832909"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "71E2FF573C277915"
+					table_id: 8037173722274793648L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "69C372CDF41475CD"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:snow_golem": 1b
+						}
+					}
+				}
+				title: "{ftbquests.chapter.mob_safari.quest55.task_7621061223329854925.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mob_safari.quest55.title}"
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5FEE65C669654E40"]
+			icon: "heads:squid_head"
+			id: "4E0561789221C0C6"
+			rewards: [
+				{
+					id: "11E6EA9AD147F832"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 32
+					id: "2F2D23F87A85A32F"
+					item: "minecraft:ink_sac"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "34E6C8CCCD29E264"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:squid": 1b
+						}
+					}
+				}
+				title: "{ftbquests.chapter.mob_safari.quest56.task_3811954916556661348.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mob_safari.quest56.title}"
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5FEE65C669654E40"]
+			icon: "minecraft:strider_spawn_egg"
+			id: "4628062EB903069B"
+			rewards: [
+				{
+					id: "5AD662F2A0BCFBD2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "6BB371408D54203F"
+					item: "nethersdelight:grilled_strider"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "7CA203470B6048B5"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:strider": 1b
+						}
+					}
+				}
+				title: "{ftbquests.chapter.mob_safari.quest57.task_8980744210598611125.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mob_safari.quest57.title}"
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5FEE65C669654E40"]
+			icon: "minecraft:tropical_fish"
+			id: "18B34979DBED11A1"
+			rewards: [
+				{
+					id: "0669D76F046587FE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 16
+					id: "458DB48EE60EA77D"
+					item: "minecraft:tropical_fish_spawn_egg"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "2EF6BC2B78EC888E"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:tropical_fish": 1b
+						}
+					}
+				}
+				title: "{ftbquests.chapter.mob_safari.quest58.task_3384099064913889422.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mob_safari.quest58.title}"
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5FEE65C669654E40"]
+			icon: "heads:turtle_head"
+			id: "4C576278786773E7"
+			rewards: [
+				{
+					id: "07C7B0958ACC7DF8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "7772C21BC4311529"
+					item: "minecraft:scute"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "716F1E00D0FC98D6"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:turtle": 1b
+						}
+					}
+				}
+				title: "{ftbquests.chapter.mob_safari.quest59.task_8173784837555787990.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mob_safari.quest59.title}"
+			x: 15.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5FEE65C669654E40"]
+			icon: "heads:villager_head"
+			id: "01BEBBE4FBE04567"
+			rewards: [
+				{
+					id: "3A3045B5AC824FDF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 32
+					id: "7B99B53C774AB69D"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "333569FCE3C06D02"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:villager": 1b
+						}
+					}
+				}
+				title: "{ftbquests.chapter.mob_safari.quest60.task_3689972004573703426.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mob_safari.quest60.title}"
+			x: -8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5FEE65C669654E40"]
+			description: ["{ftbquests.chapter.mob_safari.quest61.description1}"]
+			icon: "heads:bee_head"
+			id: "747E5509C0DC0ABB"
+			rewards: [
+				{
+					id: "253C83A071EA9DF0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1CBC929F36FDBA08"
+					table_id: 8381040606691607900L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "523261ADCAE6E64F"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:bee": 1b
+						}
+					}
+				}
+				title: "{ftbquests.chapter.mob_safari.quest61.task_5922903859006989903.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mob_safari.quest61.title}"
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5FEE65C669654E40"]
+			icon: "heads:dolphin_head"
+			id: "3B0FA728A68DF081"
+			rewards: [
+				{
+					id: "248E14206B9A00EE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "11A794B5E665E55A"
+					item: "heads:dolphin_head"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "534F60401594C49E"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:dolphin": 1b
+						}
+					}
+				}
+				title: "{ftbquests.chapter.mob_safari.quest62.task_6003122656664405150.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mob_safari.quest62.title}"
+			x: 16.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5FEE65C669654E40"]
+			icon: "heads:fox_head"
+			id: "36843D2999963F1D"
+			rewards: [
+				{
+					id: "22EB4E1489C63D97"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 32
+					id: "63BE9A2352D79A24"
+					item: "minecraft:sweet_berries"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "766DE4F45BF1D0F9"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:fox": 1b
+						}
+					}
+				}
+				title: "{ftbquests.chapter.mob_safari.quest63.task_8533728607102685433.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mob_safari.quest63.title}"
+			x: 11.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5FEE65C669654E40"]
+			icon: "heads:goat_head"
+			id: "414F19EFE2ECF6D8"
+			rewards: [
+				{
+					id: "2AFBF91D0350E31E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "30C312435D99B190"
+					table_id: 1562099882431827930L
+					type: "random"
+				}
+			]
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "21AD2C57FAF99CFC"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:goat": 1b
+						}
+					}
+				}
+				title: "{ftbquests.chapter.mob_safari.quest64.task_2426644530607004924.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mob_safari.quest64.title}"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5FEE65C669654E40"]
+			icon: "heads:iron_golem_head"
+			id: "6E022C1FAAE4E0EB"
+			rewards: [
+				{
+					id: "63ADD4EA7A12A92D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 8
+					id: "4F76FC62001FE334"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "69EB4F7877077F60"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:iron_golem": 1b
+						}
+					}
+				}
+				title: "{ftbquests.chapter.mob_safari.quest65.task_7632281372321087328.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mob_safari.quest65.title}"
+			x: -7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5FEE65C669654E40"]
+			icon: "minecraft:llama_spawn_egg"
+			id: "116964A25A5D54C7"
+			rewards: [
+				{
+					id: "4D0077D2C7FFF7E7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "465DB8235FBD270E"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:water"
+						}
+					}
+					title: "{ftbquests.chapter.mob_safari.quest66.reward_5070411217558644494.title}"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "555EDA85381BC3AB"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:llama": 1b
+						}
+					}
+				}
+				title: "{ftbquests.chapter.mob_safari.quest66.task_6151594406741525419.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mob_safari.quest66.title}"
+			x: 11.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5FEE65C669654E40"]
+			icon: "minecraft:panda_spawn_egg"
+			id: "02BDB1291FBC4C26"
+			rewards: [
+				{
+					id: "141D230181828DEA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 64
+					id: "29E654066BC06A5B"
+					item: "minecraft:bamboo"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "74765C34126C5D93"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:panda": 1b
+						}
+					}
+				}
+				title: "{ftbquests.chapter.mob_safari.quest67.task_8391996334368644499.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mob_safari.quest67.title}"
+			x: 11.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5FEE65C669654E40"]
+			icon: "minecraft:polar_bear_spawn_egg"
+			id: "34230DF080BF39A0"
+			rewards: [
+				{
+					id: "3FAE714EBDD4F53D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 32
+					id: "684EF398BC7CE9DF"
+					item: "minecraft:blue_ice"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "583560BD33DD30FB"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:polar_bear": 1b
+						}
+					}
+				}
+				title: "{ftbquests.chapter.mob_safari.quest68.task_6356092814838542587.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mob_safari.quest68.title}"
+			x: 7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5FEE65C669654E40"]
+			icon: "heads:wolf_head"
+			id: "79C543875927560D"
+			rewards: [
+				{
+					id: "1B3B8F1B8D968FD9"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 32
+					id: "103C21559A43A592"
+					item: "minecraft:bone"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "478A7C4764B303AB"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:wolf": 1b
+						}
+					}
+				}
+				title: "{ftbquests.chapter.mob_safari.quest69.task_5155069369552929707.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mob_safari.quest69.title}"
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5FEE65C669654E40"]
+			icon: "heads:zombified_piglin_skull"
+			id: "695828B1929D0DD9"
+			rewards: [
+				{
+					id: "5621FF1F10BE91E0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 16
+					id: "5FA31E2288E83F72"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "5B694A6A03F05A2D"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:zombified_piglin": 1b
+						}
+					}
+				}
+				title: "{ftbquests.chapter.mob_safari.quest70.task_6586877749199133229.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mob_safari.quest70.title}"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5FEE65C669654E40"]
+			description: ["{ftbquests.chapter.mob_safari.quest71.description1}"]
+			icon: "minecraft:elder_guardian_spawn_egg"
+			id: "176F9C7ED259CD39"
+			rewards: [
+				{
+					id: "73D395A352E29F0E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 32
+					id: "3C5C6ECE637B869E"
+					item: "minecraft:prismarine_shard"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "0FC6739B116D0288"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"minecraft:elder_guardian": 1b
+						}
+					}
+				}
+				title: "{ftbquests.chapter.mob_safari.quest71.task_1136723065807110792.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mob_safari.quest71.title}"
+			x: 15.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5FEE65C669654E40"]
+			icon: "ars_nouveau:starbuncle_shards"
+			id: "0DC160D3B62DD504"
+			rewards: [
+				{
+					id: "06FBD98D8214AA96"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "0C41B8586D7EBA77"
+					item: "ars_nouveau:starbuncle_shards"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "0F89A186E490D2AE"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"ars_nouveau:starbuncle": 1b
+						}
+					}
+				}
+				title: "{ftbquests.chapter.mob_safari.quest72.task_1119603583110664878.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mob_safari.quest72.title}"
+			x: 13.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5FEE65C669654E40"]
+			icon: "ars_nouveau:wilden_spike"
+			id: "6DD0B4019FB2E6C3"
+			rewards: [
+				{
+					id: "257D4C1ABF2003D0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 16
+					id: "47D907677AB4E3DF"
+					item: "ars_nouveau:wilden_spike"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "112DD46BD89B58CE"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"ars_nouveau:wilden_guardian": 1b
+						}
+					}
+				}
+				title: "{ftbquests.chapter.mob_safari.quest73.task_1237879032257403086.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mob_safari.quest73.title}"
+			x: 14.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5FEE65C669654E40"]
+			icon: "ars_nouveau:wilden_horn"
+			id: "7756DF5E136A1333"
+			rewards: [
+				{
+					id: "11740E0F741C7446"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 16
+					id: "231464450644116E"
+					item: "ars_nouveau:wilden_horn"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "50673D1BD85D91AA"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"ars_nouveau:wilden_hunter": 1b
+						}
+					}
+				}
+				title: "{ftbquests.chapter.mob_safari.quest74.task_5793666635438854570.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mob_safari.quest74.title}"
+			x: 15.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5FEE65C669654E40"]
+			icon: "ars_nouveau:wilden_wing"
+			id: "41C3721BABC35699"
+			rewards: [
+				{
+					id: "5B0639A3740611DC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 16
+					id: "0C579A053BD40E57"
+					item: "ars_nouveau:wilden_wing"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "79FC2FFEF4A644B1"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"ars_nouveau:wilden_stalker": 1b
+						}
+					}
+				}
+				title: "{ftbquests.chapter.mob_safari.quest75.task_8789953344793101489.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mob_safari.quest75.title}"
+			x: 16.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5FEE65C669654E40"]
+			icon: "ars_nouveau:drygmy_shard"
+			id: "07F5D38D37650C3C"
+			rewards: [
+				{
+					id: "3F5317F5CEC309ED"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "7DB51811EDFF3368"
+					item: "ars_nouveau:drygmy_shard"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "39216CB3CD6E55D8"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"ars_nouveau:drygmy": 1b
+						}
+					}
+				}
+				title: "{ftbquests.chapter.mob_safari.quest76.task_4116691053894850008.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mob_safari.quest76.title}"
+			x: 14.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5FEE65C669654E40"]
+			icon: "ars_nouveau:wilden_tribute"
+			id: "46CC688E523D17D3"
+			rewards: [
+				{
+					id: "6280FF8023AE8627"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "30CCEDFD831A9533"
+					item: "ars_nouveau:wilden_tribute"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "0E2257FBB0C02462"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"ars_nouveau:wilden_boss": 1b
+						}
+					}
+				}
+				title: "{ftbquests.chapter.mob_safari.quest77.task_1018473204252943458.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mob_safari.quest77.title}"
+			x: 15.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["5FEE65C669654E40"]
+			icon: "ars_nouveau:whirlisprig_shards"
+			id: "2D476CDAF27AC863"
+			rewards: [
+				{
+					id: "6C6B8C47465AD2CC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "60DF657879CA2D1C"
+					item: "ars_nouveau:whirlisprig_shards"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "5352E88F3CBB325D"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"ars_nouveau:drygmy": 1b
+						}
+					}
+				}
+				title: "{ftbquests.chapter.mob_safari.quest78.task_6004116955135160925.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mob_safari.quest78.title}"
+			x: 15.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5FEE65C669654E40"]
+			description: ["{ftbquests.chapter.mob_safari.quest79.description1}"]
+			icon: "ars_elemental:siren_shards"
+			id: "5EE98525E9A06AAC"
+			rewards: [
+				{
+					id: "770A0F2CAAEDCEBC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "4DD0EAF8AEFE2901"
+					item: "ars_elemental:siren_shards"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "exposure:photograph"
+				id: "146C6CE87FF122B9"
+				item: {
+					Count: 1
+					id: "itemfilters:weak_nbt"
+					tag: {
+						value: {
+							"ars_elemental:siren_entity": 1b
+						}
+					}
+				}
+				title: "{ftbquests.chapter.mob_safari.quest79.task_1471670924078031545.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.mob_safari.quest79.title}"
+			x: 16.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"7F49E1C160460A4C"
+				"41C3721BABC35699"
+				"2D476CDAF27AC863"
+				"18B34979DBED11A1"
+				"702C9B9584FAC44B"
+				"1B838E76CB6E8813"
+				"3EA5F9BCAF5464C7"
+				"175F712801D32FAF"
+				"03A7E34F277C3E99"
+				"71FE47F9771AC590"
+				"02BDB1291FBC4C26"
+				"7B689257A882A7B2"
+				"495EBE7C9A59CFF4"
+				"747E5509C0DC0ABB"
+				"6E022C1FAAE4E0EB"
+				"414F19EFE2ECF6D8"
+				"475D26474BD6C8DA"
+				"1E8E404A5B898ED5"
+				"548BAFC1F30732D5"
+				"4E0561789221C0C6"
+				"13065DEC26C02737"
+				"4628062EB903069B"
+				"0B665D225E9F7EFB"
+				"6DD0B4019FB2E6C3"
+				"04E89E0140A571ED"
+				"07F5D38D37650C3C"
+				"7E23259C854E6B53"
+				"36843D2999963F1D"
+				"0C071F354268E2F3"
+				"3B0FA728A68DF081"
+				"46CC688E523D17D3"
+				"695828B1929D0DD9"
+				"4C576278786773E7"
+				"32E71A804BD0B705"
+				"0A4876B63C9EB256"
+				"0A65ACA8A26E8615"
+				"57F7FA9EC58C17D2"
+				"1FF5B073DC12ABAC"
+				"0DC160D3B62DD504"
+				"5EE98525E9A06AAC"
+				"17DE6D948744F44F"
+				"20F56F091F24EA9B"
+				"779FA19A3239A378"
+				"38F12122B25EDC4B"
+				"5C410251B4C4761F"
+				"0A80D513D423E97B"
+				"0F1E3F328B60A287"
+				"462883AD2132D0FB"
+				"0824814C85D4EC70"
+				"34230DF080BF39A0"
+				"77C07B16F8E30C78"
+				"46CF370B11CF4AC6"
+				"357FC24C8410EFEC"
+				"24D8747868DA8135"
+				"4ABAF8F1D6D1C7CA"
+				"116964A25A5D54C7"
+				"7756DF5E136A1333"
+				"517413E5CD697BAA"
+				"6AEC834765E31B9C"
+				"3642889B8CF6CA79"
+				"6152DA47D7793A3A"
+				"3E3DE65526844EB7"
+				"01BEBBE4FBE04567"
+				"6C993C0581C3E53C"
+				"25D1C2664FD1180E"
+				"60FE60BAC866A44A"
+				"79C543875927560D"
+				"78041B5DC298A02A"
+				"64032D23DECB2605"
+				"7FC2BADD39C85339"
+				"540EFA54873D7817"
+				"0E1371CB614ECA67"
+				"054B1BAE47E9827D"
+				"176F9C7ED259CD39"
+				"32805191DFE77A0B"
+				"61EDF16012C8383B"
+				"0694D62C45F6C430"
+				"71EFE5EE55ED2892"
+			]
+			description: ["{ftbquests.chapter.mob_safari.quest80.description1}"]
+			hide_until_deps_complete: true
+			id: "4A37BD407A1A7395"
+			rewards: [
+				{
+					id: "5F50AA093D02E1A6"
+					item: "enchanted:infinity_egg"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "56010B4331FBC6D5"
+					item: "create:creative_blaze_cake"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "79DED2898D41A302"
+					item: "mekanism:pellet_antimatter"
+					type: "item"
+				}
+			]
+			shape: "heart"
+			size: 3.0d
+			subtitle: "{ftbquests.chapter.mob_safari.quest80.subtitle}"
+			tasks: [{
+				id: "29488939B0A5B28F"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.mob_safari.quest80.title}"
+			x: 6.0d
+			y: 9.5d
+		}
+	]
+	title: "{ftbquests.chapter.mob_safari.title}"
+}

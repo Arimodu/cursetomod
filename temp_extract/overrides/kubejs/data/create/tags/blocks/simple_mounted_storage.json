@@ -1,0 +1,376 @@
+{
+  "values": [
+    {
+      "id": "farmersdelight:oak_cabinet",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:spruce_cabinet",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:birch_cabinet",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:jungle_cabinet",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:acacia_cabinet",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:dark_oak_cabinet",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:crimson_cabinet",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:warped_cabinet",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:mangrove_cabinet",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:bamboo_cabinet",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:cherry_cabinet",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:basket",
+      "required": false
+    },
+    {
+      "id": "everycomp:fd/mynethersdelight/powdery_cabinet",
+      "required": false
+    },
+    {
+      "id": "everycomp:fd/quark/azalea_cabinet",
+      "required": false
+    },
+    {
+      "id": "everycomp:fd/regions_unexplored/baobab_cabinet",
+      "required": false
+    },
+    {
+      "id": "everycomp:fd/regions_unexplored/blackwood_cabinet",
+      "required": false
+    },
+    {
+      "id": "everycomp:fd/regions_unexplored/blue_bioshroom_cabinet",
+      "required": false
+    },
+    {
+      "id": "everycomp:fd/regions_unexplored/brimwood_cabinet",
+      "required": false
+    },
+    {
+      "id": "everycomp:fd/regions_unexplored/cobalt_cabinet",
+      "required": false
+    },
+    {
+      "id": "everycomp:fd/regions_unexplored/cypress_cabinet",
+      "required": false
+    },
+    {
+      "id": "everycomp:fd/regions_unexplored/dead_cabinet",
+      "required": false
+    },
+    {
+      "id": "everycomp:fd/regions_unexplored/eucalyptus_cabinet",
+      "required": false
+    },
+    {
+      "id": "everycomp:fd/regions_unexplored/green_bioshroom_cabinet",
+      "required": false
+    },
+    {
+      "id": "everycomp:fd/regions_unexplored/joshua_cabinet",
+      "required": false
+    },
+    {
+      "id": "everycomp:fd/regions_unexplored/kapok_cabinet",
+      "required": false
+    },
+    {
+      "id": "everycomp:fd/regions_unexplored/larch_cabinet",
+      "required": false
+    },
+    {
+      "id": "everycomp:fd/regions_unexplored/magnolia_cabinet",
+      "required": false
+    },
+    {
+      "id": "everycomp:fd/regions_unexplored/maple_cabinet",
+      "required": false
+    },
+    {
+      "id": "everycomp:fd/regions_unexplored/mauve_cabinet",
+      "required": false
+    },
+    {
+      "id": "everycomp:fd/regions_unexplored/palm_cabinet",
+      "required": false
+    },
+    {
+      "id": "everycomp:fd/regions_unexplored/pine_cabinet",
+      "required": false
+    },
+    {
+      "id": "everycomp:fd/regions_unexplored/pink_bioshroom_cabinet",
+      "required": false
+    },
+    {
+      "id": "everycomp:fd/regions_unexplored/redwood_cabinet",
+      "required": false
+    },
+    {
+      "id": "everycomp:fd/regions_unexplored/socotra_cabinet",
+      "required": false
+    },
+    {
+      "id": "everycomp:fd/regions_unexplored/willow_cabinet",
+      "required": false
+    },
+    {
+      "id": "everycomp:fd/regions_unexplored/yellow_bioshroom_cabinet",
+      "required": false
+    },
+    {
+      "id": "everycomp:fd/biomeswevegone/aspen_cabinet",
+      "required": false
+    },
+    {
+      "id": "everycomp:fd/biomeswevegone/baobab_cabinet",
+      "required": false
+    },
+    {
+      "id": "everycomp:fd/biomeswevegone/blue_enchanted_cabinet",
+      "required": false
+    },
+    {
+      "id": "everycomp:fd/biomeswevegone/cika_cabinet",
+      "required": false
+    },
+    {
+      "id": "everycomp:fd/biomeswevegone/cypress_cabinet",
+      "required": false
+    },
+    {
+      "id": "everycomp:fd/biomeswevegone/ebony_cabinet",
+      "required": false
+    },
+    {
+      "id": "everycomp:fd/biomeswevegone/fir_cabinet",
+      "required": false
+    },
+    {
+      "id": "everycomp:fd/biomeswevegone/florus_cabinet",
+      "required": false
+    },
+    {
+      "id": "everycomp:fd/biomeswevegone/green_enchanted_cabinet",
+      "required": false
+    },
+    {
+      "id": "everycomp:fd/biomeswevegone/holly_cabinet",
+      "required": false
+    },
+    {
+      "id": "everycomp:fd/biomeswevegone/ironwood_cabinet",
+      "required": false
+    },
+    {
+      "id": "everycomp:fd/biomeswevegone/jacaranda_cabinet",
+      "required": false
+    },
+    {
+      "id": "everycomp:fd/biomeswevegone/mahogany_cabinet",
+      "required": false
+    },
+    {
+      "id": "everycomp:fd/biomeswevegone/maple_cabinet",
+      "required": false
+    },
+    {
+      "id": "everycomp:fd/biomeswevegone/palm_cabinet",
+      "required": false
+    },
+    {
+      "id": "everycomp:fd/biomeswevegone/pine_cabinet",
+      "required": false
+    },
+    {
+      "id": "everycomp:fd/biomeswevegone/rainbow_eucalyptus_cabinet",
+      "required": false
+    },
+    {
+      "id": "everycomp:fd/biomeswevegone/redwood_cabinet",
+      "required": false
+    },
+    {
+      "id": "everycomp:fd/biomeswevegone/sakura_cabinet",
+      "required": false
+    },
+    {
+      "id": "everycomp:fd/biomeswevegone/skyris_cabinet",
+      "required": false
+    },
+    {
+      "id": "everycomp:fd/biomeswevegone/white_mangrove_cabinet",
+      "required": false
+    },
+    {
+      "id": "everycomp:fd/biomeswevegone/willow_cabinet",
+      "required": false
+    },
+    {
+      "id": "everycomp:fd/biomeswevegone/witch_hazel_cabinet",
+      "required": false
+    },
+    {
+      "id": "everycomp:fd/biomeswevegone/zelkova_cabinet",
+      "required": false
+    },
+    {
+      "id": "everycomp:fd/biomesoplenty/fir_cabinet",
+      "required": false
+    },
+    {
+      "id": "everycomp:fd/biomesoplenty/pine_cabinet",
+      "required": false
+    },
+    {
+      "id": "everycomp:fd/biomesoplenty/maple_cabinet",
+      "required": false
+    },
+    {
+      "id": "everycomp:fd/biomesoplenty/redwood_cabinet",
+      "required": false
+    },
+    {
+      "id": "everycomp:fd/biomesoplenty/mahogany_cabinet",
+      "required": false
+    },
+    {
+      "id": "everycomp:fd/biomesoplenty/jacaranda_cabinet",
+      "required": false
+    },
+    {
+      "id": "everycomp:fd/biomesoplenty/palm_cabinet",
+      "required": false
+    },
+    {
+      "id": "everycomp:fd/biomesoplenty/willow_cabinet",
+      "required": false
+    },
+    {
+      "id": "everycomp:fd/biomesoplenty/dead_cabinet",
+      "required": false
+    },
+    {
+      "id": "everycomp:fd/biomesoplenty/magic_cabinet",
+      "required": false
+    },
+    {
+      "id": "everycomp:fd/biomesoplenty/umbran_cabinet",
+      "required": false
+    },
+    {
+      "id": "everycomp:fd/biomesoplenty/hellbark_cabinet",
+      "required": false
+    },
+    {
+      "id": "everycomp:fd/biomesoplenty/empyreal_cabinet",
+      "required": false
+    },
+    {
+      "id": "everycomp:fd/sullysmod/petrified_cabinet",
+      "required": false
+    },
+    {
+      "id": "everycomp:fd/quark/ancient_cabinet",
+      "required": false
+    },
+    {
+      "id": "everycomp:fd/quark/blossom_cabinet",
+      "required": false
+    },
+    {
+      "id": "everycomp:fd/natures_spirit/redwood_cabinet",
+      "required": false
+    },
+    {
+      "id": "everycomp:fd/natures_spirit/sugi_cabinet",
+      "required": false
+    },
+    {
+      "id": "everycomp:fd/natures_spirit/wisteria_cabinet",
+      "required": false
+    },
+    {
+      "id": "everycomp:fd/natures_spirit/fir_cabinet",
+      "required": false
+    },
+    {
+      "id": "everycomp:fd/natures_spirit/willow_cabinet",
+      "required": false
+    },
+    {
+      "id": "everycomp:fd/natures_spirit/aspen_cabinet",
+      "required": false
+    },
+    {
+      "id": "everycomp:fd/natures_spirit/maple_cabinet",
+      "required": false
+    },
+    {
+      "id": "everycomp:fd/natures_spirit/cypress_cabinet",
+      "required": false
+    },
+    {
+      "id": "everycomp:fd/natures_spirit/olive_cabinet",
+      "required": false
+    },
+    {
+      "id": "everycomp:fd/natures_spirit/joshua_cabinet",
+      "required": false
+    },
+    {
+      "id": "everycomp:fd/natures_spirit/ghaf_cabinet",
+      "required": false
+    },
+    {
+      "id": "everycomp:fd/natures_spirit/palo_verde_cabinet",
+      "required": false
+    },
+    {
+      "id": "everycomp:fd/natures_spirit/coconut_cabinet",
+      "required": false
+    },
+    {
+      "id": "everycomp:fd/natures_spirit/cedar_cabinet",
+      "required": false
+    },
+    {
+      "id": "everycomp:fd/natures_spirit/larch_cabinet",
+      "required": false
+    },
+    {
+      "id": "everycomp:fd/natures_spirit/mahogany_cabinet",
+      "required": false
+    },
+    {
+      "id": "everycomp:fd/natures_spirit/saxual_cabinet",
+      "required": false
+    }
+  ]
+}

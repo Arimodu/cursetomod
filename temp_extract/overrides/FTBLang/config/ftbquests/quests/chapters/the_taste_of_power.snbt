@@ -1,0 +1,360 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 280
+	default_quest_shape: ""
+	filename: "the_taste_of_power"
+	group: ""
+	hide_quest_until_deps_complete: true
+	icon: "minecraft:dragon_egg"
+	id: "255B2E87E16AB4A5"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["647B651959E0F0D0"]
+			description: ["{ftbquests.chapter.the_taste_of_power.quest1.description1}"]
+			hide_until_deps_complete: false
+			id: "46100B5AD6C088F1"
+			rewards: [{
+				id: "24C9D6E63139FE34"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: "minecraft:dragon_head"
+				id: "383C97269B1429F5"
+				title: "{ftbquests.chapter.the_taste_of_power.quest1.task_4052279956792945141.title}"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6D23082F517D5117"]
+			icon: "minecraft:end_portal_frame"
+			id: "647B651959E0F0D0"
+			rewards: [{
+				id: "4A0A80BD3060A7CC"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				icon: "minecraft:end_portal_frame"
+				id: "6DB59B5506EB9396"
+				title: "{ftbquests.chapter.the_taste_of_power.quest2.task_7905395510409401238.title}"
+				type: "dimension"
+			}]
+			title: "{ftbquests.chapter.the_taste_of_power.quest2.title}"
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["46100B5AD6C088F1"]
+			description: [
+				"{ftbquests.chapter.the_taste_of_power.quest3.description1}"
+				""
+				"{ftbquests.chapter.the_taste_of_power.quest3.description2}"
+				""
+				"{ftbquests.chapter.the_taste_of_power.quest3.description3}"
+				""
+				"{ftbquests.chapter.the_taste_of_power.quest3.description4}"
+				""
+				"{ftbquests.chapter.the_taste_of_power.quest3.description5}"
+				""
+				"{ftbquests.chapter.the_taste_of_power.quest3.description6}"
+			]
+			hide_until_deps_complete: false
+			icon: "minecraft:cake"
+			id: "68FE5D02293FE722"
+			rewards: [{
+				id: "38B71086356BE8FC"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "{ftbquests.chapter.the_taste_of_power.quest3.subtitle}"
+			tasks: [{
+				id: "237B504DA0EDA4AA"
+				title: "{ftbquests.chapter.the_taste_of_power.quest3.task_2556725507805521066.title}"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["68FE5D02293FE722"]
+			description: [
+				"{ftbquests.chapter.the_taste_of_power.quest4.description1}"
+				""
+				"{ftbquests.chapter.the_taste_of_power.quest4.description2}"
+			]
+			id: "5A44963D2D2AE45D"
+			optional: true
+			rewards: [{
+				id: "1C74C1456AFEA6BF"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6F663B86D7CE7173"
+				item: "create:creative_blaze_cake"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["5A44963D2D2AE45D"]
+			description: ["{ftbquests.chapter.the_taste_of_power.quest5.description1}"]
+			id: "47BF6E234A394435"
+			optional: true
+			rewards: [{
+				id: "433028B8787D6159"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1873296BC875DED1"
+				item: "create:creative_motor"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["5A44963D2D2AE45D"]
+			description: ["{ftbquests.chapter.the_taste_of_power.quest6.description1}"]
+			id: "51A5AE293CD495CC"
+			optional: true
+			rewards: [{
+				id: "01BB2179EC8F2A7B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "43913FC620B1DDB0"
+				item: "embers:creative_ember_source"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["458449ABB13C4819"]
+			description: [
+				"{ftbquests.chapter.the_taste_of_power.quest7.description1}"
+				""
+				"{ftbquests.chapter.the_taste_of_power.quest7.description2}"
+			]
+			id: "3EAC3A05ADA08B6A"
+			optional: true
+			rewards: [{
+				id: "7AA366FB6EA40383"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "01707E75B8C12087"
+				item: "botania:creative_pool"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["47BF6E234A394435"]
+			description: ["{ftbquests.chapter.the_taste_of_power.quest8.description1}"]
+			id: "58ED9A2ABEA74156"
+			optional: true
+			rewards: [{
+				id: "59FD76ABC03C6E64"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "30747151F17C16AF"
+				item: "create:creative_fluid_tank"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["58ED9A2ABEA74156"]
+			description: ["{ftbquests.chapter.the_taste_of_power.quest9.description1}"]
+			id: "3CE6A23B1386A2C6"
+			optional: true
+			rewards: [{
+				id: "78544CB0A511356C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "419573445008A341"
+				item: "mekanism:creative_chemical_tank"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.the_taste_of_power.quest9.title}"
+			x: 3.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["51A5AE293CD495CC"]
+			description: [
+				"{ftbquests.chapter.the_taste_of_power.quest10.description1}"
+				""
+				"{ftbquests.chapter.the_taste_of_power.quest10.description2}"
+			]
+			id: "458449ABB13C4819"
+			optional: true
+			rewards: [{
+				id: "73543EF3276EDBE2"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7C7BC26DFE5B9ACD"
+				item: "ars_nouveau:creative_source_jar"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"47BF6E234A394435"
+				"3EAC3A05ADA08B6A"
+				"51A5AE293CD495CC"
+				"58ED9A2ABEA74156"
+				"458449ABB13C4819"
+				"3CE6A23B1386A2C6"
+			]
+			description: ["{ftbquests.chapter.the_taste_of_power.quest11.description1}"]
+			id: "465112A258F6627B"
+			optional: true
+			rewards: [{
+				id: "21A16FC84772E282"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1B881237409143D1"
+				item: "storagedrawers:creative_storage_upgrade"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -12.5d
+		}
+		{
+			dependencies: [
+				"465112A258F6627B"
+				"46A192114ACE3ACB"
+				"5DF485C9EA5A7C39"
+			]
+			description: ["{ftbquests.chapter.the_taste_of_power.quest12.description1}"]
+			id: "2121E0348BB9CF6D"
+			optional: true
+			rewards: [{
+				id: "13D9BD50D28813AD"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "45B3D7E7B5492AAE"
+				item: "storagedrawers:creative_vending_upgrade"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["2121E0348BB9CF6D"]
+			description: [
+				"{ftbquests.chapter.the_taste_of_power.quest13.description1}"
+				""
+				"{ftbquests.chapter.the_taste_of_power.quest13.description2}"
+				""
+				"{ftbquests.chapter.the_taste_of_power.quest13.description3}"
+			]
+			id: "4521C73DA74806FA"
+			optional: true
+			rewards: [{
+				id: "3055F494B2E6CCA0"
+				item: "create_central_kitchen:chocolate_cake_slice"
+				type: "item"
+			}]
+			tasks: [{
+				id: "48A1FFB0DB64AB20"
+				item: "ae2:creative_item_cell"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -16.5d
+		}
+		{
+			dependencies: ["3EAC3A05ADA08B6A"]
+			description: ["{ftbquests.chapter.the_taste_of_power.quest14.description1}"]
+			id: "5DF485C9EA5A7C39"
+			optional: true
+			rewards: [{
+				id: "28749443D02FA7D7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6F09A93390C3888B"
+				item: "ae2:creative_energy_cell"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["3CE6A23B1386A2C6"]
+			description: ["{ftbquests.chapter.the_taste_of_power.quest15.description1}"]
+			id: "46A192114ACE3ACB"
+			optional: true
+			rewards: [{
+				id: "7DFCE277E2FB5AA1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6C0E0A941DCE473A"
+				item: {
+					Count: 1
+					id: "mekanism:creative_energy_cube"
+					tag: {
+						mekData: {
+							EnergyContainers: [{
+								Container: 0b
+								stored: "18446744073709551615.9999"
+							}]
+							componentConfig: {
+								config0: {
+									side0: 4
+									side1: 4
+									side2: 4
+									side3: 4
+									side4: 4
+									side5: 4
+								}
+							}
+						}
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.the_taste_of_power.quest15.title}"
+			x: 3.0d
+			y: -15.0d
+		}
+	]
+	title: "{ftbquests.chapter.the_taste_of_power.title}"
+}

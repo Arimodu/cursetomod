@@ -1,0 +1,16 @@
+{
+  "name": "Bud Amethyst",
+  "icon": "minecraft:budding_amethyst",
+  "category": "patchouli:basic_rituals",
+  "pages": [
+    {
+      "type": "patchouli:rite_description",
+      "rite_name": "Bud Amethyst",
+      "text": "Use this rite to convert a block of amethyst into its regrowing budding version."
+    },
+    {
+      "type": "patchouli:rite_requirements",
+      "rite": "reclamation:bud_amethyst"
+    }
+  ]
+}

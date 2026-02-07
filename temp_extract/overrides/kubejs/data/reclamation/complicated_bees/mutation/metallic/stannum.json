@@ -1,0 +1,11 @@
+{
+  "chance": 0.1,
+  "conditions": {
+    "complicated_bees:block_under": {
+      "block": "mekanism:block_tin"
+    }
+  },
+  "first": "complicated_bees:ferrous",
+  "result": "reclamation:stannum",
+  "second": "complicated_bees:quartz"
+}

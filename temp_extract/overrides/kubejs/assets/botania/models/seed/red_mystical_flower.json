@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "agricraft:seed/botania/red_mystical_flower"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "mekanism:reaction",
+  "duration": 15,
+  "fluidInput": {
+    "amount": 10,
+    "fluid": "minecraft:water"
+  },
+  "gasInput": {
+    "amount": 10,
+    "gas": "mekanism:oxygen"
+  },
+  "gasOutput": {
+    "amount": 10,
+    "gas": "mekanism:hydrogen"
+  },
+  "itemInput": {
+    "ingredient": [
+      {
+        "tag": "minecraft:wooden_slabs"
+      },
+      {
+        "item": "minecraft:bamboo_mosaic_slab"
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+	id: "00EF0031ECBF568E"
+	loot_size: 1
+	order_index: 12
+	rewards: [
+		{ item: "xercamusic:guitar" }
+		{ item: "xercamusic:lyre" }
+		{ item: "xercamusic:banjo" }
+		{ item: "xercamusic:drum_kit" }
+		{ item: "xercamusic:xylophone" }
+		{ item: "xercamusic:tubular_bell" }
+		{ item: "xercamusic:sansula" }
+		{ item: "xercamusic:violin" }
+		{ item: "xercamusic:cello" }
+		{ item: "xercamusic:flute" }
+		{ item: "xercamusic:saxophone" }
+		{ item: "xercamusic:god" }
+		{ item: "xercamusic:piano" }
+		{ item: "xercamusic:oboe" }
+		{ item: "xercamusic:redstone_guitar" }
+		{ item: "xercamusic:french_horn" }
+		{ item: "xercamusic:bass_guitar" }
+	]
+	title: "{ftbquests.loot_table_67272733859206798.title}"
+}

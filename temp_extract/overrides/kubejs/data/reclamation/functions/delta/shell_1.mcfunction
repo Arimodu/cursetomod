@@ -1,0 +1,19 @@
+playsound ars_nouveau:tempestry_family block @p[distance=..16] ~ ~ ~
+execute positioned ~-1 ~-1 ~0 run function reclamation:delta/convert
+execute positioned ~-1 ~0 ~-1 run function reclamation:delta/convert
+execute positioned ~-1 ~0 ~0 run function reclamation:delta/convert
+execute positioned ~-1 ~0 ~1 run function reclamation:delta/convert
+execute positioned ~-1 ~1 ~0 run function reclamation:delta/convert
+execute positioned ~0 ~-1 ~-1 run function reclamation:delta/convert
+execute positioned ~0 ~-1 ~0 run function reclamation:delta/convert
+execute positioned ~0 ~-1 ~1 run function reclamation:delta/convert
+execute positioned ~0 ~0 ~-1 run function reclamation:delta/convert
+execute positioned ~0 ~0 ~1 run function reclamation:delta/convert
+execute positioned ~0 ~1 ~-1 run function reclamation:delta/convert
+execute positioned ~0 ~1 ~0 run function reclamation:delta/convert
+execute positioned ~0 ~1 ~1 run function reclamation:delta/convert
+execute positioned ~1 ~-1 ~0 run function reclamation:delta/convert
+execute positioned ~1 ~0 ~-1 run function reclamation:delta/convert
+execute positioned ~1 ~0 ~0 run function reclamation:delta/convert
+execute positioned ~1 ~0 ~1 run function reclamation:delta/convert
+execute positioned ~1 ~1 ~0 run function reclamation:delta/convert

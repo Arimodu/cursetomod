@@ -1,0 +1,16 @@
+{
+  "values": [
+    "minecraft:fire",
+    "minecraft:air",
+    "enchanted:nether_chalk",
+    "enchanted:golden_chalk",
+    "minecraft:grass",
+    "minecraft:tall_grass",
+    "minecraft:warped_roots",
+    "minecraft:warped_fungus",
+    "#minecraft:flowers",
+    "#minecraft:replaceable_by_trees",
+    "#cucumber:mineable/sickle",
+    "#enchanted:broom_sweepable"
+  ]
+}

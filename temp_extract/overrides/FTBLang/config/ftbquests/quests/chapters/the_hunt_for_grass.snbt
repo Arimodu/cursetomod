@@ -1,0 +1,1151 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 280
+	default_quest_shape: ""
+	filename: "the_hunt_for_grass"
+	group: ""
+	hide_quest_until_deps_visible: true
+	icon: "minecraft:dirt"
+	id: "0F8CD7C8C7FD56E6"
+	images: [{
+		dependency: "2E15C8681F5D2ACF"
+		height: 5.0d
+		image: "reclamation:textures/quests/cuprosia.png"
+		rotation: 0.0d
+		width: 5.0d
+		x: -6.5d
+		y: -1.5d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["448ABF53EEACBFA7"]
+			description: ["{ftbquests.chapter.the_hunt_for_grass.quest1.description1}"]
+			hide_until_deps_complete: true
+			id: "000A7EAED7A84968"
+			rewards: [{
+				id: "27EE0E066D607838"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6400B13D05D470E6"
+				item: "minecraft:dirt"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["000A7EAED7A84968"]
+			description: [
+				"{ftbquests.chapter.the_hunt_for_grass.quest2.description1}"
+				""
+				"{ftbquests.chapter.the_hunt_for_grass.quest2.description2}"
+				""
+				"{ftbquests.chapter.the_hunt_for_grass.quest2.description3}"
+			]
+			icon: "minecraft:wheat_seeds"
+			id: "26833208E1F2EB4B"
+			rewards: [{
+				id: "5F7009D3F861EC32"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "6BAC76770E7D69BA"
+					item: "minecraft:wheat_seeds"
+					type: "item"
+				}
+				{
+					id: "30A181B721A2E83B"
+					item: "enchanted:water_artichoke_seeds"
+					type: "item"
+				}
+				{
+					id: "7EC3BB9D83F2077E"
+					item: "enchanted:wolfsbane_seeds"
+					type: "item"
+				}
+				{
+					id: "51DF19AEC61F5152"
+					item: "enchanted:mandrake_seeds"
+					type: "item"
+				}
+				{
+					id: "4558D5EC885F27FB"
+					item: "enchanted:belladonna_seeds"
+					type: "item"
+				}
+				{
+					id: "6024DBFE2B6CB05A"
+					item: "enchanted:snowbell_seeds"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_hunt_for_grass.quest2.title}"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["26833208E1F2EB4B"]
+			description: [
+				"{ftbquests.chapter.the_hunt_for_grass.quest3.description1}"
+				""
+				"{ftbquests.chapter.the_hunt_for_grass.quest3.description2}"
+				""
+				"{ftbquests.chapter.the_hunt_for_grass.quest3.description3}"
+				""
+				"{ftbquests.chapter.the_hunt_for_grass.quest3.description4}"
+			]
+			icon: "enchanted:mandrake_root"
+			id: "4CE0C02B0602C06E"
+			rewards: [{
+				id: "4D1374FDFBCF254C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "58509C1E096E95BE"
+					item: "enchanted:mandrake_root"
+					type: "item"
+				}
+				{
+					id: "1CBAC0F9F7E082DF"
+					item: "embers:fluid_vessel"
+					type: "item"
+				}
+				{
+					id: "7881A2308E126CFA"
+					item: "kubejs:hemoglobic_fluid_bucket"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_hunt_for_grass.quest3.title}"
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4CE0C02B0602C06E"]
+			description: [
+				"{ftbquests.chapter.the_hunt_for_grass.quest4.description1}"
+				""
+				"{ftbquests.chapter.the_hunt_for_grass.quest4.description2}"
+			]
+			icon: "theurgy:alchemical_salt_mineral"
+			id: "5C476B553750BDE9"
+			rewards: [
+				{
+					id: "71E7F7469D5DBC39"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "764AD1996C56BA80"
+					item: {
+						Count: 1
+						id: "theurgy:alchemical_sulfur_iron"
+						tag: {
+							"theurgy:sulfur.source.id": "#forge:ingots/iron"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "319E2AD5AE5FB91E"
+					item: {
+						Count: 1
+						id: "theurgy:alchemical_sulfur_iron"
+						tag: {
+							"theurgy:sulfur.source.id": "#forge:ingots/iron"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "39F664FF446109A8"
+					item: "theurgy:alchemical_salt_mineral"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_hunt_for_grass.quest4.title}"
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5C476B553750BDE9"]
+			description: ["{ftbquests.chapter.the_hunt_for_grass.quest5.description1}"]
+			id: "389C82D9424B4099"
+			rewards: [{
+				id: "574C722BB928B54D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "157FA2840C9FC358"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["26833208E1F2EB4B"]
+			description: ["{ftbquests.chapter.the_hunt_for_grass.quest6.description1}"]
+			id: "66B8F071AD7CA037"
+			rewards: [{
+				id: "497476B925F12D45"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "457C34C4B697A0C1"
+				item: "enchanted:anointing_paste"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"66B8F071AD7CA037"
+				"389C82D9424B4099"
+			]
+			description: [
+				"{ftbquests.chapter.the_hunt_for_grass.quest7.description1}"
+				""
+				"{ftbquests.chapter.the_hunt_for_grass.quest7.description2}"
+				""
+				"{ftbquests.chapter.the_hunt_for_grass.quest7.description3}"
+			]
+			icon: "enchanted:witch_cauldron"
+			id: "6CB296A3AD751F62"
+			rewards: [
+				{
+					id: "303213A80F06DA80"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "enchanted:brewing"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "690229BC35A9CEF7"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "09C7309D2ADC01FA"
+					item: "minecraft:cauldron"
+					type: "item"
+				}
+				{
+					advancement: "reclamation:anoint_cauldron"
+					criterion: ""
+					icon: "enchanted:witch_cauldron"
+					id: "211987FC91B8F5B7"
+					title: "{ftbquests.chapter.the_hunt_for_grass.quest7.task_2385086996515714487.title}"
+					type: "advancement"
+				}
+			]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6CB296A3AD751F62"]
+			description: ["{ftbquests.chapter.the_hunt_for_grass.quest8.description1}"]
+			icon: "minecraft:oak_sapling"
+			id: "4075C13786AF4C49"
+			rewards: [
+				{
+					count: 8
+					id: "1BACD161EDB7C0D5"
+					item: "enchanted:mutandis"
+					type: "item"
+				}
+				{
+					id: "6C8F4F0C9B7376B6"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.the_hunt_for_grass.quest8.subtitle}"
+			tasks: [
+				{
+					id: "4A8D67BF286766BE"
+					item: "enchanted:mutandis"
+					type: "item"
+				}
+				{
+					id: "5A0C6FCFF4C6174E"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "enchanted:hawthorn_sapling"
+								}
+								{
+									Count: 1b
+									id: "enchanted:rowan_sapling"
+								}
+								{
+									Count: 1b
+									id: "enchanted:alder_sapling"
+								}
+								{
+									Count: 1b
+									id: "minecraft:cherry_sapling"
+								}
+								{
+									Count: 1b
+									id: "minecraft:dark_oak_sapling"
+								}
+								{
+									Count: 1b
+									id: "minecraft:acacia_sapling"
+								}
+								{
+									Count: 1b
+									id: "minecraft:jungle_sapling"
+								}
+								{
+									Count: 1b
+									id: "minecraft:birch_sapling"
+								}
+								{
+									Count: 1b
+									id: "minecraft:spruce_sapling"
+								}
+								{
+									Count: 1b
+									id: "minecraft:oak_sapling"
+								}
+							]
+						}
+					}
+					title: "{ftbquests.chapter.the_hunt_for_grass.quest8.task_6488684102089578318.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_hunt_for_grass.quest8.title}"
+			x: 0.0d
+			y: -6.75d
+		}
+		{
+			dependencies: ["26833208E1F2EB4B"]
+			description: [
+				"{ftbquests.chapter.the_hunt_for_grass.quest9.description1}"
+				""
+				"{ftbquests.chapter.the_hunt_for_grass.quest9.description2}"
+				""
+				"{ftbquests.chapter.the_hunt_for_grass.quest9.description3}"
+			]
+			icon: "agricraft:wooden_crop_sticks"
+			id: "2E15C8681F5D2ACF"
+			rewards: [
+				{
+					id: "7596CA51E4F2FEDE"
+					item: "agricraft:magnifying_glass"
+					type: "item"
+				}
+				{
+					id: "0BB01DADE1595C81"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "45CF2796053F5B4A"
+				item: "agricraft:wooden_crop_sticks"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0207C1DDD4332158"]
+			description: [
+				"{ftbquests.chapter.the_hunt_for_grass.quest10.description1}"
+				""
+				"{ftbquests.chapter.the_hunt_for_grass.quest10.description2}"
+				""
+				"{ftbquests.chapter.the_hunt_for_grass.quest10.description3}"
+				""
+				"{ftbquests.chapter.the_hunt_for_grass.quest10.description4}"
+				""
+				"{ftbquests.chapter.the_hunt_for_grass.quest10.image0}"
+				""
+				"{ftbquests.chapter.the_hunt_for_grass.quest10.description5}"
+			]
+			icon: "agricraft:journal"
+			id: "1792BA6A0845320F"
+			min_width: 400
+			rewards: [
+				{
+					count: 16
+					id: "389560DD3A18D3FA"
+					item: "agricraft:wooden_crop_sticks"
+					type: "item"
+				}
+				{
+					id: "5251363E943222B1"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "267E045714E32142"
+				title: "{ftbquests.chapter.the_hunt_for_grass.quest10.task_2773659192565899586.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.the_hunt_for_grass.quest10.title}"
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2E15C8681F5D2ACF"]
+			description: [
+				"{ftbquests.chapter.the_hunt_for_grass.quest11.description1}"
+				""
+				"{ftbquests.chapter.the_hunt_for_grass.quest11.description2}"
+				""
+				"{ftbquests.chapter.the_hunt_for_grass.quest11.description3}"
+				""
+				"{ftbquests.chapter.the_hunt_for_grass.quest11.description4}"
+				""
+				"{ftbquests.chapter.the_hunt_for_grass.quest11.description5}"
+				""
+				"{ftbquests.chapter.the_hunt_for_grass.quest11.description6}"
+			]
+			icon: "agricraft:magnifying_glass"
+			id: "0207C1DDD4332158"
+			rewards: [
+				{
+					id: "2EE19285430021A1"
+					item: "agricraft:journal"
+					type: "item"
+				}
+				{
+					id: "5E2D259FB79B5B43"
+					item: "agricraft:seed_analyzer"
+					type: "item"
+				}
+				{
+					id: "68760F902C2CF982"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "rsquare"
+			subtitle: "{ftbquests.chapter.the_hunt_for_grass.quest11.subtitle}"
+			tasks: [{
+				id: "61CD34EB22BD2BC3"
+				title: "{ftbquests.chapter.the_hunt_for_grass.quest11.task_7047347176409476035.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.the_hunt_for_grass.quest11.title}"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1792BA6A0845320F"]
+			description: [
+				"{ftbquests.chapter.the_hunt_for_grass.quest12.description1}"
+				""
+				"{ftbquests.chapter.the_hunt_for_grass.quest12.description2}"
+				""
+				"{ftbquests.chapter.the_hunt_for_grass.quest12.description3}"
+			]
+			icon: "supplementaries:sign_post_oak"
+			id: "3658F22BABF3B4B2"
+			rewards: [
+				{
+					count: 16
+					id: "341645503038FDE0"
+					item: "minecraft:bone_meal"
+					type: "item"
+				}
+				{
+					id: "22AC93B41661A452"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "rsquare"
+			subtitle: "{ftbquests.chapter.the_hunt_for_grass.quest12.subtitle}"
+			tasks: [{
+				id: "6BBBB559D847AA81"
+				title: "{ftbquests.chapter.the_hunt_for_grass.quest12.task_7762997780188473985.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.the_hunt_for_grass.quest12.title}"
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2E15C8681F5D2ACF"]
+			description: [
+				"{ftbquests.chapter.the_hunt_for_grass.quest13.description1}"
+				""
+				"{ftbquests.chapter.the_hunt_for_grass.quest13.description2}"
+				""
+				"{ftbquests.chapter.the_hunt_for_grass.quest13.description3}"
+			]
+			hide_until_deps_complete: false
+			hide_until_deps_visible: true
+			id: "658C67ABFD247487"
+			rewards: [{
+				id: "63DAC576E1524B28"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "5E222672F78F50DA"
+					item: "minecraft:potato"
+					type: "item"
+				}
+				{
+					id: "5452DD78B695D9D1"
+					item: "minecraft:carrot"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_hunt_for_grass.quest13.title}"
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["658C67ABFD247487"]
+			description: [
+				"{ftbquests.chapter.the_hunt_for_grass.quest14.description1}"
+				""
+				"{ftbquests.chapter.the_hunt_for_grass.quest14.description2}"
+				""
+				"{ftbquests.chapter.the_hunt_for_grass.quest14.description3}"
+			]
+			hide_until_deps_complete: false
+			hide_until_deps_visible: true
+			id: "4F0C473B765AA1F8"
+			rewards: [
+				{
+					count: 4
+					id: "62C13096E47A85F1"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					id: "19D9144AEA650C0D"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "7A5B23DB3C4AA80E"
+				item: "create:copper_nugget"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.the_hunt_for_grass.quest14.title}"
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6831CB6AC2CE40C6"]
+			description: [
+				"{ftbquests.chapter.the_hunt_for_grass.quest15.description1}"
+				""
+				"{ftbquests.chapter.the_hunt_for_grass.quest15.description2}"
+			]
+			icon: "naturesaura:gold_leaf"
+			id: "592DBF115E1FBAE9"
+			rewards: [
+				{
+					id: "57B1382104012AD6"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "naturesaura:book"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "33888475CC36A298"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "177D89055F200F6D"
+					item: "naturesaura:gold_fiber"
+					type: "item"
+				}
+				{
+					id: "5AAF6676D00217C1"
+					item: "naturesaura:gold_leaf"
+					type: "item"
+				}
+				{
+					id: "58CB022FD38828DD"
+					item: "naturesaura:gold_powder"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_hunt_for_grass.quest15.title}"
+			x: -0.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["592DBF115E1FBAE9"]
+			description: [
+				"{ftbquests.chapter.the_hunt_for_grass.quest16.description1}"
+				""
+				"{ftbquests.chapter.the_hunt_for_grass.quest16.description2}"
+			]
+			icon: "naturesaura:gold_powder"
+			id: "778E09C4AE548E95"
+			rewards: [{
+				id: "5D6E240899147238"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "186D36A3950FBBA4"
+					item: "naturesaura:wood_stand"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "3128AEF2BE4E0F8E"
+					item: { Count: 16, id: "naturesaura:gold_powder" }
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_hunt_for_grass.quest16.title}"
+			x: -1.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["4075C13786AF4C49"]
+			description: ["{ftbquests.chapter.the_hunt_for_grass.quest17.description1}"]
+			id: "6831CB6AC2CE40C6"
+			rewards: [
+				{
+					count: 4
+					id: "65EF3BC1AE3AC747"
+					item: "enchanted:clay_jar"
+					type: "item"
+				}
+				{
+					id: "0C769E6150B0FEA3"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "43042BD1A143213D"
+				item: "enchanted:witch_oven"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["778E09C4AE548E95"]
+			description: [
+				"{ftbquests.chapter.the_hunt_for_grass.quest18.description1}"
+				""
+				"{ftbquests.chapter.the_hunt_for_grass.quest18.description2}"
+			]
+			icon: "minecraft:grass_block"
+			id: "600A7F0DFD880119"
+			rewards: [
+				{
+					count: 16
+					id: "6A49A265CF4845FA"
+					item: "minecraft:bone_meal"
+					type: "item"
+				}
+				{
+					id: "5356E9C192A1465D"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "{ftbquests.chapter.the_hunt_for_grass.quest18.subtitle}"
+			tasks: [{
+				id: "5CFCBE5FDA4483B2"
+				item: "botania:grass_seeds"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.the_hunt_for_grass.quest18.title}"
+			x: -3.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["2E15C8681F5D2ACF"]
+			description: ["{ftbquests.chapter.the_hunt_for_grass.quest19.description1}"]
+			id: "4A6F59E74183ACCD"
+			rewards: [
+				{
+					count: 16
+					id: "794377EC118582E9"
+					item: "minecraft:bone_meal"
+					type: "item"
+				}
+				{
+					id: "42526DDFBEFC41F3"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "7A0BD58C631C84DF"
+				item: "minecraft:composter"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2E15C8681F5D2ACF"]
+			description: ["{ftbquests.chapter.the_hunt_for_grass.quest20.description1}"]
+			icon: "farmersdelight:straw"
+			id: "07339A3B3E7714B3"
+			rewards: [
+				{
+					count: 4
+					id: "6BB684591D3EF88D"
+					item: "farmersdelight:straw"
+					type: "item"
+				}
+				{
+					id: "7998DD18B02558BF"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "11D03E7C1F201812"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "farmersdelight:tools/knives"
+						}
+					}
+					title: "{ftbquests.chapter.the_hunt_for_grass.quest20.task_1283594596619655186.title}"
+					type: "item"
+				}
+				{
+					id: "46B67D9D0482647A"
+					item: "farmersdelight:straw"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_hunt_for_grass.quest20.title}"
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["07339A3B3E7714B3"]
+			description: ["{ftbquests.chapter.the_hunt_for_grass.quest21.description1}"]
+			id: "1525FDF792FDFA20"
+			rewards: [
+				{
+					count: 2
+					id: "6FBB248C2F9B015B"
+					item: "farmersdelight:organic_compost"
+					type: "item"
+				}
+				{
+					id: "3070C7E5573A4739"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "5AC8FA934EDEE985"
+				item: "farmersdelight:organic_compost"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.the_hunt_for_grass.quest21.title}"
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["389C82D9424B4099"]
+			description: ["{ftbquests.chapter.the_hunt_for_grass.quest22.description1}"]
+			id: "20CBC9AFA7C23F45"
+			rewards: [{
+				id: "1B75C4C21D227AC3"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "52A0EA2EAB67CF45"
+				item: {
+					Count: 1
+					id: "mysticalagriculture:watering_can"
+					tag: {
+						Water: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4075C13786AF4C49"]
+			description: [
+				"{ftbquests.chapter.the_hunt_for_grass.quest23.description1}"
+				""
+				"{ftbquests.chapter.the_hunt_for_grass.quest23.description2}"
+				""
+				"{ftbquests.chapter.the_hunt_for_grass.quest23.description3}"
+				""
+				"{ftbquests.chapter.the_hunt_for_grass.quest23.description4}"
+			]
+			icon: "supplementaries:sign_post_oak"
+			id: "38D0317E85210C44"
+			rewards: [
+				{
+					count: 16
+					id: "1DA546E8161DA745"
+					item: "mcwpaths:oak_planks_path"
+					type: "item"
+				}
+				{
+					id: "7770E67AFA2287F1"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "via_romana:guide"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1F103D45BC4921D6"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "51B8EE71AA705541"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "via_romana:warp_sign"
+					}
+				}
+				title: "{ftbquests.chapter.the_hunt_for_grass.quest23.task_5888718684745127233.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.the_hunt_for_grass.quest23.title}"
+			x: -1.5d
+			y: -6.75d
+		}
+		{
+			dependencies: ["6831CB6AC2CE40C6"]
+			description: ["{ftbquests.chapter.the_hunt_for_grass.quest24.description1}"]
+			id: "101A61A74FD4E38A"
+			rewards: [{
+				id: "5C5154DC1D3C9E50"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "60223DF57FAF6164"
+				item: "enchanted:fume_funnel"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["4CE0C02B0602C06E"]
+			description: [
+				"{ftbquests.chapter.the_hunt_for_grass.quest25.description1}"
+				""
+				"{ftbquests.chapter.the_hunt_for_grass.quest25.description2}"
+			]
+			id: "0922C76A06BE0C7A"
+			optional: true
+			rewards: [{
+				id: "01C80FF930E3D5D0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4D21D45638B3A9BA"
+				item: {
+					Count: 1
+					id: "enchanted:earmuffs"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.the_hunt_for_grass.quest25.title}"
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4075C13786AF4C49"]
+			description: [
+				"{ftbquests.chapter.the_hunt_for_grass.quest26.description1}"
+				""
+				"{ftbquests.chapter.the_hunt_for_grass.quest26.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "reclamation_util:iron_broadaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "73B3D2C5DE405208"
+			rewards: [{
+				id: "38ACBA6748CBF860"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "449440C5F60E3A01"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "reclamation_util:wooden_excavator"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "reclamation_util:stone_excavator"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "reclamation_util:golden_excavator"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "reclamation_util:iron_excavator"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "reclamation_util:diamond_excavator"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "reclamation_util:netherite_excavator"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "reclamation_util:manasteel_excavator"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "reclamation_util:sky_excavator"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "reclamation_util:botanist_excavator"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "reclamation_util:wooden_broadaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "reclamation_util:stone_broadaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "reclamation_util:golden_broadaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "reclamation_util:iron_broadaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "reclamation_util:diamond_broadaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "reclamation_util:netherite_broadaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "reclamation_util:manasteel_broadaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "reclamation_util:botanist_broadaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "reclamation_util:sky_broadaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "reclamation_util:wooden_hammer"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "reclamation_util:stone_hammer"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "reclamation_util:golden_hammer"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "reclamation_util:iron_hammer"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "reclamation_util:diamond_hammer"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "reclamation_util:netherite_hammer"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "reclamation_util:manasteel_hammer"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "reclamation_util:botanist_hammer"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "reclamation_util:sky_hammer"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.the_hunt_for_grass.quest26.task_4941645910113139201.title}"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.75d
+		}
+	]
+	title: "{ftbquests.chapter.the_hunt_for_grass.title}"
+}

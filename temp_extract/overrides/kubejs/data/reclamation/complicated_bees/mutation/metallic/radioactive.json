@@ -1,0 +1,11 @@
+{
+  "chance": 0.08,
+  "conditions": {
+    "complicated_bees:block_under": {
+      "block": "mekanism:block_uranium"
+    }
+  },
+  "first": "complicated_bees:ferrous",
+  "result": "reclamation:radioactive",
+  "second": "complicated_bees:conductive"
+}

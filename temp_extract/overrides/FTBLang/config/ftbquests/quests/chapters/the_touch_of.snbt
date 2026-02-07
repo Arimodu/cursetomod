@@ -1,0 +1,422 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 280
+	default_quest_shape: ""
+	filename: "the_touch_of"
+	group: ""
+	hide_quest_until_deps_visible: true
+	icon: "reclamation_util:filled_biome_bottle"
+	id: "240B183CDC03CB19"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["76531B6ECFD001DB"]
+			description: [
+				"{ftbquests.chapter.the_touch_of.quest1.description1}"
+				""
+				"{ftbquests.chapter.the_touch_of.quest1.description2}"
+			]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "797FD98625915CAF"
+			rewards: [{
+				id: "4557B55BD889AB44"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "#reclamation:reclaimed"
+				id: "6E3C0E23C809A6BA"
+				title: "{ftbquests.chapter.the_touch_of.quest1.task_7943239389617432250.title}"
+				type: "biome"
+			}]
+			title: "{ftbquests.chapter.the_touch_of.quest1.title}"
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["269ECE61446E7CE6"]
+			description: [
+				"{ftbquests.chapter.the_touch_of.quest2.description1}"
+				""
+				"{ftbquests.chapter.the_touch_of.quest2.description2}"
+			]
+			id: "0992C0993A6BBB8A"
+			rewards: [{
+				id: "0B658E1DF83AA286"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				advancement: "minecraft:nether/explore_nether"
+				criterion: ""
+				icon: "minecraft:netherrack"
+				id: "45591ED68D7E8CAC"
+				title: "{ftbquests.chapter.the_touch_of.quest2.task_4997059168389991596.title}"
+				type: "advancement"
+			}]
+			title: "{ftbquests.chapter.the_touch_of.quest2.title}"
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["797FD98625915CAF"]
+			description: ["{ftbquests.chapter.the_touch_of.quest3.description1}"]
+			icon: "minecraft:spawner"
+			id: "1ECF71CD671CE14B"
+			rewards: [
+				{
+					count: 4
+					id: "5D7984E2E98091FD"
+					item: "croptopia:fish_and_chips"
+					type: "item"
+				}
+				{
+					id: "54C1927D25A7E012"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "124BC217DE620644"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.the_touch_of.quest3.title}"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["797FD98625915CAF"]
+			description: [
+				"{ftbquests.chapter.the_touch_of.quest4.description1}"
+				""
+				"{ftbquests.chapter.the_touch_of.quest4.description2}"
+				""
+				"{ftbquests.chapter.the_touch_of.quest4.description3}"
+			]
+			icon: "reclamation_util:filled_biome_bottle"
+			id: "269ECE61446E7CE6"
+			rewards: [
+				{
+					count: 2
+					id: "111550E5CDAEB7E8"
+					item: "reclamation_util:empty_biome_bottle"
+					type: "item"
+				}
+				{
+					id: "655B3B3F0A6AEA16"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "0D347632CFA3D9D4"
+					item: "reclamation_util:empty_biome_bottle"
+					type: "item"
+				}
+				{
+					id: "4A7809B25D161A95"
+					item: "reclamation_util:filled_biome_bottle"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_touch_of.quest4.title}"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["19E7760B061483C9"]
+			description: ["{ftbquests.chapter.the_touch_of.quest5.description1}"]
+			id: "7277FA4026920033"
+			rewards: [{
+				id: "5A71024BB4E805D4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1E3126525284BCF8"
+				item: "reclamation_util:hellish_biome_bottle"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7277FA4026920033"]
+			description: [
+				"{ftbquests.chapter.the_touch_of.quest6.description1}"
+				""
+				"{ftbquests.chapter.the_touch_of.quest6.description2}"
+			]
+			id: "15966B11B4C3E2F5"
+			rewards: [{
+				id: "30DB106D75599369"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "658E9D76E47362C1"
+				item: "reclamation_util:arid_biome_bottle"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"1E6C9A0B164888F7"
+				"69BCBDE0FD9FD3AA"
+			]
+			description: [
+				"{ftbquests.chapter.the_touch_of.quest7.description1}"
+				""
+				"{ftbquests.chapter.the_touch_of.quest7.description2}"
+				""
+				"{ftbquests.chapter.the_touch_of.quest7.description3}"
+				""
+				"{ftbquests.chapter.the_touch_of.quest7.description4}"
+				""
+				"{ftbquests.chapter.the_touch_of.quest7.description5}"
+			]
+			id: "0C35379194435EC8"
+			rewards: [{
+				id: "19C81E8EA7D6699B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6766CF66FC572CCF"
+				item: "reclamation_util:icy_biome_bottle"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["15966B11B4C3E2F5"]
+			description: [
+				"{ftbquests.chapter.the_touch_of.quest8.description1}"
+				""
+				"{ftbquests.chapter.the_touch_of.quest8.description2}"
+				""
+				"{ftbquests.chapter.the_touch_of.quest8.description3}"
+			]
+			id: "69BCBDE0FD9FD3AA"
+			rewards: [{
+				id: "5CEF7C522161701B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "648A4B4003EB2F48"
+				item: "reclamation_util:lush_biome_bottle"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["7277FA4026920033"]
+			description: [
+				"{ftbquests.chapter.the_touch_of.quest9.description1}"
+				""
+				"{ftbquests.chapter.the_touch_of.quest9.description2}"
+			]
+			id: "4124F7AA9DF1444F"
+			rewards: [{
+				id: "721AEEDDA12D2CA6"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "62E17A877BC0F30D"
+				item: "reclamation_util:mycelic_biome_bottle"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4124F7AA9DF1444F"]
+			description: [
+				"{ftbquests.chapter.the_touch_of.quest10.description1}"
+				""
+				"{ftbquests.chapter.the_touch_of.quest10.description2}"
+				""
+				"{ftbquests.chapter.the_touch_of.quest10.description3}"
+			]
+			id: "1E6C9A0B164888F7"
+			rewards: [{
+				id: "57C3B0C1A2686F21"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "06FAB593C740FC52"
+				item: "reclamation_util:watery_biome_bottle"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"4124F7AA9DF1444F"
+				"15966B11B4C3E2F5"
+				"7277FA4026920033"
+				"1E6C9A0B164888F7"
+				"69BCBDE0FD9FD3AA"
+				"0C35379194435EC8"
+			]
+			description: [
+				"{ftbquests.chapter.the_touch_of.quest11.description1}"
+				""
+				"{ftbquests.chapter.the_touch_of.quest11.description2}"
+			]
+			icon: "minecraft:end_portal_frame"
+			id: "6D23082F517D5117"
+			rewards: [{
+				id: "5B55FA50B18BB27A"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "{ftbquests.chapter.the_touch_of.quest11.subtitle}"
+			tasks: [
+				{
+					dimension: "minecraft:the_end"
+					icon: "minecraft:end_portal_frame"
+					id: "42C545D227EB5990"
+					title: "{ftbquests.chapter.the_touch_of.quest11.task_4811328545830427024.title}"
+					type: "dimension"
+				}
+				{
+					id: "202B9E7EDA90980C"
+					item: "reclamation_util:frame_remover"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_touch_of.quest11.title}"
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["269ECE61446E7CE6"]
+			description: [
+				"{ftbquests.chapter.the_touch_of.quest12.description1}"
+				""
+				"{ftbquests.chapter.the_touch_of.quest12.description2}"
+			]
+			id: "19E7760B061483C9"
+			rewards: [{
+				id: "5B3A73EF7FBFDE90"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "124B68712D3168F9"
+				item: "reclamation_util:attuned_biome_bottle"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["269ECE61446E7CE6"]
+			description: [
+				"{ftbquests.chapter.the_touch_of.quest13.description1}"
+				""
+				"{ftbquests.chapter.the_touch_of.quest13.description2}"
+			]
+			icon: "minecraft:grass_block"
+			id: "08AD7AC8EA3F60BD"
+			rewards: [{
+				id: "032A7861EFE83BF3"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1DBEE9F81CAADA0D"
+				title: "{ftbquests.chapter.the_touch_of.quest13.task_2143407724517054989.title}"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["19E7760B061483C9"]
+			description: [
+				"{ftbquests.chapter.the_touch_of.quest14.description1}"
+				""
+				"{ftbquests.chapter.the_touch_of.quest14.description2}"
+				""
+				"{ftbquests.chapter.the_touch_of.quest14.description3}"
+			]
+			id: "1D8D6B5B69416E17"
+			optional: true
+			rewards: [{
+				id: "50C1E2683E84C782"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "{ftbquests.chapter.the_touch_of.quest14.subtitle}"
+			tasks: [
+				{
+					id: "762063598E9C32DC"
+					item: "reclamation_util:empty_biome_globe"
+					type: "item"
+				}
+				{
+					id: "765E6CC514E5B023"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "reclamation_util:plains_biome_globe"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "reclamation_util:desert_biome_globe"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "reclamation_util:forest_biome_globe"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "reclamation_util:ocean_biome_globe"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					title: "{ftbquests.chapter.the_touch_of.quest14.task_8529374338001252387.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_touch_of.quest14.title}"
+			x: 2.0d
+			y: -2.5d
+		}
+	]
+	title: "{ftbquests.chapter.the_touch_of.title}"
+}

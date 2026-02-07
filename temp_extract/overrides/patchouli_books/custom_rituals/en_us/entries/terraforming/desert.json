@@ -1,0 +1,17 @@
+{
+  "name": "Desert",
+  "icon": "minecraft:sand",
+  "advancement": "reclamation:biome_essence",
+  "category": "patchouli:terraforming",
+  "pages": [
+    {
+      "type": "patchouli:rite_description",
+      "rite_name": "Rite of Desert",
+      "text": "This rite will convert the surrounding area into a desert. It has a range of 16 blocks."
+    },
+    {
+      "type": "patchouli:rite_requirements",
+      "rite": "reclamation:terraforming/desert"
+    }
+  ]
+}

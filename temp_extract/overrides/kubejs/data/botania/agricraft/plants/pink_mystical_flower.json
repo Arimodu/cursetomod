@@ -1,0 +1,60 @@
+{
+  "cloneable": true,
+  "growth_bonus": 0.025,
+  "growth_chance": 0.5,
+  "harvest_stage": 4,
+  "mods": [],
+  "products": [
+    {
+      "chance": 1.0,
+      "item": "botania:pink_petal",
+      "max": 2,
+      "min": 1,
+      "required": true
+    }
+  ],
+  "clip_products": [
+    {
+      "chance": 1,
+      "item": "botania:pink_mystical_flower",
+      "max": 2,
+      "min": 1,
+      "required": true
+    }
+  ],
+  "requirement": {
+    "light_tolerance_factor": 0.5,
+    "max_light": 16,
+    "min_light": 12,
+    "seasons": [
+      "spring"
+    ],
+    "soil_acidity": {
+      "type": "equal",
+      "tolerance_factor": 0.2,
+      "value": "slightly_acidic"
+    },
+    "soil_humidity": {
+      "type": "equal",
+      "tolerance_factor": 0.15,
+      "value": "wet"
+    },
+    "soil_nutrients": {
+      "type": "equal_or_higher",
+      "tolerance_factor": 0.1,
+      "value": "high"
+    }
+  },
+  "seeds": [],
+  "spread_chance": 0.1,
+  "stages": [
+    2,
+    3,
+    5,
+    6,
+    8,
+    9,
+    11,
+    12
+  ]
+}

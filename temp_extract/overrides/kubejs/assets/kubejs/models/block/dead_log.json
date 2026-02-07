@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "kubejs:block/dead_log_top",
+    "side": "kubejs:block/dead_log"
+  }
+}

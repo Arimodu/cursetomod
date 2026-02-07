@@ -1,0 +1,7 @@
+{
+  "name": "Terraforming",
+  "description": "Rituals with the power to change the world.",
+  "icon": "minecraft:oak_sapling",
+  "secret": true,
+  "sortnum": 1
+}

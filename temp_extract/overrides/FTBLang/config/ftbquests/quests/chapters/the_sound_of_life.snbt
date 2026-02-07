@@ -1,0 +1,2667 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 280
+	default_quest_shape: ""
+	filename: "the_sound_of_life"
+	group: ""
+	hide_quest_until_deps_visible: true
+	icon: "minecraft:egg"
+	id: "384351F130068923"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1C7C9A1F11DE819B"]
+			description: ["{ftbquests.chapter.the_sound_of_life.quest1.description1}"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			icon: "heads:chicken_head"
+			id: "7540F4407477DCAF"
+			rewards: [{
+				id: "237C35ECF9E73216"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			tasks: [{
+				disable_toast: true
+				id: "5AEA0525E5C56793"
+				item: "minecraft:chicken_spawn_egg"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.the_sound_of_life.quest1.title}"
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7540F4407477DCAF"]
+			description: [
+				"{ftbquests.chapter.the_sound_of_life.quest2.description1}"
+				""
+				"{ftbquests.chapter.the_sound_of_life.quest2.description2}"
+			]
+			icon: "naturesaura:animal_spawner"
+			id: "4985B07F3FA59210"
+			rewards: [
+				{
+					count: 4
+					id: "357E0029B5AAE0A9"
+					item: "minecraft:egg"
+					type: "item"
+				}
+				{
+					id: "673CE7EF96FE145E"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "378D137178E97CA0"
+					item: "naturesaura:animal_spawner"
+					type: "item"
+				}
+				{
+					id: "75333D5557211687"
+					item: "naturesaura:birth_spirit"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_sound_of_life.quest2.title}"
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4985B07F3FA59210"]
+			description: [
+				"{ftbquests.chapter.the_sound_of_life.quest3.description1}"
+				""
+				"{ftbquests.chapter.the_sound_of_life.quest3.description2}"
+			]
+			icon: "bloodmagic:altar"
+			id: "3A8632BAEA799385"
+			rewards: [
+				{
+					id: "49B0F3E7D9AA87A4"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "bloodmagic:guide"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3D51F200661693AA"
+					item: "bloodmagic:soulsnare"
+					type: "item"
+				}
+				{
+					id: "045614053E35385D"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "2322AC4E4EDB3B43"
+					item: "bloodmagic:soulsnare"
+					type: "item"
+				}
+				{
+					id: "023C107E83217755"
+					item: "bloodmagic:altar"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_sound_of_life.quest3.title}"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3A8632BAEA799385"]
+			description: [
+				"{ftbquests.chapter.the_sound_of_life.quest4.description1}"
+				""
+				"{ftbquests.chapter.the_sound_of_life.quest4.description2}"
+			]
+			icon: "bloodmagic:blankslate"
+			id: "377BF30FBED5AA32"
+			rewards: [
+				{
+					count: 4
+					id: "772B008CD55DC875"
+					item: "bloodmagic:blankslate"
+					type: "item"
+				}
+				{
+					id: "633D0601D201B979"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "2FEA1AFEAC08E4B2"
+					item: "bloodmagic:blankslate"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "56C741E6855EBB85"
+					item: { Count: 8, id: "bloodmagic:blankrune" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0316DABD5A9F1D48"
+					item: "bloodmagic:speedrune"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["377BF30FBED5AA32"]
+			description: [
+				"{ftbquests.chapter.the_sound_of_life.quest5.description1}"
+				""
+				"{ftbquests.chapter.the_sound_of_life.quest5.description2}"
+				""
+				"{ftbquests.chapter.the_sound_of_life.quest5.description3}"
+			]
+			icon: "bloodmagic:soulforge"
+			id: "74EFFC6EDDE055CC"
+			rewards: [{
+				id: "0F6E03525CC884EB"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "4A3C365B974B4686"
+					item: "bloodmagic:soulforge"
+					type: "item"
+				}
+				{
+					id: "4BF3F3DFD146D313"
+					item: {
+						Count: 1
+						id: "bloodmagic:soulgempetty"
+						tag: { }
+					}
+					match_nbt: false
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["377BF30FBED5AA32"]
+			description: [
+				"{ftbquests.chapter.the_sound_of_life.quest6.description1}"
+				""
+				"{ftbquests.chapter.the_sound_of_life.quest6.description2}"
+				""
+				"{ftbquests.chapter.the_sound_of_life.quest6.description3}"
+			]
+			icon: "bloodmagic:weakbloodorb"
+			id: "7BDAAB04F6FD0786"
+			rewards: [{
+				id: "1C156820BE10709E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7D25CF3CC20E3F95"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "bloodmagic:weakbloodorb"
+							}
+							{
+								Count: 1b
+								id: "bloodmagic:apprenticebloodorb"
+							}
+							{
+								Count: 1b
+								id: "bloodmagic:magicianbloodorb"
+							}
+							{
+								Count: 1b
+								id: "bloodmagic:masterbloodorb"
+							}
+							{
+								Count: 1b
+								id: "bloodmagic:archmagebloodorb"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.the_sound_of_life.quest6.task_9017841688739987349.title}"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7BDAAB04F6FD0786"]
+			description: ["{ftbquests.chapter.the_sound_of_life.quest7.description1}"]
+			id: "6E3C1D562EF8899E"
+			rewards: [{
+				id: "6F107000611C0596"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "221D12F2D212528C"
+				item: "bloodmagic:alchemytable"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6E3C1D562EF8899E"]
+			description: [
+				"{ftbquests.chapter.the_sound_of_life.quest8.description1}"
+				""
+				"{ftbquests.chapter.the_sound_of_life.quest8.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "bloodmagic:arcaneashes"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "72F1440343A758D8"
+			rewards: [{
+				id: "62EC211F97E38A13"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "0E2A07C6AECA444F"
+					item: {
+						Count: 1
+						id: "bloodmagic:arcaneashes"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1727DB6E02D0E659"
+					item: "bloodmagic:divinationsigil"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["74EFFC6EDDE055CC"]
+			description: [
+				"{ftbquests.chapter.the_sound_of_life.quest9.description1}"
+				""
+				"{ftbquests.chapter.the_sound_of_life.quest9.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "bloodmagic:soulsword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "068189D12DAB75B0"
+			rewards: [
+				{
+					id: "788F429367C66336"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "53AA85048C90DE6A"
+					item: {
+						Count: 1
+						id: "bloodmagic:basemonstersoul"
+						tag: {
+							souls: 25.0d
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2DECD86907170DFF"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "bloodmagic:soulsword"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "bloodmagic:soulaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "bloodmagic:soulpickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "bloodmagic:soulshovel"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "bloodmagic:soulscythe"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.the_sound_of_life.quest9.task_3309257771812589055.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.the_sound_of_life.quest9.title}"
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["377BF30FBED5AA32"]
+			description: [
+				"{ftbquests.chapter.the_sound_of_life.quest10.description1}"
+				""
+				"{ftbquests.chapter.the_sound_of_life.quest10.description2}"
+			]
+			icon: "bloodmagic:reinforcedslate"
+			id: "7CF9CB3E4AC5A7DA"
+			rewards: [
+				{
+					count: 2
+					id: "64D7B37C6F263BF0"
+					item: "bloodmagic:reinforcedslate"
+					type: "item"
+				}
+				{
+					id: "251120CC558323CC"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "3E7417224DA9B862"
+					item: "bloodmagic:reinforcedslate"
+					type: "item"
+				}
+				{
+					id: "6C36EDFD7F9F9B22"
+					item: "bloodmagic:sacrificerune"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6880E08E93759140"
+					item: "bloodmagic:selfsacrificerune"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_sound_of_life.quest10.title}"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7CF9CB3E4AC5A7DA"]
+			description: [
+				"{ftbquests.chapter.the_sound_of_life.quest11.description1}"
+				""
+				"{ftbquests.chapter.the_sound_of_life.quest11.description2}"
+			]
+			icon: "bloodmagic:infusedslate"
+			id: "574FE16E5404A3D0"
+			rewards: [
+				{
+					count: 2
+					id: "6B080D23778CD8FC"
+					item: "bloodmagic:infusedslate"
+					type: "item"
+				}
+				{
+					id: "381E1AAE54092F12"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "37B254916A987B8E"
+					item: "bloodmagic:infusedslate"
+					type: "item"
+				}
+				{
+					id: "26B9BD610BECEDF3"
+					item: "bloodmagic:altarcapacityrune"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "08301E614AB17191"
+					item: "bloodmagic:dislocationrune"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_sound_of_life.quest11.title}"
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["574FE16E5404A3D0"]
+			description: ["{ftbquests.chapter.the_sound_of_life.quest12.description1}"]
+			id: "5E16957A5151E858"
+			rewards: [{
+				id: "2FC4589CD2AE8447"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1A32582B9A5D1ED4"
+				item: "bloodmagic:alchemicalreactionchamber"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["22F15EC1DF24B1D8"]
+			description: [
+				"{ftbquests.chapter.the_sound_of_life.quest13.description1}"
+				""
+				"{ftbquests.chapter.the_sound_of_life.quest13.description2}"
+				""
+				"{ftbquests.chapter.the_sound_of_life.quest13.description3}"
+			]
+			id: "703F201AB6A704B3"
+			optional: true
+			rewards: [{
+				id: "65AA5759754350C5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7FB8C827063802D3"
+				item: "botania:blood_pendant"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5E16957A5151E858"]
+			description: [
+				"{ftbquests.chapter.the_sound_of_life.quest14.description1}"
+				""
+				"{ftbquests.chapter.the_sound_of_life.quest14.description2}"
+			]
+			id: "22F15EC1DF24B1D8"
+			rewards: [{
+				id: "021801B296B134CB"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "5032798879F66104"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "3BB1A7C07E3F5376"
+					item: "minecraft:amethyst_shard"
+					type: "item"
+				}
+				{
+					id: "68F95184800330D3"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+				{
+					id: "63AD163F272F80D9"
+					item: "minecraft:quartz"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_sound_of_life.quest14.title}"
+			x: -3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["22F15EC1DF24B1D8"]
+			description: [
+				"{ftbquests.chapter.the_sound_of_life.quest15.description1}"
+				""
+				"{ftbquests.chapter.the_sound_of_life.quest15.description2}"
+				""
+				"{ftbquests.chapter.the_sound_of_life.quest15.description3}"
+			]
+			id: "518B46E423840A2F"
+			rewards: [
+				{
+					id: "326F7FB78BE3A4F7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "4F0506A326507B32"
+					item: "minecraft:amethyst_shard"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "670314D8B1392691"
+				item: "minecraft:budding_amethyst"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["22F15EC1DF24B1D8"]
+			description: [
+				"{ftbquests.chapter.the_sound_of_life.quest16.description1}"
+				""
+				"{ftbquests.chapter.the_sound_of_life.quest16.description2}"
+				""
+				"{ftbquests.chapter.the_sound_of_life.quest16.description3}"
+			]
+			id: "1CCEDC1F9F219179"
+			rewards: [{
+				id: "39D0850FDC4BC2AC"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "784CD9014C36443E"
+				item: "ars_nouveau:red_archwood_sapling"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.the_sound_of_life.quest16.title}"
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1CCEDC1F9F219179"]
+			description: [
+				"{ftbquests.chapter.the_sound_of_life.quest17.description1}"
+				""
+				"{ftbquests.chapter.the_sound_of_life.quest17.description2}"
+			]
+			icon: "ars_nouveau:source_gem"
+			id: "1A59682F5B56E020"
+			rewards: [
+				{
+					id: "64CCDF2FE431AE08"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "28474DFB8BE096FC"
+					item: "ars_nouveau:source_gem"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "62F22B91C38D1A19"
+					item: "ars_nouveau:imbuement_chamber"
+					type: "item"
+				}
+				{
+					id: "081B2C5DDC080F06"
+					item: "ars_nouveau:source_gem"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_sound_of_life.quest17.title}"
+			x: -6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["574FE16E5404A3D0"]
+			description: ["{ftbquests.chapter.the_sound_of_life.quest18.description1}"]
+			icon: "mekanism:ingot_osmium"
+			id: "2746DDF7130D3BB4"
+			rewards: [
+				{
+					id: "4407ACE13E141EAD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "0903E42D348EC2A1"
+					item: "mekanism:ingot_osmium"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7EA7CF9D39C7751F"
+				item: "mekanism:ingot_osmium"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.the_sound_of_life.quest18.title}"
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0E7EBE370DB920D8"]
+			description: [
+				"{ftbquests.chapter.the_sound_of_life.quest19.description1}"
+				""
+				"{ftbquests.chapter.the_sound_of_life.quest19.description2}"
+			]
+			icon: "mekanism:ingot_steel"
+			id: "0CF33532629C1427"
+			rewards: [
+				{
+					count: 4
+					id: "4E5E6BA177BD3802"
+					item: "mekanism:ingot_steel"
+					type: "item"
+				}
+				{
+					id: "466545FC11617D95"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "3ED79C8FFF4F92C5"
+					item: "mekanism:metallurgic_infuser"
+					type: "item"
+				}
+				{
+					id: "328D39E68378FAF3"
+					item: "mekanism:ingot_steel"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_sound_of_life.quest19.title}"
+			x: 5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0CF33532629C1427"]
+			description: [
+				"{ftbquests.chapter.the_sound_of_life.quest20.description1}"
+				""
+				"{ftbquests.chapter.the_sound_of_life.quest20.description2}"
+			]
+			id: "7A2BEC31266C6A7E"
+			rewards: [{
+				id: "159412D5B1C84275"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "582C7FEBC5653F6B"
+				item: "mekanism:steel_casing"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.the_sound_of_life.quest20.title}"
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7A2BEC31266C6A7E"]
+			description: ["{ftbquests.chapter.the_sound_of_life.quest21.description1}"]
+			id: "382B7C05BB6427BB"
+			rewards: [{
+				id: "418B00529CFA055E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6946036A7CBAC3DA"
+				item: "mekanism:enrichment_chamber"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2746DDF7130D3BB4"]
+			description: [
+				"{ftbquests.chapter.the_sound_of_life.quest22.description1}"
+				""
+				"{ftbquests.chapter.the_sound_of_life.quest22.description2}"
+			]
+			id: "0E7EBE370DB920D8"
+			rewards: [{
+				id: "35B5368759D5201D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4E377E82C636102C"
+				item: "botania:mana_fluxfield"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["22F15EC1DF24B1D8"]
+			description: [
+				"{ftbquests.chapter.the_sound_of_life.quest23.description1}"
+				""
+				"{ftbquests.chapter.the_sound_of_life.quest23.description2}"
+				""
+				"{ftbquests.chapter.the_sound_of_life.quest23.description3}"
+			]
+			icon: "botania:terrasteel_ingot"
+			id: "2F6FB6D4819EF061"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "33CFD43D0DB6A9ED"
+					table_id: 1430735789179352246L
+					type: "choice"
+				}
+				{
+					id: "372B45BE929CEF67"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "20ACC9409D3E06DE"
+					item: "botania:terra_plate"
+					type: "item"
+				}
+				{
+					id: "08B033CAEF0CD37B"
+					item: "botania:terrasteel_ingot"
+					type: "item"
+				}
+				{
+					id: "3828A7384B03CF18"
+					item: "botania:spark"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_sound_of_life.quest23.title}"
+			x: -4.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0CF33532629C1427"]
+			description: ["{ftbquests.chapter.the_sound_of_life.quest24.description1}"]
+			icon: "mekanism:basic_universal_cable"
+			id: "740CD4B0ED662B60"
+			rewards: [{
+				id: "2A3FEABE2B698F92"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1475EE94A011CB5D"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "mekanism:basic_universal_cable"
+							}
+							{
+								Count: 1b
+								id: "mekanism:basic_mechanical_pipe"
+							}
+							{
+								Count: 1b
+								id: "mekanism:basic_pressurized_tube"
+							}
+							{
+								Count: 1b
+								id: "mekanism:basic_logistical_transporter"
+							}
+							{
+								Count: 1b
+								id: "mekanism:basic_thermodynamic_conductor"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.the_sound_of_life.quest24.task_1474346775141796701.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.the_sound_of_life.quest24.title}"
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7A2BEC31266C6A7E"]
+			description: ["{ftbquests.chapter.the_sound_of_life.quest25.description1}"]
+			id: "46391DDDC731B2AC"
+			rewards: [{
+				id: "76D8B9E4A2E39ABE"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "56D016880B4F7E0A"
+				item: "mekanism:rotary_condensentrator"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["46391DDDC731B2AC"]
+			description: [
+				"{ftbquests.chapter.the_sound_of_life.quest26.description1}"
+				""
+				"{ftbquests.chapter.the_sound_of_life.quest26.description2}"
+			]
+			id: "65850E753E7200DC"
+			rewards: [{
+				id: "26E1201BE7376631"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "557B2A704D82C0E4"
+				item: "mekanismgenerators:gas_burning_generator"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"65850E753E7200DC"
+				"64D9A5568A5D41FD"
+			]
+			description: [
+				"{ftbquests.chapter.the_sound_of_life.quest27.description1}"
+				""
+				"{ftbquests.chapter.the_sound_of_life.quest27.description2}"
+			]
+			icon: "mekanism:ethene_bucket"
+			id: "6EAAB9DF6917C3AC"
+			rewards: [{
+				id: "0613B63736BECD09"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "784C1FB9EF14A6F2"
+				item: "mekanism:substrate"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.the_sound_of_life.quest27.title}"
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6EAAB9DF6917C3AC"]
+			description: ["{ftbquests.chapter.the_sound_of_life.quest28.description1}"]
+			icon: "bloodmagic:life_essence_bucket"
+			id: "0B4BD82BD1422A1A"
+			rewards: [{
+				id: "7B04313E2CB7FFF3"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2BF3BFDB49C45513"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.the_sound_of_life.quest28.title}"
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7A2BEC31266C6A7E"]
+			description: ["{ftbquests.chapter.the_sound_of_life.quest29.description1}"]
+			id: "2FD8F1325D206079"
+			rewards: [{
+				id: "12528884CF2B0441"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6F86831D988E5067"
+				item: "mekanism:crusher"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2FD8F1325D206079"]
+			description: ["{ftbquests.chapter.the_sound_of_life.quest30.description1}"]
+			icon: "mekanism:bio_fuel"
+			id: "64D9A5568A5D41FD"
+			rewards: [{
+				id: "2EFE27CEB03D9EEA"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "2A212BB4860A6A9C"
+					item: "mekanism:bio_fuel"
+					type: "item"
+				}
+				{
+					id: "08C0A72E651C7E5C"
+					item: "mekanismgenerators:bio_generator"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_sound_of_life.quest30.title}"
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["382B7C05BB6427BB"]
+			description: [
+				"{ftbquests.chapter.the_sound_of_life.quest31.description1}"
+				""
+				"{ftbquests.chapter.the_sound_of_life.quest31.description2}"
+				""
+				"{ftbquests.chapter.the_sound_of_life.quest31.description3}"
+			]
+			id: "1FFEB5A89F1ACBEC"
+			rewards: [{
+				id: "3628F01A7CE6CE11"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7BB90ADA3D1A4A27"
+				item: "mekanism:purification_chamber"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1FFEB5A89F1ACBEC"]
+			description: [
+				"{ftbquests.chapter.the_sound_of_life.quest32.description1}"
+				""
+				"{ftbquests.chapter.the_sound_of_life.quest32.description2}"
+				""
+				"{ftbquests.chapter.the_sound_of_life.quest32.description3}"
+			]
+			icon: "mekanism:chemical_dissolution_chamber"
+			id: "0E50AD0D33F05A97"
+			rewards: [{
+				id: "1C9E6BD4569B5C68"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "1DEF0E6B5E2EA645"
+					item: "mekanism:chemical_dissolution_chamber"
+					type: "item"
+				}
+				{
+					id: "53F660FA9CD0E6A1"
+					item: "mekanism:thermal_evaporation_controller"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0E50AD0D33F05A97"]
+			description: [
+				"{ftbquests.chapter.the_sound_of_life.quest33.description1}"
+				""
+				"{ftbquests.chapter.the_sound_of_life.quest33.description2}"
+				""
+				"{ftbquests.chapter.the_sound_of_life.quest33.description3}"
+			]
+			icon: "mekanism:chemical_washer"
+			id: "3B5E9C85AC4A0165"
+			rewards: [{
+				id: "028F869BA70AD5EC"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "7EA89E9827E49CA2"
+					item: "mekanism:chemical_washer"
+					type: "item"
+				}
+				{
+					id: "6FD98215E0A2C9D7"
+					item: "mekanism:chemical_crystallizer"
+					type: "item"
+				}
+				{
+					id: "37697DBA8E936D45"
+					item: "mekanism:chemical_injection_chamber"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_sound_of_life.quest33.title}"
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["574FE16E5404A3D0"]
+			description: [
+				"{ftbquests.chapter.the_sound_of_life.quest34.description1}"
+				""
+				"{ftbquests.chapter.the_sound_of_life.quest34.description2}"
+				""
+				"{ftbquests.chapter.the_sound_of_life.quest34.description3}"
+			]
+			icon: "bloodmagic:ritualdiviner"
+			id: "572D14ABB8B0DEB9"
+			rewards: [{
+				id: "1131E0D528CC4C71"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "427CDE4DC86850F7"
+					item: "bloodmagic:ritualdiviner"
+					type: "item"
+				}
+				{
+					id: "7DBABAFEE9117CBC"
+					item: "bloodmagic:masterritualstone"
+					type: "item"
+				}
+				{
+					id: "0803E379A44EFC16"
+					item: "bloodmagic:activationcrystalweak"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_sound_of_life.quest34.title}"
+			x: -1.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["572D14ABB8B0DEB9"]
+			description: [
+				"{ftbquests.chapter.the_sound_of_life.quest35.description1}"
+				""
+				"{ftbquests.chapter.the_sound_of_life.quest35.description2}"
+				""
+				"{ftbquests.chapter.the_sound_of_life.quest35.description3}"
+			]
+			icon: "bloodmagic:weakbloodshard"
+			id: "4CF55F7AA2943D89"
+			rewards: [{
+				id: "7069B29833E2D1AB"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "68F1364D1040EB47"
+					item: "bloodmagic:weak_tau"
+					type: "item"
+				}
+				{
+					id: "0D170CFD649C76DE"
+					item: "bloodmagic:strong_tau"
+					type: "item"
+				}
+				{
+					id: "051EC8616B94DE88"
+					item: "bloodmagic:weakbloodshard"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_sound_of_life.quest35.title}"
+			x: -1.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["4CF55F7AA2943D89"]
+			description: [
+				"{ftbquests.chapter.the_sound_of_life.quest36.description1}"
+				""
+				"{ftbquests.chapter.the_sound_of_life.quest36.description2}"
+			]
+			icon: "bloodmagic:demonslate"
+			id: "45BC42953D194C94"
+			rewards: [{
+				id: "5D38AB03FC3BDEB9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "4720477C3CBF71DA"
+					item: "bloodmagic:demonslate"
+					type: "item"
+				}
+				{
+					id: "127C70A1962EBBB9"
+					item: "bloodmagic:bettercapacityrune"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "052F97BFDBB1A18C"
+					item: "bloodmagic:accelerationrune"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7F19272509FF60B5"
+					item: "bloodmagic:chargingrune"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_sound_of_life.quest36.title}"
+			x: 0.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["45BC42953D194C94"]
+			description: [
+				"{ftbquests.chapter.the_sound_of_life.quest37.description1}"
+				""
+				"{ftbquests.chapter.the_sound_of_life.quest37.description2}"
+			]
+			id: "334A0BB9548947EF"
+			rewards: [{
+				id: "607BAD64DAC4FCFE"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "723C24DEE217AB71"
+				item: "bloodmagic:ritualdivinerdusk"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.the_sound_of_life.quest37.title}"
+			x: 1.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["334A0BB9548947EF"]
+			description: [
+				"{ftbquests.chapter.the_sound_of_life.quest38.description1}"
+				""
+				"{ftbquests.chapter.the_sound_of_life.quest38.description2}"
+			]
+			id: "171B65208F0D13E8"
+			rewards: [{
+				id: "5AC8DA5FA134C6F7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "467B3D50C2357A42"
+				item: "bloodmagic:rawdemonite"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["171B65208F0D13E8"]
+			description: [
+				"{ftbquests.chapter.the_sound_of_life.quest39.description1}"
+				""
+				"{ftbquests.chapter.the_sound_of_life.quest39.description2}"
+			]
+			id: "0B69076CC61D0246"
+			rewards: [{
+				id: "320A61458BB04F1C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2D0FB64D86DA4D44"
+				item: "bloodmagic:etherealslate"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.the_sound_of_life.quest39.title}"
+			x: 0.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["334A0BB9548947EF"]
+			description: [
+				"{ftbquests.chapter.the_sound_of_life.quest40.description1}"
+				""
+				"{ftbquests.chapter.the_sound_of_life.quest40.description2}"
+				""
+				"{ftbquests.chapter.the_sound_of_life.quest40.description3}"
+			]
+			id: "1FC8CD63A4443B63"
+			rewards: [{
+				id: "3B5D6D98F5DC7D86"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6E2EBA9485E13F0B"
+				item: "bloodmagic:ritualtinkerer"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.the_sound_of_life.quest40.title}"
+			x: -0.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["7BDAAB04F6FD0786"]
+			description: [
+				"{ftbquests.chapter.the_sound_of_life.quest41.description1}"
+				""
+				"{ftbquests.chapter.the_sound_of_life.quest41.description2}"
+			]
+			id: "1C61DAD67EC27EA5"
+			rewards: [{
+				id: "6787F1685DB5735A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5A2F41572FB4E93A"
+				item: "bloodmagic:incensealtar"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["22F15EC1DF24B1D8"]
+			description: [
+				"{ftbquests.chapter.the_sound_of_life.quest42.description1}"
+				""
+				"{ftbquests.chapter.the_sound_of_life.quest42.description2}"
+				""
+				"{ftbquests.chapter.the_sound_of_life.quest42.description3}"
+				""
+				"{ftbquests.chapter.the_sound_of_life.quest42.description4}"
+			]
+			icon: "bloodmagic:defaultcrystal"
+			id: "026A3590EE976DB0"
+			rewards: [{
+				id: "17148E927CA42A25"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "253DDEE2437F5A1A"
+					item: "bloodmagic:demoncrucible"
+					type: "item"
+				}
+				{
+					id: "1D833D514F9B56D6"
+					item: "bloodmagic:demoncrystallizer"
+					type: "item"
+				}
+				{
+					id: "44C8A99B9FFE37F1"
+					item: "bloodmagic:defaultcrystal"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_sound_of_life.quest42.title}"
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"1FC8CD63A4443B63"
+				"026A3590EE976DB0"
+			]
+			description: [
+				"{ftbquests.chapter.the_sound_of_life.quest43.description1}"
+				""
+				"{ftbquests.chapter.the_sound_of_life.quest43.description2}"
+			]
+			id: "357CA59CD9EFA012"
+			rewards: [{
+				id: "464960C7C3270280"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "3D2E4EDD1162BC19"
+					item: "bloodmagic:corrosivecrystal"
+					type: "item"
+				}
+				{
+					id: "4EC199F62E2DF1A2"
+					item: "bloodmagic:vengefulcrystal"
+					type: "item"
+				}
+				{
+					id: "1E0BEAC26DF1E8A8"
+					item: "bloodmagic:destructivecrystal"
+					type: "item"
+				}
+				{
+					id: "578468CF2D419097"
+					item: "bloodmagic:steadfastcrystal"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_sound_of_life.quest43.title}"
+			x: -2.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["2F6FB6D4819EF061"]
+			description: ["{ftbquests.chapter.the_sound_of_life.quest44.description1}"]
+			id: "7B4F1EAF6F7A4A1D"
+			rewards: [{
+				id: "2ABDB4E91089E2B3"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5369B7D08EBAF52A"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "botania:rune_pride"
+							}
+							{
+								Count: 1b
+								id: "botania:rune_envy"
+							}
+							{
+								Count: 1b
+								id: "botania:rune_wrath"
+							}
+							{
+								Count: 1b
+								id: "botania:rune_sloth"
+							}
+							{
+								Count: 1b
+								id: "botania:rune_greed"
+							}
+							{
+								Count: 1b
+								id: "botania:rune_gluttony"
+							}
+							{
+								Count: 1b
+								id: "botania:rune_lust"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.the_sound_of_life.quest44.task_6010537284078335274.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.the_sound_of_life.quest44.title}"
+			x: -4.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["2F6FB6D4819EF061"]
+			description: [
+				"{ftbquests.chapter.the_sound_of_life.quest45.description1}"
+				""
+				"{ftbquests.chapter.the_sound_of_life.quest45.description2}"
+			]
+			icon: "botania:natura_pylon"
+			id: "3E0289A3420971D8"
+			rewards: [{
+				id: "23791502552BD34B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					count: 2L
+					id: "65D021B5E96A60E5"
+					item: "botania:natura_pylon"
+					type: "item"
+				}
+				{
+					id: "02E100540D6A4802"
+					item: "botania:alfheim_portal"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_sound_of_life.quest45.title}"
+			x: -6.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3E0289A3420971D8"]
+			description: ["{ftbquests.chapter.the_sound_of_life.quest46.description1}"]
+			id: "46E7F06B96AE7AC9"
+			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "7E371201031882C3"
+					item: "botania:dreamwood"
+					type: "item"
+				}
+				{
+					id: "12BFDEB9D7517741"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "1B796C53B345E787"
+				item: "botania:elven_spreader"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.the_sound_of_life.quest46.title}"
+			x: -7.0d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"3E0289A3420971D8"
+				"7B4F1EAF6F7A4A1D"
+			]
+			description: [
+				"{ftbquests.chapter.the_sound_of_life.quest47.description1}"
+				""
+				"{ftbquests.chapter.the_sound_of_life.quest47.description2}"
+			]
+			id: "039EE9BB48F29DB2"
+			rewards: [{
+				id: "3C3A804BDA0F9DAA"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.the_sound_of_life.quest47.subtitle}"
+			tasks: [{
+				id: "34A484CFD9300B55"
+				item: "botania:orechid"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.the_sound_of_life.quest47.title}"
+			x: -5.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1CCEDC1F9F219179"]
+			description: ["{ftbquests.chapter.the_sound_of_life.quest48.description1}"]
+			icon: "ars_nouveau:scribes_table"
+			id: "2FAAD3AB3B105FB5"
+			rewards: [{
+				id: "30EE5B3A4809D53A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "641FFAC13A3B6F7F"
+					item: "ars_nouveau:scribes_table"
+					type: "item"
+				}
+				{
+					id: "6A30A4AEE0F41770"
+					item: "ars_nouveau:novice_spell_book"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "69173B7D0C18C8A1"
+					item: "tomeofblood:novice_tome_of_blood"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_sound_of_life.quest48.title}"
+			x: -6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1A59682F5B56E020"]
+			description: [
+				"{ftbquests.chapter.the_sound_of_life.quest49.description1}"
+				""
+				"{ftbquests.chapter.the_sound_of_life.quest49.description2}"
+			]
+			icon: "ars_nouveau:source_jar"
+			id: "797F89EC438BD230"
+			rewards: [{
+				id: "27954266BA7187F1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "3F3CF3827894432E"
+					item: "ars_nouveau:source_jar"
+					type: "item"
+				}
+				{
+					id: "7763161A3FA52012"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "ars_nouveau:mycelial_sourcelink"
+								}
+								{
+									Count: 1b
+									id: "ars_nouveau:vitalic_sourcelink"
+								}
+								{
+									Count: 1b
+									id: "ars_nouveau:alchemical_sourcelink"
+								}
+								{
+									Count: 1b
+									id: "ars_nouveau:volcanic_sourcelink"
+								}
+								{
+									Count: 1b
+									id: "ars_nouveau:agronomic_sourcelink"
+								}
+							]
+						}
+					}
+					title: "{ftbquests.chapter.the_sound_of_life.quest49.task_8602744015200526354.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_sound_of_life.quest49.title}"
+			x: -7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["797F89EC438BD230"]
+			description: ["{ftbquests.chapter.the_sound_of_life.quest50.description1}"]
+			icon: "ars_nouveau:enchanting_apparatus"
+			id: "1F95463AFBB55B18"
+			rewards: [{
+				id: "3990247EC663D055"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "1FC5DE50A5149319"
+					item: "ars_nouveau:arcane_core"
+					type: "item"
+				}
+				{
+					id: "2D8761F46C000249"
+					item: "ars_nouveau:enchanting_apparatus"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_sound_of_life.quest50.title}"
+			x: -7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"518B46E423840A2F"
+				"0E7BC6F2785D6CD4"
+			]
+			description: [
+				"{ftbquests.chapter.the_sound_of_life.quest51.description1}"
+				""
+				"{ftbquests.chapter.the_sound_of_life.quest51.description2}"
+				""
+				"{ftbquests.chapter.the_sound_of_life.quest51.description3}"
+			]
+			icon: "ars_nouveau:amethyst_golem_charm"
+			id: "3D210245881F46D7"
+			rewards: [{
+				id: "155E9DDD132A749F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "4681AAF428733A6B"
+					item: "ars_nouveau:amethyst_golem_charm"
+					type: "item"
+				}
+				{
+					id: "3F864F63DB8E70D9"
+					item: {
+						Count: 1
+						id: "ars_nouveau:dominion_wand"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_sound_of_life.quest51.title}"
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3E0289A3420971D8"]
+			description: ["{ftbquests.chapter.the_sound_of_life.quest52.description1}"]
+			id: "5750E61C2B1E8D5E"
+			optional: true
+			rewards: [{
+				id: "1A9CFA442A825AA4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "175DA0F3E23B1A9C"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "botania:dandelifeon"
+							}
+							{
+								Count: 1b
+								id: "botania:shulk_me_not"
+							}
+							{
+								Count: 1b
+								id: "botania:rafflowsia"
+							}
+							{
+								Count: 1b
+								id: "botania:spectrolus"
+							}
+							{
+								Count: 1b
+								id: "botania:kekimurus"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.the_sound_of_life.quest52.task_1683678805039454876.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.the_sound_of_life.quest52.title}"
+			x: -6.0d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"3E0289A3420971D8"
+				"7B4F1EAF6F7A4A1D"
+				"0F60E7D69F6FA06E"
+			]
+			description: [
+				"{ftbquests.chapter.the_sound_of_life.quest53.description1}"
+				""
+				"{ftbquests.chapter.the_sound_of_life.quest53.description2}"
+			]
+			id: "7EE279615E00797C"
+			rewards: [{
+				id: "65FF5350EF32641E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				count: 4L
+				id: "46CDCF3AACBF85C4"
+				item: "botania:gaia_pylon"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["1A59682F5B56E020"]
+			description: ["{ftbquests.chapter.the_sound_of_life.quest54.description1}"]
+			id: "0F60E7D69F6FA06E"
+			rewards: [
+				{
+					count: 4
+					id: "2AC324821918B938"
+					item: "ars_nouveau:source_gem"
+					type: "item"
+				}
+				{
+					id: "28EBE18B9177606E"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "5B9793284890447B"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ars_elemental:anima_essence"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:water_essence"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:manipulation_essence"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:fire_essence"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:air_essence"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:conjuration_essence"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:abjuration_essence"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:earth_essence"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.the_sound_of_life.quest54.task_6599905580160140411.title}"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"7EE279615E00797C"
+				"6B0DF94DF9004625"
+			]
+			description: ["{ftbquests.chapter.the_sound_of_life.quest55.description1}"]
+			id: "0721C000948329FF"
+			rewards: [{
+				id: "3AF6B521407E4D45"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "51D63243515AEAB7"
+				item: "botania:life_essence"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["1A59682F5B56E020"]
+			description: ["{ftbquests.chapter.the_sound_of_life.quest56.description1}"]
+			id: "0E7BC6F2785D6CD4"
+			rewards: [{
+				id: "05C8B992B92B2723"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "18324C87EF47313D"
+				item: "ars_nouveau:ritual_brazier"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"1F95463AFBB55B18"
+				"0E7BC6F2785D6CD4"
+			]
+			description: [
+				"{ftbquests.chapter.the_sound_of_life.quest57.description1}"
+				""
+				"{ftbquests.chapter.the_sound_of_life.quest57.description2}"
+			]
+			icon: "ars_nouveau:storage_lectern"
+			id: "792DA50F1C60B35D"
+			rewards: [
+				{
+					id: "19850D74FE2A105D"
+					item: "ars_nouveau:bookwyrm_charm"
+					type: "item"
+				}
+				{
+					id: "319FC98DA2AE9171"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "72FF396E69CA8357"
+					item: "ars_nouveau:storage_lectern"
+					type: "item"
+				}
+				{
+					id: "2AFA66D061D31585"
+					item: "ars_nouveau:bookwyrm_charm"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1942F4F6D64D0A7E"
+					item: "ars_nouveau:repository"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7A2BEC31266C6A7E"]
+			description: [
+				"{ftbquests.chapter.the_sound_of_life.quest58.description1}"
+				""
+				"{ftbquests.chapter.the_sound_of_life.quest58.description2}"
+				""
+				"{ftbquests.chapter.the_sound_of_life.quest58.description3}"
+			]
+			icon: "mekanism:upgrade_speed"
+			id: "4A5E73C5F6D316DE"
+			rewards: [{
+				id: "0077F085A6A2F139"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "0515588225B47EC0"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mekanism:upgrade_anchor"
+								}
+								{
+									Count: 1b
+									id: "mekanism:upgrade_gas"
+								}
+								{
+									Count: 1b
+									id: "mekanism:upgrade_muffling"
+								}
+								{
+									Count: 1b
+									id: "mekanism:upgrade_filter"
+								}
+								{
+									Count: 1b
+									id: "mekanism:upgrade_energy"
+								}
+								{
+									Count: 1b
+									id: "mekanism:upgrade_speed"
+								}
+							]
+						}
+					}
+					title: "{ftbquests.chapter.the_sound_of_life.quest58.task_366296260702142144.title}"
+					type: "item"
+				}
+				{
+					id: "195C795DF27B5C06"
+					item: "mekanism:basic_tier_installer"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_sound_of_life.quest58.title}"
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"357CA59CD9EFA012"
+				"7B4F1EAF6F7A4A1D"
+			]
+			description: [
+				"{ftbquests.chapter.the_sound_of_life.quest59.description1}"
+				""
+				"{ftbquests.chapter.the_sound_of_life.quest59.description2}"
+			]
+			icon: "minecraft:nether_star"
+			id: "6B0DF94DF9004625"
+			rewards: [{
+				id: "5CA3008BF523209E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "454762A1A44C17B6"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
+				}
+				{
+					id: "0BE29949858B350B"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_sound_of_life.quest59.title}"
+			x: -3.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["3E0289A3420971D8"]
+			description: [
+				"{ftbquests.chapter.the_sound_of_life.quest60.description1}"
+				""
+				"{ftbquests.chapter.the_sound_of_life.quest60.description2}"
+			]
+			id: "2CC12CE948BCDF7A"
+			rewards: [{
+				id: "088A7018CDDAC6A6"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6DE1672848EE5822"
+				item: "botania:conjuration_catalyst"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0E7BC6F2785D6CD4"]
+			description: [
+				"{ftbquests.chapter.the_sound_of_life.quest61.description1}"
+				""
+				"{ftbquests.chapter.the_sound_of_life.quest61.description2}"
+			]
+			icon: "ars_nouveau:wilden_tribute"
+			id: "3660075C34865DCB"
+			rewards: [{
+				id: "724D3E3D9C0AD8E5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "557B6D621EA69A1C"
+					item: "ars_nouveau:ritual_wilden_summon"
+					type: "item"
+				}
+				{
+					id: "6C342A0F4B4E47B7"
+					item: "ars_nouveau:wilden_tribute"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_sound_of_life.quest61.title}"
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["382B7C05BB6427BB"]
+			description: ["{ftbquests.chapter.the_sound_of_life.quest62.description1}"]
+			icon: "ae2:charged_certus_quartz_crystal"
+			id: "09809D52A27FDC84"
+			rewards: [
+				{
+					id: "5C24F8E6550488AC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "49D112FE5CF3312E"
+					item: "ae2:certus_quartz_crystal"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4200E6A3B4CC4927"
+					item: "ae2:charger"
+					type: "item"
+				}
+				{
+					id: "506DA1038AC3E9D4"
+					item: "ae2:certus_quartz_crystal"
+					type: "item"
+				}
+				{
+					id: "7939BCC1179D0DC6"
+					item: "ae2:charged_certus_quartz_crystal"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_sound_of_life.quest62.title}"
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["09809D52A27FDC84"]
+			description: [
+				"{ftbquests.chapter.the_sound_of_life.quest63.description1}"
+				""
+				"{ftbquests.chapter.the_sound_of_life.quest63.description2}"
+				""
+				"{ftbquests.chapter.the_sound_of_life.quest63.description3}"
+			]
+			id: "4B21D583F11D94F4"
+			rewards: [
+				{
+					id: "22C9F952FBF7BF88"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "326CC133F9CB9E68"
+					item: "ae2:charged_certus_quartz_crystal"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6240BAA8E7D232EC"
+				item: "ae2:flawed_budding_quartz"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.the_sound_of_life.quest63.title}"
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4B21D583F11D94F4"]
+			description: ["{ftbquests.chapter.the_sound_of_life.quest64.description1}"]
+			id: "3DC3BEC51801CB96"
+			rewards: [
+				{
+					id: "6C1FBE410509FD12"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "0152F157B8B1D2DF"
+					item: "ae2:fluix_crystal"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "060D3C3A47ED0D6E"
+				item: "ae2:fluix_crystal"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3DC3BEC51801CB96"]
+			description: [
+				"{ftbquests.chapter.the_sound_of_life.quest65.description1}"
+				""
+				"{ftbquests.chapter.the_sound_of_life.quest65.description2}"
+				""
+				"{ftbquests.chapter.the_sound_of_life.quest65.description3}"
+			]
+			icon: "ae2:mysterious_cube"
+			id: "64F989736017F6CD"
+			rewards: [{
+				id: "0D9B45293BABC90F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "303F573F6C388FE3"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ae2:silicon_press"
+							}
+							{
+								Count: 1b
+								id: "ae2:logic_processor_press"
+							}
+							{
+								Count: 1b
+								id: "ae2:engineering_processor_press"
+							}
+							{
+								Count: 1b
+								id: "ae2:calculation_processor_press"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.the_sound_of_life.quest65.title}"
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"792DA50F1C60B35D"
+				"4C34B249425FA0CC"
+			]
+			description: ["{ftbquests.chapter.the_sound_of_life.quest66.description1}"]
+			id: "52D07AB4E6B88EA1"
+			rewards: [{
+				id: "760AD4D438CC174D"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.the_sound_of_life.quest66.subtitle}"
+			tasks: [{
+				id: "41E4110B55B6F086"
+				item: "ae2:controller"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["64F989736017F6CD"]
+			description: ["{ftbquests.chapter.the_sound_of_life.quest67.description1}"]
+			id: "4C34B249425FA0CC"
+			rewards: [{
+				id: "095EED5E764CF249"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3757FCA22789B2B3"
+				item: "ae2:inscriber"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"0721C000948329FF"
+				"357CA59CD9EFA012"
+				"0B69076CC61D0246"
+			]
+			description: [
+				"{ftbquests.chapter.the_sound_of_life.quest68.description1}"
+				""
+				"{ftbquests.chapter.the_sound_of_life.quest68.description2}"
+				""
+				"{ftbquests.chapter.the_sound_of_life.quest68.description3}"
+			]
+			id: "76531B6ECFD001DB"
+			rewards: [{
+				id: "47FD6A5B71B7F9C8"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "{ftbquests.chapter.the_sound_of_life.quest68.subtitle}"
+			tasks: [{
+				biome: "#reclamation:reclaimed"
+				id: "5CB74C9041238933"
+				title: "{ftbquests.chapter.the_sound_of_life.quest68.task_6680892754679269683.title}"
+				type: "biome"
+			}]
+			title: "{ftbquests.chapter.the_sound_of_life.quest68.title}"
+			x: -2.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["1F95463AFBB55B18"]
+			description: [
+				"{ftbquests.chapter.the_sound_of_life.quest69.description1}"
+				""
+				"{ftbquests.chapter.the_sound_of_life.quest69.description2}"
+			]
+			id: "040B7ABBA79E3C34"
+			rewards: [{
+				id: "214D54AFF39E6854"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "7F3799E27FA7EE1C"
+				item: "ars_elemental:siren_charm"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1F95463AFBB55B18"]
+			description: [
+				"{ftbquests.chapter.the_sound_of_life.quest70.description1}"
+				""
+				"{ftbquests.chapter.the_sound_of_life.quest70.description2}"
+			]
+			id: "5A3D771B1235C40B"
+			rewards: [{
+				id: "1E68783EEF2FB7A8"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "27A44281ECD3FA7D"
+				item: "ars_nouveau:whirlisprig_charm"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1F95463AFBB55B18"]
+			description: ["{ftbquests.chapter.the_sound_of_life.quest71.description1}"]
+			id: "7A517B0D3ADC17FE"
+			rewards: [{
+				id: "062A83ACF679BECE"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "05640A0617017CFD"
+				item: "ars_nouveau:drygmy_charm"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1F95463AFBB55B18"]
+			description: [
+				"{ftbquests.chapter.the_sound_of_life.quest72.description1}"
+				""
+				"{ftbquests.chapter.the_sound_of_life.quest72.description2}"
+			]
+			id: "0132766885AF4DEE"
+			rewards: [{
+				id: "338EE9355544F19D"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "7E43DA10DAAC3708"
+				item: "ars_nouveau:wixie_charm"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1F95463AFBB55B18"]
+			description: [
+				"{ftbquests.chapter.the_sound_of_life.quest73.description1}"
+				""
+				"{ftbquests.chapter.the_sound_of_life.quest73.description2}"
+			]
+			id: "11D64B22EDF1E1B1"
+			rewards: [{
+				id: "7974EE6AF190E194"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "647E7C88AFBF97C4"
+				item: {
+					Count: 1
+					id: "ars_nouveau:starbuncle_charm"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1F95463AFBB55B18"]
+			description: ["{ftbquests.chapter.the_sound_of_life.quest74.description1}"]
+			icon: "ars_nouveau:magebloom_fiber"
+			id: "731A34BCDD3C048A"
+			rewards: [{
+				id: "389192D35C738192"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "0C5AB81AE249CF20"
+					item: "ars_nouveau:magebloom_crop"
+					type: "item"
+				}
+				{
+					id: "275E31101C371324"
+					item: "ars_nouveau:magebloom_fiber"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_sound_of_life.quest74.title}"
+			x: -7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["731A34BCDD3C048A"]
+			description: [
+				"{ftbquests.chapter.the_sound_of_life.quest75.description1}"
+				""
+				"{ftbquests.chapter.the_sound_of_life.quest75.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "ars_nouveau:stable_warp_scroll"
+				tag: { }
+			}
+			id: "33BF18E246E08E10"
+			rewards: [{
+				id: "32D2A652146F54A0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "38F8E3CA34F6F605"
+					item: {
+						Count: 1
+						id: "ars_nouveau:warp_scroll"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "192CE76D35C5E14C"
+					item: {
+						Count: 1
+						id: "ars_nouveau:stable_warp_scroll"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: -8.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7A2BEC31266C6A7E"]
+			description: [
+				"{ftbquests.chapter.the_sound_of_life.quest76.description1}"
+				""
+				"{ftbquests.chapter.the_sound_of_life.quest76.description2}"
+				""
+				"{ftbquests.chapter.the_sound_of_life.quest76.description3}"
+				""
+				"{ftbquests.chapter.the_sound_of_life.quest76.description4}"
+			]
+			icon: "mekanismgenerators:fission_reactor_port"
+			id: "71FA16CB8987A05D"
+			rewards: [{
+				id: "5B2AE9869AAA9EE8"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.the_sound_of_life.quest76.subtitle}"
+			tasks: [
+				{
+					id: "2DF292275CD3CCFC"
+					item: "mekanismgenerators:fission_reactor_casing"
+					type: "item"
+				}
+				{
+					id: "76480EC05452AB1E"
+					item: "mekanismgenerators:fission_reactor_port"
+					type: "item"
+				}
+				{
+					id: "266403294F18EF4D"
+					item: "mekanismgenerators:fission_fuel_assembly"
+					type: "item"
+				}
+				{
+					id: "4B7FC9ACB042D32F"
+					item: "mekanismgenerators:control_rod_assembly"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_sound_of_life.quest76.title}"
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["71FA16CB8987A05D"]
+			description: ["{ftbquests.chapter.the_sound_of_life.quest77.description1}"]
+			id: "56AC940F596CE59A"
+			rewards: [{
+				id: "58B147DCAF1D6CF0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "18E9E03DEF135CA1"
+				item: "mekanism:pellet_plutonium"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["71FA16CB8987A05D"]
+			description: ["{ftbquests.chapter.the_sound_of_life.quest78.description1}"]
+			id: "03C92960F6FB7196"
+			rewards: [{
+				id: "1BFF2A332C901550"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6A0EDB71F31D706A"
+				item: "mekanism:radioactive_waste_barrel"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.the_sound_of_life.quest78.title}"
+			x: 8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["71FA16CB8987A05D"]
+			description: [
+				"{ftbquests.chapter.the_sound_of_life.quest79.description1}"
+				""
+				"{ftbquests.chapter.the_sound_of_life.quest79.description2}"
+			]
+			id: "36DAD7B096C37537"
+			rewards: [{
+				id: "2805514AABAB62B0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2780BDCCE836453A"
+				item: "mekanism:pellet_polonium"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"36DAD7B096C37537"
+				"56AC940F596CE59A"
+			]
+			description: [
+				"{ftbquests.chapter.the_sound_of_life.quest80.description1}"
+				""
+				"{ftbquests.chapter.the_sound_of_life.quest80.description2}"
+				""
+				"{ftbquests.chapter.the_sound_of_life.quest80.description3}"
+				""
+				"{ftbquests.chapter.the_sound_of_life.quest80.description4}"
+			]
+			id: "4E3BA0B8C44593F4"
+			rewards: [{
+				id: "34D6138E40158F6F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2E7784949421D703"
+				item: "mekanism:pellet_antimatter"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["36DAD7B096C37537"]
+			description: [
+				"{ftbquests.chapter.the_sound_of_life.quest81.description1}"
+				""
+				"{ftbquests.chapter.the_sound_of_life.quest81.description2}"
+			]
+			icon: "mekanism:qio_drive_array"
+			id: "46677EA7419E25B2"
+			rewards: [{
+				id: "51DBE6C4BB51CE79"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "296827863056EA3B"
+					item: "mekanism:qio_drive_array"
+					type: "item"
+				}
+				{
+					id: "62B241075E69CEF3"
+					item: "mekanism:qio_drive_base"
+					type: "item"
+				}
+				{
+					id: "33DB20AB06CF711C"
+					item: "mekanism:qio_dashboard"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_sound_of_life.quest81.title}"
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["36DAD7B096C37537"]
+			description: [
+				"{ftbquests.chapter.the_sound_of_life.quest82.description1}"
+				""
+				"{ftbquests.chapter.the_sound_of_life.quest82.description2}"
+			]
+			icon: "mekanismgenerators:fusion_reactor_frame"
+			id: "40FD6A4803092F64"
+			rewards: [{
+				id: "4928CB0F616DE3E1"
+				type: "xp"
+				xp: 100
+			}]
+			size: 2.0d
+			subtitle: "{ftbquests.chapter.the_sound_of_life.quest82.subtitle}"
+			tasks: [
+				{
+					id: "6502C2B9561E81FA"
+					item: "mekanismgenerators:fusion_reactor_frame"
+					type: "item"
+				}
+				{
+					id: "72A3214853D53362"
+					item: "mekanismgenerators:fusion_reactor_controller"
+					type: "item"
+				}
+				{
+					id: "665AC8FD54EEA60B"
+					item: "mekanismgenerators:fusion_reactor_port"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_sound_of_life.quest82.title}"
+			x: 9.0d
+			y: 4.0d
+		}
+	]
+	title: "{ftbquests.chapter.the_sound_of_life.title}"
+}

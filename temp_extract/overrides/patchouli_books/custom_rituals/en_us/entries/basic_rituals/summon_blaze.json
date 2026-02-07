@@ -1,0 +1,16 @@
+{
+  "name": "Summon Blaze",
+  "icon": "minecraft:blaze_rod",
+  "category": "patchouli:basic_rituals",
+  "pages": [
+    {
+      "type": "patchouli:rite_description",
+      "rite_name": "Summon Blaze",
+      "text": "Use this rite to summon a blaze. This blaze always drops at least 3 blaze rods."
+    },
+    {
+      "type": "patchouli:rite_requirements",
+      "rite": "reclamation:summon_blaze"
+    }
+  ]
+}

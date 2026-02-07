@@ -1,0 +1,12 @@
+{
+	id: "77905ABE65023A7A"
+	loot_size: 1
+	order_index: 9
+	rewards: [
+		{ item: "cookingforblockheads:cow_jar" }
+		{ count: 16, item: "minecraft:beef" }
+		{ count: 16, item: "minecraft:leather" }
+		{ count: 32, item: "croptopia:milk_bottle" }
+	]
+	title: "{ftbquests.loot_table_8615485860944689786.title}"
+}

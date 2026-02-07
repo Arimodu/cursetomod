@@ -1,0 +1,7 @@
+{
+  "parent": "agricraft:crop/tall_crop_cross",
+  "textures": {
+    "crop": "supplementaries:block/flax_bottom_7",
+    "crop_top": "supplementaries:block/flax_top_7"
+  }
+}

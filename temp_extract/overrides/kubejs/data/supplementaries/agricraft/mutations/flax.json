@@ -1,0 +1,6 @@
+{
+  "chance": 0.33,
+  "child": "supplementaries:flax",
+  "parent1": "minecraft:wheat",
+  "parent2": "enchanted:belladonna"
+}

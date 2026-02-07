@@ -1,0 +1,55 @@
+
+[cycle_length]
+	#How long (in ticks) one bee cycle should take.
+	productionCycleLength = 200
+	#How long (in ticks) an apiary should wait between re-scanning the environment for appropriate conditions.
+	enviroCycleLength = 200
+
+[research]
+	#The percentage bonus researching a mutation in the microscope should grant to that mutation's chances.
+	researchBonus = 0.2
+
+	[research.rf]
+		#How much rf/tick a centrifuge should use while processing a recipe.
+		centrifugeEnergy = 20
+		#How much rf/tick a generator should produce while burning a fuel.
+		generatorEnergy = 20
+
+	[research.items]
+
+		[research.items.frames]
+			#Enable the basic frame
+			frameEnabled = true
+			#Enable the waxed frame
+			waxedFrameEnabled = true
+			#Enable the honeyed frame
+			honeyFrameEnabled = true
+			#Enable the twisting frame
+			twistingFrameEnabled = true
+			#Enable the soothing frame
+			soothingFrameEnabled = true
+			#Enable the cold frame
+			coldFrameEnabled = true
+			#Enable the hot frame
+			hotFrameEnabled = true
+			#Enable the dry frame
+			dryFrameEnabled = true
+			#Enable the wet frame
+			wetFrameEnabled = true
+			#Enable the deadly frame
+			deadlyFrameEnabled = true
+			#Enable the restrictive frame
+			restrictiveFrameEnabled = true
+
+		[research.items.foods]
+			#Enable honey bread
+			honeyBreadEnabled = true
+			#Enable honey porkchop
+			honeyPorkchopEnabled = true
+			#Enable ambrosia
+			ambrosiaEnabled = true
+
+		[research.items.misc]
+			#Enable bee staff
+			staffEnabled = true
+

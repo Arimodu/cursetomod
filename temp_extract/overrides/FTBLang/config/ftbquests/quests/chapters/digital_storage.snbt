@@ -1,0 +1,1130 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 280
+	default_quest_shape: ""
+	filename: "digital_storage"
+	group: "499FD90D592AFC7B"
+	icon: "minecraft:chest"
+	id: "6624F3E176990B6A"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["52D07AB4E6B88EA1"]
+			description: ["{ftbquests.chapter.digital_storage.quest1.description1}"]
+			hide_until_deps_complete: true
+			id: "42064A913CA2CCD2"
+			rewards: [{
+				id: "70DC06DBA48C2C1C"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6CC1A0D2BD148905"
+				item: "ae2:controller"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["42064A913CA2CCD2"]
+			description: [
+				"{ftbquests.chapter.digital_storage.quest2.description1}"
+				""
+				"{ftbquests.chapter.digital_storage.quest2.description2}"
+			]
+			id: "19BCEFF7F0DE9C81"
+			rewards: [{
+				id: "76BECE700F1CD015"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4C5EE0307F949567"
+				item: "ae2:energy_acceptor"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["42064A913CA2CCD2"]
+			description: ["{ftbquests.chapter.digital_storage.quest3.description1}"]
+			icon: "ae2:fluix_smart_cable"
+			id: "45812F4C9EF0926C"
+			rewards: [{
+				id: "1495849F009F2923"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5AEB4D6B67F03FB5"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "ae2:smart_cable"
+					}
+				}
+				title: "{ftbquests.chapter.digital_storage.quest3.task_6551415206641156021.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.digital_storage.quest3.title}"
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["45812F4C9EF0926C"]
+			description: ["{ftbquests.chapter.digital_storage.quest4.description1}"]
+			icon: "ae2:fluix_smart_dense_cable"
+			id: "2FD074137DE15616"
+			rewards: [{
+				id: "55B122BFA440ED3D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "514068BF36103E94"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "ae2:smart_dense_cable"
+					}
+				}
+				title: "{ftbquests.chapter.digital_storage.quest4.task_5854794686036721300.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.digital_storage.quest4.title}"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2FD074137DE15616"]
+			description: [
+				"{ftbquests.chapter.digital_storage.quest5.description1}"
+				""
+				"{ftbquests.chapter.digital_storage.quest5.description2}"
+				""
+				"{ftbquests.chapter.digital_storage.quest5.description3}"
+			]
+			id: "25899D736E58600D"
+			rewards: [{
+				id: "2C85B7D794927CE1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3BAA47A786CB4A40"
+				item: {
+					Count: 1
+					id: "ae2:color_applicator"
+					tag: { }
+				}
+				match_nbt: false
+				title: "{ftbquests.chapter.digital_storage.quest5.task_4299327579125140032.title}"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["42064A913CA2CCD2"]
+			description: [
+				"{ftbquests.chapter.digital_storage.quest6.description1}"
+				""
+				"{ftbquests.chapter.digital_storage.quest6.description2}"
+			]
+			id: "28F3433876B58C67"
+			rewards: [{
+				id: "53D99DBD92ADED6A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "46D766909F51BF29"
+				item: "ae2:interface"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["42064A913CA2CCD2"]
+			description: ["{ftbquests.chapter.digital_storage.quest7.description1}"]
+			id: "0B962ED4F7C5605E"
+			rewards: [{
+				id: "740E9ECF9F88E5D4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "30CC09F3C45F9FE6"
+				item: "expatternprovider:wireless_connect"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["42064A913CA2CCD2"]
+			description: ["{ftbquests.chapter.digital_storage.quest8.description1}"]
+			icon: "ae2:quantum_link"
+			id: "3A85EDF465018CE9"
+			rewards: [{
+				id: "350A2BDEF6D30977"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "4369251B08E6E6B5"
+					item: "ae2:quantum_link"
+					type: "item"
+				}
+				{
+					id: "1839F4F0EE842265"
+					item: "ae2:quantum_ring"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.digital_storage.quest8.title}"
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["42064A913CA2CCD2"]
+			description: ["{ftbquests.chapter.digital_storage.quest9.description1}"]
+			icon: "expatternprovider:ex_inscriber"
+			id: "769058A0214DFE4C"
+			rewards: [{
+				id: "29232D121842C186"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "5834D042FB64E658"
+					item: "expatternprovider:ex_inscriber"
+					type: "item"
+				}
+				{
+					id: "1B33D77B12CABA49"
+					item: "expatternprovider:ex_charger"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.digital_storage.quest9.title}"
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["42064A913CA2CCD2"]
+			description: ["{ftbquests.chapter.digital_storage.quest10.description1}"]
+			icon: "ae2:wireless_terminal"
+			id: "5800C2FA501D25AA"
+			rewards: [{
+				id: "5C6C7C61911DEA9F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "303553A904DAB768"
+					item: "ae2:wireless_access_point"
+					type: "item"
+				}
+				{
+					icon: "ae2:wireless_terminal"
+					id: "79D5DB4C10707012"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "expatternprovider:wireless_ex_pat"
+								}
+								{
+									Count: 1b
+									id: "ae2wtlib:wireless_pattern_access_terminal"
+								}
+								{
+									Count: 1b
+									id: "ae2wtlib:wireless_pattern_encoding_terminal"
+								}
+								{
+									Count: 1b
+									id: "ae2:wireless_crafting_terminal"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "ae2:wireless_terminal"
+								}
+								{
+									Count: 1b
+									id: "ae2wtlib:wireless_universal_terminal"
+								}
+							]
+						}
+					}
+					match_nbt: false
+					title: "{ftbquests.chapter.digital_storage.quest10.task_8779164168368451602.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.digital_storage.quest10.title}"
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["28F3433876B58C67"]
+			description: [
+				"{ftbquests.chapter.digital_storage.quest11.description1}"
+				""
+				"{ftbquests.chapter.digital_storage.quest11.description2}"
+				""
+				"{ftbquests.chapter.digital_storage.quest11.description3}"
+			]
+			icon: "ae2:molecular_assembler"
+			id: "7029B79465525273"
+			rewards: [{
+				id: "040B66E150EB6C51"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "39F717BFA0DD5801"
+					item: "ae2:pattern_provider"
+					type: "item"
+				}
+				{
+					id: "4E8E31F671387339"
+					item: "ae2:molecular_assembler"
+					type: "item"
+				}
+				{
+					id: "4201FE9A50857C0A"
+					item: "ae2:crafting_unit"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.digital_storage.quest11.title}"
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["42064A913CA2CCD2"]
+			description: [
+				"{ftbquests.chapter.digital_storage.quest12.description1}"
+				""
+				"{ftbquests.chapter.digital_storage.quest12.description2}"
+			]
+			id: "38CF84D7DEEA26F2"
+			rewards: [{
+				id: "685D4828EF4096FB"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5A8C37A2DC2BD8D4"
+				item: "ae2:drive"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["38CF84D7DEEA26F2"]
+			description: ["{ftbquests.chapter.digital_storage.quest13.description1}"]
+			id: "2BC56CC6C32D156B"
+			rewards: [{
+				id: "186C8D61C3F9AF6D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "79D7AEA1569B39B9"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "expatternprovider:ex_pattern_access_part"
+							}
+							{
+								Count: 1b
+								id: "ae2:pattern_access_terminal"
+							}
+							{
+								Count: 1b
+								id: "ae2:terminal"
+							}
+							{
+								Count: 1b
+								id: "ae2:crafting_terminal"
+							}
+							{
+								Count: 1b
+								id: "ae2:pattern_encoding_terminal"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.digital_storage.quest13.task_8779678006548052409.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.digital_storage.quest13.title}"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["19BCEFF7F0DE9C81"]
+			description: ["{ftbquests.chapter.digital_storage.quest14.description1}"]
+			id: "77DBEADC85E302E7"
+			rewards: [{
+				id: "61366A2AAF5DD0E8"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "040F9CC81F2B9B4E"
+				item: {
+					Count: 1
+					id: "ae2:energy_cell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5800C2FA501D25AA"]
+			id: "588E96C6A6095B4F"
+			rewards: [{
+				id: "4D353628EBBB60F4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5F90AB33BE52A7F6"
+				item: "ae2wtlib:quantum_bridge_card"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2FD074137DE15616"]
+			description: [
+				"{ftbquests.chapter.digital_storage.quest16.description1}"
+				""
+				"{ftbquests.chapter.digital_storage.quest16.description2}"
+			]
+			icon: "ae2:me_p2p_tunnel"
+			id: "1B2791D7868FA0C8"
+			rewards: [{
+				id: "0018467EEAEB527B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "3C89FE0A2E3F7D56"
+					item: "ae2:me_p2p_tunnel"
+					type: "item"
+				}
+				{
+					id: "4E9195DB3A44E29E"
+					item: {
+						Count: 1
+						id: "ae2:memory_card"
+						tag: { }
+					}
+					match_nbt: false
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["769058A0214DFE4C"]
+			description: [
+				"{ftbquests.chapter.digital_storage.quest17.description1}"
+				""
+				"{ftbquests.chapter.digital_storage.quest17.description2}"
+			]
+			id: "0D84FCBDF7D400BC"
+			rewards: [{
+				id: "7B5A7D301000A71D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "507EC959EDFD27D0"
+				item: "advanced_ae:reaction_chamber"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["769058A0214DFE4C"]
+			description: ["{ftbquests.chapter.digital_storage.quest18.description1}"]
+			id: "73F6B084862E0C22"
+			rewards: [{
+				id: "4F5D7585B0B5505C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "58990D13A5825250"
+				item: "expatternprovider:circuit_cutter"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7029B79465525273"]
+			description: ["{ftbquests.chapter.digital_storage.quest19.description1}"]
+			icon: "expatternprovider:assembler_matrix_frame"
+			id: "60D69E8F82D1735A"
+			rewards: [{
+				id: "631ABBD3F4CB9415"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "24CB0DC3DEA3CF24"
+					item: "expatternprovider:assembler_matrix_wall"
+					type: "item"
+				}
+				{
+					id: "26EB2E11D9E73874"
+					item: "expatternprovider:assembler_matrix_frame"
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0D84FCBDF7D400BC"]
+			description: ["{ftbquests.chapter.digital_storage.quest20.description1}"]
+			id: "2DD9F909A98D3A01"
+			rewards: [{
+				id: "63FEFF805B7E6973"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "13B54D99F1509E9B"
+				item: "advanced_ae:quantum_core"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2DD9F909A98D3A01"]
+			description: [
+				"{ftbquests.chapter.digital_storage.quest21.description1}"
+				""
+				"{ftbquests.chapter.digital_storage.quest21.description2}"
+			]
+			id: "17CA0C449BCE1795"
+			rewards: [{
+				id: "36D51E4AA33024AE"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5BC2A17884CC34F7"
+				item: "advanced_ae:quantum_structure"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["448ABF53EEACBFA7"]
+			dependency_requirement: "one_completed"
+			description: ["{ftbquests.chapter.digital_storage.quest22.description1}"]
+			hide_until_deps_complete: true
+			id: "0D743158B02EFECE"
+			rewards: [
+				{
+					count: 2
+					id: "62E7532779DBCC15"
+					item: "minecraft:leather"
+					type: "item"
+				}
+				{
+					id: "2A91EBFF67A1380F"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "2E43CCBB4B962F21"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["448ABF53EEACBFA7"]
+			description: ["{ftbquests.chapter.digital_storage.quest23.description1}"]
+			hide_until_deps_complete: true
+			id: "186AF6EF5933F0C7"
+			rewards: [
+				{
+					id: "484DA648F8D52FD3"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:copper_chest"
+						tag: {
+							woodType: "oak"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3F5CE5C18E1A5271"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "sophisticatedstorage:copper_chest"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				id: "51D72D299E613F70"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "sophisticatedstorage:all_storage"
+					}
+				}
+				title: "{ftbquests.chapter.digital_storage.quest23.task_5897231893839036272.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.digital_storage.quest23.title}"
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["448ABF53EEACBFA7"]
+			description: [
+				"{ftbquests.chapter.digital_storage.quest24.description1}"
+				""
+				"{ftbquests.chapter.digital_storage.quest24.description2}"
+			]
+			hide_until_deps_complete: true
+			icon: "storagedrawers:oak_full_drawers_1"
+			id: "310095AAC69059F7"
+			rewards: [
+				{
+					id: "3CC04B85D05F7A7F"
+					item: "storagedrawers:framing_table"
+					type: "item"
+				}
+				{
+					id: "09392F1C9B158438"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "4BD44F655B846F42"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "storagedrawers:drawers"
+					}
+				}
+				title: "{ftbquests.chapter.digital_storage.quest24.task_5464079544652951362.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.digital_storage.quest24.title}"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["186AF6EF5933F0C7"]
+			description: ["{ftbquests.chapter.digital_storage.quest25.description1}"]
+			icon: "sophisticatedstorage:basic_tier_upgrade"
+			id: "79F177300EC200BB"
+			rewards: [
+				{
+					id: "2792E6089A0C9606"
+					item: "sophisticatedstorage:copper_to_iron_tier_upgrade"
+					type: "item"
+				}
+				{
+					id: "68C2857301084848"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "087CBC5E7AACE097"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "sophisticatedstorage:basic_tier_upgrade"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:basic_to_copper_tier_upgrade"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:basic_to_iron_tier_upgrade"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:basic_to_gold_tier_upgrade"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:basic_to_diamond_tier_upgrade"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:basic_to_netherite_tier_upgrade"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:copper_to_iron_tier_upgrade"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:copper_to_gold_tier_upgrade"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:copper_to_diamond_tier_upgrade"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:copper_to_netherite_tier_upgrade"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:iron_to_gold_tier_upgrade"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:iron_to_diamond_tier_upgrade"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:iron_to_netherite_tier_upgrade"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:gold_to_diamond_tier_upgrade"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:gold_to_netherite_tier_upgrade"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:diamond_to_netherite_tier_upgrade"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.digital_storage.quest25.task_611570763386642583.title}"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["310095AAC69059F7"]
+			description: ["{ftbquests.chapter.digital_storage.quest26.description1}"]
+			id: "6AEDC0CE7C0F6871"
+			rewards: [
+				{
+					id: "361B063185A1AC92"
+					item: "storagedrawers:iron_storage_upgrade"
+					type: "item"
+				}
+				{
+					id: "794B2E47DDDA1DA6"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "1799CCB5D4A8DAFF"
+				item: "storagedrawers:controller"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["310095AAC69059F7"]
+			description: ["{ftbquests.chapter.digital_storage.quest27.description1}"]
+			icon: "storagedrawers:drawer_key"
+			id: "48640F7FA6B4E83C"
+			rewards: [
+				{
+					id: "7DA6DE4285D3936F"
+					item: "storagedrawers:keyring"
+					type: "item"
+				}
+				{
+					id: "344C39E88690566F"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "622066D049F81B3A"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "storagedrawers:drawer_key"
+							}
+							{
+								Count: 1b
+								id: "storagedrawers:quantify_key"
+							}
+							{
+								Count: 1b
+								id: "storagedrawers:shroud_key"
+							}
+							{
+								Count: 1b
+								id: "storagedrawers:personal_key"
+							}
+							{
+								Count: 1b
+								id: "storagedrawers:priority_key"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.digital_storage.quest27.task_7070764459751906106.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.digital_storage.quest27.title}"
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0D743158B02EFECE"]
+			description: ["{ftbquests.chapter.digital_storage.quest28.description1}"]
+			id: "2971661158B66BCB"
+			rewards: [
+				{
+					id: "6A7A218A2B25881E"
+					item: "sophisticatedbackpacks:stack_upgrade_tier_1"
+					type: "item"
+				}
+				{
+					id: "477439A7110B018A"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "57731279073E4D5C"
+				item: "sophisticatedbackpacks:upgrade_base"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["186AF6EF5933F0C7"]
+			description: ["{ftbquests.chapter.digital_storage.quest29.description1}"]
+			id: "20BC58E21EEC4A90"
+			rewards: [
+				{
+					id: "06E72721EDE7B639"
+					item: "sophisticatedstorage:stack_upgrade_tier_1"
+					type: "item"
+				}
+				{
+					id: "3419EC18EC21266B"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "27901504AE8CB01C"
+				item: "sophisticatedstorage:upgrade_base"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["448ABF53EEACBFA7"]
+			description: ["{ftbquests.chapter.digital_storage.quest30.description1}"]
+			hide_until_deps_complete: true
+			id: "7998DF6633727385"
+			rewards: [{
+				id: "31B104A991D7975C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "2A89B9BAD6D6A1BA"
+					item: "chipped:botanist_workbench"
+					type: "item"
+				}
+				{
+					id: "61E1F14AE74D8245"
+					item: "chipped:glassblower"
+					type: "item"
+				}
+				{
+					id: "1F90AEA33F3366EE"
+					item: "chipped:carpenters_table"
+					type: "item"
+				}
+				{
+					id: "35CFCE8CA7CDCB03"
+					item: "chipped:loom_table"
+					type: "item"
+				}
+				{
+					id: "74BABD50F2D36065"
+					item: "chipped:mason_table"
+					type: "item"
+				}
+				{
+					id: "0F68C22DF4A0FB55"
+					item: "chipped:alchemy_bench"
+					type: "item"
+				}
+				{
+					id: "23EB2E0893DEADE9"
+					item: "chipped:tinkering_table"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.digital_storage.quest30.title}"
+			x: 4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["448ABF53EEACBFA7"]
+			description: ["{ftbquests.chapter.digital_storage.quest31.description1}"]
+			hide_until_deps_complete: true
+			id: "589D9D8B75EA4D6A"
+			rewards: [{
+				id: "08EF9ED9EA1FADB1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1886724FF4F67912"
+				item: {
+					Count: 1
+					id: "rechiseled:chisel"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["448ABF53EEACBFA7"]
+			description: ["{ftbquests.chapter.digital_storage.quest32.description1}"]
+			hide_until_deps_complete: true
+			id: "739D0BFEC4F76873"
+			rewards: [{
+				id: "29DC2531205502EF"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "40AFA3023980CF2C"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "copycats:copycat_block"
+					}
+				}
+				title: "{ftbquests.chapter.digital_storage.quest32.task_4661123369301757740.title}"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["448ABF53EEACBFA7"]
+			description: [
+				"{ftbquests.chapter.digital_storage.quest33.description1}"
+				""
+				"{ftbquests.chapter.digital_storage.quest33.description2}"
+				""
+				"{ftbquests.chapter.digital_storage.quest33.description3}"
+			]
+			hide_until_deps_complete: true
+			id: "00B11B5B5824CF82"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5DAB642D70E0E39C"
+					table_id: 67272733859206798L
+					type: "choice"
+				}
+				{
+					id: "17AF9672B85CE2F7"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "34FA44324920ADE6"
+				item: "xercamusic:music_sheet"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["448ABF53EEACBFA7"]
+			description: [
+				"{ftbquests.chapter.digital_storage.quest34.description1}"
+				""
+				"{ftbquests.chapter.digital_storage.quest34.description2}"
+				""
+				"{ftbquests.chapter.digital_storage.quest34.description3}"
+			]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "xercapaint:item_palette"
+				tag: {
+					basic: [B;
+						1b
+						1b
+						1b
+						1b
+						1b
+						1b
+						1b
+						1b
+						1b
+						1b
+						1b
+						1b
+						1b
+						1b
+						1b
+						1b
+					]
+				}
+			}
+			id: "56F47BEB53D25F0E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "63AD2969AF05B6E2"
+					table_id: 6347601422327785898L
+					type: "choice"
+				}
+				{
+					id: "6FF1BA6953D4FD4D"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "40B6EAC528F2AEBF"
+					item: "xercapaint:item_palette"
+					type: "item"
+				}
+				{
+					id: "5B4F1FCD16C17D30"
+					item: "xercapaint:item_easel"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.digital_storage.quest34.title}"
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["448ABF53EEACBFA7"]
+			description: [
+				"{ftbquests.chapter.digital_storage.quest35.description1}"
+				""
+				"{ftbquests.chapter.digital_storage.quest35.description2}"
+			]
+			hide_until_deps_complete: true
+			id: "4E09F6435DC05330"
+			rewards: [{
+				id: "32F2ED927729D029"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "73EFED8D105EAF82"
+				item: "buildinggadgets2:gadget_building"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["448ABF53EEACBFA7"]
+			description: ["{ftbquests.chapter.digital_storage.quest36.description1}"]
+			hide_until_deps_complete: true
+			id: "76B04BEB7909F047"
+			rewards: [{
+				id: "3C060A5958479379"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "27CB11F980CB52B8"
+				item: "botania:exchange_rod"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.5d
+		}
+	]
+	title: "{ftbquests.chapter.digital_storage.title}"
+}

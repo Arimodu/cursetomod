@@ -1,0 +1,11 @@
+{
+	id: "6DA41FAD5DB11262"
+	loot_size: 1
+	order_index: 10
+	rewards: [
+		{ count: 32, item: "minecraft:rabbit_hide" }
+		{ count: 4, item: "minecraft:rabbit_foot" }
+		{ count: 16, item: "minecraft:rabbit" }
+	]
+	title: "{ftbquests.loot_table_7900474475776381538.title}"
+}

@@ -1,0 +1,13 @@
+{
+  "items": [
+    { "id": "enchanted:wicker_bundle", "Count": 1 },
+    { "id": "botania:grass_seeds", "Count": 1 },
+    { "id": "enchanted:whiff_of_magic", "Count": 1 },
+    { "id": "bloodmagic:activationcrystalweak", "Count": 1}
+  ],
+  "shapes": {
+    "enchanted:medium_circle": "enchanted:ritual_chalk"
+  },
+  "power": 4000,
+  "factory": { "type": "enchanted:forest", "radius": 25, "spacing": 7 }
+}

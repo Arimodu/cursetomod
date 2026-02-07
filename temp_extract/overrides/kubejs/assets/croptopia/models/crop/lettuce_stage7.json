@@ -1,0 +1,6 @@
+{
+  "parent": "agricraft:crop/crop_cross",
+  "textures": {
+    "crop": "croptopia:block/lettuce_crop_stage3"
+  }
+}

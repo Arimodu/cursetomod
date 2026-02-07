@@ -1,0 +1,11 @@
+{
+  "chance": 0.1,
+  "conditions": {
+    "complicated_bees:block_under": {
+      "block": "mekanism:block_osmium"
+    }
+  },
+  "first": "reclamation:argentum",
+  "result": "reclamation:osmium",
+  "second": "complicated_bees:diligent"
+}

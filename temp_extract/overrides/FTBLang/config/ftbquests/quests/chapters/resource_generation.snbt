@@ -1,0 +1,2554 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 280
+	default_quest_shape: ""
+	filename: "resource_generation"
+	group: "499FD90D592AFC7B"
+	hide_quest_until_deps_visible: true
+	icon: "minecraft:raw_iron"
+	id: "55C123B019947201"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["000A7EAED7A84968"]
+			description: [
+				"{ftbquests.chapter.resource_generation.quest1.description1}"
+				""
+				"{ftbquests.chapter.resource_generation.quest1.description2}"
+				""
+				"{ftbquests.chapter.resource_generation.quest1.description3}"
+			]
+			hide_until_deps_complete: true
+			id: "56E75D57C3C9487C"
+			rewards: [
+				{
+					id: "1B129592B698B02E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 8
+					id: "411EF02725678DE9"
+					item: "mysticalagriculture:prosperity_shard"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "1552B688C3A31631"
+				item: "mysticalagriculture:prosperity_shard"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6C972BEC949FEF25"]
+			description: [
+				"{ftbquests.chapter.resource_generation.quest2.description1}"
+				""
+				"{ftbquests.chapter.resource_generation.quest2.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "complicated_bees:frame"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5B1AD7A67406CD8F"
+			rewards: [
+				{
+					count: 3
+					id: "2AC1319D2B059FD1"
+					item: {
+						Count: 1
+						id: "complicated_bees:waxed_frame"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "46547A3B701F32EC"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				id: "18131103B31582F5"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "complicated_bees:frame"
+					}
+				}
+				title: "{ftbquests.chapter.resource_generation.quest2.task_1734748989054878453.title}"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["29CB5767DE978673"]
+			description: [
+				"{ftbquests.chapter.resource_generation.quest3.description1}"
+				""
+				"{ftbquests.chapter.resource_generation.quest3.description2}"
+				""
+				"{ftbquests.chapter.resource_generation.quest3.description3}"
+			]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "complicated_bees:scoop"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3BAA2A254E052AC1"
+			rewards: [
+				{
+					id: "1E21D64CC9086C97"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "complicated_bees:field_guide"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7DCFC11FB7A35136"
+					type: "xp"
+					xp: 500
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "594A083F3875943D"
+					item: "complicated_bees:apiary"
+					type: "item"
+				}
+				{
+					id: "66CF5E522A68F9B2"
+					item: {
+						Count: 1
+						id: "complicated_bees:scoop"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.resource_generation.quest3.title}"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3BAA2A254E052AC1"]
+			description: [
+				"{ftbquests.chapter.resource_generation.quest4.description1}"
+				""
+				"{ftbquests.chapter.resource_generation.quest4.description2}"
+				""
+				"{ftbquests.chapter.resource_generation.quest4.description3}"
+			]
+			icon: "complicated_bees:honey_droplet"
+			id: "6C972BEC949FEF25"
+			rewards: [{
+				id: "62159A787F08443B"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [
+				{
+					id: "416C2632237632F0"
+					item: "complicated_bees:beeswax"
+					type: "item"
+				}
+				{
+					id: "1C1EEF122FFEE7FC"
+					item: "complicated_bees:honey_droplet"
+					type: "item"
+				}
+				{
+					id: "7E40C340FBC29A0C"
+					item: {
+						Count: 1
+						id: "complicated_bees:comb"
+						tag: {
+							comb_type: "reclamation:barren"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.resource_generation.quest4.title}"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6C972BEC949FEF25"]
+			description: ["{ftbquests.chapter.resource_generation.quest5.description1}"]
+			icon: {
+				Count: 1
+				id: "complicated_bees:comb"
+				tag: {
+					comb_type: "reclamation:barren"
+				}
+			}
+			id: "7DD195197887D9E6"
+			rewards: [
+				{
+					count: 16
+					id: "2B4BAFD07664758C"
+					item: "complicated_bees:honey_droplet"
+					type: "item"
+				}
+				{
+					id: "09B98A6EDDE9CE3D"
+					item: {
+						Count: 1
+						id: "complicated_bees:deadly_frame"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7219C379A3994EB0"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [
+				{
+					id: "6C82369B6FFA66B6"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "reclamation:dessicated"
+							}
+						}
+					}
+					title: "{ftbquests.chapter.resource_generation.quest5.task_7818871944295114422.title}"
+					type: "item"
+				}
+				{
+					id: "2B81BE38A3EEE654"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "reclamation:dried"
+							}
+						}
+					}
+					title: "{ftbquests.chapter.resource_generation.quest5.task_3134995966104364628.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.resource_generation.quest5.title}"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6C972BEC949FEF25"]
+			description: [
+				"{ftbquests.chapter.resource_generation.quest6.description1}"
+				""
+				"{ftbquests.chapter.resource_generation.quest6.description2}"
+				""
+				"{ftbquests.chapter.resource_generation.quest6.description3}"
+				""
+				"{ftbquests.chapter.resource_generation.quest6.description4}"
+			]
+			icon: "complicated_bees:analyzer"
+			id: "7ED2BFE2C5C19743"
+			rewards: [
+				{
+					count: 16
+					id: "47D5B02460B2EA98"
+					item: "complicated_bees:honey_droplet"
+					type: "item"
+				}
+				{
+					id: "2BDBC94AB3DD205C"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [
+				{
+					id: "6DFD59A35AE3BA8E"
+					item: "complicated_bees:analyzer"
+					type: "item"
+				}
+				{
+					id: "2671B9BABB278AAF"
+					item: "complicated_bees:microscope"
+					type: "item"
+				}
+				{
+					id: "02AA6F1B01A8A358"
+					item: "complicated_bees:apid_library"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.resource_generation.quest6.title}"
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6C972BEC949FEF25"]
+			description: ["{ftbquests.chapter.resource_generation.quest7.description1}"]
+			icon: "complicated_bees:centrifuge"
+			id: "7F77AE83C391B38A"
+			rewards: [
+				{
+					count: 2
+					id: "6DE87C9C067BE51C"
+					item: "complicated_bees:basic_upgrade"
+					type: "item"
+				}
+				{
+					id: "2CFE4E82974B96C7"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [
+				{
+					id: "0596758025E351E7"
+					item: "complicated_bees:centrifuge"
+					type: "item"
+				}
+				{
+					id: "22292F457571703B"
+					item: "complicated_bees:furnace_generator"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.resource_generation.quest7.title}"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["56E75D57C3C9487C"]
+			description: [
+				"{ftbquests.chapter.resource_generation.quest8.description1}"
+				""
+				"{ftbquests.chapter.resource_generation.quest8.description2}"
+				""
+				"{ftbquests.chapter.resource_generation.quest8.description3}"
+			]
+			id: "6B8C517B623696FC"
+			rewards: [{
+				id: "65CF1E70F6058FB6"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1897EC062CD5BB14"
+				item: "mysticalagriculture:inferium_farmland"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1633274D007EACBA"]
+			description: [
+				"{ftbquests.chapter.resource_generation.quest9.description1}"
+				""
+				"{ftbquests.chapter.resource_generation.quest9.description2}"
+			]
+			icon: "mysticalagriculture:earth_seeds"
+			id: "6FE3B183104C980D"
+			rewards: [{
+				id: "38E01D204D1EF42F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "0B97017C95CF002F"
+					item: "mysticalagriculture:fire_seeds"
+					type: "item"
+				}
+				{
+					id: "4AD880DBBA0F44AC"
+					item: "mysticalagriculture:earth_seeds"
+					type: "item"
+				}
+				{
+					id: "1CF6E259DFB73471"
+					item: "mysticalagriculture:air_seeds"
+					type: "item"
+				}
+				{
+					id: "5A220320B4FF603D"
+					item: "mysticalagriculture:water_seeds"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.resource_generation.quest9.title}"
+			x: -5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6B8C517B623696FC"]
+			description: ["{ftbquests.chapter.resource_generation.quest10.description1}"]
+			id: "742977FB1C2FCF94"
+			rewards: [
+				{
+					id: "3D664EB844F9147B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "0DD800CB15922FCA"
+					item: "mysticalagriculture:mystical_fertilizer"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0ECB8389F899DFED"
+				item: "mysticalagriculture:inferium_seeds"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6FE3B183104C980D"]
+			description: [
+				"{ftbquests.chapter.resource_generation.quest11.description1}"
+				""
+				"{ftbquests.chapter.resource_generation.quest11.description2}"
+				""
+				"{ftbquests.chapter.resource_generation.quest11.description3}"
+			]
+			id: "3E9104B5E89874E5"
+			rewards: [{
+				id: "5298D061B2A0ECF6"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4EA28D763984F40D"
+				item: "mysticalagriculture:prudentium_essence"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3E9104B5E89874E5"]
+			id: "3A13E35FAF22E701"
+			rewards: [{
+				id: "72E8727143BB78AC"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "26D671809237B280"
+				item: "mysticalagriculture:stone_seeds"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3E9104B5E89874E5"]
+			id: "472ECFBE89B04F90"
+			rewards: [{
+				id: "65B6CED4B3EC2419"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "52CFF211B65C44C2"
+				item: "mysticalagriculture:nether_seeds"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3E9104B5E89874E5"]
+			id: "58210BAB0753F3E9"
+			rewards: [{
+				id: "471158A78B49F010"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "45A52C3B5D1072F0"
+				item: "mysticalagriculture:dirt_seeds"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3E9104B5E89874E5"]
+			id: "4D2709D7429192C9"
+			rewards: [{
+				id: "26E7ED2A3F783087"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5FB07917216B27E3"
+				item: "mysticalagriculture:ice_seeds"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3E9104B5E89874E5"]
+			id: "61D06954139026FB"
+			rewards: [{
+				id: "1AB9B06EDE7E60F9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1C7BDDD4AFE70389"
+				item: "mysticalagriculture:deepslate_seeds"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3E9104B5E89874E5"]
+			id: "3227DFF2132EF975"
+			rewards: [{
+				id: "6B727B3CA809CDED"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "655222BE82316EF0"
+				item: "mysticalagriculture:wood_seeds"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6B8C517B623696FC"]
+			description: [
+				"{ftbquests.chapter.resource_generation.quest18.description1}"
+				""
+				"{ftbquests.chapter.resource_generation.quest18.description2}"
+			]
+			icon: "mysticalagriculture:infusion_altar"
+			id: "1633274D007EACBA"
+			rewards: [
+				{
+					id: "7799060FBF28BAD7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 32
+					id: "34B7B5E502C9E0FD"
+					item: "mysticalagriculture:inferium_essence"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6E923D9547C6893B"
+					item: "mysticalagriculture:infusion_altar"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "750AF5FB1DE98AF7"
+					item: { Count: 8, id: "mysticalagriculture:infusion_pedestal" }
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4FBECB8A5C79852D"]
+			dependency_requirement: "all_started"
+			description: [
+				"{ftbquests.chapter.resource_generation.quest19.description1}"
+				""
+				"{ftbquests.chapter.resource_generation.quest19.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "complicated_bees:comb"
+				tag: {
+					comb_type: "complicated_bees:simmering"
+				}
+			}
+			id: "3FBA3BCF67F2AB82"
+			rewards: [
+				{
+					id: "4BF5655F9AC2A904"
+					item: {
+						Count: 1
+						id: "complicated_bees:deadly_frame"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4651BABFE2B44C00"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [
+				{
+					id: "0C5F2284F15313A9"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "complicated_bees:crimson"
+							}
+						}
+					}
+					title: "{ftbquests.chapter.resource_generation.quest19.task_891469205622428585.title}"
+					type: "item"
+				}
+				{
+					id: "360FC2242889CDFC"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "complicated_bees:warped"
+							}
+						}
+					}
+					title: "{ftbquests.chapter.resource_generation.quest19.task_3895545663253499388.title}"
+					type: "item"
+				}
+				{
+					id: "6FC03F9008B5AC25"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "complicated_bees:cursed"
+							}
+						}
+					}
+					title: "{ftbquests.chapter.resource_generation.quest19.task_8052506021592411173.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.resource_generation.quest19.title}"
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3FBA3BCF67F2AB82"]
+			description: [
+				"{ftbquests.chapter.resource_generation.quest20.description1}"
+				""
+				"{ftbquests.chapter.resource_generation.quest20.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "complicated_bees:apiarist_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2C61C6948450E847"
+			rewards: [{
+				id: "523BF496D9A8F05A"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [
+				{
+					id: "27BBCABB0D5AD34C"
+					item: {
+						Count: 1
+						id: "complicated_bees:apiarist_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6D8200A4CD00E0BB"
+					item: {
+						Count: 1
+						id: "complicated_bees:apiarist_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "62EE61229727B888"
+					item: {
+						Count: 1
+						id: "complicated_bees:apiarist_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2138D3DCB1342D31"
+					item: {
+						Count: 1
+						id: "complicated_bees:apiarist_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.resource_generation.quest20.title}"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7DD195197887D9E6"]
+			dependency_requirement: "all_started"
+			description: [
+				"{ftbquests.chapter.resource_generation.quest21.description1}"
+				""
+				"{ftbquests.chapter.resource_generation.quest21.description2}"
+				""
+				"{ftbquests.chapter.resource_generation.quest21.description3}"
+				""
+				"{ftbquests.chapter.resource_generation.quest21.description4}"
+			]
+			icon: {
+				Count: 1
+				id: "complicated_bees:comb"
+				tag: {
+					comb_type: "complicated_bees:rocky"
+				}
+			}
+			id: "4FBECB8A5C79852D"
+			rewards: [
+				{
+					id: "533CEAD1E95600F5"
+					item: {
+						Count: 1
+						id: "complicated_bees:deadly_frame"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2A039B4D3D29E13E"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [
+				{
+					id: "7D5C1CBBD09FA64F"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "complicated_bees:rocky"
+							}
+						}
+					}
+					title: "{ftbquests.chapter.resource_generation.quest21.task_9033126545582958159.title}"
+					type: "item"
+				}
+				{
+					id: "63CA1502DB9729FB"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "complicated_bees:robust"
+							}
+						}
+					}
+					title: "{ftbquests.chapter.resource_generation.quest21.task_7190582857068653051.title}"
+					type: "item"
+				}
+				{
+					id: "155A783AE8BE7890"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "complicated_bees:resilient"
+							}
+						}
+					}
+					title: "{ftbquests.chapter.resource_generation.quest21.task_1538674417108678800.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.resource_generation.quest21.title}"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3FBA3BCF67F2AB82"]
+			dependency_requirement: "all_started"
+			description: ["{ftbquests.chapter.resource_generation.quest22.description1}"]
+			icon: {
+				Count: 1
+				id: "complicated_bees:comb"
+				tag: {
+					comb_type: "complicated_bees:spectral"
+				}
+			}
+			id: "54A7758997E9D66B"
+			rewards: [
+				{
+					id: "0FB31A18DC869396"
+					item: {
+						Count: 1
+						id: "complicated_bees:deadly_frame"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "49404E0ED312183C"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [
+				{
+					id: "2AC525C3D3FA63A4"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "complicated_bees:haunted"
+							}
+						}
+					}
+					title: "{ftbquests.chapter.resource_generation.quest22.task_3081911043010225060.title}"
+					type: "item"
+				}
+				{
+					id: "4908C5254349BD55"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "complicated_bees:ghostly"
+							}
+						}
+					}
+					title: "{ftbquests.chapter.resource_generation.quest22.task_5262672928415792469.title}"
+					type: "item"
+				}
+				{
+					id: "76344175C61677C9"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "complicated_bees:spectral"
+							}
+						}
+					}
+					title: "{ftbquests.chapter.resource_generation.quest22.task_8517504769354790857.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.resource_generation.quest22.title}"
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4FBECB8A5C79852D"]
+			dependency_requirement: "all_started"
+			description: ["{ftbquests.chapter.resource_generation.quest23.description1}"]
+			icon: {
+				Count: 1
+				id: "complicated_bees:comb"
+				tag: {
+					comb_type: "complicated_bees:honey"
+				}
+			}
+			id: "0240D7D55692DAC9"
+			rewards: [
+				{
+					id: "3CF01507AB8D5DDB"
+					item: {
+						Count: 1
+						id: "complicated_bees:deadly_frame"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0C80C42A274E4275"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [
+				{
+					id: "328BB990930CAFE3"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "complicated_bees:common"
+							}
+						}
+					}
+					title: "{ftbquests.chapter.resource_generation.quest23.task_3642208754252689379.title}"
+					type: "item"
+				}
+				{
+					id: "732D0200D779A9A1"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "complicated_bees:cultivated"
+							}
+						}
+					}
+					title: "{ftbquests.chapter.resource_generation.quest23.task_8299291890952022433.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.resource_generation.quest23.title}"
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0240D7D55692DAC9"]
+			dependency_requirement: "all_started"
+			description: ["{ftbquests.chapter.resource_generation.quest24.description1}"]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1
+				id: "complicated_bees:comb"
+				tag: {
+					comb_type: "complicated_bees:stringy"
+				}
+			}
+			id: "710F5DFED74D5098"
+			rewards: [
+				{
+					count: 16
+					id: "14342AEF755C91DF"
+					item: "complicated_bees:pollen"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4ACEB6F5DCF82706"
+					item: "complicated_bees:withered_upgrade"
+					type: "item"
+				}
+				{
+					id: "7916D2D33A04371F"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [
+				{
+					id: "747D0EAA7DA3E0CA"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "complicated_bees:diligent"
+							}
+						}
+					}
+					title: "{ftbquests.chapter.resource_generation.quest24.task_8393881405903593674.title}"
+					type: "item"
+				}
+				{
+					id: "322EDDB1BC826988"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "complicated_bees:tireless"
+							}
+						}
+					}
+					title: "{ftbquests.chapter.resource_generation.quest24.task_3616071306266700168.title}"
+					type: "item"
+				}
+				{
+					id: "1C1BA9011F847AE1"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "complicated_bees:industrious"
+							}
+						}
+					}
+					title: "{ftbquests.chapter.resource_generation.quest24.task_2025398279722007265.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.resource_generation.quest24.title}"
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0240D7D55692DAC9"]
+			dependency_requirement: "all_started"
+			description: [
+				"{ftbquests.chapter.resource_generation.quest25.description1}"
+				""
+				"{ftbquests.chapter.resource_generation.quest25.description2}"
+				""
+				"{ftbquests.chapter.resource_generation.quest25.description3}"
+			]
+			icon: {
+				Count: 1
+				id: "complicated_bees:comb"
+				tag: {
+					comb_type: "complicated_bees:dripping"
+				}
+			}
+			id: "5AFED2AAA3E9F13D"
+			rewards: [
+				{
+					count: 16
+					id: "198FD86FE723884F"
+					item: "complicated_bees:royal_jelly"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "27A4E591F3E93CB1"
+					item: "complicated_bees:endenic_upgrade"
+					type: "item"
+				}
+				{
+					id: "622511E7D8032B19"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [
+				{
+					id: "58CB8BD3EB8A39F5"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "complicated_bees:noble"
+							}
+						}
+					}
+					title: "{ftbquests.chapter.resource_generation.quest25.task_6398361437915986421.title}"
+					type: "item"
+				}
+				{
+					id: "0A7367C07AF4620B"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "complicated_bees:majestic"
+							}
+						}
+					}
+					title: "{ftbquests.chapter.resource_generation.quest25.task_753059639095222795.title}"
+					type: "item"
+				}
+				{
+					id: "620441B639171446"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "complicated_bees:imperial"
+							}
+						}
+					}
+					title: "{ftbquests.chapter.resource_generation.quest25.task_7062842366521447494.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.resource_generation.quest25.title}"
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"5AFED2AAA3E9F13D"
+				"710F5DFED74D5098"
+			]
+			description: [
+				"{ftbquests.chapter.resource_generation.quest26.description1}"
+				""
+				"{ftbquests.chapter.resource_generation.quest26.description2}"
+				""
+				"{ftbquests.chapter.resource_generation.quest26.description3}"
+				""
+				"{ftbquests.chapter.resource_generation.quest26.description4}"
+			]
+			id: "530A8B09322225E3"
+			rewards: [
+				{
+					count: 32
+					id: "640D66B928D4AB16"
+					item: "complicated_bees:mellarium_panel"
+					type: "item"
+				}
+				{
+					id: "69BF74B1B2A3922F"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				id: "694990D9BD2781B3"
+				item: "complicated_bees:mellarium_base"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.resource_generation.quest26.title}"
+			x: 4.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7F77AE83C391B38A"]
+			description: [
+				"{ftbquests.chapter.resource_generation.quest27.description1}"
+				""
+				"{ftbquests.chapter.resource_generation.quest27.description2}"
+				""
+				"{ftbquests.chapter.resource_generation.quest27.description3}"
+			]
+			id: "4F11217D1FFF16C0"
+			rewards: [
+				{
+					count: 16
+					id: "1DEF8D256A752F99"
+					item: "complicated_bees:propolis"
+					type: "item"
+				}
+				{
+					id: "0CECD6B08675C166"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				id: "69A271E15F7B648A"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "complicated_bees:basic_upgrade"
+							}
+							{
+								Count: 1b
+								id: "complicated_bees:waxed_upgrade"
+							}
+							{
+								Count: 1b
+								id: "complicated_bees:honeyed_upgrade"
+							}
+							{
+								Count: 1b
+								id: "complicated_bees:twisted_upgrade"
+							}
+							{
+								Count: 1b
+								id: "complicated_bees:silky_upgrade"
+							}
+							{
+								Count: 1b
+								id: "complicated_bees:royal_upgrade"
+							}
+							{
+								Count: 1b
+								id: "complicated_bees:endenic_upgrade"
+							}
+							{
+								Count: 1b
+								id: "complicated_bees:withered_upgrade"
+							}
+						]
+					}
+				}
+				title: "{ftbquests.chapter.resource_generation.quest27.task_7611771532993062026.title}"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.resource_generation.quest27.title}"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4F11217D1FFF16C0"]
+			description: [
+				"{ftbquests.chapter.resource_generation.quest28.description1}"
+				""
+				"{ftbquests.chapter.resource_generation.quest28.description2}"
+			]
+			id: "056502E8EAC2C949"
+			rewards: [
+				{
+					count: 16
+					id: "7453C5AE15644083"
+					item: "complicated_bees:honey_droplet"
+					type: "item"
+				}
+				{
+					id: "2F90D13E549A6752"
+					item: {
+						Count: 1
+						id: "complicated_bees:deadly_frame"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "41D76177C1FF7B89"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				id: "1451B8D14FD68C72"
+				item: "complicated_bees:honey_generator"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7F77AE83C391B38A"]
+			description: [
+				"{ftbquests.chapter.resource_generation.quest29.description1}"
+				""
+				"{ftbquests.chapter.resource_generation.quest29.description2}"
+			]
+			icon: "minecraft:bee_nest"
+			id: "703C966888CEAF46"
+			rewards: [
+				{
+					count: 8
+					id: "1C238223147DE215"
+					item: "complicated_bees:honey_droplet"
+					type: "item"
+				}
+				{
+					id: "4149204171913F37"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				id: "37949B2DD1113687"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.resource_generation.quest29.title}"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4FBECB8A5C79852D"]
+			dependency_requirement: "one_started"
+			description: ["{ftbquests.chapter.resource_generation.quest30.description1}"]
+			icon: {
+				Count: 1
+				id: "complicated_bees:comb"
+				tag: {
+					comb_type: "complicated_bees:copper"
+				}
+			}
+			id: "0A48AEDC49A48973"
+			rewards: [
+				{
+					count: 4
+					id: "58C314EBD8C42D12"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "29EBBC07267B73D4"
+					item: "mysticalagriculture:supremium_growth_accelerator"
+					type: "item"
+				}
+				{
+					id: "75EA89A92A66DC59"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [
+				{
+					id: "0EA60ACDE2EADAE6"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "complicated_bees:cuprous"
+							}
+						}
+					}
+					title: "{ftbquests.chapter.resource_generation.quest30.task_1055543042056575718.title}"
+					type: "item"
+				}
+				{
+					id: "466A8C08649994F3"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "complicated_bees:precious"
+							}
+						}
+					}
+					title: "{ftbquests.chapter.resource_generation.quest30.task_5074021897861698803.title}"
+					type: "item"
+				}
+				{
+					id: "4CCA406B1C1D5354"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "complicated_bees:ferrous"
+							}
+						}
+					}
+					title: "{ftbquests.chapter.resource_generation.quest30.task_5533305920955437908.title}"
+					type: "item"
+				}
+				{
+					id: "7E14F17EC2430C56"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "reclamation:plumbum"
+							}
+						}
+					}
+					title: "{ftbquests.chapter.resource_generation.quest30.task_9085151875040480342.title}"
+					type: "item"
+				}
+				{
+					id: "5F59CD7866EF3947"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "reclamation:argentum"
+							}
+						}
+					}
+					title: "{ftbquests.chapter.resource_generation.quest30.task_6870748623537125703.title}"
+					type: "item"
+				}
+				{
+					id: "218C8CD49CAD24F4"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "reclamation:osmium"
+							}
+						}
+					}
+					title: "{ftbquests.chapter.resource_generation.quest30.task_2417461944780662004.title}"
+					type: "item"
+				}
+				{
+					id: "0AA429B26695BC78"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "reclamation:zincum"
+							}
+						}
+					}
+					title: "{ftbquests.chapter.resource_generation.quest30.task_766783682761833592.title}"
+					type: "item"
+				}
+				{
+					id: "4222159749F84687"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "reclamation:radioactive"
+							}
+						}
+					}
+					title: "{ftbquests.chapter.resource_generation.quest30.task_4765395095236658823.title}"
+					type: "item"
+				}
+				{
+					id: "758A0B5AA731EA7E"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "reclamation:stannum"
+							}
+						}
+					}
+					title: "{ftbquests.chapter.resource_generation.quest30.task_8469594533203667582.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.resource_generation.quest30.title}"
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"4FBECB8A5C79852D"
+				"3FBA3BCF67F2AB82"
+			]
+			dependency_requirement: "one_started"
+			description: ["{ftbquests.chapter.resource_generation.quest31.description1}"]
+			icon: {
+				Count: 1
+				id: "complicated_bees:comb"
+				tag: {
+					comb_type: "complicated_bees:coal"
+				}
+			}
+			id: "7AFEB9E87800654A"
+			rewards: [
+				{
+					count: 4
+					id: "53272C0F8F2DC296"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "57F0CC1DD195F755"
+					item: "mysticalagriculture:supremium_growth_accelerator"
+					type: "item"
+				}
+				{
+					id: "1EA42D6FE8B2EFB9"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [
+				{
+					id: "339CD4C8E6EA2606"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "complicated_bees:bituminous"
+							}
+						}
+					}
+					title: "{ftbquests.chapter.resource_generation.quest31.task_3719081351633839622.title}"
+					type: "item"
+				}
+				{
+					id: "6335C66F5DF612CF"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "complicated_bees:conductive"
+							}
+						}
+					}
+					title: "{ftbquests.chapter.resource_generation.quest31.task_7148838165140607695.title}"
+					type: "item"
+				}
+				{
+					id: "4C0D8DA8BF21F928"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "complicated_bees:luminous"
+							}
+						}
+					}
+					title: "{ftbquests.chapter.resource_generation.quest31.task_5480192077480458536.title}"
+					type: "item"
+				}
+				{
+					id: "276CA391C0A73885"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "complicated_bees:lapic"
+							}
+						}
+					}
+					title: "{ftbquests.chapter.resource_generation.quest31.task_2840825311361710213.title}"
+					type: "item"
+				}
+				{
+					id: "60A4A2FA95605E84"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "complicated_bees:amethyst"
+							}
+						}
+					}
+					title: "{ftbquests.chapter.resource_generation.quest31.task_6963870120953273988.title}"
+					type: "item"
+				}
+				{
+					id: "4899AE05E1ED759A"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "complicated_bees:dimantic"
+							}
+						}
+					}
+					title: "{ftbquests.chapter.resource_generation.quest31.task_5231403782456047002.title}"
+					type: "item"
+				}
+				{
+					id: "193BFD17439F127A"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "complicated_bees:emeradic"
+							}
+						}
+					}
+					title: "{ftbquests.chapter.resource_generation.quest31.task_1818325150934700666.title}"
+					type: "item"
+				}
+				{
+					id: "62CAB593B1F591EC"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "complicated_bees:quartz"
+							}
+						}
+					}
+					title: "{ftbquests.chapter.resource_generation.quest31.task_7118701806962971116.title}"
+					type: "item"
+				}
+				{
+					id: "3DF08F7DC76C0A35"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "reclamation:silicate"
+							}
+						}
+					}
+					title: "{ftbquests.chapter.resource_generation.quest31.task_4463225001103591989.title}"
+					type: "item"
+				}
+				{
+					id: "2E9A66705838F50E"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "reclamation:fluorite"
+							}
+						}
+					}
+					title: "{ftbquests.chapter.resource_generation.quest31.task_3358109104860624142.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.resource_generation.quest31.title}"
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3E9104B5E89874E5"]
+			description: [
+				"{ftbquests.chapter.resource_generation.quest32.description1}"
+				""
+				"{ftbquests.chapter.resource_generation.quest32.description2}"
+				""
+				"{ftbquests.chapter.resource_generation.quest32.description3}"
+				""
+				"{ftbquests.chapter.resource_generation.quest32.description4}"
+			]
+			id: "2509BD7F791C2BC5"
+			rewards: [{
+				id: "7ABE29DF977CDFB9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4D7664DE210D6CC9"
+				item: "mysticalagriculture:tertium_essence"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["2509BD7F791C2BC5"]
+			description: [
+				"{ftbquests.chapter.resource_generation.quest33.description1}"
+				""
+				"{ftbquests.chapter.resource_generation.quest33.description2}"
+				""
+				"{ftbquests.chapter.resource_generation.quest33.description3}"
+			]
+			id: "29D91679CB08E659"
+			rewards: [{
+				id: "6BF9ECE8F48BD435"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "63A131BD3CC1004C"
+				item: "mysticalagriculture:imperium_essence"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["29D91679CB08E659"]
+			description: [
+				"{ftbquests.chapter.resource_generation.quest34.description1}"
+				""
+				"{ftbquests.chapter.resource_generation.quest34.description2}"
+				""
+				"{ftbquests.chapter.resource_generation.quest34.description3}"
+			]
+			id: "538CFE623B75990A"
+			rewards: [{
+				id: "5B2A0163D7FCDB19"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "319E2C2891DDB9E1"
+				item: "mysticalagriculture:supremium_essence"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["4FBECB8A5C79852D"]
+			dependency_requirement: "one_started"
+			description: [
+				"{ftbquests.chapter.resource_generation.quest35.description1}"
+				""
+				"{ftbquests.chapter.resource_generation.quest35.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "complicated_bees:comb"
+				tag: {
+					comb_type: "reclamation:magical"
+				}
+			}
+			id: "0421D9DBD650A20B"
+			rewards: [
+				{
+					id: "4808F5B2DD571B65"
+					item: {
+						Count: 1
+						id: "complicated_bees:deadly_frame"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "48C47C6AACE24DF6"
+					item: "botania:blacker_lotus"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "205C4F29F25A0E62"
+					item: "botania:overgrowth_seed"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "50CAD9CC5D89383E"
+					item: "bloodmagic:hellforgedparts"
+					type: "item"
+				}
+				{
+					id: "2E3F89FE2908D569"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [
+				{
+					id: "4A94304490D9A90E"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "reclamation:natural"
+							}
+						}
+					}
+					title: "{ftbquests.chapter.resource_generation.quest35.task_5373973326405937422.title}"
+					type: "item"
+				}
+				{
+					id: "05CAC1EB80406FBE"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "reclamation:botanic"
+							}
+						}
+					}
+					title: "{ftbquests.chapter.resource_generation.quest35.task_417359132698374078.title}"
+					type: "item"
+				}
+				{
+					id: "264ECB3724921EBF"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "reclamation:dawnstone"
+							}
+						}
+					}
+					title: "{ftbquests.chapter.resource_generation.quest35.task_2760367059321888447.title}"
+					type: "item"
+				}
+				{
+					id: "38D7A03F1C723D63"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "reclamation:willful"
+							}
+						}
+					}
+					title: "{ftbquests.chapter.resource_generation.quest35.task_4095918579037388131.title}"
+					type: "item"
+				}
+				{
+					id: "6DC74367F4AFA714"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "reclamation:source"
+							}
+						}
+					}
+					title: "{ftbquests.chapter.resource_generation.quest35.task_7910365384265410324.title}"
+					type: "item"
+				}
+				{
+					id: "402964C551141D0E"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "reclamation:demonite"
+							}
+						}
+					}
+					title: "{ftbquests.chapter.resource_generation.quest35.task_4623337291104132366.title}"
+					type: "item"
+				}
+				{
+					id: "4964212347DCD2FE"
+					item: {
+						Count: 1
+						id: "itemfilters:weak_nbt"
+						tag: {
+							value: {
+								species: "reclamation:terra"
+							}
+						}
+					}
+					title: "{ftbquests.chapter.resource_generation.quest35.task_5288388297853031166.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.resource_generation.quest35.title}"
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2509BD7F791C2BC5"]
+			id: "38EDB9CFDA9C2D28"
+			rewards: [{
+				id: "06B9048A5FFC80DB"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "604AA7237C047C6B"
+				item: "mysticalagriculture:copper_seeds"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"0421D9DBD650A20B"
+				"2509BD7F791C2BC5"
+			]
+			dependency_requirement: "all_started"
+			description: ["{ftbquests.chapter.resource_generation.quest37.description1}"]
+			id: "5DF16174EF809D9B"
+			rewards: [{
+				id: "747A64B1D2959678"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "51671D6C6E8AD2C1"
+				item: "mysticalagriculture:nature_seeds"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["2509BD7F791C2BC5"]
+			id: "1EE023A9CE3F34C6"
+			rewards: [{
+				id: "22043115FB572BD7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3A3FF807F49E3D7E"
+				item: "mysticalagriculture:dye_seeds"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2509BD7F791C2BC5"]
+			id: "214EBA6BF874EB98"
+			rewards: [{
+				id: "3045A567770AE39E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2617BA7C893F1E8D"
+				item: "mysticalagriculture:iron_seeds"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2509BD7F791C2BC5"]
+			id: "755B3C448BB32CCB"
+			rewards: [{
+				id: "76978EED71EB1FBD"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "736ED8D3A9D76F00"
+				item: "mysticalagriculture:lead_seeds"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["2509BD7F791C2BC5"]
+			id: "60F6F345B93AD3F3"
+			rewards: [{
+				id: "4FEA20F1DE99F0AA"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5AECEA525CDA2B3D"
+				item: "mysticalagriculture:gold_seeds"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["2509BD7F791C2BC5"]
+			id: "3A3270B1BE4B0958"
+			rewards: [{
+				id: "67AEB68AE40C80DD"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3E1BB73EBB2DBFE9"
+				item: "mysticalagriculture:silver_seeds"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["2509BD7F791C2BC5"]
+			id: "11090946D274C166"
+			rewards: [{
+				id: "68657CE3AC031D47"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5DB910C05BECA8EC"
+				item: "mysticalagriculture:coal_seeds"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2509BD7F791C2BC5"]
+			id: "79BC9E60D226697B"
+			rewards: [{
+				id: "78D929A05F9F75AE"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "062C968AC349B3DA"
+				item: "mysticalagriculture:mystical_flower_seeds"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["2509BD7F791C2BC5"]
+			id: "0C9A8B2E68C67874"
+			rewards: [{
+				id: "67F2DA3E7DB8E922"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6CA4CA5245477289"
+				item: "mysticalagriculture:zinc_seeds"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["2509BD7F791C2BC5"]
+			id: "3B5C0A7B5414BE45"
+			rewards: [{
+				id: "3FC6D4018E293FA8"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5AC5D4C2076964ED"
+				item: "mysticalagriculture:tin_seeds"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2509BD7F791C2BC5"]
+			id: "2D0C0D948E679690"
+			rewards: [{
+				id: "5201E1EA22A2F0D7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "235FCA820199DF09"
+				item: "mysticalagriculture:soulium_seeds"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["29D91679CB08E659"]
+			id: "24C30A127C74D77A"
+			rewards: [{
+				id: "04161CF7388DFD01"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "04DBC752E530E275"
+				item: "mysticalagriculture:enderman_seeds"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["29D91679CB08E659"]
+			id: "05B609CA9BC006E6"
+			rewards: [{
+				id: "50E6E1C189265F20"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5AC1C5B3E5AE7082"
+				item: "mysticalagriculture:blaze_seeds"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["29D91679CB08E659"]
+			id: "05818486AB14ED09"
+			rewards: [{
+				id: "785F3FD967022017"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "31DCCA2252AEFCB3"
+				item: "mysticalagriculture:certus_quartz_seeds"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["29D91679CB08E659"]
+			id: "412B3258170AD961"
+			rewards: [{
+				id: "36E0A667C329E74A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6BB0957BA6B01C54"
+				item: "mysticalagriculture:nether_quartz_seeds"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["29D91679CB08E659"]
+			id: "4282A7669D40F5E2"
+			rewards: [{
+				id: "4056EDF8F5534B66"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "776C2C2B52A32AEA"
+				item: "mysticalagriculture:amethyst_seeds"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["29D91679CB08E659"]
+			id: "4083416E69C9A90E"
+			rewards: [{
+				id: "0F74B039F361C7EA"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7C5B3DF114ADB789"
+				item: "mysticalagriculture:glowstone_seeds"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["29D91679CB08E659"]
+			id: "77A433E2D375130F"
+			rewards: [{
+				id: "63182DE21B615959"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "324D113F285C29F0"
+				item: "mysticalagriculture:redstone_seeds"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["29D91679CB08E659"]
+			id: "6F0EA6A4F2535B7C"
+			rewards: [{
+				id: "66E83B70CAFE1D8A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "653323C0D0E2EBE2"
+				item: "mysticalagriculture:lapis_lazuli_seeds"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["2509BD7F791C2BC5"]
+			id: "1986FC972AC0EFA6"
+			rewards: [{
+				id: "52C8019BE6AFA3E1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0BD8EA7FBDF23E0A"
+				item: "mysticalagriculture:sky_stone_seeds"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["29D91679CB08E659"]
+			id: "7D82DB17EC4416E6"
+			rewards: [{
+				id: "16CC2325FBFE4367"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4C83519D33D547D9"
+				item: "mysticalagriculture:steel_seeds"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["29D91679CB08E659"]
+			id: "6F4774D2991E963D"
+			rewards: [{
+				id: "68FEDDF00E8D69AA"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "040253A6A8D013FD"
+				item: "mysticalagriculture:uranium_seeds"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["29D91679CB08E659"]
+			id: "3D68F7ACD4236965"
+			rewards: [{
+				id: "60DA6246620CF3BC"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2D3FA10C7611BD3E"
+				item: "mysticalagriculture:osmium_seeds"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["29D91679CB08E659"]
+			id: "01C80BDF7B16626E"
+			rewards: [{
+				id: "0C5AFA9AF1871CDD"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "116BE06BFA45C648"
+				item: "mysticalagriculture:fluorite_seeds"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["29D91679CB08E659"]
+			id: "6E3324A3C00C43C2"
+			rewards: [{
+				id: "07902EDB44689BE5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7759D71BBD82275D"
+				item: "mysticalagriculture:prismarine_seeds"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["538CFE623B75990A"]
+			id: "7EBB96CA83BB68A8"
+			rewards: [{
+				id: "78C334672A12EC64"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3A4BA4060A05E9F7"
+				item: "mysticalagriculture:diamond_seeds"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["538CFE623B75990A"]
+			id: "638ED8D6563FE202"
+			rewards: [{
+				id: "2E504B3CEC3049AE"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "130175843E2E794A"
+				item: "mysticalagriculture:emerald_seeds"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["538CFE623B75990A"]
+			id: "31519496FD0472BE"
+			rewards: [{
+				id: "113D2CD225DDB5B7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2A3C2BF95259F3A3"
+				item: "mysticalagriculture:netherite_seeds"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["538CFE623B75990A"]
+			id: "7925CC8AE12DF568"
+			rewards: [{
+				id: "0D5E999B7A32CDE3"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "55E84064A303F30B"
+				item: "mysticalagriculture:wither_skeleton_seeds"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["538CFE623B75990A"]
+			id: "0DF3DB3219EB7042"
+			rewards: [{
+				id: "61EF38D9EF1A949D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5BD23B6C54643BDA"
+				item: "mysticalagriculture:experience_seeds"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["6B8C517B623696FC"]
+			description: ["{ftbquests.chapter.resource_generation.quest67.description1}"]
+			id: "5DE5C6DBD33B6698"
+			rewards: [
+				{
+					id: "0D083FB914C6A259"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "32EF3C3AA9071C20"
+					item: "mysticalagriculture:inferium_growth_accelerator"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "58DA490D72A1270A"
+				item: "mysticalagriculture:inferium_growth_accelerator"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["56E75D57C3C9487C"]
+			description: ["{ftbquests.chapter.resource_generation.quest68.description1}"]
+			id: "67F1DFD4A17BF030"
+			rewards: [{
+				id: "776B1E24B75F59AD"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5D743E2BFF4E58CB"
+				item: {
+					Count: 1
+					id: "mysticalagriculture:inferium_watering_can"
+					tag: {
+						Active: 0b
+						Water: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["67F1DFD4A17BF030"]
+			id: "6766662BEF74B9C3"
+			rewards: [{
+				id: "56E1CB834B3793CE"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "48CF2C0019A07805"
+				item: {
+					Count: 1
+					id: "mysticalagriculture:prudentium_watering_can"
+					tag: {
+						Active: 0b
+						Water: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6766662BEF74B9C3"]
+			id: "4256945A2E6C6725"
+			rewards: [{
+				id: "7876C52A86F7AE85"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7EF12EEF71308A18"
+				item: {
+					Count: 1
+					id: "mysticalagriculture:tertium_watering_can"
+					tag: {
+						Active: 0b
+						Water: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4256945A2E6C6725"]
+			id: "74E792C5A04CD1AA"
+			rewards: [{
+				id: "1FC672E9137A47D7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "46D3185466374EA8"
+				item: {
+					Count: 1
+					id: "mysticalagriculture:imperium_watering_can"
+					tag: {
+						Active: 0b
+						Water: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["74E792C5A04CD1AA"]
+			id: "1AD7C3F6F6C06B69"
+			rewards: [{
+				id: "18DBD8D6496CC35C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "196E2CCA7068E78D"
+				item: {
+					Count: 1
+					id: "mysticalagriculture:supremium_watering_can"
+					tag: {
+						Active: 0b
+						Water: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1AD7C3F6F6C06B69"]
+			description: ["{ftbquests.chapter.resource_generation.quest73.description1}"]
+			id: "751C7AD884E539D1"
+			rewards: [{
+				id: "5A04DA42005D5FB0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "518442D17864A6D1"
+				item: {
+					Count: 1
+					id: "mysticalagriculture:awakened_supremium_watering_can"
+					tag: {
+						Active: 0b
+						Water: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.0d
+		}
+	]
+	title: "{ftbquests.chapter.resource_generation.title}"
+}

@@ -1,0 +1,12 @@
+{
+  "acidity": "slightly_acidic",
+  "growth_modifier": 1.0,
+  "humidity": "wet",
+  "mods": [],
+  "nutrients": "high",
+  "variants": [
+    {
+      "block": "minecraft:farmland"
+    }
+  ]
+}

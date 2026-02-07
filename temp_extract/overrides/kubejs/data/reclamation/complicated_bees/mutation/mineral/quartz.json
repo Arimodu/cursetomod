@@ -1,0 +1,15 @@
+{
+  "chance": 0.1,
+  "conditions": {
+    "complicated_bees:block_under": {
+      "block": "minecraft:quartz_block"
+    },
+    "complicated_bees:temperature": {
+      "max": "hellish",
+      "min": "hellish"
+    }
+  },
+  "first": "complicated_bees:rocky",
+  "result": "complicated_bees:quartz",
+  "second": "complicated_bees:luminous"
+}

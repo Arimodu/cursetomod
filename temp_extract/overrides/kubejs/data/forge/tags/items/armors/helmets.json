@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "complicated_bees:apiarist_helmet",
+    "naturesaura:depth_helmet",
+    "naturesaura:sky_helmet",
+    "naturesaura:infused_iron_helmet",
+    "bloodmagic:livinghelmet",
+    "ars_elemental:fire_hat",
+    "ars_elemental:aqua_hat",
+    "ars_elemental:earth_hat",
+    "ars_elemental:air_hat"
+  ]
+}

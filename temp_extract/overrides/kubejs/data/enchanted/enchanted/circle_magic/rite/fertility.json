@@ -1,0 +1,28 @@
+{
+  "items": [
+    {
+      "id": "enchanted:quicklime",
+      "Count": 1
+    },
+    {
+      "id": "enchanted:gypsum",
+      "Count": 1
+    },
+    {
+      "id": "enchanted:mutandis",
+      "Count": 1
+    },
+    {
+      "id": "minecraft:bone_meal",
+      "Count": 1
+    }
+  ],
+  "shapes": {
+    "enchanted:small_circle": "enchanted:ritual_chalk"
+  },
+  "factory": {
+    "type": "enchanted:fertility",
+    "radius": 25,
+    "bonemeal_chance": 0.8
+  }
+}

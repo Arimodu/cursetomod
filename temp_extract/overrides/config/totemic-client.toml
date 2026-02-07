@@ -1,0 +1,8 @@
+
+#Totemic client-only configuration settings
+[client]
+	#Horizontal position of the ceremony HUD (offset from center of the screen)
+	ceremonyHudPositionX = 0
+	#Vertical position of the ceremony HUD (offset from center of the screen)
+	ceremonyHudPositionY = -70
+

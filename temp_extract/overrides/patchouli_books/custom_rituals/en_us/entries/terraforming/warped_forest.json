@@ -1,0 +1,17 @@
+{
+  "name": "Warped Forest",
+  "icon": "minecraft:warped_nylium",
+  "advancement": "reclamation:biome_essence",
+  "category": "patchouli:terraforming",
+  "pages": [
+    {
+      "type": "patchouli:rite_description",
+      "rite_name": "Rite of Warped Forest",
+      "text": "This rite will convert the surrounding area into a warped forest with appropriate vegetation. It has a range of 16 blocks."
+    },
+    {
+      "type": "patchouli:rite_requirements",
+      "rite": "reclamation:terraforming/warped"
+    }
+  ]
+}

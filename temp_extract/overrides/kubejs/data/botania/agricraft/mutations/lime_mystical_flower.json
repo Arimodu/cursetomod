@@ -1,0 +1,6 @@
+{
+  "chance": 0.5,
+  "child": "botania:lime_mystical_flower",
+  "parent1": "botania:blue_mystical_flower",
+  "parent2": "botania:yellow_mystical_flower"
+}

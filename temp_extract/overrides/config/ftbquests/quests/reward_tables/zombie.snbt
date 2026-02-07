@@ -1,0 +1,13 @@
+{
+	id: "62F69F14C6E9136A"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{ count: 32, item: "minecraft:rotten_flesh" }
+		{ count: 16, item: "minecraft:copper_ingot" }
+		{ count: 8, item: "minecraft:iron_ingot" }
+		{ count: 4, item: "minecraft:carrot" }
+		{ count: 4, item: "minecraft:potato" }
+	]
+	title: "{ftbquests.loot_table_7131061971573085034.title}"
+}

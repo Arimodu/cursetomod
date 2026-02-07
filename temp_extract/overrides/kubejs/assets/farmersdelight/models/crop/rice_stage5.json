@@ -1,0 +1,7 @@
+{
+  "parent": "agricraft:crop/tall_crop_cross",
+  "textures": {
+    "crop": "farmersdelight:block/rice_supporting",
+    "crop_top": "farmersdelight:block/rice_panicles_stage1"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "acidity": "neutral",
+  "growth_modifier": 1.6,
+  "humidity": "arid",
+  "mods": [],
+  "nutrients": "very_high",
+  "variants": [
+    {
+      "block": "nethersdelight:rich_soul_soil"
+    }
+  ]
+}

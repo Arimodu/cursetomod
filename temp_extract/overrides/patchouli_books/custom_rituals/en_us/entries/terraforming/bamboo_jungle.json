@@ -1,0 +1,17 @@
+{
+  "name": "Bamboo Jungle",
+  "icon": "minecraft:bamboo",
+  "advancement": "reclamation:biome_essence",
+  "category": "patchouli:terraforming",
+  "pages": [
+    {
+      "type": "patchouli:rite_description",
+      "rite_name": "Rite of Bamboo Jungle",
+      "text": "This rite will convert the surrounding area into a bamboo forest with appropriate vegetation. It has a range of 16 blocks."
+    },
+    {
+      "type": "patchouli:rite_requirements",
+      "rite": "reclamation:terraforming/bamboo_jungle"
+    }
+  ]
+}

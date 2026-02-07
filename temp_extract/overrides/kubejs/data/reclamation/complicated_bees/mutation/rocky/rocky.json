@@ -1,0 +1,11 @@
+{
+  "chance": 0.20,
+  "conditions": {
+    "complicated_bees:block_under": {
+      "block": "minecraft:tuff"
+    }
+  },
+  "first": "reclamation:dessicated",
+  "result": "complicated_bees:rocky",
+  "second": "reclamation:dried"
+}

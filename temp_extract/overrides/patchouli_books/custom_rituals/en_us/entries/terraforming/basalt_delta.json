@@ -1,0 +1,17 @@
+{
+  "name": "Basalt Delta",
+  "icon": "minecraft:basalt",
+  "advancement": "reclamation:biome_essence",
+  "category": "patchouli:terraforming",
+  "pages": [
+    {
+      "type": "patchouli:rite_description",
+      "rite_name": "Rite of Basalt Delta",
+      "text": "This rite will convert the surrounding area into a basalt delta with appropriate vegetation. It has a range of 16 blocks.$(br2)You might want to step back once this ritual starts."
+    },
+    {
+      "type": "patchouli:rite_requirements",
+      "rite": "reclamation:terraforming/delta"
+    }
+  ]
+}

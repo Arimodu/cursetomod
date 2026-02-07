@@ -1,0 +1,89 @@
+{
+	id: "15ADB19114074FDA"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "horns"
+	}
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "minecraft:goat_horn"
+				tag: {
+					instrument: "minecraft:ponder_goat_horn"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:goat_horn"
+				tag: {
+					instrument: "minecraft:sing_goat_horn"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:goat_horn"
+				tag: {
+					instrument: "minecraft:seek_goat_horn"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:goat_horn"
+				tag: {
+					instrument: "minecraft:feel_goat_horn"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:goat_horn"
+				tag: {
+					instrument: "minecraft:admire_goat_horn"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:goat_horn"
+				tag: {
+					instrument: "minecraft:call_goat_horn"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:goat_horn"
+				tag: {
+					instrument: "minecraft:call_goat_horn"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:goat_horn"
+				tag: {
+					instrument: "minecraft:yearn_goat_horn"
+				}
+			}
+		}
+	]
+	title: "{ftbquests.loot_table_1562099882431827930.title}"
+}

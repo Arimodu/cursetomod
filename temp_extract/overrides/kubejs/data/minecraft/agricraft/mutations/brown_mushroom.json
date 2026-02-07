@@ -1,0 +1,6 @@
+{
+  "chance": 0.5,
+  "child": "minecraft:brown_mushroom",
+  "parent1": "minecraft:potato",
+  "parent2": "enchanted:mandrake"
+}

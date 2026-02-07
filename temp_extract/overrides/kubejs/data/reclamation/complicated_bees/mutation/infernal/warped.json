@@ -1,0 +1,14 @@
+{
+  "chance": 0.25,
+  "conditions": {
+    "complicated_bees:block_under": {
+      "block": "minecraft:warped_wart_block"
+    },
+    "complicated_bees:biome": {
+      "biome": "#minecraft:is_nether"
+    }
+  },
+  "first": "complicated_bees:rocky",
+  "result": "complicated_bees:warped",
+  "second": "complicated_bees:rocky"
+}

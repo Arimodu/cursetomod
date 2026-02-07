@@ -1,0 +1,15 @@
+{
+  "chance": 0.1,
+  "conditions": {
+    "complicated_bees:block_under": {
+      "block": "minecraft:glowstone"
+    },
+    "complicated_bees:temperature": {
+      "max": "hellish",
+      "min": "hellish"
+    }
+  },
+  "first": "complicated_bees:robust",
+  "result": "complicated_bees:luminous",
+  "second": "complicated_bees:haunted"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Create Blaze Cage",
+  "icon": "create:empty_blaze_burner",
+  "category": "patchouli:basic_rituals",
+  "pages": [
+    {
+      "type": "patchouli:rite_description",
+      "rite_name": "Create Blaze Cage",
+      "text": "Use this rite to create a magical cage that can contain a blaze indefinitely."
+    },
+    {
+      "type": "patchouli:rite_requirements",
+      "rite": "reclamation:blaze_cage"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "items": [
+    {
+      "id": "mekanism:creative_chemical_tank",
+      "Count": 1
+    },
+    {
+      "id": "mekanism:ultimate_induction_cell",
+      "Count": 4
+    },
+    {
+      "id": "mekanism:ultimate_induction_provider",
+      "Count": 4
+    },
+    {
+      "id": "mekanism:sps_casing",
+      "Count": 4
+    },
+    {
+      "id": "create:creative_motor",
+      "Count": 2
+    }
+  ],
+  "shapes": {
+    "enchanted:small_circle": "enchanted:otherwhere_chalk",
+    "reclamation:clover": "enchanted:otherwhere_chalk",
+    "enchanted:large_circle": "enchanted:otherwhere_chalk"
+  },
+  "power": 10000,
+  "factory": {
+    "type": "enchanted:create_item",
+    "items": [
+      {
+        "id": "mekanism:creative_energy_cube",
+        "Count": 1,
+        "tag": {
+          "mekData": {
+            "EnergyContainers": [
+              {
+                "Container": false,
+                "stored":"18446744073709551615.9999"
+              }
+            ],
+            "componentConfig": {
+              "config0": {
+                "side0": 4,
+                "side1": 4,
+                "side2": 4,
+                "side3": 4,
+                "side4": 4,
+                "side5": 4
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+}

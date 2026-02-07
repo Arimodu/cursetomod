@@ -1,0 +1,7 @@
+{
+  "type": "enchanted:skull",
+  "block": "heads:husk_head",
+  "power": 1.0,
+  "recharge": 1.0,
+  "priority": 0
+}

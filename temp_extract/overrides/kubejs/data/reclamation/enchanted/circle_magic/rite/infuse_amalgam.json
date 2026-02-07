@@ -1,0 +1,23 @@
+{
+  "items": [
+    { "id": "kubejs:mana_amalgam", "Count": 1 },
+    { "id": "enchanted:exhale_of_the_horned_one", "Count": 1 },
+    { "id": "enchanted:breath_of_the_goddess", "Count": 1 },
+    { "id": "enchanted:gypsum", "Count": 1 }
+  ],
+  "shapes": {
+    "enchanted:small_circle": "enchanted:nether_chalk",
+    "enchanted:medium_circle": "enchanted:ritual_chalk",
+    "enchanted:large_circle": "enchanted:otherwhere_chalk"
+  },
+  "power": 2500,
+  "factory": {
+    "type": "enchanted:create_item",
+    "items": [
+      {
+        "id": "kubejs:infused_amalgam",
+        "Count": 1
+      }
+    ]
+  }
+}

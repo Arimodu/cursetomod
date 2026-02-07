@@ -1,0 +1,39 @@
+
+#Via Romana Configuration
+[Variables]
+	#Radius to check for nearby infrastructure.
+	#Range: 0.1 ~ 10.0
+	infrastructure_check_radius = 1.0
+	#Minimum distance between path nodes.
+	#Range: 1.0 ~ 100.0
+	node_distance_minimum = 10.0
+	#Maximum distance between path nodes.
+	#Range: 1.0 ~ 200.0
+	node_distance_maximum = 20.0
+	#Minimum path quality threshold for pathfinding.
+	#Range: 0.0 ~ 1.0
+	path_quality_threshold = 0.6
+	#Minimum distance for a valid path segment.
+	#Range: 1.0 ~ 1000.0
+	path_distance_minimum = 10.0
+	#Maximum distance for a valid path segment.
+	#Range: 100.0 ~ 1.7976931348623157E308
+	path_distance_maximum = 100000.0
+	#Cooldown in seconds for travel fatigue effect.
+	#Range: 0.0 ~ 3600.0
+	travel_fatigue_cooldown = 30.0
+
+[Management]
+	#Comma-separated list of entity IDs allowed to use paths (e.g., minecraft:player, minecraft:horse).
+	valid_entities = "minecraft:player, minecraft:boat, minecraft:horse, minecraft:pig, minecraft:strider, minecraft:camel"
+	#Comma-separated list of dimension IDs where the mod operates (e.g., minecraft:overworld).
+	valid_dimensions = "minecraft:overworld, minecraft:the_nether, minecraft:the_end"
+	#Comma-separated list of block tags considered valid path blocks (e.g., via_romana:path_block).
+	valid_block_tags = "via_romana:path_block"
+	#Comma-separated list of specific block IDs considered valid path blocks (e.g., minecraft:stone_bricks).
+	valid_block_ids = ""
+	#Comma-separated list of block state strings considered valid path blocks (e.g., minecraft:cobblestone_slab[type=bottom]).
+	valid_block_strings = ""
+	#Comma-separated list of sign block IDs used for nodes (e.g., supplementaries:sign_post).
+	valid_sign_strings = "supplementaries:sign_post"
+

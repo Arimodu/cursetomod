@@ -1,0 +1,12 @@
+{
+  "acidity": "highly_alkaline",
+  "growth_modifier": 0.75,
+  "humidity": "arid",
+  "mods": [],
+  "nutrients": "low",
+  "variants": [
+    {
+      "block": "minecraft:warped_nylium"
+    }
+  ]
+}

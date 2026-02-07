@@ -1,0 +1,22 @@
+{
+  "items": [
+    { "id": "embers:iron_plate", "Count": 2 },
+    { "id": "enchanted:exhale_of_the_horned_one", "Count": 1 },
+    { "id": "minecraft:netherrack", "Count": 1 },
+    { "id": "botania:rune_fire", "Count": 1 }
+  ],
+  "shapes": {
+    "enchanted:small_circle": "enchanted:nether_chalk",
+    "enchanted:medium_circle": "enchanted:ritual_chalk"
+  },
+  "power": 1000,
+  "factory": {
+    "type": "enchanted:create_item",
+    "items": [
+      {
+        "id": "create:empty_blaze_burner",
+        "Count": 1
+      }
+    ]
+  }
+}

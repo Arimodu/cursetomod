@@ -1,0 +1,12 @@
+{
+  "feature": "reclamation:bonemeal_flowers",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": {
+        "type": "constant",
+        "value": 0
+      }
+    }
+  ]
+}

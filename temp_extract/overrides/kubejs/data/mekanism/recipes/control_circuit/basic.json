@@ -1,0 +1,15 @@
+{
+  "type": "mekanism:metallurgic_infusing",
+  "chemicalInput": {
+    "amount": 20,
+    "tag": "mekanism:redstone"
+  },
+  "itemInput": {
+    "ingredient": {
+      "tag": "forge:ingots/osmium"
+    }
+  },
+  "output": {
+    "item": "mekanism:basic_control_circuit"
+  }
+}

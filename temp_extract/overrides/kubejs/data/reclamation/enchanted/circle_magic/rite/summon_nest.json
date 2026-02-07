@@ -1,0 +1,20 @@
+{
+  "items": [
+    { "id": "enchanted:mutandis", "Count": 2 },
+    { "id": "complicated_bees:propolis", "Count": 4 },
+    { "id": "enchanted:whiff_of_magic", "Count": 1 },
+    { "id": "botania:rune_earth", "Count": 1 }
+  ],
+  "shapes": {
+    "enchanted:small_circle": "enchanted:ritual_chalk",
+    "enchanted:medium_circle": "enchanted:ritual_chalk"
+  },
+  "power": 3000,
+  "factory": {
+    "type": "enchanted:command",
+    "commands": [
+      ["function reclamation:create_nest"]
+    ],
+    "delay": 2
+  }
+}

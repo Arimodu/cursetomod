@@ -1,0 +1,29 @@
+{
+	id: "7AADD231440C3AF4"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "minecraft:bow"
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							id: "minecraft:power"
+							lvl: 2s
+						}
+						{
+							id: "minecraft:unbreaking"
+							lvl: 2s
+						}
+					]
+				}
+			}
+		}
+		{ count: 64, item: "minecraft:arrow" }
+		{ count: 16, item: "minecraft:bone" }
+	]
+	title: "{ftbquests.loot_table_8839952752635034356.title}"
+}

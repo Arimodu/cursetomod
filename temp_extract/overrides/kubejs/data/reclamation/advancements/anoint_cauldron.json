@@ -1,0 +1,39 @@
+{
+    "display": {
+        "icon": {
+            "item": "enchanted:witch_cauldron"
+        },
+        "title": "Enchanted Brewing",
+        "description": "Anoint a cauldron",
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "parent": "minecraft:story/root",
+    "criteria": {
+        "anoint_cauldron": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": [
+                                "enchanted:anointing_paste"
+                            ]
+                        }
+                    },
+                    {
+                        "condition": "minecraft:block_state_property",
+                        "block": "enchanted:witch_cauldron"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "anoint_cauldron"
+        ]
+    ],
+    "sends_telemetry_event": false
+}

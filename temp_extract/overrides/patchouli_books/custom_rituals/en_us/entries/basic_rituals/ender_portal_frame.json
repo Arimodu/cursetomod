@@ -1,0 +1,16 @@
+{
+  "name": "Create Ender Portal",
+  "icon": "minecraft:end_portal_frame",
+  "category": "patchouli:basic_rituals",
+  "pages": [
+    {
+      "type": "patchouli:rite_description",
+      "rite_name": "Create Ender Portal",
+      "text": "Use this rite to create an ender portal frame."
+    },
+    {
+      "type": "patchouli:rite_requirements",
+      "rite": "reclamation:ender_portal"
+    }
+  ]
+}

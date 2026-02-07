@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "cursetomod": {
+      "commandName": "Project",
+      "commandLineArgs": "..\\..\\..\\curse.zip"
+    }
+  }
+}

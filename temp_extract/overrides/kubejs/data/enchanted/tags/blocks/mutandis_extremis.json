@@ -1,0 +1,10 @@
+{
+    "replace": true,
+    "values": [
+        "minecraft:grass",
+        "enchanted:glint_weed",
+        "enchanted:ember_moss",
+        "enchanted:spanish_moss",
+        "enchanted:blood_poppy"
+    ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Reclamation",
+  "icon": "minecraft:grass_block",
+  "advancement": "reclamation:terraform",
+  "priority": true,
+  "category": "patchouli:terraforming",
+  "pages": [
+    {
+      "type": "patchouli:rite_description",
+      "rite_name": "Rite of Reclamation",
+      "text": "This rite will convert wasteland biomes into their living equivalents. It has a range of 24 blocks from the center of the ritual circle."
+    },
+    {
+      "type": "patchouli:rite_requirements",
+      "rite": "reclamation:terraforming/reclaim"
+    }
+  ]
+}

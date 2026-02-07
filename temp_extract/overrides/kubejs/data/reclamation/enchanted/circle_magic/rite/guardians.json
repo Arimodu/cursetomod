@@ -1,0 +1,28 @@
+{
+  "items": [
+    { "id": "minecraft:prismarine_bricks", "Count": 1 },
+    { "id": "minecraft:sea_lantern", "Count": 1 },
+    { "id": "minecraft:cod", "Count": 1 },
+    { "id": "minecraft:salmon", "Count": 1 },
+    { "id": "enchanted:tear_of_the_goddess", "Count": 1 },
+    { "id": "enchanted:ender_dew", "Count": 1 }
+  ],
+  "shapes": {
+    "enchanted:small_circle": "enchanted:ritual_chalk",
+    "enchanted:medium_circle": "enchanted:nether_chalk",
+    "enchanted:large_circle": "enchanted:ritual_chalk"
+  },
+  "power": 7000,
+  "factory": {
+    "type": "enchanted:command",
+    "commands": [
+      ["particle minecraft:crit ~ ~2 ~ 5 2 5 0 100", "playsound minecraft:entity.elder_guardian.hurt block @a[distance=..32]"],
+      ["particle minecraft:crit ~ ~2 ~ 3 1 3 0 100", "playsound minecraft:entity.elder_guardian.hurt block @a[distance=..32]"],
+      ["particle minecraft:crit ~ ~2 ~ 1 1 1 0 50", "playsound minecraft:entity.elder_guardian.hurt block @a[distance=..32]"],
+      ["summon minecraft:elder_guardian ~ ~2 ~"],
+      ["summon minecraft:guardian ~3 ~2 ~0"],
+      ["summon minecraft:guardian ~-3 ~2 ~0"]
+    ],
+    "delay": 30
+  }
+}

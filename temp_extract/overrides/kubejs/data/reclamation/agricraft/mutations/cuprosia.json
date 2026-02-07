@@ -1,0 +1,6 @@
+{
+  "chance": 0.25,
+  "child": "reclamation:cuprosia",
+  "parent1": "minecraft:wheat",
+  "parent2": "minecraft:carrot"
+}

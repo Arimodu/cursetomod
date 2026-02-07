@@ -1,0 +1,6 @@
+{
+  "chance": 0.25,
+  "first": "reclamation:wasteland",
+  "result": "reclamation:dessicated",
+  "second": "reclamation:wasteland"
+}

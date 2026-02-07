@@ -1,0 +1,11 @@
+{
+  "chance": 0.08,
+  "conditions": {
+    "complicated_bees:block_under": {
+      "block": "embers:dawnstone_block"
+    }
+  },
+  "first": "reclamation:natural",
+  "result": "reclamation:dawnstone",
+  "second": "complicated_bees:ferrous"
+}

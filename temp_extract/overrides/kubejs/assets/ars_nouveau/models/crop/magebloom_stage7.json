@@ -1,0 +1,6 @@
+{
+  "parent": "agricraft:crop/crop_hash",
+  "textures": {
+    "crop": "ars_nouveau:block/manabloom/stage4"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "acidity": "neutral",
+  "growth_modifier": 0.8,
+  "humidity": "damp",
+  "mods": [],
+  "nutrients": "low",
+  "variants": [
+    {
+      "block": "minecraft:mycelium"
+    }
+  ]
+}

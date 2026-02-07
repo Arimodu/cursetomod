@@ -1,0 +1,2379 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 280
+	default_quest_shape: ""
+	filename: "the_color_green"
+	group: ""
+	hide_quest_until_deps_visible: true
+	icon: "minecraft:grass_block"
+	id: "40E17D40DC433CF2"
+	images: [
+		{
+			dependency: "2F210E03731A0E21"
+			height: 5.0d
+			image: "reclamation:textures/quests/theurgy_3.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 9.178571428571445d
+			y: -5.625d
+		}
+		{
+			dependency: "4DE7466CAC029EF6"
+			height: 5.0d
+			image: "reclamation:textures/quests/botania_1.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: -8.5d
+			y: -5.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["600A7F0DFD880119"]
+			description: ["{ftbquests.chapter.the_color_green.quest1.description1}"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			icon: "minecraft:grass_block"
+			id: "226F9F21A941389C"
+			rewards: [{
+				id: "170C4090678FECEA"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "65DF7FECE306BB89"
+				item: "botania:grass_seeds"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.the_color_green.quest1.title}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7010ED9A666FF89E"]
+			description: [
+				"{ftbquests.chapter.the_color_green.quest2.description1}"
+				""
+				"{ftbquests.chapter.the_color_green.quest2.description2}"
+				""
+				"{ftbquests.chapter.the_color_green.quest2.description3}"
+			]
+			id: "359392265BF91571"
+			rewards: [
+				{
+					id: "5ACB4ADC3DC12005"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "enchanted:getting_started"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2BFCF3B11C7B8183"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "enchanted:extraction"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5F12A309349BC28F"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				count: 6L
+				id: "212094225DE3E6B4"
+				item: "enchanted:altar"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.the_color_green.quest2.title}"
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["226F9F21A941389C"]
+			description: [
+				"{ftbquests.chapter.the_color_green.quest3.description1}"
+				""
+				"{ftbquests.chapter.the_color_green.quest3.description2}"
+			]
+			id: "624E015B09427542"
+			rewards: [
+				{
+					id: "58F7C78A39D0658F"
+					item: "botania:flower_bag"
+					type: "item"
+				}
+				{
+					id: "314D4253EEBA2094"
+					item: "botania:lexicon"
+					type: "item"
+				}
+				{
+					id: "48006DB12ACD550E"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "04DF51069030E5BD"
+				item: "botania:fertilizer"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["624E015B09427542"]
+			description: [
+				"{ftbquests.chapter.the_color_green.quest4.description1}"
+				""
+				"{ftbquests.chapter.the_color_green.quest4.description2}"
+				""
+				"{ftbquests.chapter.the_color_green.quest4.description3}"
+			]
+			icon: "botania:pure_daisy"
+			id: "2737F0AE3D1835D4"
+			rewards: [{
+				id: "7DF6B03915980576"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "5FDA8F0AB90A9B3A"
+					item: "botania:apothecary_default"
+					type: "item"
+				}
+				{
+					id: "7E43E7CA766C63FB"
+					item: "botania:pure_daisy"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_color_green.quest4.title}"
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"27C68B6622F186D7"
+				"01C2598A1D9CF754"
+			]
+			description: [
+				"{ftbquests.chapter.the_color_green.quest5.description1}"
+				""
+				"{ftbquests.chapter.the_color_green.quest5.description2}"
+				""
+				"{ftbquests.chapter.the_color_green.quest5.description3}"
+				""
+				"{ftbquests.chapter.the_color_green.quest5.description4}"
+			]
+			id: "61329AF67AD28062"
+			rewards: [
+				{
+					id: "5AB406393AECC75B"
+					item: "embers:ancient_codex"
+					type: "item"
+				}
+				{
+					id: "300859D34D3F6715"
+					item: "embers:tinker_hammer"
+					type: "item"
+				}
+				{
+					id: "40E922A50B43176F"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "509473B71F9A83D4"
+				item: "embers:raw_lead"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["61329AF67AD28062"]
+			description: [
+				"{ftbquests.chapter.the_color_green.quest6.description1}"
+				""
+				"{ftbquests.chapter.the_color_green.quest6.description2}"
+				""
+				"{ftbquests.chapter.the_color_green.quest6.description3}"
+				""
+				"{ftbquests.chapter.the_color_green.quest6.description4}"
+			]
+			icon: "embers:ember_bore"
+			id: "6DC359D0F8736415"
+			rewards: [
+				{
+					id: "131DE50BA2E02262"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2AF7BCC46CB892FD"
+					item: "embers:tinker_lens"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2BB9D62248783D75"
+					item: "embers:ember_bore"
+					type: "item"
+				}
+				{
+					id: "19157F0B4CA59D7A"
+					item: "embers:mechanical_core"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_color_green.quest6.title}"
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"2737F0AE3D1835D4"
+				"27C68B6622F186D7"
+			]
+			description: [
+				"{ftbquests.chapter.the_color_green.quest7.description1}"
+				""
+				"{ftbquests.chapter.the_color_green.quest7.description2}"
+			]
+			icon: "minecraft:gold_ingot"
+			id: "7010ED9A666FF89E"
+			rewards: [{
+				id: "289410D79C125A6E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "7E10DE645C029C5C"
+					item: "naturesaura:gold_nether_brick"
+					type: "item"
+				}
+				{
+					id: "68E1E94809F222CE"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_color_green.quest7.title}"
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2737F0AE3D1835D4"]
+			description: ["{ftbquests.chapter.the_color_green.quest8.description1}"]
+			icon: "botania:livingwood_log"
+			id: "6ED1017877CB7568"
+			rewards: [{
+				id: "758CE2B88B878005"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "48E60FEBE83ECFE3"
+					item: "botania:livingwood_log"
+					type: "item"
+				}
+				{
+					id: "205A765021C1D096"
+					item: "botania:livingrock"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_color_green.quest8.title}"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"389C82D9424B4099"
+				"226F9F21A941389C"
+			]
+			description: [
+				"{ftbquests.chapter.the_color_green.quest9.description1}"
+				""
+				"{ftbquests.chapter.the_color_green.quest9.description2}"
+				""
+				"{ftbquests.chapter.the_color_green.quest9.description3}"
+			]
+			icon: "minecraft:netherrack"
+			id: "27C68B6622F186D7"
+			rewards: [{
+				id: "5CD4DB3CD4BEA433"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					dimension: "minecraft:the_nether"
+					id: "38900D6378B19874"
+					title: "{ftbquests.chapter.the_color_green.quest9.task_4075772383648127092.title}"
+					type: "dimension"
+				}
+				{
+					id: "0EBC3D370C08B62F"
+					item: {
+						Count: 1
+						id: "minecraft:flint_and_steel"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0D0B7B0E63CCA21B"
+					item: "minecraft:bucket"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_color_green.quest9.title}"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["46CC05A2F2D89079"]
+			description: [
+				"{ftbquests.chapter.the_color_green.quest10.description1}"
+				""
+				"{ftbquests.chapter.the_color_green.quest10.description2}"
+				""
+				"{ftbquests.chapter.the_color_green.quest10.description3}"
+			]
+			icon: "naturesaura:nature_altar"
+			id: "5274A282D9182B7C"
+			rewards: [{
+				id: "5F51643B0B917615"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "4BD721A26C88ED2C"
+					item: "naturesaura:nature_altar"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "351FCC7A8A161D97"
+					item: { Count: 16, id: "minecraft:stone_bricks" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "701B2C7A74366E0A"
+					item: { Count: 4, id: "minecraft:chiseled_stone_bricks" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "598F68386899E1AC"
+					item: { Count: 8, id: "naturesaura:gold_brick" }
+					type: "item"
+				}
+				{
+					count: 20L
+					icon: "minecraft:oak_planks"
+					id: "41E906B0B5DC2CBE"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:planks"
+						}
+					}
+					title: "{ftbquests.chapter.the_color_green.quest10.task_4749334638074014910.title}"
+					type: "item"
+				}
+				{
+					id: "0FA54974D0CC4874"
+					item: "naturesaura:eye"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_color_green.quest10.title}"
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5274A282D9182B7C"]
+			description: ["{ftbquests.chapter.the_color_green.quest11.description1}"]
+			id: "01C2598A1D9CF754"
+			rewards: [{
+				id: "18E87B858A66A8FD"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "070CA9418C5F199F"
+				item: "naturesaura:infused_iron"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.the_color_green.quest11.title}"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["61329AF67AD28062"]
+			description: [
+				"{ftbquests.chapter.the_color_green.quest12.description1}"
+				""
+				"{ftbquests.chapter.the_color_green.quest12.description2}"
+			]
+			id: "153CB8257AEDA4ED"
+			rewards: [{
+				id: "1FDC0C329743808A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0C28FD3F5C919A74"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5274A282D9182B7C"]
+			description: [
+				"{ftbquests.chapter.the_color_green.quest13.description1}"
+				""
+				"{ftbquests.chapter.the_color_green.quest13.description2}"
+			]
+			id: "58C55BE2ECDC9FD5"
+			rewards: [{
+				id: "0274CAE89C92B7CF"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "72965D594F07ECDB"
+				item: "naturesaura:ancient_sapling"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.the_color_green.quest13.title}"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"01C2598A1D9CF754"
+				"58C55BE2ECDC9FD5"
+			]
+			description: [
+				"{ftbquests.chapter.the_color_green.quest14.description1}"
+				""
+				"{ftbquests.chapter.the_color_green.quest14.description2}"
+			]
+			icon: "naturesaura:flower_generator"
+			id: "6628083C19C5F8CB"
+			rewards: [{
+				id: "477677B503ADE1DB"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "4F2645681873AE53"
+					item: "naturesaura:flower_generator"
+					type: "item"
+				}
+				{
+					id: "4C8DCDC35E190F4C"
+					item: "naturesaura:aura_cache"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"7010ED9A666FF89E"
+				"6ED1017877CB7568"
+			]
+			description: [
+				"{ftbquests.chapter.the_color_green.quest15.description1}"
+				""
+				"{ftbquests.chapter.the_color_green.quest15.description2}"
+				""
+				"{ftbquests.chapter.the_color_green.quest15.description3}"
+			]
+			icon: "botania:mana_spreader"
+			id: "2FD66F543443B8A8"
+			rewards: [{
+				id: "68C31A94CDDEC159"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "0CB0B2674C20ED57"
+					item: "botania:mana_spreader"
+					type: "item"
+				}
+				{
+					id: "4D18F6CA3EE6D63D"
+					item: "botania:mana_pool"
+					type: "item"
+				}
+				{
+					id: "60390123FA913DCA"
+					item: "botania:endoflame"
+					type: "item"
+				}
+				{
+					id: "38161206AE3DB7D5"
+					item: {
+						Count: 1
+						id: "botania:twig_wand"
+						tag: {
+							color1: 0
+							color2: 0
+						}
+					}
+					match_nbt: false
+					optional_task: true
+					title: "{ftbquests.chapter.the_color_green.quest15.task_4041437535513982933.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_color_green.quest15.title}"
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6628083C19C5F8CB"]
+			description: ["{ftbquests.chapter.the_color_green.quest16.description1}"]
+			id: "5C1E3750F91A38B2"
+			rewards: [{
+				id: "72FD0BCB4D48D5E6"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "214521E01C8D7374"
+				item: "naturesaura:crushing_catalyst"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["359392265BF91571"]
+			description: [
+				"{ftbquests.chapter.the_color_green.quest17.description1}"
+				""
+				"{ftbquests.chapter.the_color_green.quest17.description2}"
+				"{ftbquests.chapter.the_color_green.quest17.description3}"
+				"{ftbquests.chapter.the_color_green.quest17.description4}"
+				""
+				"{ftbquests.chapter.the_color_green.quest17.description5}"
+			]
+			icon: "enchanted:chalice"
+			id: "3932D60DF66D4C83"
+			rewards: [{
+				id: "78C9992C0F127F72"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "4064574A4F18B0CB"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "heads:husk_head"
+								}
+								{
+									Count: 1b
+									id: "minecraft:skeleton_skull"
+								}
+							]
+						}
+					}
+					title: "{ftbquests.chapter.the_color_green.quest17.task_4639929492764668107.title}"
+					type: "item"
+				}
+				{
+					id: "3DE7D27534BF3CD2"
+					item: "minecraft:torch"
+					type: "item"
+				}
+				{
+					id: "42FF0626D6059DEB"
+					item: "enchanted:chalice"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_color_green.quest17.title}"
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["359392265BF91571"]
+			description: [
+				"{ftbquests.chapter.the_color_green.quest18.description1}"
+				""
+				"{ftbquests.chapter.the_color_green.quest18.description2}"
+			]
+			id: "1145EF33C88C696B"
+			rewards: [{
+				id: "2354475358D65502"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "482401F7FF362672"
+				item: "enchanted:attuned_stone"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1145EF33C88C696B"]
+			description: [
+				"{ftbquests.chapter.the_color_green.quest19.description1}"
+				""
+				"{ftbquests.chapter.the_color_green.quest19.description2}"
+			]
+			icon: "enchanted:distillery"
+			id: "54838757425A9BA7"
+			rewards: [
+				{
+					count: 4
+					id: "2375BC9D15F267C0"
+					item: "enchanted:clay_jar"
+					type: "item"
+				}
+				{
+					id: "5B05F3BCB0B0ADE9"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "35CEC80D00F949F2"
+					item: "enchanted:distillery"
+					type: "item"
+				}
+				{
+					id: "0C3773A080F18741"
+					item: "enchanted:kettle"
+					type: "item"
+				}
+				{
+					id: "756133C30FFC6521"
+					item: "enchanted:spinning_wheel"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_color_green.quest19.title}"
+			x: -1.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2FD66F543443B8A8"]
+			description: [
+				"{ftbquests.chapter.the_color_green.quest20.description1}"
+				""
+				"{ftbquests.chapter.the_color_green.quest20.description2}"
+			]
+			id: "5EA3E8FCE4EBBA82"
+			rewards: [
+				{
+					count: 4
+					id: "3EC0E28F784E66D1"
+					item: "botania:black_lotus"
+					type: "item"
+				}
+				{
+					id: "3C16D01FFA5D9C87"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "71772B3D162FA2F2"
+				item: "botania:runic_altar"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6DC359D0F8736415"]
+			description: [
+				"{ftbquests.chapter.the_color_green.quest21.description1}"
+				""
+				"{ftbquests.chapter.the_color_green.quest21.description2}"
+			]
+			icon: "embers:item_pipe"
+			id: "424D08C4CFE434EA"
+			rewards: [{
+				id: "095505E6346CD60C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "63D5F1F29D99DECE"
+					item: "embers:item_pipe"
+					type: "item"
+				}
+				{
+					id: "4FAE706B4A6EFA11"
+					item: "embers:fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "6EB36AB2AB9554D2"
+					item: "embers:item_extractor"
+					type: "item"
+				}
+				{
+					id: "3B5648870CF70B44"
+					item: "embers:fluid_extractor"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_color_green.quest21.title}"
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6DC359D0F8736415"]
+			description: [
+				"{ftbquests.chapter.the_color_green.quest22.description1}"
+				""
+				"{ftbquests.chapter.the_color_green.quest22.description2}"
+				""
+				"{ftbquests.chapter.the_color_green.quest22.description3}"
+				""
+				"{ftbquests.chapter.the_color_green.quest22.description4}"
+			]
+			icon: "embers:ember_activator"
+			id: "700009D450C569A2"
+			rewards: [{
+				id: "1831C47B7984655F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "63BACAF1D91DBD29"
+					item: "embers:ember_activator"
+					type: "item"
+				}
+				{
+					id: "2A53DC1865FD785A"
+					item: "embers:ember_emitter"
+					type: "item"
+				}
+				{
+					id: "446A39DD19D62C6E"
+					item: "embers:ember_receiver"
+					type: "item"
+				}
+				{
+					id: "60CF6AD07295DD51"
+					item: "embers:ember_relay"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_color_green.quest22.title}"
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"54838757425A9BA7"
+				"221E431A74C6E8A5"
+			]
+			description: [
+				"{ftbquests.chapter.the_color_green.quest23.description1}"
+				""
+				"{ftbquests.chapter.the_color_green.quest23.description2}"
+				""
+				"{ftbquests.chapter.the_color_green.quest23.description3}"
+			]
+			icon: {
+				Count: 1
+				id: "enchanted:ritual_chalk"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7D5E4A2212C421AE"
+			rewards: [
+				{
+					id: "5E30DFA317714CDC"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "enchanted:circle_magic"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "07AAE781C28F089F"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "patchouli:custom_rituals"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "534E573A04A07B35"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "07380F0DB0F32DC4"
+					item: {
+						Count: 1
+						id: "enchanted:golden_chalk"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "17C370738BAA7671"
+					item: {
+						Count: 1
+						id: "enchanted:ritual_chalk"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "529246947E79B97F"
+					item: {
+						Count: 1
+						id: "enchanted:nether_chalk"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1B0B92E04017F047"
+					item: {
+						Count: 1
+						id: "enchanted:otherwhere_chalk"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_color_green.quest23.title}"
+			x: -1.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["700009D450C569A2"]
+			description: [
+				"{ftbquests.chapter.the_color_green.quest24.description1}"
+				""
+				"{ftbquests.chapter.the_color_green.quest24.description2}"
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						"embers:ember": 0.0d
+						"embers:ember_capacity": 24000.0d
+					}
+				}
+				id: "embers:copper_cell"
+				tag: {
+					ForgeCaps: {
+						"embers:ember_capacity": 24000.0d
+					}
+				}
+			}
+			id: "2C46F425B5E0AAAA"
+			rewards: [{
+				id: "7BE3ACC86F62B56B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "0B01C83DE8DDDF86"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								"embers:ember": 0.0d
+								"embers:ember_capacity": 24000.0d
+							}
+						}
+						id: "embers:copper_cell"
+						tag: {
+							ForgeCaps: {
+								"embers:ember_capacity": 24000.0d
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "18B80228CE32311A"
+					item: "embers:ember_dial"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_color_green.quest24.title}"
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["700009D450C569A2"]
+			description: [
+				"{ftbquests.chapter.the_color_green.quest25.description1}"
+				""
+				"{ftbquests.chapter.the_color_green.quest25.description2}"
+				""
+				"{ftbquests.chapter.the_color_green.quest25.description3}"
+			]
+			icon: "embers:melter"
+			id: "74FB5A117EF51949"
+			rewards: [{
+				id: "365D61F083C8E352"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "58B58AF055A23CDB"
+					item: "embers:melter"
+					type: "item"
+				}
+				{
+					id: "1699A456873EC1E0"
+					item: "embers:stamper"
+					type: "item"
+				}
+				{
+					id: "5BB0B499D0181BC1"
+					item: "embers:stamp_base"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_color_green.quest25.title}"
+			x: 1.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["74FB5A117EF51949"]
+			description: [
+				"{ftbquests.chapter.the_color_green.quest26.description1}"
+				""
+				"{ftbquests.chapter.the_color_green.quest26.description2}"
+			]
+			icon: "embers:dawnstone_ingot"
+			id: "221E431A74C6E8A5"
+			rewards: [{
+				id: "43958F16B260D87C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "4AF6D6F0BB92C4C8"
+					item: "embers:mixer_centrifuge"
+					type: "item"
+				}
+				{
+					id: "5D234128365C1656"
+					item: "embers:dawnstone_ingot"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_color_green.quest26.title}"
+			x: 1.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["153CB8257AEDA4ED"]
+			description: ["{ftbquests.chapter.the_color_green.quest27.description1}"]
+			id: "17089FF12C1591B8"
+			rewards: [
+				{
+					count: 8
+					id: "0F4BAEC85C9C5077"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+				{
+					id: "0A542C39214D4B16"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "7EAC671CDBFEFBA4"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["221E431A74C6E8A5"]
+			description: [
+				"{ftbquests.chapter.the_color_green.quest28.description1}"
+				""
+				"{ftbquests.chapter.the_color_green.quest28.description2}"
+			]
+			icon: "embers:alchemy_tablet"
+			id: "287C747ED1189725"
+			rewards: [{
+				id: "2BCDBFBEF2E63ADF"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "2ED145BD6FE7C9F6"
+					item: "embers:alchemy_tablet"
+					type: "item"
+				}
+				{
+					id: "405AC57A26FC22AF"
+					item: "embers:beam_cannon"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "1D96D434EB8B1E10"
+					item: { Count: 3, id: "embers:alchemy_pedestal" }
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_color_green.quest28.title}"
+			x: 3.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["5EA3E8FCE4EBBA82"]
+			dependency_requirement: "one_completed"
+			description: [
+				"{ftbquests.chapter.the_color_green.quest29.description1}"
+				""
+				"{ftbquests.chapter.the_color_green.quest29.description2}"
+				""
+				"{ftbquests.chapter.the_color_green.quest29.description3}"
+			]
+			icon: "botania:fel_pumpkin"
+			id: "1AF1077B69E1551E"
+			rewards: [{
+				id: "4705AE453E2CFC9B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "643D4D645AFA5CC2"
+				item: "botania:fel_pumpkin"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.the_color_green.quest29.title}"
+			x: -4.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["17089FF12C1591B8"]
+			description: ["{ftbquests.chapter.the_color_green.quest30.description1}"]
+			icon: "create:basin"
+			id: "2A32CE924C9CB606"
+			optional: true
+			rewards: [{
+				id: "23F62F83D9979503"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "0FB8A5B0F06E426D"
+					item: "create:basin"
+					type: "item"
+				}
+				{
+					id: "6B5791E93915EAF5"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+				{
+					id: "178C2463E234E6A2"
+					item: "create:mechanical_press"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_color_green.quest30.title}"
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"00448B9AC0FC3F5D"
+				"17089FF12C1591B8"
+			]
+			description: [
+				"{ftbquests.chapter.the_color_green.quest31.description1}"
+				""
+				"{ftbquests.chapter.the_color_green.quest31.description2}"
+			]
+			icon: "create:encased_fan"
+			id: "05820674B5CC639D"
+			rewards: [{
+				id: "7D07BBC1418D7C79"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "4A9D9FBBBDE57536"
+					item: "create:encased_fan"
+					type: "item"
+				}
+				{
+					id: "55F8484DFCFD7029"
+					item: "minecraft:soul_sand"
+					type: "item"
+				}
+				{
+					id: "452FBDCD430ED783"
+					item: "create:hand_crank"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_color_green.quest31.title}"
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"221E431A74C6E8A5"
+				"05820674B5CC639D"
+			]
+			description: [
+				"{ftbquests.chapter.the_color_green.quest32.description1}"
+				""
+				"{ftbquests.chapter.the_color_green.quest32.description2}"
+				""
+				"{ftbquests.chapter.the_color_green.quest32.description3}"
+			]
+			icon: "theurgy:reformation_result_pedestal"
+			id: "2F210E03731A0E21"
+			rewards: [
+				{
+					count: 2
+					id: "0B48F3CE218EE46B"
+					item: "theurgy:mercury_crystal"
+					type: "item"
+				}
+				{
+					id: "512844E3ED4F22AF"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "48B96711CA5E1E82"
+					item: "theurgy:reformation_result_pedestal"
+					type: "item"
+				}
+				{
+					id: "71C6DFB17E46C57E"
+					item: "theurgy:reformation_target_pedestal"
+					type: "item"
+				}
+				{
+					id: "06032DD1D16334EA"
+					item: "theurgy:reformation_source_pedestal"
+					type: "item"
+				}
+				{
+					id: "5F70BFFABB339810"
+					item: "theurgy:sulfuric_flux_emitter"
+					type: "item"
+				}
+				{
+					id: "5202013C1D67BF1C"
+					item: "theurgy:mercury_catalyst"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_color_green.quest32.title}"
+			x: 5.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["17089FF12C1591B8"]
+			description: ["{ftbquests.chapter.the_color_green.quest33.description1}"]
+			id: "2E0F026AB59D83B5"
+			optional: true
+			rewards: [{
+				id: "6A2676B04EF7610A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5E548AA09A77547C"
+				item: "create:mechanical_pump"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["77FBE2FA730A82AE"]
+			description: ["{ftbquests.chapter.the_color_green.quest34.description1}"]
+			id: "23390B2CDE30D057"
+			rewards: [
+				{
+					count: 32
+					id: "33AA2687E886E9BC"
+					item: "minecraft:dirt"
+					type: "item"
+				}
+				{
+					id: "3258A91A2AB8DE63"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "6BD20F85E2DD3DEF"
+				item: "botania:dirt_rod"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.the_color_green.quest34.title}"
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5EA3E8FCE4EBBA82"]
+			description: ["{ftbquests.chapter.the_color_green.quest35.description1}"]
+			id: "77FBE2FA730A82AE"
+			rewards: [{
+				id: "1FBCB30D6D1B7B94"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "781B18571CC61161"
+				item: "botania:mana_tablet"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.the_color_green.quest35.title}"
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["77FBE2FA730A82AE"]
+			description: ["{ftbquests.chapter.the_color_green.quest36.description1}"]
+			id: "7AC1E9B4710A8B84"
+			rewards: [{
+				id: "7E5580894EE5E74C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "72B87DADC3BA8740"
+				item: "botania:mana_ring"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["77FBE2FA730A82AE"]
+			description: ["{ftbquests.chapter.the_color_green.quest37.description1}"]
+			id: "0E2EAFDEA91C24BD"
+			rewards: [{
+				id: "5FEE92B8F930D27D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6A17A5BA2DFAF67B"
+				item: "botania:aura_ring"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1AF1077B69E1551E"]
+			description: [
+				"{ftbquests.chapter.the_color_green.quest38.description1}"
+				""
+				"{ftbquests.chapter.the_color_green.quest38.description2}"
+				""
+				"{ftbquests.chapter.the_color_green.quest38.description3}"
+			]
+			id: "4DE7466CAC029EF6"
+			rewards: [{
+				id: "7C04DA99FA6DDD22"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "3DDDEA23FD302D1C"
+					item: "minecraft:glowstone_dust"
+					type: "item"
+				}
+				{
+					id: "3486BA1B47BBEE8F"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_color_green.quest38.title}"
+			x: -5.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2E0F026AB59D83B5"]
+			description: ["{ftbquests.chapter.the_color_green.quest39.description1}"]
+			id: "15AB65CE5C0B95CC"
+			optional: true
+			rewards: [{
+				id: "4B40A3E6B89D17DA"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "63B514655C769766"
+				item: "create:spout"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["621BEE0A09882094"]
+			description: [
+				"{ftbquests.chapter.the_color_green.quest40.description1}"
+				""
+				"{ftbquests.chapter.the_color_green.quest40.description2}"
+				""
+				"{ftbquests.chapter.the_color_green.quest40.description3}"
+			]
+			id: "76795AD9B23ACFD7"
+			rewards: [{
+				id: "22749725C9F092FA"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5504BE5D400C6468"
+				item: "botania:alchemy_catalyst"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["5C1E3750F91A38B2"]
+			description: [
+				"{ftbquests.chapter.the_color_green.quest41.description1}"
+				""
+				"{ftbquests.chapter.the_color_green.quest41.description2}"
+				""
+				"{ftbquests.chapter.the_color_green.quest41.description3}"
+			]
+			id: "00448B9AC0FC3F5D"
+			rewards: [{
+				id: "59748105E1BF277D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "372D3B2D4B9F89D4"
+				item: "naturesaura:conversion_catalyst"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["17089FF12C1591B8"]
+			description: ["{ftbquests.chapter.the_color_green.quest42.description1}"]
+			id: "26942D2DF8C8AF91"
+			optional: true
+			rewards: [{
+				id: "199207E4E8F0B826"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "143D8425B45D3807"
+				item: "create:millstone"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["54DFF798149BE746"]
+			description: ["{ftbquests.chapter.the_color_green.quest43.description1}"]
+			id: "3E51B48398D0E334"
+			rewards: [{
+				id: "6845416B1226351B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7B482471FD88BB17"
+				item: "embers:codebreaking_slate"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["287C747ED1189725"]
+			description: ["{ftbquests.chapter.the_color_green.quest44.description1}"]
+			id: "54DFF798149BE746"
+			rewards: [{
+				id: "76A7D17327EB14A2"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6A988B078BB6F842"
+				item: "embers:archaic_brick"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["54DFF798149BE746"]
+			description: ["{ftbquests.chapter.the_color_green.quest45.description1}"]
+			id: "2C3ABE081A7E1086"
+			rewards: [{
+				id: "12D49A84526CFAC2"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "339CBE9063E8306A"
+				item: "embers:mnemonic_inscriber"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"2F210E03731A0E21"
+				"54DFF798149BE746"
+			]
+			description: [
+				"{ftbquests.chapter.the_color_green.quest46.description1}"
+				""
+				"{ftbquests.chapter.the_color_green.quest46.description2}"
+				""
+				"{ftbquests.chapter.the_color_green.quest46.description3}"
+			]
+			id: "50D60856E308EC6D"
+			min_width: 400
+			rewards: [{
+				id: "46AD85B696B8299A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "48F63F3E09BD04C1"
+				item: "theurgy:fermentation_vat"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.the_color_green.quest46.title}"
+			x: 6.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["50D60856E308EC6D"]
+			description: [
+				"{ftbquests.chapter.the_color_green.quest47.description1}"
+				""
+				"{ftbquests.chapter.the_color_green.quest47.description2}"
+				""
+				"{ftbquests.chapter.the_color_green.quest47.description3}"
+				""
+				"{ftbquests.chapter.the_color_green.quest47.description4}"
+			]
+			id: "2368485BEB03F353"
+			rewards: [
+				{
+					count: 4
+					id: "4019A01E02C978B6"
+					item: "theurgy:sal_ammoniac_crystal"
+					type: "item"
+				}
+				{
+					id: "46A030476A7D2CE1"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "525FFCD223358CF7"
+				item: "theurgy:digestion_vat"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.the_color_green.quest47.title}"
+			x: 7.0d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"76795AD9B23ACFD7"
+				"287C747ED1189725"
+			]
+			description: [
+				"{ftbquests.chapter.the_color_green.quest48.description1}"
+				""
+				"{ftbquests.chapter.the_color_green.quest48.description2}"
+				""
+				"{ftbquests.chapter.the_color_green.quest48.description3}"
+				""
+				"{ftbquests.chapter.the_color_green.quest48.description4}"
+			]
+			icon: "naturesaura:offering_table"
+			id: "020B8F06D2C86CE3"
+			rewards: [{
+				id: "3646B751A7688D3D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "61D4BE7CF94C3895"
+					item: "naturesaura:offering_table"
+					type: "item"
+				}
+				{
+					id: "68D4AE8BB5F3FE48"
+					item: "naturesaura:calling_spirit"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["1AF1077B69E1551E"]
+			description: ["{ftbquests.chapter.the_color_green.quest49.description1}"]
+			id: "27A7CD7E1613FD1B"
+			optional: true
+			rewards: [{
+				id: "04718C8D6B87C847"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "32CA9609F24A429E"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["020B8F06D2C86CE3"]
+			description: ["{ftbquests.chapter.the_color_green.quest50.description1}"]
+			icon: "heads:chicken_head"
+			id: "1C7C9A1F11DE819B"
+			rewards: [{
+				id: "54963078056ED72D"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "{ftbquests.chapter.the_color_green.quest50.subtitle}"
+			tasks: [
+				{
+					id: "462012BB2A30BE57"
+					item: "kubejs:feather_flesh_amalgam"
+					type: "item"
+				}
+				{
+					id: "040064ECC88AE724"
+					item: "kubejs:blooded_amalgam"
+					type: "item"
+				}
+				{
+					id: "46327E4C8BDADEF4"
+					item: "kubejs:mana_amalgam"
+					type: "item"
+				}
+				{
+					id: "46EDB244AC746667"
+					item: "kubejs:infused_amalgam"
+					type: "item"
+				}
+				{
+					id: "2CD3CFE847F27E3A"
+					item: "minecraft:chicken_spawn_egg"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_color_green.quest50.title}"
+			x: 0.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["5EA3E8FCE4EBBA82"]
+			description: [
+				"{ftbquests.chapter.the_color_green.quest51.description1}"
+				""
+				"{ftbquests.chapter.the_color_green.quest51.description2}"
+				"{ftbquests.chapter.the_color_green.quest51.description3}"
+				"{ftbquests.chapter.the_color_green.quest51.description4}"
+				""
+				"{ftbquests.chapter.the_color_green.quest51.description5}"
+			]
+			id: "6FAB85F509199CA8"
+			optional: true
+			rewards: [{
+				id: "27B3F318DA9CACAD"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "7FBBEAD125CEBC23"
+					item: "botania:entropinnyum"
+					type: "item"
+				}
+				{
+					id: "5651681BBC5CDDF3"
+					item: "botania:thermalily"
+					type: "item"
+				}
+				{
+					id: "39588C89BC26A419"
+					item: "botania:munchdew"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_color_green.quest51.title}"
+			x: -5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2F210E03731A0E21"]
+			description: [
+				"{ftbquests.chapter.the_color_green.quest52.description1}"
+				""
+				"{ftbquests.chapter.the_color_green.quest52.description2}"
+			]
+			icon: "embers:silver_ingot"
+			id: "462683FE563F6689"
+			rewards: [
+				{
+					count: 4
+					id: "7FBFE986AA75BE97"
+					item: "embers:silver_ingot"
+					type: "item"
+				}
+				{
+					id: "6B1AE3F375E0C111"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "2CC1C9C3C4AE5B0C"
+					item: {
+						Count: 1
+						id: "theurgy:alchemical_sulfur_silver"
+						tag: {
+							"theurgy:sulfur.source.id": "#forge:ingots/silver"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6E4A50C682ABED03"
+					item: "embers:silver_ingot"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_color_green.quest52.title}"
+			x: 6.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["287C747ED1189725"]
+			description: ["{ftbquests.chapter.the_color_green.quest53.description1}"]
+			id: "4BF72A5E2897EBD4"
+			rewards: [{
+				id: "42A3BC187AAABFE3"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "01F5731866494B98"
+				item: "embers:wildfire_core"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["4BF72A5E2897EBD4"]
+			description: [
+				"{ftbquests.chapter.the_color_green.quest54.description1}"
+				""
+				"{ftbquests.chapter.the_color_green.quest54.description2}"
+			]
+			id: "7EF13F67C5B31A7E"
+			rewards: [{
+				id: "09ABACAD03F4082B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "44627103A3725806"
+				item: "embers:wildfire_stirling"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["4BF72A5E2897EBD4"]
+			description: [
+				"{ftbquests.chapter.the_color_green.quest55.description1}"
+				""
+				"{ftbquests.chapter.the_color_green.quest55.description2}"
+			]
+			icon: "embers:ignem_reactor"
+			id: "6A69962F4001509A"
+			rewards: [{
+				id: "70763DFF0C37A354"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "2189DC2F4FDEB322"
+					item: "embers:ignem_reactor"
+					type: "item"
+				}
+				{
+					id: "6778C5C0E060CEC1"
+					item: "embers:catalysis_chamber"
+					type: "item"
+				}
+				{
+					id: "1A82D8BF3566A52D"
+					item: "embers:combustion_chamber"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_color_green.quest55.title}"
+			x: 5.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["4BF72A5E2897EBD4"]
+			description: [
+				"{ftbquests.chapter.the_color_green.quest56.description1}"
+				""
+				"{ftbquests.chapter.the_color_green.quest56.description2}"
+				""
+				"{ftbquests.chapter.the_color_green.quest56.description3}"
+			]
+			icon: "embers:zinc_crystal_seed"
+			id: "22735AE4F84EF82B"
+			rewards: [{
+				id: "132F34A7C50D0B5D"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.5d
+			subtitle: "{ftbquests.chapter.the_color_green.quest56.subtitle}"
+			tasks: [
+				{
+					id: "05BF876AB4CF0EBA"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "embers:zinc_crystal_seed"
+								}
+								{
+									Count: 1b
+									id: "embers:lead_crystal_seed"
+								}
+								{
+									Count: 1b
+									id: "embers:iron_crystal_seed"
+								}
+								{
+									Count: 1b
+									id: "embers:copper_crystal_seed"
+								}
+							]
+						}
+					}
+					title: "{ftbquests.chapter.the_color_green.quest56.task_414198583111126714.title}"
+					type: "item"
+				}
+				{
+					id: "73FD48B472E606AB"
+					item: "embers:ember_injector"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_color_green.quest56.title}"
+			x: 5.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["221E431A74C6E8A5"]
+			description: ["{ftbquests.chapter.the_color_green.quest57.description1}"]
+			icon: "embers:ember_ejector"
+			id: "3FD3CD01761AE92A"
+			rewards: [{
+				id: "744D1C19AD6A6A1F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "6440F561FFCF06D6"
+					item: "embers:ember_ejector"
+					type: "item"
+				}
+				{
+					id: "2A68CC3B8ABDF4CC"
+					item: "embers:ember_funnel"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_color_green.quest57.title}"
+			x: 0.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["22735AE4F84EF82B"]
+			description: [
+				"{ftbquests.chapter.the_color_green.quest58.description1}"
+				""
+				"{ftbquests.chapter.the_color_green.quest58.description2}"
+				""
+				"{ftbquests.chapter.the_color_green.quest58.description3}"
+			]
+			icon: "create:electron_tube"
+			id: "20EF463DB77E09EE"
+			optional: true
+			rewards: [{
+				id: "6B9CCEAAD5EFAAF2"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "0B9F338A37E36108"
+					item: "create:brass_ingot"
+					type: "item"
+				}
+				{
+					id: "5AB8A62B4C42FBE1"
+					item: "create:electron_tube"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_color_green.quest58.title}"
+			x: 7.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["17089FF12C1591B8"]
+			description: [
+				"{ftbquests.chapter.the_color_green.quest59.description1}"
+				""
+				"{ftbquests.chapter.the_color_green.quest59.description2}"
+			]
+			icon: "create:packager"
+			id: "7027BF39C1223997"
+			optional: true
+			rewards: [{
+				id: "2928C183B230148C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "71DD21702431A790"
+					item: "create:chain_conveyor"
+					type: "item"
+				}
+				{
+					id: "1740117E6C75E6EC"
+					item: "create:package_frogport"
+					type: "item"
+				}
+				{
+					id: "25F76361F4E9E507"
+					item: "create:packager"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_color_green.quest59.title}"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["20EF463DB77E09EE"]
+			description: ["{ftbquests.chapter.the_color_green.quest60.description1}"]
+			icon: "create:factory_gauge"
+			id: "0230C7C57435FB3A"
+			optional: true
+			rewards: [{
+				id: "41EA2740A534F40D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "6955607593312B92"
+					item: "create:mechanical_crafter"
+					type: "item"
+				}
+				{
+					id: "468E8D3B8A867517"
+					item: "create:factory_gauge"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_color_green.quest60.title}"
+			x: 9.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["01C2598A1D9CF754"]
+			description: [
+				"{ftbquests.chapter.the_color_green.quest61.description1}"
+				""
+				"{ftbquests.chapter.the_color_green.quest61.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "mysticalagriculture:inferium_watering_can"
+				tag: {
+					Active: 0b
+					Water: 0b
+				}
+			}
+			id: "68051685A2136388"
+			rewards: [{
+				id: "4FEFBF01965A11D4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "4676F5B4A0F27349"
+					item: "mysticalagriculture:prosperity_ingot"
+					type: "item"
+				}
+				{
+					id: "0926C1E94B1440F2"
+					item: {
+						Count: 1
+						id: "mysticalagriculture:inferium_watering_can"
+						tag: {
+							Active: 0b
+							Water: 0b
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_color_green.quest61.title}"
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["020B8F06D2C86CE3"]
+			description: [
+				"{ftbquests.chapter.the_color_green.quest62.description1}"
+				""
+				"{ftbquests.chapter.the_color_green.quest62.description2}"
+			]
+			id: "6C627897FFF1D259"
+			rewards: [{
+				id: "441E2FB83DB075C1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2009E7B94071CE08"
+				item: "naturesaura:generator_limit_remover"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["226F9F21A941389C"]
+			description: [
+				"{ftbquests.chapter.the_color_green.quest63.description1}"
+				""
+				"{ftbquests.chapter.the_color_green.quest63.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "naturesaura:aura_bottle"
+				tag: {
+					stored_type: "naturesaura:overworld"
+				}
+			}
+			id: "46CC05A2F2D89079"
+			rewards: [
+				{
+					id: "2176E36B3CEE18A8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "7859AA02526007BE"
+					item: {
+						Count: 1
+						id: "naturesaura:aura_bottle"
+						tag: {
+							stored_type: "naturesaura:overworld"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "402A7DA140E7221A"
+					item: "naturesaura:bottle_two_the_rebottling"
+					type: "item"
+				}
+				{
+					id: "106F3355FB945F74"
+					item: {
+						Count: 1
+						id: "naturesaura:aura_bottle"
+						tag: {
+							stored_type: "naturesaura:overworld"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_color_green.quest63.title}"
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["77FBE2FA730A82AE"]
+			description: ["{ftbquests.chapter.the_color_green.quest64.description1}"]
+			id: "121D0AE32E2F7267"
+			rewards: [{
+				id: "3B7AD6C882A25FC6"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6B4F4E037CD70B79"
+				item: {
+					Count: 1
+					id: "botania:mana_gun"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2FD66F543443B8A8"]
+			description: [
+				"{ftbquests.chapter.the_color_green.quest65.description1}"
+				""
+				"{ftbquests.chapter.the_color_green.quest65.description2}"
+			]
+			id: "4D4FA4ECA2544486"
+			rewards: [{
+				id: "2AB41299C58FD586"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "189B6DBB7354493B"
+				item: "botania:lens_normal"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["700009D450C569A2"]
+			description: [
+				"{ftbquests.chapter.the_color_green.quest66.description1}"
+				""
+				"{ftbquests.chapter.the_color_green.quest66.description2}"
+			]
+			id: "350B8B018EB49351"
+			rewards: [{
+				id: "4CE1767EDEB8401B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "13B466D247607172"
+				item: "embers:hearth_coil"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["221E431A74C6E8A5"]
+			description: [
+				"{ftbquests.chapter.the_color_green.quest67.description1}"
+				""
+				"{ftbquests.chapter.the_color_green.quest67.description2}"
+				""
+				"{ftbquests.chapter.the_color_green.quest67.description3}"
+			]
+			id: "04B41651D48C62C1"
+			rewards: [{
+				id: "05D8D9346AFB4ECD"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3A98FECAF5FBC3EF"
+				item: "embers:pressure_refinery"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["3FD3CD01761AE92A"]
+			description: [
+				"{ftbquests.chapter.the_color_green.quest68.description1}"
+				""
+				"{ftbquests.chapter.the_color_green.quest68.description2}"
+			]
+			icon: "embers:beam_splitter"
+			id: "460C4A5F742B528C"
+			rewards: [{
+				id: "5144A431E0AD1D44"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "0741BD6655743409"
+					item: "embers:beam_splitter"
+					type: "item"
+				}
+				{
+					id: "6259235F93BF13C4"
+					item: "embers:crystal_cell"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_color_green.quest68.title}"
+			x: -0.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["221E431A74C6E8A5"]
+			description: [
+				"{ftbquests.chapter.the_color_green.quest69.description1}"
+				""
+				"{ftbquests.chapter.the_color_green.quest69.description2}"
+				""
+				"{ftbquests.chapter.the_color_green.quest69.description3}"
+			]
+			icon: "theurgy:caloric_flux_emitter"
+			id: "3BFD85713462A66A"
+			rewards: [{
+				id: "1FE3DE4328349B77"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "20C4D02E6B22B4D9"
+					item: "theurgy:caloric_flux_emitter"
+					type: "item"
+				}
+				{
+					id: "1200D20D06097CB8"
+					item: "theurgy:mercury_catalyst"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.the_color_green.quest69.title}"
+			x: 0.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["6628083C19C5F8CB"]
+			description: [
+				"{ftbquests.chapter.the_color_green.quest70.description1}"
+				""
+				"{ftbquests.chapter.the_color_green.quest70.description2}"
+			]
+			icon: "minecraft:dirt"
+			id: "316BD23FB6087C07"
+			optional: true
+			rewards: [{
+				id: "217359AD91275C81"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			subtitle: "{ftbquests.chapter.the_color_green.quest70.subtitle}"
+			tasks: [{
+				id: "75E38FC6727823EF"
+				item: {
+					Count: 1
+					id: "naturesaura:effect_powder"
+					tag: {
+						effect: "reclamation_util:reclaim_effect"
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.the_color_green.quest70.title}"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["74FB5A117EF51949"]
+			description: [
+				"{ftbquests.chapter.the_color_green.quest71.description1}"
+				""
+				"{ftbquests.chapter.the_color_green.quest71.description2}"
+			]
+			id: "0F8BAA82A7B90C68"
+			optional: true
+			rewards: [{
+				id: "1E31C381F7CAD802"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "31BD133D7FFD36DC"
+				item: "embers:bin"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"7D5E4A2212C421AE"
+				"1AF1077B69E1551E"
+			]
+			description: [
+				"{ftbquests.chapter.the_color_green.quest72.description1}"
+				""
+				"{ftbquests.chapter.the_color_green.quest72.description2}"
+				""
+				"{ftbquests.chapter.the_color_green.quest72.description3}"
+			]
+			id: "621BEE0A09882094"
+			rewards: [
+				{
+					count: 2
+					id: "2BE2615739D91CEA"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+				{
+					id: "2E7BDEE2ECF1D73E"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "3DA044014EEF761D"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.the_color_green.quest72.title}"
+			x: -4.0d
+			y: -8.0d
+		}
+	]
+	title: "{ftbquests.chapter.the_color_green.title}"
+}

@@ -1,0 +1,12 @@
+{
+  "acidity": "slightly_acidic",
+  "growth_modifier": 1.0,
+  "humidity": "flooded",
+  "mods": [],
+  "nutrients": "medium",
+  "variants": [
+    {
+      "block": "minecraft:clay"
+    }
+  ]
+}

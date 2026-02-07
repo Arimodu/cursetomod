@@ -1,0 +1,11 @@
+{
+	id: "30C69E0475B21852"
+	loot_size: 1
+	order_index: 8
+	rewards: [
+		{ count: 16, item: "minecraft:egg" }
+		{ count: 16, item: "minecraft:chicken" }
+		{ count: 16, item: "minecraft:feather" }
+	]
+	title: "{ftbquests.loot_table_3514670301200914514.title}"
+}

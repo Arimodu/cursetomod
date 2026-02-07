@@ -1,0 +1,11 @@
+{
+  "chance": 0.08,
+  "conditions": {
+    "complicated_bees:block_under": {
+      "block": "mekanism:block_fluorite"
+    }
+  },
+  "first": "complicated_bees:quartz",
+  "result": "reclamation:fluorite",
+  "second": "complicated_bees:amethyst"
+}

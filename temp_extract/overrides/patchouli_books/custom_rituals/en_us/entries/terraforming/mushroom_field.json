@@ -1,0 +1,17 @@
+{
+  "name": "Mushroom Field",
+  "icon": "minecraft:red_mushroom_block",
+  "advancement": "reclamation:biome_essence",
+  "category": "patchouli:terraforming",
+  "pages": [
+    {
+      "type": "patchouli:rite_description",
+      "rite_name": "Rite of Mushroom Field",
+      "text": "This rite will convert the surrounding area into a mushroom field. It has a range of 16 blocks."
+    },
+    {
+      "type": "patchouli:rite_requirements",
+      "rite": "reclamation:terraforming/mushroom_fields"
+    }
+  ]
+}
